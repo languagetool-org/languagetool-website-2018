@@ -1,0 +1,190 @@
+.dk_container * {
+    list-style-type: none;
+}
+
+.dk_container {
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #d4d8ef;
+}
+
+.dk_container a {
+    color: #3d3d3d;
+}
+
+.dk_container:focus {
+    outline: 0;
+}
+
+.dk_container a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dk_toggle {
+    padding: 10px 45px 9px 10px;
+    position: relative;
+        width: 100%;
+    max-width: 151px;
+}
+
+.dk_toggle:hover {
+    border-color: #8c8c8c;
+}
+
+.dk_toggle:after {
+    position: absolute;
+    top: 45%;
+    right: 10px;
+    content: '';
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #4B4B4B;
+    border-radius: 6px;
+    opacity: 0.7;
+    color: #000000;
+}
+
+.dk_focus .dk_toggle {
+    border-color: #40b5e2;
+}
+
+.dk_open {
+    z-index: 10;
+}
+
+.dk_options a {
+    font-weight: 400;
+    color: #3d3d3d;
+    padding: 8px 10px;
+}
+
+.dk_options a:hover {
+    text-decoration: none;
+    background-color: #eaecf7;
+    color: #1a36d8;
+}
+
+.dk_options .dk_option_current a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.dk_options li:last-child a {
+    border-bottom: none;
+}
+
+.dk_options .disabled {
+    cursor: default;
+}
+
+.dk_options .disabled a {
+    color: #aaa;
+}
+
+.dk_options .disabled:hover,
+.dk_options .disabled:hover a {
+    cursor: default;
+    text-shadow: none;
+}
+
+.dk_options_inner {
+    max-height: 300px;
+}
+
+.dk_container {
+    display: none;
+    float: left;
+}
+
+.dk_container a {
+    outline: 0;
+}
+
+.dk_toggle {
+    display: -moz-inline-stack;
+    display: inline-block;
+    *display: inline;
+    position: relative;
+    zoom: 1;
+}
+
+.dk_open {
+    position: relative;
+}
+
+.dk_open .dk_options {
+    display: block;
+}
+
+.dk_open .dk_label {
+    color: inherit;
+}
+
+.dk_options {
+    display: none;
+    margin-top: -1px;
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+
+.dk_options a,
+.dk_options a:link,
+.dk_options a:visited {
+    display: block;
+}
+
+.dk_options_inner {
+    margin: 6px 0px;
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 19px -1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 19px -1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 19px -1px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+.dk_options_inner .column {
+    width: 23%;
+    margin: 0px 2% 0px 0px;
+    float: left;
+}
+
+#subLangDropDown .dk_options_inner {
+    width: 300px;
+}
+
+#subLangDropDown .dk_options_inner .column {
+    width: 48%;
+    margin: 0px 2% 0px 0px;
+    float: left;
+}
+
+.dk_container select {
+    position: absolute;
+    top: -99999em;
+    visibility: hidden;
+}
+
+.dk_mobile {
+    position: relative;
+}
+
+.dk_mobile select {
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    visibility: visible;
+    opacity: 0;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none
+}
