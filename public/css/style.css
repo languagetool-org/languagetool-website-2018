@@ -90,27 +90,32 @@ body .contentHead {
     padding: 0 50px 50px;
 }
 
-#firefox_chrome {
-    background-color: white;
-    text-align: center;
-    padding: 100px 0px 0px 0px;
-}
-
-#firefox_chrome p {
+#content .content-section p,
+#content .content-section ul li {
     color: grey;
     font-size: 18px;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: 1px;
-    padding: 30px 0px 10px 0px;
+    margin: 0 0 20px;
+    text-align: left;
+}
+
+.addon-section {
+    text-align: center;
+    padding: 70px 0px 0px 0px;
+}
+
+#content .addon-section p, #content .addon-section ul li {
+    text-align: center;
 }
 
 .buttons-row {
     margin: 10px 0px 20px 0px;
 }
 
-#firefox_chrome ul li a {
+.main-button {
     border-radius: 4px;
     background-color: #28bf9a;
     padding: 10px 35px;
@@ -125,18 +130,18 @@ body .contentHead {
     line-height: 2.2;
 }
 
-#firefox_chrome ul li a:hover {
+.main-button:hover {
     transition: all 0.5s ease 0s;
     background-color: #7020c3;
     text-decoration: none;
-
+    color: #fff;
 }
 
-#firefox_chrome li {
+.addon-section li {
     display: inline;
 }
 
-#firefox_chrome ul {
+.addon-section ul {
     padding: 0px;
 }
 
@@ -349,16 +354,8 @@ body #screenshots .imgboxcontainer ~ * {
 }
 
 body #textContent {
-    max-width: 856px;
-    margin: 60px auto 70px auto;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-bottom: 100px;
+    text-align: left;
     color: #111111;
-}
-
-body #textContent p {
-    margin-bottom: 10px;
 }
 
 body #textContent .headlines {
@@ -369,14 +366,11 @@ body #textContent .headlines {
 
 body #textContent h1 {
     color: #444444;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin: 0 0 20px;
 }
 
 body #textContent {
     color: #444444;
-    margin-top: 30px;
-    margin-bottom: 10px;
 }
 
 body #textContent h3 {
@@ -387,14 +381,8 @@ body #textContent h3 {
 
 body #textContent ul,
 body #textContent ol {
-    margin-left: 30px;
-    margin-right: 60px;
-    margin-bottom: 10px;
-}
-
-body #textContent ul li,
-body #textContent ol li {
-    margin-bottom: 5px;
+    margin: 20px 0;
+    padding: 0 20px;
 }
 
 body #textContent tt {
@@ -1161,6 +1149,11 @@ body #footer span a:hover {
     margin-right: auto;
     text-align: center;
     background-color: white;
+    padding: 50px 0;
+}
+
+#content .container {
+    max-width: 970px;
 }
 
 #premium {
@@ -1611,7 +1604,7 @@ body #footer span a:hover {
 }
 
 #Price {
-    padding: 70px 0 200px;
+    padding: 20px 0 200px;
     background-color: #ffffff;
 }
 
@@ -1979,11 +1972,6 @@ body #footer span a:hover {
     -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-span.explainFeature {
-    position: absolute;
-    padding-left: 5px;
-}
-
 .tooltip_templates {
     display: none;
 }
@@ -2334,12 +2322,12 @@ span.explainFeature {
 
 .footer-content-social {
     flex-basis: 350px;
-    padding: 10px 10px 10px 60px;
+    padding: 10px 0 10px 60px;
     border-left: 1px solid #512599;
 }
 
 .footer-content-subscribe {
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .footer-content-subscribe-form {
@@ -2414,7 +2402,7 @@ span.explainFeature {
 }
 
 .section-clients {
-    padding: 50px 0;
+    padding: 50px 0 0;
     border-top: 1px solid #ced5db;
 }
 
@@ -2479,4 +2467,16 @@ span.explainFeature {
     background-repeat: repeat-x;
     background-position: left bottom;
     vertical-align: text-top;
+}
+
+.start-ad-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0;
+}
+
+.start-ad {
+    width: 728px;
+    height: 90px;
+    background-color: #fff;
 }

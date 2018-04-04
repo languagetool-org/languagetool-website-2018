@@ -157,6 +157,10 @@ return [
     'standalone_builds' => 'Other Downloads:',
     'standalone_old_releases' => 'Old releases',
     'standalone_daily_builds' => 'Daily builds',
+
+    'googledocs_headline' => 'Goodle docs',
+    'googledocs_intro' => 'Google docs description',
+    'googledocs_download' => 'Check',
     
     'used_by' => 'LanguageTool is used by these companies',
     
