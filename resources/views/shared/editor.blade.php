@@ -132,9 +132,8 @@
             </div>
         </div>
         
-        <div style="text-align: center; margin: auto; margin-top: 10px">
-            <!-- TODO: center -->
-            <div style="width:728px;height:90px;background-color: white">&nbsp;</div>
+        <div class="start-ad-wrapper">
+            <div class="start-ad"></div>
         </div>
         
     </div>

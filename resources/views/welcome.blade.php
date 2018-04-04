@@ -5,12 +5,12 @@
 
 @section('before_content')
     @include('shared.editor')
+    @include('shared.reviews')
 @endsection
 
 
 @section('content')
     
-    @include('shared.reviews')
     <?php if (Auth::guest() || !Auth::user()->hasActivePremium()) { ?>
     <section id="Price">
         <a name="premium"></a>
@@ -89,18 +89,34 @@
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
                                         {{ __('messages.improved_error_detection2') }}
+                                        <span class="explainFeature"
+                                              data-tooltip-content="#improved_error_detection2_example">
+                                              <i class="fa fa-question-circle"></i>
+                                        </span>
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
                                         {{ __('messages.improved_error_detection3') }}
+                                        <span class="explainFeature"
+                                              data-tooltip-content="#improved_error_detection3_example">
+                                              <i class="fa fa-question-circle"></i>
+                                        </span>
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
                                         {{ __('messages.improved_error_detection1') }}
+                                        <span class="explainFeature"
+                                              data-tooltip-content="#improved_error_detection1_example">
+                                              <i class="fa fa-question-circle"></i>
+                                        </span>
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
                                         {{ __('messages.improved_error_detection4') }}
+                                        <span class="explainFeature"
+                                              data-tooltip-content="#improved_error_detection4_example">
+                                              <i class="fa fa-question-circle"></i>
+                                        </span>
                                     </li>
                                 </ul>
                                 <ul class="plan-features inactive">
@@ -192,6 +208,9 @@
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
                                         {{ __('messages.api_access') }}
+                                        <span class="explainFeature" data-tooltip-content="#api_access_detail">
+                                            <i class="fa fa-question-circle"></i>
+                                        </span>
                                     </li>
                                 </ul>
 
@@ -345,7 +364,7 @@
         </div>
     </section>
 
-    <section id="firefox_chrome">
+    <section id="firefox_chrome" class="addon-section content-section">
         <div class="container">
 
             <div class="row">
@@ -358,10 +377,14 @@
                 <div class="col-md-12 buttons-row">
                     <ul class="inline-btn">
                         <li class="btn_firefox">
-                            <a href="https://addons.mozilla.org/firefox/addon/languagetool?src=external-ltp-homepage"><?=__('messages.browser_firefox_download')?></a>
+                            <a class="main-button" href="https://addons.mozilla.org/firefox/addon/languagetool?src=external-ltp-homepage">
+                                <?=__('messages.browser_firefox_download')?>
+                            </a>
                         </li>
                         <li class="btn_chrome">
-                            <a href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji"><?=__('messages.browser_chrome_download')?></a>
+                            <a class="main-button" href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji">
+                                <?=__('messages.browser_chrome_download')?>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -370,7 +393,7 @@
         </div>
     </section>
 
-    <section id="standalone">
+    <section id="standalone" class="addon-section content-section">
         <div class="container">
 
             <div class="row">
@@ -383,15 +406,40 @@
                 <div class="col-md-12 buttons-row">
                     <ul class="inline-btn">
                         <li class="btn_standalone">
-                            <a href="/download/LanguageTool-4.1.zip"><?=__('messages.standalone_download')?></a>
+                            <a class="main-button" href="/download/LanguageTool-4.1.zip"><?=__('messages.standalone_download')?></a>
                         </li>
                     </ul>
                 </div>
             </div>
 
             <div class="row">
-                <p><?=__('messages.standalone_builds')?> <a href="/download/"><?=__('messages.standalone_old_releases')?></a>
-                    <a href="/download/snapshots/?C=M;O=D"><?=__('messages.standalone_daily_builds')?></a></p>
+                <p>
+                    <?=__('messages.standalone_builds')?>
+                    <a href="/download/"><?=__('messages.standalone_old_releases')?></a>
+                    <a href="/download/snapshots/?C=M;O=D"><?=__('messages.standalone_daily_builds')?></a>
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="google_docs" class="addon-section content-section">
+        <div class="container">
+
+            <div class="row">
+                <a name="standalone"></a>
+                <h2 class="contentHead"><?=__('messages.googledocs_headline')?></h2>
+                <p><?=__('messages.googledocs_intro')?></p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 buttons-row">
+                    <ul class="inline-btn">
+                        <li class="btn_standalone">
+                            <a class="main-button" href="/download/LanguageTool-4.1.zip"><?=__('messages.googledocs_download')?></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
         </div>
