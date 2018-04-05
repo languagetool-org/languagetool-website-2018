@@ -110,6 +110,10 @@
                                         "status": {
                                             "type": "string",
                                             "description": "An optional warning, e.g. when the API format is not stable."
+                                        },
+                                        "premium": {
+                                            "type": "boolean",
+                                            "description": "true if you're using a Premium account with all the premium text checks"
                                         }
                                     }
                                 },
