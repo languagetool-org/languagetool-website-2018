@@ -113,7 +113,7 @@
                                         },
                                         "premium": {
                                             "type": "boolean",
-                                            "description": "true if you're using a Premium account with all the premium text checks"
+                                            "description": "true if you're using a Premium account with all the premium text checks (since LanguageTool 4.2)"
                                         }
                                     }
                                 },
