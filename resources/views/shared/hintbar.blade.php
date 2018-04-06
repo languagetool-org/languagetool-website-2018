@@ -5,7 +5,7 @@
 	?>
 	<span class="hintbar-close"><i class="fa fa-close"></i></span>
 	<?=__('messages.language_hint', ['lang' => __('messages.langs.'.$defaultLang)])?>
-	<a href="/{{$defaultLang}}"><?=__('messages.language_link', ['lang' => $langStr])?></a>
+	<a href="/{{$defaultLang}}/"><?=__('messages.language_link')?></a>
 	<?php
 	App::setLocale($origLocale);
 	?>

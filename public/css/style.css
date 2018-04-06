@@ -1695,7 +1695,6 @@ body #footer span a:hover {
     height: 100%;
     display: flex;
     align-items: center;
-    cursor: pointer;
 }
 
 .header-nav-menu-item:hover {

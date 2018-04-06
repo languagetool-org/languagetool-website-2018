@@ -11,7 +11,6 @@
 
 @section('content')
     
-    <?php if (Auth::guest() || !Auth::user()->hasActivePremium()) { ?>
     <section id="Price">
         <a name="premium"></a>
         <div class="container">
@@ -220,7 +219,7 @@
                                     var fp = "support";
                                     var domain = "languagetoolplus";
                                     var subject = "?subject=contact request for business premium (via lt.org)";
-                                    var buttonText = "On Request";
+                                    var buttonText = "{{ __('messages.enterprise_action') }}";
                                     document.write("<a class='plan-button' href='" + mt + ":" + fp + "@" + domain + ".com" + subject + "'>" + buttonText + "</a>");
                                 </script>
                                 
@@ -235,8 +234,6 @@
         </div>
     </section>
 
-    <?php } ?>
-
     <?php
     use Illuminate\Support\Facades\Auth;
     ?>
@@ -246,19 +243,8 @@
                 <div class="padd-bott">
                     <a name="msword"></a>
                     <h2 id="ludilo" class="contentHead"><?=__('messages.msword_headline')?></h2>
-
-
                     <p><?=__('messages.msword_intro')?></p>
-
-                    <?php if (Auth::user() && Auth::user()->hasActivePremium()) { ?>
-                    <p id="msworddownload"><a
-                                href="/download/msword/LanguageToolPlus-for-MS-Word.exe?20180323"><?=__('messages.msword_download')?></a>
-                    </p>
-                    <p><?=__('messages.msword_known_issues')?></p>
-                    <?php } else { ?>
                     <p><?=__('messages.msword_download_blocked')?></p>
-                    <?php } ?>
-
                 </div>
 
                 <div id="Glide" class="glide">
@@ -364,13 +350,38 @@
         </div>
     </section>
 
+    <section id="libreoffice" class="addon-section content-section">
+        <div class="container">
+
+            <div class="row">
+                <a name="standalone"></a>
+                <h2 class="contentHead"><?=__('messages.libreoffice_headline')?></h2>
+                <p><?=__('messages.libreoffice_intro')?></p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 buttons-row">
+                    <ul class="inline-btn">
+                        <li class="btn_standalone">
+                            <a class="main-button" href="/download/LanguageTool-4.1.oxt"><?=__('messages.libreoffice_download')?> (94MB)</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="https://java.com/download/">{{__('messages.libreoffice_requirements')}}</a>
+                &middot;
+                {{__('messages.libreoffice_help1')}} <a href="/issues">{{__('messages.libreoffice_help2')}}</a>
+            </div>
+
+        </div>
+    </section>
+
     <section id="firefox_chrome" class="addon-section content-section">
         <div class="container">
 
             <div class="row">
                 <a name="browser"></a>
-                <h2 class="contentHead"><?=__('messages.browser_headline')?></h2>
-                <p><?=__('messages.browser_intro')?></p>
+                <h2 class="contentHead">{{__('messages.browser_headline')}}</h2>
+                <p>{{__('messages.browser_intro')}}</p>
             </div>
 
             <div class="row">
@@ -393,36 +404,6 @@
         </div>
     </section>
 
-    <section id="standalone" class="addon-section content-section">
-        <div class="container">
-
-            <div class="row">
-                <a name="standalone"></a>
-                <h2 class="contentHead"><?=__('messages.standalone_headline')?></h2>
-                <p><?=__('messages.standalone_intro')?></p>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12 buttons-row">
-                    <ul class="inline-btn">
-                        <li class="btn_standalone">
-                            <a class="main-button" href="/download/LanguageTool-4.1.zip"><?=__('messages.standalone_download')?></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row">
-                <p>
-                    <?=__('messages.standalone_builds')?>
-                    <a href="/download/"><?=__('messages.standalone_old_releases')?></a>
-                    <a href="/download/snapshots/?C=M;O=D"><?=__('messages.standalone_daily_builds')?></a>
-                </p>
-            </div>
-
-        </div>
-    </section>
-
     <section id="google_docs" class="addon-section content-section">
         <div class="container">
 
@@ -436,10 +417,62 @@
                 <div class="col-md-12 buttons-row">
                     <ul class="inline-btn">
                         <li class="btn_standalone">
-                            <a class="main-button" href="/download/LanguageTool-4.1.zip"><?=__('messages.googledocs_download')?></a>
+                            <a class="main-button" href="https://chrome.google.com/webstore/detail/languagetool/kjcoklfhicmkbfifghaecedbohbmofkm"><?=__('messages.googledocs_download')?></a>
                         </li>
                     </ul>
                 </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="more" class="addon-section content-section">
+        <div class="container">
+
+            <div class="row">
+                <a name="standalone"></a>
+                <h2 class="contentHead"><?=__('messages.more_headline')?></h2>
+                <p><?=__('messages.more_intro')?></p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 buttons-row">
+                    <ul class="inline-btn">
+                        <li class="btn_standalone">
+                            <a class="main-button" href="http://wiki.languagetool.org/software-that-supports-languagetool-as-a-plug-in-or-add-on"><?=__('messages.more_download')?></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="standalone" class="addon-section content-section">
+        <div class="container">
+
+            <div class="row">
+                <a name="standalone"></a>
+                <h2 class="contentHead"><?=__('messages.standalone_headline')?></h2>
+                <p><?=__('messages.standalone_intro')?></p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 buttons-row">
+                    <ul class="inline-btn">
+                        <li class="btn_standalone">
+                            <a class="main-button" href="/download/LanguageTool-4.1.zip"><?=__('messages.standalone_download')?> (134MB)</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <p>
+                    <?=__('messages.standalone_builds')?>
+                    <a href="/download/"><?=__('messages.standalone_old_releases')?></a> &middot;
+                    <a href="/download/snapshots/?C=M;O=D"><?=__('messages.standalone_daily_builds')?></a>
+                </p>
             </div>
 
         </div>
@@ -488,9 +521,9 @@
 
 @section('after_body')
     <script>
-                @php
-                    echo $defaultDemoTextMappingForJavaScript;
-                @endphp
+        @php
+            echo $defaultDemoTextMappingForJavaScript;
+        @endphp
         var checkDefaultLangWithCountry = "<?=$checkDefaultLangWithCountry ?>";
     </script>
 

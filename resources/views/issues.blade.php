@@ -13,11 +13,11 @@
                             is installed on your system. If you use the 32-bit version of LibreOffice/OpenOffice.org, you will also
                             need to use the 32-bit version of Java (same for the 64-bit version).
                             Java versions which are not from Oracle may not work. If you're using an
-                            old version of Java you'll see a confusing error message <a href="../images/version-error.jpg">like this</a>.</li>
+                            old version of Java you'll see a confusing error message <a href="/images/issues/version-error.jpg">like this</a>.</li>
                     <li>If you get an error that says <strong>Invalid memory access</strong>, make sure LanguageTool is installed in a path
                             that has no special characters (use a-z, A-Z and 0-9 only).
                     <li>If installation of LanguageTool in LibreOffice/OpenOffice didn't throw an error but you are not sure if it
-                            actually works, please <strong><a href="languagetool-test.odt">load this document</a></strong> and follow the instructions in it.</li>
+                            actually works, please <strong><a href="/files/languagetool-test.odt">load this document</a></strong> and follow the instructions in it.</li>
                     <li>If you see different results locally and on languagetool.org, that's for two reasons:
                             <ul style="margin-top: 8px">
                                     <li>We usually run the latest version on languagetool.org which might have more rules than the latest release version.</li>
@@ -88,17 +88,6 @@
 
                     <li>We have received reports from people that a re-installation of LanguageTool in LibreOffice/OpenOffice might be needed
                             to make it work after the other issues have been resolved.<!-- Alex, private email 2015-09-18 --></li>
-
-                    <li class="oldInformation">If you are using an older version of LanguageTool and/or OpenOffice.org, these issues may affect you:
-                            <ul style="margin-top: 8px">
-                                    <li>Freeze on startup: for some people, LanguageTool freezes LibreOffice or OpenOffice.org on startup for seconds to minutes.
-                                            This bug has been fixed in LibreOffice 3.5.4 and Apache OpenOffice 3.4.1 - all older versions are affected
-                                            by this, so we strongly recommend to use at least these releases. <a href="http://sourceforge.net/p/languagetool/bugs/66/">Bug report</a>.
-                                    </li>
-                                    <li>Users of LanguageTool 2.9: If you experience <strong>osl::Thread::Create failed</strong> errors, please
-                                            update to LanguageTool 2.9.1 or later (<a href="https://bugs.documentfoundation.org/show_bug.cgi?id=90740">#90740</a>)</li>
-                            </ul>
-                    </li>
 
             </ul>
 

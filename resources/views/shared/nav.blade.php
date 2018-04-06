@@ -5,7 +5,7 @@
             <div class="header-nav-brand">
                 <div id="logo">
                     <a class="" href="{{ url('/') }}">
-                        <img src="{{ asset('images/logo.svg') }}" alt="LanguageTool Plus logo">
+                        <img src="{{ asset('images/logo.svg') }}" alt="LanguageTool logo">
                     </a>
                 </div>
                 <div class="head-brand">
@@ -48,11 +48,17 @@
                         <a class="ms_office jump_menu header-nav-menu-item-dropdown-item" href="/#add-on">
                             <span><?=__('messages.nav_ms_office')?></span>
                         </a>
+                        <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="/#libreoffice">
+                            <span><?=__('messages.nav_libreoffice')?></span>
+                        </a>
                         <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="/#firefox_chrome">
                             <span><?=__('messages.nav_browse_ad')?></span>
                         </a>
                         <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="/#google_docs">
                             <span><?=__('messages.nav_google_docs')?></span>
+                        </a>
+                        <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="/#google_docs">
+                            <span><?=__('messages.nav_more')?></span>
                         </a>
                     </div>
                 </span>
@@ -86,8 +92,10 @@
                                 @if ($key == "en")
                                     <a class=" jump_menu header-nav-menu-item-dropdown-item" href="/"><span>{{ $lang }}</span></a>
                                 @else
-                                    <a class=" jump_menu header-nav-menu-item-dropdown-item" href="/{{ $key }}"><span>{{ $lang }}</span></a>
+                                    <a class=" jump_menu header-nav-menu-item-dropdown-item" href="/{{ $key }}/"><span>{{ $lang }}</span></a>
                                 @endif
+                            @elseif($key == $selectedLang)
+                                <span class=" jump_menu header-nav-menu-item-dropdown-item" style="color:black">{{ $lang }}</span></a>
                             @endif
                         @endforeach
                     </div>

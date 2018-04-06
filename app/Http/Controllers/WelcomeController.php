@@ -14,11 +14,11 @@ class WelcomeController extends Controller
 {
     public function index(Request $r, $locale = 'en')
     {
-        if (isset($r->a)) {
+        /*if (isset($r->a)) {
             $minutes = 60 * 24 * 30 * 12;
             Cookie::queue(Cookie::make('affiliate', $r->a, $minutes));
             return redirect('/');
-        }
+        }*/
 
         if (!View::exists('shared/qa.'.$locale)) {
             abort(404, 'Not found.');
@@ -42,9 +42,7 @@ class WelcomeController extends Controller
             'checkDefaultText' => $this->getDefaultDemoText($this->getDefaultLanguage()),
             'defaultDemoTextMappingForJavaScript' => $this->getDefaultDemoTextMappingForJavaScript(),
             'currentLang' => "en",
-            'checkSubmitButtonValue' => "Text prüfen",
-            'checkSubmitButtonTitle' => "Text prüfen - auch mit Strg+Return",
-            'toggleFullscreenMode' => "Textfeld groß/klein",
+            'toggleFullscreenMode' => __('messages.fullscreen'),
             'isShowHintbar' => $isShowHintbar,
             'defaultLang' => $defaultLang,
             'selectedLang' => $locale,
