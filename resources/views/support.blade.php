@@ -3,7 +3,8 @@
 @section('title', 'LanguageTool Support')
 
 @section('content')
-    <div id="textContent" style="text-align: left">
+    <div id="textContent" class="content-section">
+        <div class="container">
 
             <h1>Support</h1>
         
@@ -24,6 +25,7 @@
                             you will only receive emails about new LanguageTool releases and major new features</li>
             </ul>
             
+            </div>
     </div>
 
 @endsection

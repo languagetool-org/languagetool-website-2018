@@ -92,7 +92,7 @@ body .contentHead {
 
 #content .content-section p,
 #content .content-section ul li {
-    color: grey;
+    color: black;
     font-size: 18px;
     font-style: normal;
     font-stretch: normal;
@@ -148,6 +148,13 @@ body .contentHead {
 .inline-btn {
     display: inline;
     list-style: none;
+}
+
+.multicol {
+    width: 65%;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
 }
 
 #video-section {
@@ -1755,6 +1762,7 @@ body #footer span a:hover {
 }
 
 .head-brand-name {
+    color: white;
 }
 
 .head-brand-slogan {

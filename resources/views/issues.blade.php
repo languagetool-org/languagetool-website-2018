@@ -3,8 +3,9 @@
 @section('title', 'Checklist in Case of Problems - LanguageTool')
 
 @section('content')
-    <div id="textContent" style="text-align: left">
-
+    <div id="textContent" class="content-section" style="text-align: left">
+            <div class="container">
+                    
             <h1>Checklist in Case of Problems</h1>
 
             <ul>
@@ -117,10 +118,11 @@
 
             <h2>Still need Help?</h2>
 
-            <p>If LanguageTool still doesn't work properly for you, please <a href="/forum">post to the forum</a> describing the problem
+            <p>If LanguageTool still doesn't work properly for you, please <a href="https://forum.languagetool.org">post to the forum</a> describing the problem
                     and letting us know which version of LanguageTool, LibreOffice/OpenOffice.org and which operating system you are using.</p>
             
             
+            </div>
     </div>
 
 @endsection

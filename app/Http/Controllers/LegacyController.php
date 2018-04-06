@@ -21,6 +21,10 @@ class LegacyController extends Controller
     
     public function support() { return view('support'); }
     
+    public function team() { return view('team'); }
+    
+    public function development() { return view('development'); }
+    
     public function newsletter_old() { 
         return redirect('newsletter');
     }

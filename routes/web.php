@@ -45,6 +45,8 @@ Route::group(['prefix' => app('language.routePrefix')], function() {
 	Route::get('/issues', 'LegacyController@issues');
 	Route::get('/compare', 'LegacyController@compare');
 	Route::get('/support', 'LegacyController@support');
+	Route::get('/team', 'LegacyController@team');
+	Route::get('/development', 'LegacyController@development');
 	Route::get('/newsletter', 'LegacyController@newsletter');
 	Route::get('/contact/newsletter.php', 'LegacyController@newsletter_old');
 	Route::get('/home', 'HomeController@index')->name('home');

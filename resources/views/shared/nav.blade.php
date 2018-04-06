@@ -9,8 +9,10 @@
                     </a>
                 </div>
                 <div class="head-brand">
-                    <span class="head-brand-name">Language Tool</span>
-                    <span class="head-brand-slogan">proofreading service</span>
+                    <a class="" href="{{ url('/') }}">
+                        <span class="head-brand-name">Language Tool</span><br>
+                        <span class="head-brand-slogan">proofreading service</span>
+                    </a>
                 </div>
             </div>
             <div class="header-nav-menu mobile-toggle">
@@ -30,7 +32,7 @@
                     </span>
                 </a>
                 -->
-                <a class="pricing jump_menu header-nav-menu-item" href="#Price">
+                <a class="pricing jump_menu header-nav-menu-item" href="/#Price">
                     <span class="header-nav-menu-item-label">
                         <?=__('messages.nav_price')?>
                         <i class="fa fa-angle-right"></i>
@@ -43,24 +45,24 @@
                         <i class="fa fa-angle-right"></i>
                     </span>
                     <div class="header-nav-menu-item-dropdown">
-                        <a class="ms_office jump_menu header-nav-menu-item-dropdown-item" href="#add-on">
+                        <a class="ms_office jump_menu header-nav-menu-item-dropdown-item" href="/#add-on">
                             <span><?=__('messages.nav_ms_office')?></span>
                         </a>
-                        <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="#firefox_chrome">
+                        <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="/#firefox_chrome">
                             <span><?=__('messages.nav_browse_ad')?></span>
                         </a>
-                        <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="#google_docs">
+                        <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="/#google_docs">
                             <span><?=__('messages.nav_google_docs')?></span>
                         </a>
                     </div>
                 </span>
-                <a class="forum jump_menu header-nav-menu-item" href="https://forum.languagetool.org/">
+                <a class="forum jump_menu header-nav-menu-item" href="https://forum.languagetool.org">
                     <span class="header-nav-menu-item-label">
                         <?=__('messages.nav_forum')?>
                         <i class="fa fa-angle-right"></i>
                     </span>
                 </a>
-                <a class="development jump_menu header-nav-menu-item" href="development">
+                <a class="development jump_menu header-nav-menu-item" href="/development">
                     <span class="header-nav-menu-item-label">
                         <?=__('messages.nav_development')?>
                         <i class="fa fa-angle-right"></i>
