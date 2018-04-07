@@ -102,6 +102,23 @@ body .contentHead {
     text-align: left;
 }
 
+#content .content-section table td, #content .content-section table th {
+    font-size: 13px;
+    letter-spacing: 0.6px;
+}
+
+@media screen and (max-width: 767px) {
+    #content .content-section p,
+    #content .content-section ul li {
+        font-size: 13px;
+        letter-spacing: 0.6px;
+    }
+    #content .content-section h1 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+}
+
 .addon-section {
     text-align: center;
     padding: 70px 0px 0px 0px;
@@ -2341,7 +2358,20 @@ body #footer span a:hover {
     display: flex;
 }
 
-.footer-content-subscribe-form input {
+.footer-content-subscribe-form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content-subscribe-form-row .footer-content-subscribe-form-col:first-child {
+    display: none;
+}
+
+body #footer span.footer-content-subscribe-form-message {
+    margin: 0;
+}
+
+.footer-content-subscribe-form-input {
     padding: 10px 15px;
     width: 200px;
     border: 0;
@@ -2351,7 +2381,7 @@ body #footer span a:hover {
     color: #000;
 }
 
-.footer-content-subscribe-form button {
+.footer-content-subscribe-form-button {
     padding: 10px 15px;
     border: 0;
     border-radius: 0 6px 6px 0;
@@ -2360,12 +2390,12 @@ body #footer span a:hover {
     background-color: #28bf9a;
 }
 
-.footer-content-subscribe-form button:hover {
+.footer-content-subscribe-form-button:hover {
     color: #6f20c4;
     background-color: #fff;
 }
 
-.footer-content-subscribe-form input:focus, .footer-content-subscribe-form button:focus {outline: none;}
+.footer-content-subscribe-form-input:focus, .footer-content-subscribe-form-button:focus {outline: none;}
 
 .footer-links {
     background-color: #fff;
@@ -2486,4 +2516,49 @@ body #footer span a:hover {
     width: 728px;
     height: 90px;
     background-color: #fff;
+}
+
+/* tables */
+table.tablesorter {
+    font-family:arial,serif;
+    background-color: #CDCDCD;
+    margin:10px 0pt 15px;
+    font-size: 8pt;
+    width: 100%;
+    text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+    background-color: #e6EEEE;
+    border: 1px solid #FFF;
+    font-size: 8pt;
+    padding: 4px;
+}
+table.tablesorter thead tr .tablesorter-header {
+    background-image: url(../images/tablesorter/bg.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+}
+table.tablesorter thead tr .sorter-false {
+    background-image: none;
+    cursor: default;
+}
+table.tablesorter tbody td {
+    color: #111111;
+    padding: 4px;
+    background-color: #FFF;
+    vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+    background-color:#F0F0F6;
+}
+table.tablesorter thead tr .tablesorter-headerAsc {
+    background-image: url(../images/tablesorter/asc.gif);
+}
+table.tablesorter thead tr .tablesorter-headerDesc {
+    background-image: url(../images/tablesorter/desc.gif);
+}
+table.tablesorter thead tr .tablesorter-headerAsc, table.tablesorter thead tr .tablesorter-headerDesc {
+    background-color: #7020c3;
+    color: #fff;
 }

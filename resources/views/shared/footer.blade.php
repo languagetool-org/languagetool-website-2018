@@ -4,10 +4,59 @@
             <div class="footer-content-subscribe">
                 <div class="footer-content-heading">Let’s stay in touch</div>
                 <div class="footer-content-par">Get updates and more</div>
-                <form class="footer-content-subscribe-form">
+                <script id="n2g_script">
+                    var config = {
+                        "form": {
+                            "class": "footer-content-subscribe-form",
+                            "style": ""
+                        },
+                        "container": {
+                            "type": "div",
+                            "class": "footer-content-subscribe-form-container"
+                        },
+                        "row": {
+                            "type": "div",
+                            "class": "footer-content-subscribe-form-row"
+                        },
+                        "input": {
+                            "class": "footer-content-subscribe-form-input",
+                            "style": ""
+                        },
+                        "columnLeft": {
+                            "type": "div",
+                            "class": "footer-content-subscribe-form-col"
+                        },
+                        "columnRight": {
+                            "type": "div",
+                            "class": "footer-content-subscribe-form-col"
+                        },
+                        "button": {
+                            "type": "button",
+                            "class": "footer-content-subscribe-form-button",
+                            "style": ""
+                        },
+                        "loader": {
+                            "type": "img",
+                            "src": "//www.newsletter2go.com/images/loader.svg",
+                            "class": "",
+                            "style": "margin: auto; display:block; width: auto;"
+                        },
+                        "message": {
+                            "type": "span",
+                            "class": "footer-content-subscribe-form-message"
+                        }
+                    };
+                    !function(e,t,n,c,r,a,i){
+                    e.Newsletter2GoTrackingObject=r,e[r]=e[r]||function()
+                        {(e[r].q=e[r].q||[]).push(arguments)},
+                        e[r].l=1*new Date,a=t.createElement(n),i=t.getElementsByTagName(n)[0],a.async=1,a.src=c,i.parentNode.insertBefore(a,i)}(window,document,"script","//static.newsletter2go.com/utils.js","n2g");
+                    n2g('create', 'uu17lt9z-vviro8yr-1e92');
+                    n2g('subscribe:createForm', config);
+                </script>
+{{--                 <form class="footer-content-subscribe-form">
                     <input type="text" placeholder="Enter your email">
                     <button type="submit">Subscribe</button>
-                </form>
+                </form> --}}
             </div>
             <div class="footer-content-social">
                 <div class="footer-content-heading">Follow us</div>
@@ -122,6 +171,7 @@ if (isset($_SERVER['QUERY_STRING']) && strpos($_SERVER['QUERY_STRING'], 'testmod
 <script src="{{ asset('vendors/dropkick/jquery.dropkick.js') }}"></script>
 <script src="{{ asset('vendors/tooltipster/tooltipster.bundle.min.js') }}"></script>
 <script src="{{ asset('js/jquery-ui.min.js') }}"></script>
+<script src="{{ asset('js/jquery.tablesorter.min.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
 
 

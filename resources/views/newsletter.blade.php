@@ -3,7 +3,9 @@
 @section('title', 'LanguageTool Newsletter')
 
 @section('content')
-    <div id="textContent" style="text-align: left">
+    <div id="textContent" class="content-section" style="text-align: left">
+
+        <div class="container">
 
             <h1>Newsletter</h1>
         
@@ -76,6 +78,8 @@
                 n2g('create', 'uu17lt9z-vviro8yr-1e92');
                 n2g('subscribe:createForm', config);
             </script>
+
+        </div>
             
     </div>
 

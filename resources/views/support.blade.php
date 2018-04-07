@@ -24,6 +24,8 @@
                     <li><strong><a href="../contact/newsletter.php">Announcement mailing list</a></strong> - low traffic,
                             you will only receive emails about new LanguageTool releases and major new features</li>
             </ul>
+
+        </div>
             
             </div>
     </div>

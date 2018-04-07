@@ -4,8 +4,8 @@
 
 @section('content')
     <div id="textContent" class="content-section" style="text-align: left">
-            <div class="container">
-                    
+        <div class="container">
+
             <h1>Checklist in Case of Problems</h1>
 
             <ul>
@@ -109,7 +109,8 @@
 
             <p>If LanguageTool still doesn't work properly for you, please <a href="https://forum.languagetool.org">post to the forum</a> describing the problem
                     and letting us know which version of LanguageTool, LibreOffice/OpenOffice.org and which operating system you are using.</p>
-            
+
+        </div>
             
             </div>
     </div>
