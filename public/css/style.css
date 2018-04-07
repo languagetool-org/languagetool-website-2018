@@ -836,8 +836,8 @@ body #stage .inner #editor form#checkform .fullscreen-toggle a {
     background-image: url(/images/fullscreen-toggle2.png);
     display: inline-block;
 }
-body #stage .inner #editor form#checkform.fullscreen
- {
+
+body #stage .inner #editor form#checkform.fullscreen {
     position: fixed;
     top: 0;
     left: 0;
