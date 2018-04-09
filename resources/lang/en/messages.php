@@ -18,6 +18,7 @@ return [
     'ffAddon' => 'Install the Firefox add-on',
     'chromeAddon' => 'Install the Chrome extension',
     'menu' => 'Menu',
+    'menu_overview' => 'Overview',
     
     'details_1_month_euro' => 'can be cancelled any month',
     'details_1_month' => 'can be cancelled any month',

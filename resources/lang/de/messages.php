@@ -18,6 +18,7 @@ return [
     'ffAddon' => 'Das Firefox-Add-on installieren',
     'chromeAddon' => 'Die Chrome-Extension installieren',
     'menu' => 'Menü',
+    'menu_overview' => 'Übersicht',
 
     'details_1_month_euro' => 'monatlich kündbar',
     'details_1_month' => 'monatlich kündbar',

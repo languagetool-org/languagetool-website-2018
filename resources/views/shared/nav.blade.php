@@ -95,9 +95,10 @@
                                     <a class=" jump_menu header-nav-menu-item-dropdown-item" href="/{{ $key }}/"><span>{{ $lang }}</span></a>
                                 @endif
                             @elseif($key == $selectedLang)
-                                <span class=" jump_menu header-nav-menu-item-dropdown-item" style="color:black">{{ $lang }}</span></a>
+                                <span class=" jump_menu header-nav-menu-item-dropdown-item" style="color:black">{{ $lang }}</span>
                             @endif
                         @endforeach
+                        <a href="/languages" class=" jump_menu header-nav-menu-item-dropdown-item" style="margin-top: 10px">{{__('messages.menu_overview')}}</a>
                     </div>
                 </span>
             </nav>

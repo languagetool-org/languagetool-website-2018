@@ -146,7 +146,9 @@
         </div>
         
         <div class="start-ad-wrapper">
-            <div class="start-ad"></div>
+            <div class="start-ad">
+                @include('shared/ad')
+            </div>
         </div>
         
     </div>
