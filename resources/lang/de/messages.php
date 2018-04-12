@@ -10,7 +10,6 @@ return [
     'auto_detect' => 'Automatisch erkennen',
     'fullscreen' => 'Textfeld groß/klein',
     'privacy' => 'Datenschutz',
-    'terms' => 'AGB',
     'imprint' => 'Kontakt &amp; Impressum',
     'subscription' => 'Auf dem Laufenden bleiben',
     'ffAddon' => 'Das Firefox-Add-on installieren',
@@ -149,6 +148,7 @@ return [
     'footer_screenshots' => 'Screenshots',
     'footer_team' => 'Team',
     'langs' => [
+        'auto' => 'Autom. erkennen',
         'ast' => 'Asturisch',
         'be' => 'Weißrussisch',
         'br' => 'Bretonisch',
