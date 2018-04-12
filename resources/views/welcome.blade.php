@@ -22,6 +22,7 @@
                             <div class="plan border-lt">
                                 <h2 class="plan-title"><?=__('messages.free_headline')?></h2>
                                 <p class="plan-price"><?=__('messages.free_limit')?></p>
+                                <p class="plan-price">languagetool.org</p>
                                 <ul class="plan-features">
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
@@ -71,6 +72,7 @@
                             <div class="plan plan-tall">
                                 <h2 class="plan-title"><?=__('messages.premium_headline')?></h2>
                                 <p class="plan-price"><?=__('messages.premium_limit')?></p>
+                                <p class="plan-price"><a style="color: white" href="https://languagetoolplus.com">languagetoolplus.com</a></p>
                                 <ul class="plan-features">
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
@@ -135,8 +137,6 @@
                                         </select>
                                     </div>
 
-                                    <div id="plan-prices-save">{{ __('messages.billed_annually') }}</div>
-
                                     <div id="price-1-month" style="display: none">
                                         <h2 id="planPriceTotal" class="quote-layer"><span
                                                     data-fsc-item-path="languagetool-plus-premium-monthly-subscription"
@@ -154,6 +154,8 @@
                                                     data-fsc-item-path="languagetool-plus-premium-1-year-subscription"
                                                     data-fsc-item-pricetotal></span></h2>
                                     </div>
+
+                                    <div id="plan-prices-save">{{ __('messages.billed_annually') }}</div>
 
                                 </div>
 
@@ -173,7 +175,8 @@
                         <div class="plan-wrapper enterprise">
                             <div class="plan border-rd">
                                 <h2 class="plan-title"><?=__('messages.enterprise_headline')?></h2>
-                                <p class="plan-price"><?=__('messages.enterprise_limit')?><br><br></p>
+                                <p class="plan-price"><?=__('messages.enterprise_limit')?></p>
+                                <p class="plan-price"><a href="https://languagetoolplus.com">languagetoolplus.com</a></p>
                                 <ul class="plan-features">
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>

@@ -10,7 +10,7 @@
                 </div>
                 <div class="head-brand">
                     <a class="" href="{{ url('/') }}">
-                        <span class="head-brand-name">Language Tool</span><br>
+                        <span class="head-brand-name">LanguageTool</span><br>
                         <span class="head-brand-slogan">proofreading service</span>
                     </a>
                 </div>

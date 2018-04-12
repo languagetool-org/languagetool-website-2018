@@ -1621,9 +1621,9 @@ body #footer span a:hover {
 
 #plan-prices-save {
     color: #fff;
-    text-align: left;
-    margin: 5px 0;
-    font-size: 12px;
+    text-align: center;
+    margin: 0 0;
+    font-size: 16px;
     letter-spacing: 1.3px;
 }
 

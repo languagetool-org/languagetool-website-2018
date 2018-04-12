@@ -80,7 +80,7 @@
                     array( 'name' => __('messages.footer_development'), 'url' => '/development'),
                     array( 'name' => __('messages.footer_team'), 'url' => '/team'),
                     array( 'name' => __('messages.privacy'), 'url' => '/legal/privacy'),
-                    array( 'name' => __('messages.terms'), 'url' => '/legal/terms'),
+                    //array( 'name' => __('messages.terms'), 'url' => '/legal/terms'),
                     array( 'name' => __('messages.imprint'), 'url' => '/legal/' )
                 );
                 foreach ($footer_pages as $page) {

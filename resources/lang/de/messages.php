@@ -35,7 +35,7 @@ return [
     'check_text_title' => 'Text prüfen - auch mit Strg+Return',
     'check_text_button' => 'Text prüfen',
     'pricing' => 'Preise',
-    'billed_annually' => '* jährliche Abrechnung',
+    'billed_annually' => 'weniger als 5€/Monat',
     'free_headline' => 'Kostenlos',
     'free_limit' => 'bis 20.000 Zeichen pro Prüfung',
     'many_rules_1' => 'Über 2400 Muster zur Fehlererkennung (Deutsch)',

@@ -12,7 +12,7 @@ return [
     'fullscreen' => 'toggle fullscreen mode',
 
     'privacy' => 'Privacy',
-    'terms' => 'Terms and Conditions',
+    //'terms' => 'Terms and Conditions',
     'imprint' => 'Contact',
     'subscription' => 'Subscribe for the latest updates',
     'ffAddon' => 'Install the Firefox add-on',
@@ -39,7 +39,7 @@ return [
     'check_text_title' => 'Check Text - or use Ctrl+Return',
     'check_text_button' => 'Check Text',
     'pricing' => 'Pricing',
-    'billed_annually' => '* billed annually',
+    'billed_annually' => "less than €5/month",
     'free_headline' => 'Free',
     'free_limit' => '2500 characters per check',
     'many_rules_1' => 'More than 1700 patterns for finding errors (English)',
