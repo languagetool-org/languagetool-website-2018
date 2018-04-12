@@ -19,12 +19,11 @@
 
 (function() 
 {
-
    var JSONRequest = tinymce.util.JSONRequest, each = tinymce.each, DOM = tinymce.DOM;
-   var maxTextLength = 40000;  // lower limits will be enforced in server
-   var token;
-   var ignoredWords;
-   var prevSynonymWord;
+   var maxTextLength = 20000;
+   var userHasPastedText = false;
+   var randomVal = Math.random();
+   var randomValThreshold = 0.9;  // random val < this: languagetool.org/api/v2/check will be used
 
    tinymce.create('tinymce.plugins.AfterTheDeadlinePlugin', 
    {
@@ -132,7 +131,7 @@
 
             /* send request to our service */
             var textContent = plugin.editor.core.getPlainText();
-            plugin.sendRequest('', textContent, languageCode, ed, function(data, request, jqXHR)
+            plugin.sendRequest('', textContent, languageCode, function(data, request, jqXHR)
             {
                /* turn off the spinning thingie */
                plugin.editor.setProgressState(0);
@@ -141,14 +140,27 @@
                $('#feedbackErrorMessage').html("");  // no severe errors, so clear that error area
 
                var results = core.processJSON(jqXHR.responseText);
+               var json = jQuery.parseJSON(jqXHR.responseText);
+               if (json && json.software) {
+                  console.log("LT version used: " + json.software.version + " (" + json.software.buildDate + ")");
+               }
+               if (json && json.matches) {
+                   if (json['hiddenMatches']) {
+                       console.log("matches: " + json.matches.length + ", hiddenMatches: " + json.hiddenMatches.length);
+                       //$('#matchCountArea').text(json.matches.length + " matches");
+                   } else {
+                       console.log("matches: " + json.matches.length);
+                       //$('#matchCountArea').text("");
+                   }
+               }
                if (languageCode === "auto") {
-                  var json = jQuery.parseJSON(jqXHR.responseText);
                   var detectedLang = json.language.name;
                   /*var langDiv = $("#lang");
                   langDiv.find('option[value="auto"]').remove();
                   langDiv.prepend($("<option selected/>").val("auto").text("Auto-detected: " + detectedLang));
                   langDiv.dropkick('refresh');*/
                   $('#feedbackMessage').html("Detected language: " + detectedLang);
+                  $('#detectedLanguage').text(json.language.code);
                }
 
                if (results.suggestions.length == 0) {
@@ -163,9 +175,14 @@
                   plugin.markMyWords();
                   ed.suggestions = results.suggestions; 
                }
-                if (results.incompleteResults) {
-                    $('#feedbackErrorMessage').html("<div id='severeError'>These results may be incomplete due to a server timeout.</div>");
-                    t._trackEvent('CheckError', 'ErrorWithException', "Incomplete Results");
+               if (results.incompleteResults) {
+                   if (results.incompleteResultsReason) {
+                       $('#feedbackErrorMessage').html("<div id='severeError'>" + $('<div/>').text(results.incompleteResultsReason).html() + "</div>");
+                   } else {
+                       // old server code might not return a reason:
+                       $('#feedbackErrorMessage').html("<div id='severeError'>These results may be incomplete due to a server timeout.</div>");
+                   }
+                   t._trackEvent('CheckError', 'ErrorWithException', "Incomplete Results");
                 }
             });
          });
@@ -185,13 +202,34 @@
          
          editor.onPaste.add(function(editor, ev) {
              t._trackEvent('PasteText');
-         });
-
-         editor.onKeyPress.add(function(ed, e) {
-             var code = e.keyCode;
-             if (code === 37 || code === 38 || code === 39 || code === 40) {  // cursor keys
-                 t._updateSynonyms(ed, e);
-             }
+             $('#matchCountArea').text("");
+             userHasPastedText = true;
+             /*if (document.cookie.indexOf("addonSurveyShown=true") === -1) {
+                 t._trackEvent('ShowAddonSurvey');
+                 document.cookie = "addonSurveyShown=true;max-age=2628000";
+                 var surveyText = "Please help us improve LanguageTool by answering our " +
+                     "<a target='_blank' href='https://www.surveymonkey.de/r/LSPH6XY'>1-minute survey - 1 question only!</a>";
+                 $('#feedbackErrorMessage').html("<div id='survey'>" + surveyText + "</div>");
+             }*/
+             /*var marketingText = "NEU: Unter <a href='https://languagetoolplus.com/'>languagetoolplus.com</a> bieten wir eine Premium-Version an, die noch mehr Fehler erkennt.";
+             var randThreshold = 0.3;
+             var langCode = $('#lang').val();
+             var rand;
+             if (document.cookie && document.cookie.indexOf("showltplus=") === -1) {
+                 rand = Math.random();
+                 document.cookie = "showltplus=" + rand.toFixed(2) + ";max-age=2628000";  // one month
+                 if (rand < randThreshold && (langCode === 'de-DE' || langCode === 'de-AT' || langCode === 'de-CH')) {
+                     t._trackEvent('ShowLTPlusLink');
+                     $('#feedbackErrorMessage').html("<div id='survey'>" + marketingText + "</div>");
+                 }
+             } else if (document.cookie) {
+                 rand = parseFloat(document.cookie.match(/showltplus=(\d\.\d\d)/)[1]);
+                 if (rand < randThreshold && (langCode === 'de-DE' || langCode === 'de-AT' || langCode === 'de-CH')) {
+                     if (!$('form#checkform').hasClass('fullscreen')) {
+                         $('#feedbackErrorMessage').html("<div id='survey'>" + marketingText + "</div>");
+                     }
+                 }
+             }*/
          });
 
          // hack to make both right and left mouse button work on errors in both Firefox and Chrome: 
@@ -234,11 +272,15 @@
       {
       },
 
-      _trackEvent : function(val1, val2, val3)
+      _trackEvent : function(val1, val2, val3, number)
       {
           if (typeof(_paq) !== 'undefined') {
               // Piwik tracking
-              _paq.push(['trackEvent', val1, val2, val3]);
+              if (number !== undefined) {
+                  _paq.push(['trackEvent', val1, val2, val3, number]);
+              } else {
+                  _paq.push(['trackEvent', val1, val2, val3]);
+              }
           }
           this._logEventLocally();
       },
@@ -317,83 +359,8 @@
         return tinymce.dom.Event.cancel(e);
       },
        
-      _updateSynonyms : function(ed, event) 
-      {
-          // TODO: German only
-          if (false) {
-              var containerText = ed.selection.getRng(true).startContainer.textContent;
-              //console.log("CT", containerText, containerText.length);
-              var cursorPos = ed.selection.getRng(true).startOffset;
-              var currentWord = "";
-              var delimExpr = /[\wöäüÖÄÜßé]/;
-              var cPos;
-              var selStartPos = -1;
-              var selEndPos = -1;
-              for (cPos = cursorPos; cPos >= 0 && cPos < containerText.length; cPos--) {
-                  if (!containerText[cPos].match(delimExpr)) {
-                      break;
-                  }
-                  currentWord = containerText[cPos] + currentWord;
-              }
-              selStartPos = cPos;
-              for (cPos = cursorPos + 1; cPos < containerText.length; cPos++) {
-                  if (!containerText[cPos].match(delimExpr)) {
-                      break;
-                  }
-                  currentWord += containerText[cPos];
-              }
-              selEndPos = cPos;
-
-              if (currentWord !== prevSynonymWord) {
-                  console.log("current word", currentWord);
-                  //TODO: only if premium
-                  jQuery.ajax({
-                          url: "https://www.openthesaurus.de/synonyme/search",
-                          //url: "http://localhost:8080/openthesaurus/synonyme/search",
-                          type: "GET",
-                          data: {q: currentWord, format: "application/json"},
-                          success: function(data, tokenRequest, tokenJqXHR) {
-                              console.log(data);
-                              $('#synonyms').html("");
-                              var synsetIdx;
-                              for (synsetIdx = 0; synsetIdx < data.synsets; synsetIdx++) {
-                                  var synset = data.synsets[synsetIdx];
-                                  var termIdx;
-                                  for (termIdx = 0; termIdx < synset.terms.length; termIdx++) {
-                                      var term = synset.terms[termIdx];
-                                      var newNode;
-                                      if (term.level) {
-                                          newNode = $("<div>" + term.term + " (" + term.level + ")</div>");
-                                      } else {
-                                          newNode = $("<div>" + term.term + "</div>");
-                                      }
-                                      (function(e) {
-                                          newNode.click("onclick", function() {
-                                              console.log("click", e);
-                                              // TODO: we need to select the word first so it gets correctly replaced here:
-                                              ed.selection.setContent(e);
-                                              return false;
-                                          });
-                                      })(term.term);
-
-                                      $('#synonyms').append(newNode);
-                                      console.log(1,newNode);
-                                  }
-                              }
-                          },
-                          error: function(jqXHR, textStatus, errorThrown) {
-                            console.warn("Error getting synonyms", textStatus, errorThrown);
-                          }
-                      }
-                  );
-              }
-          }
-          
-      },
-       
       _showMenu : function(ed, e) 
       {
-         this._updateSynonyms(ed, e);
         
          if (e.which == 3) {
             // ignore right mouse button
@@ -426,14 +393,19 @@
 
          if (ed.core.isMarkedNode(e.target))
          {
-
             /* remove these other lame-o elements */
             m.removeAll();
 
             /* find the correct suggestions object */
             var errorDescription = ed.core.findSuggestion(e.target);
+            var ruleId = errorDescription["id"];
             var lang = plugin.editor.getParam('languagetool_i18n_current_lang')();
-
+            var isSpellingRule = ruleId.indexOf("MORFOLOGIK_RULE") !== -1 || ruleId.indexOf("SPELLER_RULE") !== -1 ||
+                                 ruleId.indexOf("HUNSPELL_NO_SUGGEST_RULE") !== -1 || ruleId.indexOf("HUNSPELL_RULE") !== -1 ||
+                                 ruleId.indexOf("FR_SPELLING_RULE") !== -1;
+            this._updateSentenceTrackingArea(lang);
+             
+            var otherReplTitleMenuItem = t._getTranslation('languagetool_i18n_other_replace_by', lang, "Replace with...");
             if (errorDescription == undefined)
             {
                m.add({title : plugin.editor.getLang('AtD.menu_title_no_suggestions', 'No suggestions'), 'class' : 'mceMenuItemTitle'}).setDisabled(1);
@@ -444,11 +416,8 @@
             }
             else
             {
-               //var suggestionsCount = errorDescription["suggestions"].length;
-               //var suggestionsButton = document.getElementById("suggestionsCount");
-               //suggestionsButton.textContent = suggestionsCount;
-
                m.add({ title : errorDescription["description"], 'class' : 'mceMenuItemTitle' }).setDisabled(1);
+
                for (var i = 0; i < errorDescription["suggestions"].length; i++)
                {
                   if (i >= 5) {
@@ -462,18 +431,33 @@
                          onclick : function() 
                          {
                             ed.core.applySuggestion(e.target, sugg);
-                            // 3 levels are not properly displayed in Piwik UI:
-                            //t._trackEvent('AcceptCorrection', lang + ":" + errorDescription["id"], sugg + ":" + iTmp);
-                            t._trackEvent('AcceptCorrection', lang);
+                            t._maybeSendErrorExample(e, errorDescription, isSpellingRule, userHasPastedText, lang, ruleId, sugg, iTmp);
+                            t._trackEvent('AcceptCorrection', lang, ruleId, iTmp+1);  // numeric value, so increase by one to make sure 0 isn't ignored
                             t._checkDone();
                          }
                       });
                    })(errorDescription["suggestions"][i]);
                }
+               otherReplTitleMenuItem = t._getTranslation('languagetool_i18n_other_suggestion', lang, "(another replacement)");
 
-               m.addSeparator();
             }
-             
+
+            m.add({ title : otherReplTitleMenuItem, onclick:
+                 function() {
+                     var otherReplDialog = t._getTranslation('languagetool_i18n_other_suggestion_dialog', lang, "Replace with:");
+                     var res = prompt(otherReplDialog, errorDescription["coveredtext"]);
+                     if (res !== null) {
+                         var repl = $('<div/>').text(res).html();
+                         ed.core.applySuggestion(e.target, repl);
+                         t._maybeSendErrorExample(e, errorDescription, isSpellingRule, userHasPastedText, lang, ruleId, repl, 99/*special value*/);
+                         t._trackEvent('OtherCorrection', lang, ruleId);
+                         t._checkDone();
+                     }
+                 }
+            });
+
+            m.addSeparator();
+
             var explainText = plugin.editor.getParam('languagetool_i18n_explain')[lang] || "Explain...";
             var ignoreThisText = plugin.editor.getParam('languagetool_i18n_ignore_once')[lang] || "Ignore this type of error";
             var ruleExamples = "Examples...";
@@ -496,9 +480,6 @@
             if (plugin.editor.getParam('languagetool_i18n_suggest_word_url')) {
               suggestWordUrl = plugin.editor.getParam('languagetool_i18n_suggest_word_url')[lang];
             }
-            var ruleId = errorDescription["id"];
-            var isSpellingRule = ruleId.indexOf("MORFOLOGIK_RULE") != -1 || ruleId.indexOf("SPELLER_RULE") != -1 ||
-                                 ruleId.indexOf("HUNSPELL_NO_SUGGEST_RULE") != -1 || ruleId.indexOf("HUNSPELL_RULE") != -1;
 
             if (errorDescription != undefined && errorDescription["moreinfo"] != null)
             {
@@ -523,7 +504,7 @@
                         ed.core.ignoredRulesIds.push(ruleId);
                         t._removeWordsByRuleId(ruleId);
                         //t._trackEvent('IgnoreRule', lang, errorDescription["id"]);
-                        t._trackEvent('IgnoreRule', lang);
+                        t._trackEvent('IgnoreRule', lang, ruleId);
                         t._checkDone();
                         ed.selection.setContent(ed.selection.getContent()); // remove selection (see https://github.com/languagetool-org/languagetool-website/issues/8)
                         /*var stateObj = {};
@@ -532,6 +513,41 @@
                         } else {
                             history.replaceState(stateObj, "", window.location.search + "," + ruleId);
                         }*/
+                        var coveredText = plugin.editor.core.getSurrogatePart(surrogate, 'coveredtext');
+                        if (document.cookie && document.cookie.indexOf("sentenceTracking=store") !== -1) {
+                            console.log("tracking ignore rule with sentence");
+                            t._sendIgnoreRule(errorDescription["sentence"], coveredText, lang, ruleId);
+                        } else {
+                            console.log("tracking ignore rule without sentence");
+                            t._sendIgnoreRule("", "", lang, ruleId);
+                        }
+                    }
+                });
+                m.add({
+                    title : t._getTranslation('languagetool_i18n_track_false_alarm_menu', lang, "Report as false alarm..."),
+                    onclick : function()
+                    {
+                        var surrogate = e.target.getAttribute(plugin.editor.core.surrogateAttribute);
+                        var ruleId = plugin.editor.core.getSurrogatePart(surrogate, 'id');
+                        var coveredText = plugin.editor.core.getSurrogatePart(surrogate, 'coveredtext');
+                        t._removeWordsByRuleId(ruleId, coveredText);
+                        ed.selection.setContent(coveredText); // remove selection
+                        t._trackEvent('ReportFalseAlarm', lang, ruleId);
+                        var escapedSentence = $("<div>").text(errorDescription["sentence"]).html();
+                        vex.dialog.open({
+                            unsafeMessage:
+                                t._getTranslation('languagetool_i18n_track_false_alarm1', lang, "Report the error and this sentence to LanguageTool as a false alarm, i.e. a misleading error?") +
+                                "<br><br><b>" + escapedSentence + "</b><br><br>" +
+                                t._getTranslation('languagetool_i18n_track_false_alarm2', lang, "If you click 'OK', the sentence will be stored anonymously."),
+                            callback: function (data) {
+                                if (data) {
+                                    console.log('Okay to store false alarm');
+                                    t._sendFalseAlarm(errorDescription["sentence"], coveredText, lang, ruleId);
+                                } else {
+                                    console.log('Not okay to store false alarm');
+                                }
+                            }
+                        });
                     }
                 });
             } else {
@@ -548,62 +564,21 @@
                         var coveredText = plugin.editor.core.getSurrogatePart(surrogate, 'coveredtext');
                         ed.core.ignoredSpellingErrors.push(coveredText);
                         t._removeWordsByRuleId(ruleId, coveredText);
+                        
+                        var ignoreSuccessMessage = "";
+                        if (plugin.editor.getParam('languagetool_i18n_ignore_all')) {
+                            ignoreSuccessMessage = plugin.editor.getParam('languagetool_i18n_ignore_success')[lang] 
+                                || "Word will be ignored in this session - <a href='https://languagetoolplus.com'>visit languagetoolplus.com</a> to store ignore words";
+                        }
+                        $('#feedbackErrorMessage').html("<div id='personalDictMessage'>" + ignoreSuccessMessage + "</div>");
+                        
                         t._trackEvent('IgnoreSpellingError', lang);
                         t._checkDone();
                     }
                 });
-                if (token !== undefined) {
-                    var addToDictionary = "Add to dictionary";
-                    if (plugin.editor.getParam('add_to_dictionary')) {
-                        addToDictionary = plugin.editor.getParam('add_to_dictionary')[lang] || "Add to dictionary";
-                    }
-                    var addedToDictionary = "Add to dictionary";
-                    if (plugin.editor.getParam('added_to_dictionary')) {
-                        addedToDictionary = plugin.editor.getParam('added_to_dictionary')[lang] || "Added to dictionary";
-                    }
-                    m.add({
-                        title : addToDictionary,
-                        onclick : function()
-                        {
-                            var surrogate = e.target.getAttribute(plugin.editor.core.surrogateAttribute);
-                            var ruleId = plugin.editor.core.getSurrogatePart(surrogate, 'id');
-                            var coveredText = plugin.editor.core.getSurrogatePart(surrogate, 'coveredtext');
-                            ed.core.ignoredSpellingErrors.push(coveredText);
-                            jQuery.ajax({
-                                    url: "/webapi/ignore-word/store",
-                                    type: "POST",
-                                    data: {ignore_word: coveredText},
-                                    success: function(userInfoData, tokenRequest, tokenJqXHR) {
-                                        $('#feedbackMessage').html(addedToDictionary);
-                                    },
-                                    error: function(jqXHR, textStatus, errorThrown) {
-                                        t._trackEvent('StoreToDictError', textStatus);
-                                        console.log("error: could not store word to dict:", textStatus, errorThrown);
-                                        alert("Sorry, could not store word '" + coveredText + "' to dictionary.\nAre you still logged in?");
-                                    }
-                                }
-                            );
-                            t._removeWordsByRuleId(ruleId, coveredText);
-                            t._trackEvent('IgnoreSpellingError', lang);
-                            t._checkDone();
-                        }
-                    });
-                } else {
-                    var needToLogin = "(log in to add to dictionary)";
-                    if (plugin.editor.getParam('need_to_login')) {
-                        needToLogin = plugin.editor.getParam('need_to_login')[lang] || "(log in to add to dictionary)";
-                    }
-                    m.add({
-                        title : needToLogin,
-                        onclick : function() {}
-                    });
-                }
             }
 
-
-
              if (suggestWord && suggestWordUrl && isSpellingRule) {
-
                  var newUrl = suggestWordUrl.replace(/{word}/, encodeURIComponent(errorDescription['coveredtext']));
                  (function(url)
                  {
@@ -614,12 +589,13 @@
                  })(errorDescription[suggestWord]);
              }
 
-
-
              var langCode = $('#lang').val();
              var subLangCode = $('#subLang').val();
              if (subLangCode) {
                  langCode = langCode.replace(/-.*/, "") + "-" + subLangCode;
+             }
+             if (langCode === "auto") {
+                 langCode = $('#detectedLanguage').text();
              }
             // NOTE: this link won't work (as of March 2014) for false friend rules:
             var ruleUrl = "http://community.languagetool.org/rule/show/" +
@@ -628,7 +604,7 @@
               ruleUrl += "subId=" + encodeURI(errorDescription["subid"]) + "&";
             }
             ruleUrl += "lang=" + encodeURI(langCode);
-            var isLTServer = window.location.href.indexOf("languagetool.org") !== -1 || window.location.href.indexOf("languagetool.localhost") !== -1;  // will only work for lt.org because
+            var isLTServer = window.location.href.indexOf("languagetool.org") !== -1 || window.location.href.indexOf("languagetool.localhost") !== -1 || window.location.href.indexOf("http://127.0.0.1:8000") !== -1;  // will only work for lt.org
             if (isLTServer && errorDescription["id"].indexOf("MORFOLOGIK_") !== 0 && errorDescription["id"] !== "HUNSPELL_NO_SUGGEST_RULE") {  // no examples available for spell checking rules
                 m.addSeparator();
                 m.add({
@@ -636,7 +612,7 @@
                     onclick : function() {
                         plugin.editor.setProgressState(1);
                         jQuery.getJSON("/online-check/tiny_mce/plugins/atd-tinymce/server/rule-proxy.php?lang="
-                            + encodeURI(langCode) +"&ruleId=" + errorDescription["id"],
+                            + encodeURI(langCode) +"&ruleId=" + encodeURI(errorDescription["id"]),
                             function(data) {
                                 var ruleHtml = "";
                                 var exampleCount = 0;
@@ -658,9 +634,9 @@
                                 });
                                 if (exampleCount === 0) {
                                     ruleHtml += "<p>" + noRuleExamples + "</p>";
-                                    t._trackEvent('ShowExamples', 'NoExamples', errorDescription["id"]);
+                                    t._trackEvent('ShowExamples', 'NoExamples', ruleId);
                                 }
-                                //ruleHtml += "<p><a target='_lt_rule_details' href='" + ruleUrl + "'>" + ruleImplementation + "</a></p>";
+                                ruleHtml += "<p><a target='_lt_rule_details' href='" + ruleUrl + "'>" + ruleImplementation + "</a></p>";
                                 var $dialog = $("#dialog");
                                 $dialog.html(ruleHtml);
                                 $dialog.dialog("open");
@@ -671,7 +647,7 @@
                                 t._trackEvent('ShowExamples', 'ServerError');
                             }).always(function() {
                                 plugin.editor.setProgressState(0);
-                                t._trackEvent('ShowExamples', 'ShowExampleSentences');
+                                t._trackEvent('ShowExamples', 'ShowExampleSentences', ruleId);
                             });
                     }
                 });
@@ -715,6 +691,260 @@
          }
       },
 
+       /* send error example to our database */
+       _showContributionDialog : function(sentence, correctedSentence, covered, replacement, errorDescription, lang, ruleId, suggestionPos, isSpellingRule) {
+           // source: https://github.com/HubSpot/vex/blob/master/docs/intro.md
+           var escapedSentence = $("<div>").text(errorDescription["sentence"]).html();
+           var t = this;
+           var trackMessage = this._getTranslation('languagetool_i18n_track_message', lang,
+                    "To further improve LanguageTool, we're looking for data about " +
+                    "how it's used. Please allow us to store your corrected sentences anonymously " +
+                    "(i.e. your IP address will not be saved).") + "<br><br>" +
+                    this._getTranslation('languagetool_i18n_track_message_sentence', lang, "Sentence:") + " ";
+           var trackRememberMessage = this._getTranslation('languagetool_i18n_track_remember_message', lang, "Remember this decision");
+           var trackNo = this._getTranslation('languagetool_i18n_track_no', lang, "No");
+           var trackYes = this._getTranslation('languagetool_i18n_track_yes', lang, "Okay, store the sentence");
+           vex.dialog.open({
+               unsafeMessage: trackMessage +
+               "\"" + escapedSentence + "\"",
+               input: [
+                   '<input id="rememberCheckbox" name="remember" type="checkbox" /> <label for="rememberCheckbox">' + trackRememberMessage + '</label>'
+               ].join(''),
+               buttons: [
+                   $.extend({}, vex.dialog.buttons.YES, { text: trackYes }),
+                   $.extend({}, vex.dialog.buttons.NO, { text: trackNo })
+               ],
+               callback: function (data) {
+                   if (data) {
+                       console.log('Okay to store sentence. Remember setting?', data.remember);
+                       if (data.remember === "on") {
+                           t._setSentenceTrackingCookie("store");
+                       } else {
+                           t._setSentenceTrackingCookie("ask");
+                       }
+                       t._trackEvent('AllowSentenceStorage', "yes");
+                       // now send text like the error collection add-on:
+                       t._sendErrorExample(sentence, correctedSentence, covered, replacement, lang, ruleId, suggestionPos);
+                   } else {
+                       var remember = $('#rememberCheckbox').is(':checked');
+                       console.log("Don't store sentence. Remember setting?", remember);
+                       if (remember) {
+                           t._setSentenceTrackingCookie("do-not-store");
+                       } else {
+                           t._setSentenceTrackingCookie("ask");
+                       }
+                       t._trackEvent('AllowSentenceStorage', "no");
+                       // A single word does not contain personal data, so it's okay to send
+                       // that word, but without the sentence:
+                       if (isSpellingRule) {
+                           t._sendErrorExample("", "", covered, replacement, lang, ruleId, suggestionPos);
+                       }
+                   }
+               }
+           });
+       },
+       
+       _getTranslation : function(key, lang, defaultText) {
+           return this.editor.getParam(key) && this.editor.getParam(key)[lang] || defaultText;
+       },
+       
+       _showGenericContributionDialog : function(lang) {
+           var t = this;
+           var trackMessage = this._getTranslation('languagetool_i18n_track_message', lang,
+                   "To further improve LanguageTool, we're looking for data about " +
+                   "how it's used. Please allow us to store your corrected sentences anonymously " +
+                   "(i.e. your IP address will not be saved).");
+           var trackNo = this._getTranslation('languagetool_i18n_track_no', lang, "No");
+           var trackYes = this._getTranslation('languagetool_i18n_track_yes_plural', lang, "Okay, store the sentences");
+           var trackAsk = this._getTranslation('languagetool_i18n_track_ask', lang, "Ask every time");
+           vex.dialog.open({
+               unsafeMessage: trackMessage,
+               buttons: [
+                   $.extend({}, vex.dialog.buttons.YES, { text: trackYes }),
+                   $.extend({}, vex.dialog.buttons.NO, { text: trackNo }),
+                   $.extend({}, vex.dialog.buttons.YES, {
+                           type: 'button',
+                           text: trackAsk,
+                           className: 'vex-dialog-button-secondary',
+                           click: function() {
+                               this.value = "ask";
+                               this.close();
+                           } 
+                       })
+               ],
+               callback: function (data) {
+                   if (data) {
+                       if (data === "ask") {
+                           t._setSentenceTrackingCookie("ask");
+                       } else {
+                           t._setSentenceTrackingCookie("store");
+                       }
+                   } else {
+                       t._setSentenceTrackingCookie("do-not-store");
+                   }
+                   t._updateSentenceTrackingArea(lang);
+               }
+           });
+       },
+
+       _updateSentenceTrackingArea : function(lang) {
+           var t = this;
+           var changeSettingText = this._getTranslation('languagetool_i18n_tracking_change', lang, "Change setting");
+           if (userHasPastedText && document.cookie && document.cookie.indexOf("sentenceTracking=store") !== -1) {
+               var contributingText = this._getTranslation('languagetool_i18n_do_track', lang, "Thanks for contributing corrections.");
+               $('#sentenceContributionMessage').html("<div id='sentenceContribution'>" + contributingText +
+                   " <a href='#' onclick='return false'>" + changeSettingText + "</a></a></div>");
+               $('#sentenceContribution').unbind('click');
+               $('#sentenceContribution').bind('click', function() {
+                   t._showGenericContributionDialog(lang);
+               });
+           } else if (userHasPastedText && document.cookie && document.cookie.indexOf("sentenceTracking=do-not-store") !== -1) {
+               var notContributingText = this._getTranslation('languagetool_i18n_do_not_track', lang, "You're not contributing corrections.");
+               $('#sentenceContributionMessage').html("<div id='sentenceContribution'>" + notContributingText +
+                   " <a href='#' onclick='return false'>" + changeSettingText + "</a></a></div>");
+               $('#sentenceContribution').unbind('click');
+               $('#sentenceContribution').bind('click', function() {
+                   t._showGenericContributionDialog(lang);
+               });
+           } else {
+               $('#sentenceContributionMessage').html("");
+           }
+       },
+       
+       _setSentenceTrackingCookie : function(val) {
+           document.cookie = "sentenceTracking=" + val + ";max-age=604800;path=/";  // 604.800 = 1 week 
+           console.log("sentenceTracking=" + val);
+       },
+
+       _escapeRegex : function(s) {
+           return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+       },
+
+      _maybeSendErrorExample : function(evt, errorDescription, isSpellingRule, userHasPastedText, lang, ruleId, suggestion, suggestionPos) {
+          if ((window.location.pathname === "/" ||
+                  window.location.pathname === "/de/" ||
+                  window.location.pathname === "/ru/" ||
+                  window.location.pathname === "/fr/" ||
+                  window.location.pathname === "/pt/" ||
+                  window.location.pathname === "/uk/" ||
+                  window.location.pathname === "/it/" ||
+                  window.location.pathname === "/nl/" ||
+                  window.location.pathname === "/pl/" ||
+                  window.location.pathname === "/es/"
+              ) &&   // vex is only available here now
+              userHasPastedText) {  // pasted text: we don't want example text corrections
+              var sentence = errorDescription["sentence"];
+              var covered = errorDescription["coveredtext"];
+              var re = new RegExp(this._escapeRegex(covered), 'g');
+              var replCount = (sentence.match(re) || []).length;
+              //console.log("replCount", replCount, "in: '", sentence, "' -- for: ", covered);
+              if (replCount === 1) {  // otherwise the correction is ambiguous
+                  var correctedSentence = sentence.replace(evt.target.innerText, suggestion);
+                  if (document.cookie && document.cookie.indexOf("sentenceTracking=store") !== -1) {
+                      this._sendErrorExample(sentence, correctedSentence, covered, suggestion, lang, ruleId, suggestionPos, isSpellingRule);
+                  } else if (document.cookie && document.cookie.indexOf("sentenceTracking=do-not-store") !== -1) {
+                      if (isSpellingRule) {
+                          console.log("no sentence tracking, tracking only typo word");
+                          this._sendErrorExample("", "", covered, suggestion, lang, ruleId, suggestionPos, isSpellingRule);
+                      } else {
+                          console.log("no sentence tracking");
+                      }
+                  } else {
+                      this._showContributionDialog(sentence, correctedSentence, covered, suggestion, errorDescription, lang, ruleId, suggestionPos, isSpellingRule);
+                  }
+                  this._updateSentenceTrackingArea(lang);
+              }
+          }
+      },
+       
+      /* send error example to our database */
+      _sendErrorExample : function(sentence, correctedSentence, covered, replacement, lang, ruleId, suggestionPos) {
+          var req = new XMLHttpRequest();
+          req.timeout = 60 * 1000; // milliseconds
+          req.open('POST', "https://languagetoolplus.com/submitErrorExample", true);
+          //req.open('POST', "http://localhost:8000/submitErrorExample", true);
+          req.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+          req.onload = function() {
+              if (req.status !== 200) {
+                  console.warn("Error submitting sentence. Code: " + req.status);
+              }
+          };
+          req.onerror = function() {
+              console.warn("Error submitting sentence (onerror).");
+          };
+          req.ontimeout = function() {
+              console.warn("Error submitting sentence (ontimeout).");
+          };
+          console.log("sending sentence + correction, pos: ", sentence, suggestionPos);
+          req.send(
+              "sentence=" + encodeURIComponent(sentence) +
+              "&correction=" + encodeURIComponent(correctedSentence) +
+              "&url=" + encodeURIComponent("https://languagetool.org") +
+              "&lang=" + lang +
+              "&ruleId=" + encodeURIComponent(ruleId) +
+              "&suggestionPos=" + suggestionPos +
+              "&covered=" + encodeURIComponent(covered) +
+              "&replacement=" + encodeURIComponent(replacement) +
+              "&username=website"
+          );
+      },
+       
+      /* send false alarm to our database */
+      _sendFalseAlarm : function(sentence, coveredText, lang, ruleId) {
+          var req = new XMLHttpRequest();
+          req.timeout = 60 * 1000; // milliseconds
+          req.open('POST', "https://languagetoolplus.com/submitFalseAlarm", true);
+          //req.open('POST', "http://localhost:8000/submitFalseAlarm", true);
+          req.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+          req.onload = function() {
+              if (req.status !== 200) {
+                  console.warn("Error submitting false alarm. Code: " + req.status);
+              }
+          };
+          req.onerror = function() {
+              console.warn("Error submitting false alarm (onerror).");
+          };
+          req.ontimeout = function() {
+              console.warn("Error submitting false alarm (ontimeout).");
+          };
+          console.log("sending false alarm: sentence, coveredText: ", sentence, coveredText);
+          req.send(
+              "sentence=" + encodeURIComponent(sentence) +
+              "&coveredText=" + encodeURIComponent(coveredText) +
+              "&lang=" + lang +
+              "&ruleId=" + encodeURIComponent(ruleId) +
+              "&username=website"
+          );
+      },
+       
+      /* send ignored rule to our database for tracking */
+      _sendIgnoreRule : function(sentence, coveredText, lang, ruleId) {
+          var req = new XMLHttpRequest();
+          req.timeout = 60 * 1000; // milliseconds
+          req.open('POST', "https://languagetoolplus.com/submitIgnoreRule", true);
+          //req.open('POST', "http://localhost:8000/submitIgnoreRule", true);
+          req.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+          req.onload = function() {
+              if (req.status !== 200) {
+                  console.warn("Error submitting ignore rule. Code: " + req.status);
+              }
+          };
+          req.onerror = function() {
+              console.warn("Error submitting ignore rule (onerror).");
+          };
+          req.ontimeout = function() {
+              console.warn("Error submitting ignore rule (ontimeout).");
+          };
+          console.log("sending ignore rule: sentence, coveredText: ", sentence, coveredText);
+          req.send(
+              "sentence=" + encodeURIComponent(sentence) +
+              "&coveredText=" + encodeURIComponent(coveredText) +
+              "&lang=" + lang +
+              "&ruleId=" + encodeURIComponent(ruleId) +
+              "&username=website"
+          );
+      },
+       
       /* loop through editor DOM, call _done if no mce tags exist. */
       _checkDone : function() 
       {
@@ -752,94 +982,80 @@
          plugin.editor.nodeChanged();
       },
 
-       sendRequest : function(file, data, languageCode, ed, success) {
-           var t = this;
-           if (false && token !== undefined) {
-               // TODO: we could cache this, but then we have to consider that the token expires
-               // and that we must clean the cache when user logs in
-               console.log("using existing token " + token);
-               t.sendRequestInternal(file, data, languageCode, success, token);
-           } else {
-               console.log("getting new token");
-               jQuery.ajax({
-                       url: "/userInfo",
-                       type: "GET",
-                       success: function(userInfoData, tokenRequest, tokenJqXHR) {
-                           token = userInfoData.token;
-                           each(userInfoData.ignoredWords, function(n) {
-                               ed.core.ignoredSpellingErrors.push(n);
-                           });
-                           t.sendRequestInternal(file, data, languageCode, success);
-                       },
-                       error: function(jqXHR, textStatus, errorThrown) {
-                           console.log("error: could not get token:", textStatus, errorThrown);
-                           t._trackEvent('TokenError', textStatus);
-                           t.sendRequestInternal(file, data, languageCode, success);  // just keep working
-                       }
-                   }
-               );
-           }
-       },
+      sendRequest : function(file, data, languageCode, success)
+      {
+         var url;
+         if (randomVal < randomValThreshold) {
+             url = this.editor.getParam("languagetool_rpc_url", "{backend}");
+         } else {
+             url = this.editor.getParam("languagetool_rpc_url2", "{backend}");
+         }
+         //console.log("url", url);
+         var plugin = this;
 
-       sendRequestInternal : function(file, data, languageCode, success) {
-           var url = this.editor.getParam("languagetool_rpc_url", "{backend}");
-           var plugin = this;
+         if (url == '{backend}') 
+         {
+            this.editor.setProgressState(0);
+            document.checkform._action_checkText.disabled = false;
+            alert('Please specify: languagetool_rpc_url');
+            return;
+         }
 
-           if (url == '{backend}') {
-               this.editor.setProgressState(0);
-               document.checkform._action_checkText.disabled = false;
-               alert('Please specify: languagetool_rpc_url');
-               return;
-           }
-           var langParam = "";
-           if (languageCode === "auto") {
-               langParam = "&language=auto";
-           } else {
-               langParam = "&language=" + encodeURI(languageCode);
-           }
-           // There's a bug somewhere in AtDCore.prototype.markMyWords which makes
-           // multiple spaces vanish - thus disable that rule to avoid confusion:
-           var postData = "disabledRules=WHITESPACE_RULE&" +
-               "allowIncompleteResults=true&" +
-               "text=" + encodeURI(data).replace(/&/g, '%26').replace(/\+/g, '%2B') + langParam;
-           if (token) {
-               postData += "&token=" + token;
-           }
-           jQuery.ajax({
-               url:   url,
-               type:  "POST",
-               data:  postData,
-               success: success,
-               error: function(jqXHR, textStatus, errorThrown) {
-                   // try again
-                   setTimeout(function() {
-                       jQuery.ajax({
-                           url:   url,
-                           type:  "POST",
-                           data:  postData,
-                           success: success,
-                           error: function(jqXHR, textStatus, errorThrown) {
-                               plugin.editor.setProgressState(0);
-                               document.checkform._action_checkText.disabled = false;
-                               var errorText = jqXHR.responseText;
-                               if (!errorText) {
-                                   errorText = "Error: Did not get response from service. Please try again in one minute.";
-                               }
-                               if (data.length > maxTextLength) {
-                                   // Somehow, the error code 413 is lost in Apache, so we show that error here.
-                                   // This unfortunately means that the limit needs to be configured in the server *and* here.
-                                   errorText = "Error: your text is too long (" + data.length + " characters). This server accepts up to " + maxTextLength + " characters.";
-                               }
-                               errorText = errorText.replace(/Please submit a shorter text/, "Please sign up or upgrade to premium so you can check longer texts");
-                               $('#feedbackErrorMessage').html("<div id='severeError'>" + errorText + "</div>");
-                               t._trackEvent('CheckError', 'ErrorWithException', errorText);
-                               t._serverLog(errorText + " (second try)");
-                           }
-                       });
-                   }, 500);
-               }
-           });
-           
+         var langParam = "";
+         if (languageCode === "auto") {
+             langParam = "&language=auto";
+         } else {
+             langParam = "&language=" + encodeURI(languageCode);
+         }
+
+         var t = this;
+         // There's a bug somewhere in AtDCore.prototype.markMyWords which makes
+         // multiple spaces vanish - thus disable that rule to avoid confusion:
+         var postData = "disabledRules=WHITESPACE_RULE&" +
+             "allowIncompleteResults=true&" + 
+             "text=" + encodeURI(data).replace(/&/g, '%26').replace(/\+/g, '%2B') + langParam;
+         jQuery.ajax({
+            url:   url,
+            type:  "POST",
+            data:  postData,
+            success: success,
+            error: function(jqXHR, textStatus, errorThrown) {
+                // try again
+                t._serverLog("Error on first try, trying again...");
+                setTimeout(function() {
+                    jQuery.ajax({
+                        url:   url,
+                        type:  "POST",
+                        data:  postData,
+                        success: success,
+                        error: function(jqXHR, textStatus, errorThrown) {
+                            plugin.editor.setProgressState(0);
+                            document.checkform._action_checkText.disabled = false;
+                            var errorText = jqXHR.responseText;
+                            if (!errorText) {
+                                errorText = "Error: Did not get response from service. Please try again in one minute.";
+                            }
+                            var errorTextForAnalytics = errorText;
+                            if (data.length > maxTextLength) {
+                                // Somehow, the error code 413 is lost in Apache, so we show that error here.
+                                // This unfortunately means that the limit needs to be configured in the server *and* here.
+                                errorText = "Error: your text is too long (" + data.length + " characters). This server accepts up to " + maxTextLength + " characters. Please consider upgrading to <a target='_blank' href='https://languagetoolplus.com/#premium'>our premium service</a> to check longer texts.";
+                                errorTextForAnalytics = "Error: your text is too long";
+                            }
+                            if (errorText.indexOf("Request size limit of") !== -1) {
+                                errorTextForAnalytics = "Error: Request size limit per minute exceeded";
+                            } else if (errorText.indexOf("Request limit of") !== -1) {
+                                errorTextForAnalytics = "Error: Request limit number per minute exceeded";
+                            }
+                            $('#feedbackErrorMessage').html("<div id='severeError'>" + errorText + "</div>");
+                            t._trackEvent('CheckError', 'ErrorWithException', errorTextForAnalytics);
+                            t._serverLog(errorText + " (second try)");
+                        }
+                    });
+                }, 500);
+            }
+         });
+
          /* this causes an OPTIONS request to be send as a preflight - LT server doesn't support that,
          thus we're using jQuery.ajax() instead
          tinymce.util.XHR.send({

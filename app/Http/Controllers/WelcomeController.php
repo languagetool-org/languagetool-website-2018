@@ -28,7 +28,7 @@ class WelcomeController extends Controller
         
         $isShowHintbar = false;
         $defaultLang = $this->getDefaultLanguage();
-        if ($defaultLang != 'en' && $defaultLang != $locale) {
+        if ($defaultLang != 'en' && $defaultLang != $locale && $defaultLang != 'auto') {
             $isShowHintbar = true;
         }
 

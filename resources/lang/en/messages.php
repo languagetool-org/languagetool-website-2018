@@ -164,6 +164,7 @@ return [
 
     // languages:
     'langs' => [
+        'auto' => 'auto-detect',
         'ast' => 'Asturian',
         'be'  => 'Belarusian',
         'br'  => 'Breton',

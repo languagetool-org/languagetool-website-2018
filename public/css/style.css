@@ -101,6 +101,9 @@ body .contentHead {
     margin: 0 0 20px;
     text-align: left;
 }
+#content .content-section ul li {
+    margin: 0 15px 20px;
+}
 
 #content .content-section table td, #content .content-section table th {
     font-size: 13px;

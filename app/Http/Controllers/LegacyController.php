@@ -29,6 +29,10 @@ class LegacyController extends Controller
         return redirect('newsletter');
     }
 
+    public function privacy_old() { 
+        return redirect('legal/privacy');
+    }
+
     public function newsletter() { return view('newsletter'); }
 
     public function ru_firefox() { return view('ru/firefox'); }

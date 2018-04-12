@@ -39,6 +39,7 @@ Route::group(['prefix' => 'webapi'], function () {
 
 Route::group(['prefix' => app('language.routePrefix')], function() {
 	Route::get('/legal', 'LegacyController@legal');
+	Route::get('/privacy', 'LegacyController@privacy_old');
 	Route::get('/legal/privacy', 'LegacyController@privacy');
 	Route::get('/legal/terms', 'LegacyController@terms');
 	Route::get('/languages', 'LegacyController@languages');

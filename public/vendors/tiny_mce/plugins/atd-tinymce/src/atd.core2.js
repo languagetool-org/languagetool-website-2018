@@ -58,6 +58,7 @@ AtDCore.prototype.addI18n = function(localizations) {
 AtDCore.prototype.processJSON = function(responseJSON) {
     var json = jQuery.parseJSON(responseJSON);
     var incompleteResults = json.warnings && json.warnings.incompleteResults;
+    var incompleteResultsReason = json.warnings && json.warnings.incompleteResults ? json.warnings.incompleteResultsReason : null;
     this.suggestions = [];
     for (var key in json.matches) {
         var match = json.matches[key];
@@ -68,13 +69,10 @@ AtDCore.prototype.processJSON = function(responseJSON) {
         var suggestions = [];
         for (var k = 0; k < match.replacements.length; k++) {
             var repl = match.replacements[k];
-            if (repl.value) {
-                suggestions.push(repl.value);
-            } else {
-                suggestions.push(repl);  //TODO: remove this case, it's for an old API version
-            }
+            suggestions.push(repl.value);
         }
         suggestion["suggestions"] = suggestions.join("#");
+        suggestion["sentence"]    = match.sentence;
         suggestion["offset"]      = match.offset;
         suggestion["errorlength"] = match.length;
         suggestion["type"]        = match.rule.category.name;
@@ -91,7 +89,7 @@ AtDCore.prototype.processJSON = function(responseJSON) {
         }
         this.suggestions.push(suggestion);
     }
-    return {suggestions: this.suggestions, incompleteResults: incompleteResults};
+    return {suggestions: this.suggestions, incompleteResults: incompleteResults, incompleteResultsReason: incompleteResultsReason};
 };
 
 // Wrapper code by James Padolsey
@@ -109,13 +107,13 @@ AtDCore.prototype._wordwrap = function(str, width, brk, cut) {
 // End of wrapper code by James Padolsey
 
 AtDCore.prototype.findSuggestion = function(element) {
-
     var metaInfo = element.getAttribute(this.surrogateAttribute);
     var errorDescription = {};
     errorDescription["id"] = this.getSurrogatePart(metaInfo, 'id');
     errorDescription["subid"] = this.getSurrogatePart(metaInfo, 'subid');
     errorDescription["description"] = this.getSurrogatePart(metaInfo, 'description');
     errorDescription["coveredtext"] = this.getSurrogatePart(metaInfo, 'coveredtext');
+    errorDescription["sentence"] = this.getSurrogatePart(metaInfo, 'sentence');
     var suggestions = this.getSurrogatePart(metaInfo, 'suggestions');
     if (suggestions) {
         errorDescription["suggestions"] = suggestions.split("#");
@@ -157,7 +155,7 @@ AtDCore.prototype.markMyWords = function() {
                 continue;
             }
             var cssName;
-            if (ruleId.indexOf("SPELLER_RULE") >= 0 || ruleId.indexOf("MORFOLOGIK_RULE") == 0 || ruleId == "HUNSPELL_NO_SUGGEST_RULE" || ruleId == "HUNSPELL_RULE") {
+            if (ruleId.indexOf("SPELLER_RULE") >= 0 || ruleId.indexOf("MORFOLOGIK_RULE") == 0 || ruleId == "HUNSPELL_NO_SUGGEST_RULE" || ruleId == "HUNSPELL_RULE" || ruleId == "FR_SPELLING_RULE") {
                 cssName = "hiddenSpellError";
             } else if (suggestion.its20type === 'style' || suggestion.its20type === 'locale-violation' || suggestion.its20type === 'register') {
                 cssName = "hiddenSuggestion";
@@ -169,7 +167,7 @@ AtDCore.prototype.markMyWords = function() {
             if (this.ignoredSpellingErrors.indexOf(coveredText) !== -1) {
                 continue;
             }
-            var metaInfo = ruleId + delim + suggestion.subid + delim + suggestion.description + delim + suggestion.suggestions
+            var metaInfo = ruleId + delim + suggestion.subid + delim + suggestion.description + delim + suggestion.sentence + delim + suggestion.suggestions
               + delim + coveredText;
             if (suggestion.moreinfo) {
                 metaInfo += delim + suggestion.moreinfo;
@@ -232,12 +230,14 @@ AtDCore.prototype.getSurrogatePart = function(surrogateString, part) {
         return parts[1];
     } else if (part == 'description') {
         return parts[2];
-    } else if (part == 'suggestions') {
+    } else if (part == 'sentence') {
         return parts[3];
-    } else if (part == 'coveredtext') {
+    } else if (part == 'suggestions') {
         return parts[4];
-    } else if (part == 'url' && parts.length >= 5) {
+    } else if (part == 'coveredtext') {
         return parts[5];
+    } else if (part == 'url' && parts.length >= 6) {
+        return parts[6];
     }
     console.log("No part '" + part + "' found in surrogateString: " + surrogateString);
     return null;
