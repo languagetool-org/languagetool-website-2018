@@ -62,8 +62,12 @@
                         <li>Wenn Sie unseren Newsletter abonnieren, wird Ihre E-Mail-Adresse bei
                             unserem Newsletter-Anbieter (<a href="https://www.newsletter2go.com/">newsletter2go.com</a>, Newsletter2Go GmbH,
                             Köpenicker Straße 126, 10179 Berlin, <a href="https://www.newsletter2go.de/datenschutz/">Datenschutzerklärung</a>) gespeichert.
+                            Newsletter2Go ist es dabei untersagt, Ihre Daten zu verkaufen und für andere Zwecke, als für den Versand von Newslettern zu 
+                            nutzen. Newsletter2Go ist ein deutscher, zertifizierter Anbieter, welcher nach den Anforderungen der 
+                            Datenschutz-Grundverordnung und des Bundesdatenschutzgesetzes ausgewählt wurde.
                             Ihre E-Mail-Adresse wird wieder gelöscht, wenn Sie sich über den in jedem Newsletter vorhandenen Abmelde-Link
                             abmelden. Sie können uns dazu auch per E-Mail kontaktieren.
+                            Weitere Informationen finden Sie hier: <a href="https://www.newsletter2go.de/informationen-newsletter-empfaenger/">https://www.newsletter2go.de/informationen-newsletter-empfaenger/</a>
                         </li>
                         <li>
                             <p>Die meisten Browser sind automatisch so eingestellt, dass Cookies akzeptiert werden. Auf Wunsch können
@@ -175,8 +179,12 @@
                         <li>If you subscribe to our newsletter, your email address will be stored
                             at our newsletter provider (<a href="https://www.newsletter2go.com/">newsletter2go.com</a>, Newsletter2Go GmbH,
                             Köpenicker Straße 126, 10179 Berlin, Germany, <a href="https://www.newsletter2go.de/datenschutz/">Privacy Policy</a>).
+                            Newsletter2Go is prohibited from selling your data and from using it for purposes other than sending newsletters.
+                            Newsletter2Go is a certified German newsletter software provider, working in accordance with the European
+                            General Data Protection Regulation, as well as the German Federal Data Protection Act (BDSG).
                             Your email will be deleted when you unsubscribe using the unsubscribe link that is included in every
                             newsletter we send. You can also contact us to unsubscribe from the newsletter.
+                            More information: <a href="https://www.newsletter2go.com/information-for-newsletter-recipients/">https://www.newsletter2go.com/information-for-newsletter-recipients/</a>
                         </li>
                         <li>
                             <p>Most browsers are configured to accept cookies. However, you can change your
