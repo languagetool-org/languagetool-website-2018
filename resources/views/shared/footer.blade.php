@@ -3,7 +3,7 @@
         <div class="footer-content">
             <div class="footer-content-subscribe">
                 <div class="footer-content-heading">Let’s stay in touch</div>
-                <div class="footer-content-par">Get updates and more</div>
+                <div class="footer-content-par">Get updates and more (<a href="/legal/privacy">Privacy Policy</a>)</div>
                 <script id="n2g_script">
                     var config = {
                         "form": {
