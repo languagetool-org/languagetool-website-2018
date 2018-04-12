@@ -163,8 +163,7 @@ return [
     'footer_team' => 'Team',
 
     'new_test' => 'bla bla 1',
-    'to_be_removed' => 'bla bla 2',
-    'mofified' => 'before modification',
+    'mofified' => 'after modification',
 
     // languages:
     'langs' => [
