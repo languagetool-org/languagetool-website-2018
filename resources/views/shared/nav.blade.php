@@ -45,19 +45,19 @@
                         <i class="fa fa-angle-right"></i>
                     </span>
                     <div class="header-nav-menu-item-dropdown">
-                        <a class="ms_office jump_menu header-nav-menu-item-dropdown-item" href="/#add-on">
+                        <a class="ms_office jump_menu header-nav-menu-item-dropdown-item" href="#add-on">
                             <span><?=__('messages.nav_ms_office')?></span>
                         </a>
-                        <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="/#libreoffice">
+                        <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="#libreoffice">
                             <span><?=__('messages.nav_libreoffice')?></span>
                         </a>
-                        <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="/#firefox_chrome">
+                        <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="#firefox_chrome">
                             <span><?=__('messages.nav_browse_ad')?></span>
                         </a>
-                        <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="/#google_docs">
+                        <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="#google_docs">
                             <span><?=__('messages.nav_google_docs')?></span>
                         </a>
-                        <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="/#google_docs">
+                        <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="#more">
                             <span><?=__('messages.nav_more')?></span>
                         </a>
                     </div>

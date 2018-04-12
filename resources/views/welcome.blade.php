@@ -430,7 +430,7 @@
         <div class="container">
 
             <div class="row">
-                <a name="standalone"></a>
+                <a name="more"></a>
                 <h2 class="contentHead"><?=__('messages.more_headline')?></h2>
                 <p><?=__('messages.more_intro')?></p>
             </div>
