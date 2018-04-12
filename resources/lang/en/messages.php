@@ -162,8 +162,9 @@ return [
     'footer_screenshots' => 'Screenshots',
     'footer_team' => 'Team',
 
-    'new_test' => 'bla bla 1',
-    'mofified' => 'after modification',
+    'new_test2' => 'bla bla 2',
+    'to_be_removed2' => 'bla bla 2',
+    'modified2' => 'before modification 2',
 
     // languages:
     'langs' => [
