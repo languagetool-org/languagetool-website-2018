@@ -126,7 +126,7 @@ return [
     'step_6' => 'Step 6',
     
     'libreoffice_headline' => 'Add-on for LibreOffice',
-    'libreoffice_intro' => '',
+    //'libreoffice_intro' => '',
     'libreoffice_download' => 'Download',
     'libreoffice_requirements' => 'Requires Java :version or later',
     'libreoffice_help1' => 'Problems?',
