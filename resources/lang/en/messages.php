@@ -110,7 +110,6 @@ return [
     'step_3' => 'Step 3',
     'step_4' => 'Step 4',
     'step_5' => 'Step 5',
-    'step_6' => 'Step 6',
     
     'libreoffice_headline' => 'Add-on for LibreOffice',
     //'libreoffice_intro' => '',

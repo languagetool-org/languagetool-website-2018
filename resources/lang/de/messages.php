@@ -97,7 +97,6 @@ return [
     'step_3' => 'Schritt 3',
     'step_4' => 'Schritt 4',
     'step_5' => 'Schritt 5',
-    'step_6' => 'Schritt 6',
     'libreoffice_headline' => 'Add-on für LibreOffice',
     'libreoffice_download' => 'Download',
     'libreoffice_requirements' => 'Benötigt Java :version oder neuer',
