@@ -255,8 +255,8 @@
                             <li class="glide__slide">
                                 <div class="features row">
                                     <div class="imageLeft col-md-4">
-                                        <a data-lightbox="screenshots" href="<?=__('messages.msword_1_img')?>"><img
-                                                    class="img-responsive" src="<?=__('messages.msword_1_img_small')?>"></a>
+                                        <a data-lightbox="screenshots" href="/images/msword/en/1.png"><img
+                                                    class="img-responsive" src="/images/msword/en/1_small.jpg"></a>
                                     </div>
 
                                     <div class="col-md-8">
@@ -269,8 +269,8 @@
                                 <div class="features row">
 
                                 <div class="col-sm-12 col-md-4 col-md-push-8">
-                                    <a data-lightbox="screenshots" href="<?=__('messages.msword_2_img')?>"><img
-                                                class="img-responsive" src="<?=__('messages.msword_2_img_small')?>"></a>
+                                    <a data-lightbox="screenshots" href="/images/msword/en/2.png"><img
+                                                class="img-responsive" src="/images/msword/en/2_small.jpg"></a>
                                 </div>
 
                                 <div class="col-sm-12 col-md-8 col-md-pull-4">
@@ -283,8 +283,8 @@
                             <li class="glide__slide">
                                 <div class="features row">
                                     <div class="imageLeft col-md-4">
-                                        <a data-lightbox="screenshots" href="<?=__('messages.msword_3_img')?>"><img
-                                                    class="img-responsive" src="<?=__('messages.msword_3_img_small')?>"></a>
+                                        <a data-lightbox="screenshots" href=/images/msword/en/3.png"><img
+                                                    class="img-responsive" src="/images/msword/en/3_small.jpg"></a>
                                     </div>
 
                                     <div class="col-md-8">
@@ -296,8 +296,8 @@
                             <li class="glide__slide">
                                 <div class="row features">
                                     <div class="col-sm-12 col-md-4 col-md-push-8">
-                                        <a data-lightbox="screenshots" href="<?=__('messages.msword_4_img')?>"><img
-                                                    class="img-responsive" src="<?=__('messages.msword_4_img_small')?>"></a>
+                                        <a data-lightbox="screenshots" href="/images/msword/en/4.png"><img
+                                                    class="img-responsive" src="/images/msword/en/4_small.jpg"></a>
                                     </div>
 
                                     <div class="col-sm-12 col-md-8 col-md-pull-4">
@@ -310,8 +310,8 @@
                             <li class="glide__slide">
                                 <div class="features row">
                                     <div class="imageLeft col-md-4">
-                                        <a data-lightbox="screenshots" href="<?=__('messages.msword_5_img')?>"><img
-                                                    class="img-responsive" src="<?=__('messages.msword_5_img_small')?>"></a>
+                                        <a data-lightbox="screenshots" href="/images/msword/en/5.png"><img
+                                                    class="img-responsive" src="/images/msword/en/5_small.jpg"></a>
                                     </div>
                                     <div class="col-md-8">
                                         <h2 class="steps-h"><?=__('messages.step_5')?></h2>
@@ -323,8 +323,8 @@
                                 <div class="features row">
 
                                     <div class="col-sm-12 col-md-4 col-md-push-8">
-                                        <a data-lightbox="screenshots" href="<?=__('messages.msword_6_img')?>"><img
-                                                    class="img-responsive" src="<?=__('messages.msword_6_img_small')?>"></a>
+                                        <a data-lightbox="screenshots" href="/images/msword/en/6.png"><img
+                                                    class="img-responsive" src="/images/msword/en/6_small.jpg"></a>
                                     </div>
 
                                     <div class="col-sm-12 col-md-8 col-md-pull-4">
