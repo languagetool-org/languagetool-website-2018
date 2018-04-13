@@ -342,7 +342,7 @@
             <div class="row">
                 <a name="standalone"></a>
                 <h2 class="contentHead"><?=__('messages.libreoffice_headline')?></h2>
-                <p><?=__('messages.libreoffice_intro')?></p>
+                <!--<p><?=__('messages.libreoffice_intro')?></p>-->
             </div>
 
             <div class="row">
@@ -353,9 +353,9 @@
                         </li>
                     </ul>
                 </div>
-                <a href="https://java.com/download/">{{__('messages.libreoffice_requirements', ['version' => 8])}}</a>
+                <p><a href="https://java.com/download/">{{__('messages.libreoffice_requirements', ['version' => 8])}}</a>
                 &middot;
-                {{__('messages.libreoffice_help1')}} <a href="/issues">{{__('messages.libreoffice_help2')}}</a>
+                {{__('messages.libreoffice_help1')}} <a href="/issues">{{__('messages.libreoffice_help2')}}</a></p>
             </div>
 
         </div>
