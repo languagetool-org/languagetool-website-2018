@@ -283,7 +283,7 @@
                             <li class="glide__slide">
                                 <div class="features row">
                                     <div class="imageLeft col-md-4">
-                                        <a data-lightbox="screenshots" href=/images/msword/en/3.png"><img
+                                        <a data-lightbox="screenshots" href="/images/msword/en/3.png"><img
                                                     class="img-responsive" src="/images/msword/en/3_small.jpg"></a>
                                     </div>
 
@@ -317,21 +317,6 @@
                                         <h2 class="steps-h"><?=__('messages.step_5')?></h2>
                                         <p><?=__('messages.msword_5')?></p>
                                     </div>
-                                </div>
-                            </li>
-                            <li class="glide__slide">
-                                <div class="features row">
-
-                                    <div class="col-sm-12 col-md-4 col-md-push-8">
-                                        <a data-lightbox="screenshots" href="/images/msword/en/6.png"><img
-                                                    class="img-responsive" src="/images/msword/en/6_small.jpg"></a>
-                                    </div>
-
-                                    <div class="col-sm-12 col-md-8 col-md-pull-4">
-                                        <h2 class="steps-h"><?=__('messages.step_6')?></h2>
-                                        <p><?=__('messages.msword_6')?></p>
-                                    </div>
-
                                 </div>
                             </li>
                         </ul>
