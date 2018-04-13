@@ -21,16 +21,16 @@
                         <div class="plan-wrapper free">
                             <div class="plan border-lt">
                                 <h2 class="plan-title"><?=__('messages.free_headline')?></h2>
-                                <p class="plan-price"><?=__('messages.free_limit')?></p>
+                                <p class="plan-price"><?=__('messages.free_limit', ['characters' => 2000])?></p>
                                 <p class="plan-price">languagetool.org</p>
                                 <ul class="plan-features">
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
-                                        {{ __('messages.many_rules_1') }}
+                                        {{ __('messages.many_rules_1', ['number' => 1700]) }}
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
-                                        {{ __('messages.many_rules_2') }}
+                                        {{ __('messages.many_rules_2', ['number' => 2400]) }}
                                     </li>
                                 </ul>
                                 <ul class="plan-features inactive">
@@ -76,11 +76,11 @@
                                 <ul class="plan-features">
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
-                                        {{ __('messages.many_rules_1') }}
+                                        {{ __('messages.many_rules_1', ['number' => 1700]) }}
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
-                                        {{ __('messages.many_rules_2') }}
+                                        {{ __('messages.many_rules_2', ['number' => 2400]) }}
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
@@ -132,7 +132,7 @@
                                     <div class="select-field">
                                         <select id="planSelect">
                                             <option value="1"><?=__('messages.premium_1_month')?></option>
-                                            <!--<option value="3"><?=__('messages.premium_3_months')?></option>-->
+                                            <option value="3"><?=__('messages.premium_3_months')?></option>
                                             <option value="12" selected><?=__('messages.premium_12_months')?></option>
                                         </select>
                                     </div>
@@ -142,20 +142,18 @@
                                                     data-fsc-item-path="languagetool-plus-premium-monthly-subscription"
                                                     data-fsc-item-pricetotal></span></h2>
                                     </div>
-                                    <!--
                                     <div id="price-3-months" style="display: none">
                                         <h2 id="planPriceTotal" class="quote-layer"><span
                                                     data-fsc-item-path="languagetool-plus-premium-3-month-subscription"
                                                     data-fsc-item-pricetotal></span></h2>
                                     </div>
-                                    -->
                                     <div id="price-12-months" style="display: block">
                                         <h2 id="planPriceTotal" class="quote-layer"><span
                                                     data-fsc-item-path="languagetool-plus-premium-1-year-subscription"
                                                     data-fsc-item-pricetotal></span></h2>
                                     </div>
 
-                                    <div id="plan-prices-save">{{ __('messages.billed_annually') }}</div>
+                                    <div id="plan-prices-save">{{ __('messages.billed_annually', ['currency' => '€', 'amount' => '5']) }}</div>
 
                                 </div>
 
@@ -180,11 +178,11 @@
                                 <ul class="plan-features">
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
-                                        {{ __('messages.many_rules_1') }}
+                                        {{ __('messages.many_rules_1', ['number' => 1700]) }}
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
-                                        {{ __('messages.many_rules_2') }}
+                                        {{ __('messages.many_rules_2', ['number' => 2400]) }}
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
@@ -370,7 +368,7 @@
                         </li>
                     </ul>
                 </div>
-                <a href="https://java.com/download/">{{__('messages.libreoffice_requirements')}}</a>
+                <a href="https://java.com/download/">{{__('messages.libreoffice_requirements', ['version' => 8])}}</a>
                 &middot;
                 {{__('messages.libreoffice_help1')}} <a href="/issues">{{__('messages.libreoffice_help2')}}</a>
             </div>
