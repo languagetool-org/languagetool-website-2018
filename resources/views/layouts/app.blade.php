@@ -21,6 +21,8 @@
     <link href="{{ asset('css/style.css') }}?20180110" rel="stylesheet">
     <link href="{{ asset('css/media.css') }}?20180110" rel="stylesheet">
     <link href="{{ asset('css/tooltip.css') }}?20180409" rel="stylesheet">
+    <link href="{{ asset('css/jquery-ui/jquery-ui.structure.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/jquery-ui/jquery-ui.theme.min.css') }}" rel="stylesheet">
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="{{ asset('vendors/glide/glide.js') }}"></script>

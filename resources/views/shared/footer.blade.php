@@ -195,6 +195,9 @@ if (isset($_SERVER['QUERY_STRING']) && strpos($_SERVER['QUERY_STRING'], 'testmod
 <!-- Script for Register Modal -->
 <script>
 $(document).ready(function() {
+
+    $('#dialog').dialog({autoOpen: false, modal: true, width: '50%'});
+    
     @if($errors->has('email'))
         $("#btnLogin").trigger('click');
     @endif

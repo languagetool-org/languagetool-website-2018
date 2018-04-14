@@ -611,7 +611,7 @@
                     title : ruleExamples,
                     onclick : function() {
                         plugin.editor.setProgressState(1);
-                        jQuery.getJSON("/online-check/tiny_mce/plugins/atd-tinymce/server/rule-proxy.php?lang="
+                        jQuery.getJSON("https://community.languagetool.org/ruleApi/exampleSentences?lang="
                             + encodeURI(langCode) +"&ruleId=" + encodeURI(errorDescription["id"]),
                             function(data) {
                                 var ruleHtml = "";
