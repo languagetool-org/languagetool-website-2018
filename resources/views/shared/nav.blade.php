@@ -108,4 +108,6 @@
 
 </div>
 
-<div id="dialog"></div>
+<div id="dialog">
+    <div class="ui-dialog-titlebar"></div>
+</div>

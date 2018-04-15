@@ -2565,3 +2565,6 @@ table.tablesorter thead tr .tablesorter-headerAsc, table.tablesorter thead tr .t
     background-color: #7020c3;
     color: #fff;
 }
+.ui-dialog-titlebar-close .ui-icon {
+    background-image: url(jquery-ui/images/ui-icons_222222_256x240.png);
+}
