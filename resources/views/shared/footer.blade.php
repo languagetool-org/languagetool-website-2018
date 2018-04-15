@@ -135,7 +135,8 @@
         $(".jump_menu").on('click',function () {
             $('body').removeClass('menu-open');
 
-            var target = $(this).attr('href').slice(1);
+            var href = $(this).attr('href');
+            var target = href.substring(href.indexOf('#'));
             if($(target).length > 0){
                 var top = $(target).offset().top ;
                 $("html, body").animate({scrollTop: top}, "slow");
