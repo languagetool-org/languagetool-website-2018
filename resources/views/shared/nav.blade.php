@@ -46,19 +46,19 @@
                     </span>
                     <div class="header-nav-menu-item-dropdown">
                             @isset ($selectedLang)
-                            <a class="ms_office jump_menu header-nav-menu-item-dropdown-item" href="/{{ $selectedLang == 'en' ? '' : $selectedLang }}#add-on">
+                            <a class="ms_office jump_menu header-nav-menu-item-dropdown-item" href="/{{ $selectedLang == 'en' ? '' : $selectedLang.'/' }}#add-on">
                                 <span><?=__('messages.nav_ms_office')?></span>
                             </a>
-                            <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="/{{ $selectedLang == 'en' ? '' : $selectedLang }}#libreoffice">
+                            <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="/{{ $selectedLang == 'en' ? '' : $selectedLang.'/' }}#libreoffice">
                                 <span><?=__('messages.nav_libreoffice')?></span>
                             </a>
-                            <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="/{{ $selectedLang == 'en' ? '' : $selectedLang }}#firefox_chrome">
+                            <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="/{{ $selectedLang == 'en' ? '' : $selectedLang.'/' }}#firefox_chrome">
                                 <span><?=__('messages.nav_browse_ad')?></span>
                             </a>
-                            <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="/{{ $selectedLang == 'en' ? '' : $selectedLang }}#google_docs">
+                            <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="/{{ $selectedLang == 'en' ? '' : $selectedLang.'/' }}#google_docs">
                                 <span><?=__('messages.nav_google_docs')?></span>
                             </a>
-                            <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="/{{ $selectedLang == 'en' ? '' : $selectedLang }}#more">
+                            <a class="browser_ad jump_menu header-nav-menu-item-dropdown-item" href="/{{ $selectedLang == 'en' ? '' : $selectedLang.'/' }}#more">
                                 <span><?=__('messages.nav_more')?></span>
                             </a>
                         @else
