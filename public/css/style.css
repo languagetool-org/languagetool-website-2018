@@ -2280,6 +2280,8 @@ body #footer span a:hover {
     padding: 20px 0;
     position: relative;
     font-weight: 600;
+    border: 0;
+    background: none;
 }
 
 #qa .ui-accordion-header .qa-header-icon {
@@ -2287,6 +2289,10 @@ body #footer span a:hover {
     left: -30px;
     top: 15px;
     font-size: 30px;
+}
+
+#qa .ui-accordion-header .ui-accordion-header-icon {
+    display: none;
 }
 
 #qa .ui-accordion-header .qa-header-icon .fa-angle-right {display: block;}
@@ -2297,7 +2303,8 @@ body #footer span a:hover {
     padding: 10px 0 30px;
     font-size: 17px;
     letter-spacing: 0.8px;
-    /*font-weight: 200;*/
+    border: 0;
+    background: none;
 }
 
 #qa .ui-accordion-header:focus {
