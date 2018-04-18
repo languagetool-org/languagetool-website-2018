@@ -20,6 +20,8 @@
     <link href="{{ asset('js/lightbox2/css/lightbox.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/jquery-ui/jquery-ui.structure.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/jquery-ui/jquery-ui.theme.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/vex.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/vex-theme-default.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}?20180110" rel="stylesheet">
     <link href="{{ asset('css/media.css') }}?20180110" rel="stylesheet">
     <link href="{{ asset('css/tooltip.css') }}?20180409" rel="stylesheet">

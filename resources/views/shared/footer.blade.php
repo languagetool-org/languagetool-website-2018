@@ -165,7 +165,7 @@ if (isset($_SERVER['QUERY_STRING']) && strpos($_SERVER['QUERY_STRING'], 'testmod
 
 {{-- javascript area end --}}
 
-<script src="{{ asset('js/vex.js') }}"></script>
+<script src="{{ asset('js/vex.combined.min.js') }}"></script>
 <script src="{{ asset('js/app.js') }}"></script>
 <script src="{{ asset('vendors/tiny_mce/tiny_mce.js') }}"></script>
 <script src="{{ asset('vendors/tiny_mce/plugins/atd-tinymce/editor_plugin2.js') }}"></script>
