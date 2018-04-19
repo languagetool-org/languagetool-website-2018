@@ -25,6 +25,18 @@ body .contentHead {
     letter-spacing: 2px;
 }
 
+#sentenceContribution {
+    color: white;
+    padding-bottom: 10px;
+}
+
+#sentenceContribution a {
+    background-color: white;
+    color: black;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
 #languagesOverview {
     text-align: left;
 }
@@ -2327,6 +2339,10 @@ body #footer span a:hover {
 
 #qa .ui-accordion-content p {
     text-align: left;
+}
+
+#qa .ui-accordion-content a {
+    color: #337ab7;
 }
 
 #footer {

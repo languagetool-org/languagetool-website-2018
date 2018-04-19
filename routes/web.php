@@ -50,6 +50,13 @@ Route::group(['prefix' => app('language.routePrefix')], function() {
 	Route::get('/development', 'LegacyController@development');
 	Route::get('/newsletter', 'LegacyController@newsletter');
 	Route::get('/contact/newsletter.php', 'LegacyController@newsletter_old');
+	Route::get('/job/computational_linguist.php', 'LegacyController@job_computational_linguist');
+	Route::get('/webextension/uninstall.php', 'LegacyController@webextension_uninstall');
+	Route::get('/webextension/submit-feedback.php', 'LegacyController@webextension_feedback');   // TODO: should be POST, but doesn't work
+	Route::get('/usage', 'LegacyController@usage');
+	Route::get('/firefox', 'LegacyController@firefox');
+	Route::get('/chrome', 'LegacyController@chrome');
+	Route::get('/contribute', 'LegacyController@contribute');
 	Route::get('/home', 'HomeController@index')->name('home');
 	//languagetoolplus.com only:
 	//Route::get('/subscribe', 'SubscriptionController@subscribe');
