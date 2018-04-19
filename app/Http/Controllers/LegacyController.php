@@ -24,6 +24,7 @@ class LegacyController extends Controller
     public function webextension_uninstall() { return view('webextension/uninstall'); }
     public function webextension_feedback() { return view('webextension/submit-feedback'); }
     public function usage() { return redirect('http://wiki.languagetool.org/command-line-options'); }
+    public function forum() { return redirect('https://forum.languagetool.org/'); }
     public function chrome() { return view('chrome'); }
     public function firefox() { return view('firefox'); }
     public function contribute() { return view('contribute'); }
