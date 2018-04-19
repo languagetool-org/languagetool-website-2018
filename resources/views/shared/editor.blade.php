@@ -51,6 +51,7 @@
                         </p>
                         <div id="editor_controls">
                             <div id="feedbackErrorMessage"></div>
+                            <div id="sentenceContributionMessage"></div>
 
                             <div class="editor_controls_items">
                                 <div class="dropdown editor_controls_group">

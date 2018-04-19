@@ -25,6 +25,18 @@ body .contentHead {
     letter-spacing: 2px;
 }
 
+#sentenceContribution {
+    color: white;
+    padding-bottom: 10px;
+}
+
+#sentenceContribution a {
+    background-color: white;
+    color: black;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
 #languagesOverview {
     text-align: left;
 }
