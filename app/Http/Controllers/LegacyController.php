@@ -23,6 +23,10 @@ class LegacyController extends Controller
     public function job_computational_linguist() { return view('job/computational_linguist'); }
     public function webextension_uninstall() { return view('webextension/uninstall'); }
     public function webextension_feedback() { return view('webextension/submit-feedback'); }
+    public function usage() { return redirect('http://wiki.languagetool.org/command-line-options'); }
+    public function chrome() { return view('chrome'); }
+    public function firefox() { return view('firefox'); }
+    public function contribute() { return view('contribute'); }
 
     public function ru_firefox() { return view('ru/firefox'); }
     public function ru_chrome() { return view('ru/chrome'); }
