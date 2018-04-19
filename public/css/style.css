@@ -2330,6 +2330,10 @@ body #footer span a:hover {
     text-align: left;
 }
 
+#qa .ui-accordion-content a {
+    color: #337ab7;
+}
+
 #footer {
     background-color: #6f20c4;
 }
