@@ -2218,6 +2218,7 @@ body #footer span a:hover {
     background-image: url(../images/background.png);
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: 100%;
 }
 
 .section-reviews {
