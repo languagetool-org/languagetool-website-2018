@@ -107,7 +107,7 @@
 @endif
 
 {{-- javascript area start --}}
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
 <script type="text/javascript">
     function errorCallback(code, string) {
         console.log("Error: ", code, string);
