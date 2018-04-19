@@ -12,7 +12,7 @@
                     <a href="/issues">checklist</a> first.</p>
         
             <ul>
-                    <li style="font-size: large"><a href="/forum"><strong>Post to our forum</strong></a> - this is the easiest way of contacting us</li>
+                    <li style="font-size: large"><a href="https://forum.languagetool.org/"><strong>Post to our forum</strong></a> - this is the easiest way of contacting us</li>
                     <li>If you absolutely don't want to post to public forums or mailing lists, contact the maintainers directly:
                             <ul>
                                     <li><a href="http://www.danielnaber.de">Daniel Naber</a> - contact by sending an email to
