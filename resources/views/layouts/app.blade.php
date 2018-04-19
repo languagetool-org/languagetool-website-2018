@@ -26,6 +26,12 @@
     <link href="{{ asset('css/media.css') }}?20180419" rel="stylesheet">
     <link href="{{ asset('css/tooltip.css') }}?20180419" rel="stylesheet">
 
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    
     <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
     <script src="{{ asset('vendors/glide/glide.js') }}"></script>
 
