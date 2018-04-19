@@ -21,6 +21,8 @@ class LegacyController extends Controller
     public function newsletter_old() { return redirect('newsletter'); }
     public function privacy_old() { return redirect('legal/privacy'); }
     public function job_computational_linguist() { return view('job/computational_linguist'); }
+    public function webextension_uninstall() { return view('webextension/uninstall'); }
+    public function webextension_feedback() { return view('webextension/submit-feedback'); }
 
     public function ru_firefox() { return view('ru/firefox'); }
     public function ru_chrome() { return view('ru/chrome'); }
