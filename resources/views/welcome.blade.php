@@ -2,15 +2,12 @@
 
 @section('title', __('messages.title'))
 
-
 @section('before_content')
     @include('shared.editor')
-    @include('shared.reviews')
 @endsection
 
 
 @section('content')
-    
     <section id="Price">
         <a name="premium"></a>
         <div class="container">

@@ -33,8 +33,11 @@
 <body>
     @yield('after_body')
     <div id="app">
-        @include('shared.nav')
-        @yield('before_content')
+        <section class="section section-main">
+            @include('shared.nav')
+            @yield('before_content')
+        </section>
+        @include('shared.reviews')
         <div id="content">
             @yield('content')
         </div>
