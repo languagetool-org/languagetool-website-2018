@@ -1,3 +1,4 @@
+@if (isset($reviews))
 <div class="section-reviews">
     <div class="container">
         <h2 class="section-reviews-heading">{{ __('messages.reviews.label') }}</h2>
@@ -30,3 +31,4 @@
         type: "carousel"
     });
 </script>
+@endif
