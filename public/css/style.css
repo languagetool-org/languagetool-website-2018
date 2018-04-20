@@ -2552,13 +2552,12 @@ body #footer span.footer-content-subscribe-form-message {
 .start-ad-wrapper {
     display: flex;
     justify-content: center;
-    margin: 40px 0 0;
+    margin: 10px 0 0;
 }
 
 .start-ad {
     width: 728px;
     height: 90px;
-    background-color: #fff;
 }
 
 /* tables */

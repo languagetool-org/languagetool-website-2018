@@ -158,7 +158,7 @@
                                 <div id="outer-order-link">
                                     <a id="order-link" href='#' class="plan-button"
                                        data-fsc-action="Add,Checkout"
-                                       data-fsc-item-path-value="languagetool-plus-premium-monthly-subscription">
+                                       data-fsc-item-path-value="languagetool-plus-premium-1-year-subscription">
                                         <span class="price"><?=__('messages.premium_action')?></span>
                                     </a>
                                 </div>
