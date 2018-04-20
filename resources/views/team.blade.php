@@ -3,7 +3,7 @@
 @section('title', 'LanguageTool Team')
 
 @section('content')
-    <div id="textContent" class="content-section" style="text-align: left">
+    <div id="textContent" class="content-section section-team" style="text-align: left">
         <div class="container">
 
             <h1>Team</h1>

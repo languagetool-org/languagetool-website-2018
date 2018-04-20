@@ -8,6 +8,7 @@
 
 
 @section('content')
+    @include('shared.reviews')
     <section id="Price">
         <a name="premium"></a>
         <div class="container">

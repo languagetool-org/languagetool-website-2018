@@ -37,7 +37,6 @@
             @include('shared.nav')
             @yield('before_content')
         </section>
-        @include('shared.reviews')
         <div id="content">
             @yield('content')
         </div>

@@ -189,6 +189,12 @@ body .contentHead {
     column-count: 3;
 }
 
+@media (max-width: 767px) {
+    .multicol {
+        width: 100%;
+    }
+}
+
 #video-section {
     padding: 0px;
     background-color: white;
@@ -2221,9 +2227,20 @@ body #footer span a:hover {
     background-size: 100%;
 }
 
+#textContent.section-team ul, #textContent.section-team ol {
+    padding: 0 0 0 7px;
+}
+
+@media (max-width: 767px) {
+    #textContent.section-team ul, #textContent.section-team ol {
+        padding: 0 0 0 3px;
+    }
+}
+
 .section-reviews {
     padding: 70px 0;
     background-color: #f7f7f7;
+    margin-top: -50px;
 }
 
 .section-reviews-heading {
