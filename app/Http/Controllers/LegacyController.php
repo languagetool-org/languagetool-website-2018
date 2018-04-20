@@ -28,6 +28,10 @@ class LegacyController extends Controller
     public function chrome() { return view('chrome'); }
     public function firefox() { return view('firefox'); }
     public function contribute() { return view('contribute'); }
+    
+    public function fakeerror() {
+        throw new \Exception("test exception");
+    }
 
     public function ru_firefox() { return view('ru/firefox'); }
     public function ru_chrome() { return view('ru/chrome'); }
