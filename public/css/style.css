@@ -2533,6 +2533,11 @@ body #footer span.footer-content-subscribe-form-message {
     margin: 0 10px;
 }
 
+.editor_controls_premium {
+    background-color: #e00055 !important;
+    border-color: #e00055 !important;
+}
+
 .dropdown .editor_controls_group_item {
     flex-basis: 150px;
 }
