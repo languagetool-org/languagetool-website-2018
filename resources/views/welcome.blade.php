@@ -19,7 +19,7 @@
                         <div class="plan-wrapper free">
                             <div class="plan border-lt">
                                 <h2 class="plan-title"><?=__('messages.free_headline')?></h2>
-                                <p class="plan-price"><?=__('messages.free_limit', ['characters' => 2000])?></p>
+                                <p class="plan-price"><?=__('messages.free_limit', ['characters' => 20000])?></p>
                                 <p class="plan-price">languagetool.org</p>
                                 <ul class="plan-features">
                                     <li class="plan-feature">
