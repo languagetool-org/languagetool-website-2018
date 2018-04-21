@@ -125,9 +125,6 @@
     #Pricing {
         padding-bottom: 30px;
     }
-    #content{
-        padding-bottom: 0;
-    }
     .border-lt {
         border-top-right-radius: 8px;
         border-bottom-right-radius: 8px;
@@ -345,7 +342,7 @@
         letter-spacing: 1px;
     }
     .section-subheading {
-        font-size: 12px;
+        font-size: 14px;
         letter-spacing: 0.6px;
         margin: 10px 0;
     }
@@ -397,7 +394,7 @@
         letter-spacing: 1px;
     }
     .footer-content-par {
-        font-size: 12px;
+        font-size: 14px;
         letter-spacing: 0.6px;
     }
     .footer-content-subscribe-form {
@@ -406,7 +403,7 @@
     }
     body #footer span {
         margin: 5px 0;
-        font-size: 12px;
+        font-size: 14px;
         letter-spacing: 0.6px;
     }
     body #footer span:nth-child(odd) {width: 60%;}
@@ -418,7 +415,7 @@
         padding: 30px 0;
     }
     .section-clients-description {
-        font-size: 10px;
+        font-size: 14px;
         letter-spacing: 0.5px;
     }
     .section-clients-item {
@@ -430,11 +427,8 @@
     .section-clients-item.zendesk {flex-basis: 41.4%;}
     .section-clients-item.soundcloud {flex-basis: 22.2%;}
     .section-clients-item.huge {flex-basis: 22.2%;}
-    #firefox_chrome {
-        padding: 20px 0;
-    }
     #firefox_chrome p {
-        font-size: 12px;
+        font-size: 14px;
         letter-spacing: 0.6px;
         padding: 0;
     }
@@ -445,7 +439,7 @@
         margin-bottom: 0;
     }
     .padd-bott p {
-        font-size: 12px;
+        font-size: 14px;
         letter-spacing: 0.6px;
     }
     .features {
@@ -458,7 +452,7 @@
         padding: 0;
     }
     .features p {
-        font-size: 12px;
+        font-size: 14px;
         letter-spacing: 0.6px;
     }
     #Price {
@@ -476,7 +470,7 @@
         letter-spacing: 0.7px;
     }
     .plan-features {
-        font-size: 13px;
+        font-size: 14px;
         letter-spacing: 0.6px;
     }
     .plan-button {
@@ -493,7 +487,7 @@
         padding: 20px 0 40px;
     }
     .section-reviews-heading {
-        font-size: 15px;
+        font-size: 18px;
         letter-spacing: 0.8px;
     }
     #Reviews {
@@ -501,7 +495,7 @@
     }
     #Reviews .glide__slide {
         padding: 5px 0;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 23px;
         letter-spacing: 0.6px;
     }
@@ -622,7 +616,7 @@
     }
     .header-nav-menu.links .header-nav-menu-item-dropdown .header-nav-menu-item-dropdown-item {
         color: #fff;
-        font-size: 12px;
+        font-size: 14px;
         letter-spacing: 0.1px;
         margin: 7px 0;
     }

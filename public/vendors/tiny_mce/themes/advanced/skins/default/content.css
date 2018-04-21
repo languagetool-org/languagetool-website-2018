@@ -2,8 +2,8 @@
 
 body, td, pre {color:#000; font-family: 'Source Sans Pro', sans-serif; font-size:18px; line-height:1.7em; margin:20px 30px;
 	background-color: #fff;}
-@media (max-width: 480px) {
-	body, td, pre {font-size: 12px; line-height: 23px; letter-spacing: 0.6px;}
+@media (max-width: 700px) {
+	body, td, pre {font-size: 14px; line-height: 25px; letter-spacing: 0.6px;}
 }
 body {background:#FFF;}
 body.mceForceColors {background:#FFF; color:#000;}

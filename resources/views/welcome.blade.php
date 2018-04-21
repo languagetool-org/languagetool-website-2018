@@ -338,24 +338,28 @@
         <div class="container">
 
             <div class="row">
-                <a name="standalone"></a>
-                <h2 class="contentHead">{{__('messages.libreoffice_headline')}}</h2>
-                <!--<p>{{__('messages.libreoffice_intro')}}</p>-->
+                <div class="col-xs-12">
+                    <a name="standalone"></a>
+                    <h2 class="contentHead">{{__('messages.libreoffice_headline')}}</h2>
+                    <!--<p>{{__('messages.libreoffice_intro')}}</p>-->
+                </div>
             </div>
 
             <div class="row">
-                <div class="col-md-12 buttons-row">
-                    <ul class="inline-btn">
-                        <li class="btn_standalone">
-                            <a class="main-button" href="/download/LanguageTool-4.1.oxt">{{__('messages.libreoffice_download')}} (v4.1, 94MB)</a>
-                        </li>
-                    </ul>
+                <div class="col-xs-12 buttons-row">
+                    <p>
+                        <ul class="inline-btn">
+                            <li class="btn_standalone">
+                                <a class="main-button" href="/download/LanguageTool-4.1.oxt">{{__('messages.libreoffice_download')}} (v4.1, 94MB)</a>
+                            </li>
+                        </ul>
+                    </p>
+                    <p><a href="https://java.com/download/">{{__('messages.libreoffice_requirements', ['version' => 8])}}</a>
+                    &middot;
+                    {{__('messages.libreoffice_help1')}} <a href="/issues">{{__('messages.libreoffice_help2')}}</a></p>
+                    <p>{!! __('messages.libreoffice_instruction1') !!}
+                        {{__('messages.libreoffice_instruction2')}}</p>
                 </div>
-                <p><a href="https://java.com/download/">{{__('messages.libreoffice_requirements', ['version' => 8])}}</a>
-                &middot;
-                {{__('messages.libreoffice_help1')}} <a href="/issues">{{__('messages.libreoffice_help2')}}</a></p>
-                <p>{!! __('messages.libreoffice_instruction1') !!}
-                    {{__('messages.libreoffice_instruction2')}}</p>
             </div>
 
         </div>
@@ -365,25 +369,21 @@
         <div class="container">
 
             <div class="row">
-                <a name="browser"></a>
-                <h2 class="contentHead">{{__('messages.browser_headline')}}</h2>
-                <p>{{__('messages.browser_intro')}}</p>
+                <div class="col-xs-12">
+                    <a name="browser"></a>
+                    <h2 class="contentHead">{{__('messages.browser_headline')}}</h2>
+                    <p>{{__('messages.browser_intro')}}</p>
+                </div>
             </div>
 
             <div class="row">
-                <div class="col-md-12 buttons-row">
-                    <ul class="inline-btn">
-                        <li class="btn_firefox">
-                            <a class="main-button" href="https://addons.mozilla.org/firefox/addon/languagetool?src=external-ltp-homepage">
-                                {{__('messages.browser_firefox_download')}}
-                            </a>
-                        </li>
-                        <li class="btn_chrome">
-                            <a class="main-button" href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji">
-                                {{__('messages.browser_chrome_download')}}
-                            </a>
-                        </li>
-                    </ul>
+                <div class="col-xs-12 buttons-row">
+                    <a class="main-button" href="https://addons.mozilla.org/firefox/addon/languagetool?src=external-ltp-homepage">
+                        {{__('messages.browser_firefox_download')}}
+                    </a>
+                    <a class="main-button" href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji">
+                        {{__('messages.browser_chrome_download')}}
+                    </a>
                 </div>
             </div>
 
@@ -394,13 +394,15 @@
         <div class="container">
 
             <div class="row">
-                <a name="standalone"></a>
-                <h2 class="contentHead">{{__('messages.googledocs_headline')}}</h2>
-                <p>{{__('messages.googledocs_intro')}}</p>
+                <div class="col-xs-12">
+                    <a name="standalone"></a>
+                    <h2 class="contentHead">{{__('messages.googledocs_headline')}}</h2>
+                    <p>{{__('messages.googledocs_intro')}}</p>
+                </div>
             </div>
 
             <div class="row">
-                <div class="col-md-12 buttons-row">
+                <div class="col-xs-12 buttons-row">
                     <ul class="inline-btn">
                         <li class="btn_standalone">
                             <a class="main-button" href="https://chrome.google.com/webstore/detail/languagetool/kjcoklfhicmkbfifghaecedbohbmofkm">{{__('messages.googledocs_download')}}</a>
@@ -416,13 +418,15 @@
         <div class="container">
 
             <div class="row">
-                <a name="more"></a>
-                <h2 class="contentHead">{{__('messages.more_headline')}}</h2>
-                <p>{{__('messages.more_intro')}}</p>
+                <div class="col-xs-12">
+                    <a name="more"></a>
+                    <h2 class="contentHead">{{__('messages.more_headline')}}</h2>
+                    <p>{{__('messages.more_intro')}}</p>
+                </div>
             </div>
 
             <div class="row">
-                <div class="col-md-12 buttons-row">
+                <div class="col-xs-12 buttons-row">
                     <ul class="inline-btn">
                         <li class="btn_standalone">
                             <a class="main-button" href="http://wiki.languagetool.org/software-that-supports-languagetool-as-a-plug-in-or-add-on">{{__('messages.more_download')}}</a>
@@ -438,13 +442,15 @@
         <div class="container">
 
             <div class="row">
-                <a name="standalone"></a>
-                <h2 class="contentHead"><?=__('messages.standalone_headline')?></h2>
-                <p><?=__('messages.standalone_intro')?></p>
+                <div class="col-xs-12">
+                    <a name="standalone"></a>
+                    <h2 class="contentHead"><?=__('messages.standalone_headline')?></h2>
+                    <p><?=__('messages.standalone_intro')?></p>
+                </div>
             </div>
 
             <div class="row">
-                <div class="col-md-12 buttons-row">
+                <div class="col-xs-12 buttons-row">
                     <ul class="inline-btn">
                         <li class="btn_standalone">
                             <a class="main-button" href="/download/LanguageTool-4.1.zip">{{__('messages.standalone_download')}} (v4.1, 134MB)</a>
@@ -454,14 +460,16 @@
             </div>
 
             <div class="row">
-                <p>
-                    {{__('messages.after_download')}}
-                </p>
-                <p>
-                    {{__('messages.standalone_builds')}}
-                    <a href="/download/">{{__('messages.standalone_old_releases')}}</a> &middot;
-                    <a href="/download/snapshots/?C=M;O=D">{{__('messages.standalone_daily_builds')}}</a>
-                </p>
+                <div class="col-xs-12">
+                    <p>
+                        {{__('messages.after_download')}}
+                    </p>
+                    <p>
+                        {{__('messages.standalone_builds')}}
+                        <a href="/download/">{{__('messages.standalone_old_releases')}}</a> &middot;
+                        <a href="/download/snapshots/?C=M;O=D">{{__('messages.standalone_daily_builds')}}</a>
+                    </p>
+                </div>
             </div>
 
         </div>

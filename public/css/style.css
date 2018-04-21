@@ -125,7 +125,7 @@ body .contentHead {
 @media screen and (max-width: 767px) {
     #content .content-section p,
     #content .content-section ul li {
-        font-size: 13px;
+        font-size: 14px;
         letter-spacing: 0.6px;
     }
     #content .content-section h1 {
@@ -136,7 +136,19 @@ body .contentHead {
 
 .addon-section {
     text-align: center;
-    padding: 70px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
+}
+
+#libreoffice.addon-section {
+    padding-top: 70px;
+}
+
+.addon-section .buttons-row a {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    .addon-section {padding: 0;}
 }
 
 #content .addon-section p, #content .addon-section ul li {
@@ -2148,6 +2160,10 @@ body #footer span a:hover {
     cursor: pointer;
     text-decoration: none;
     transition: background-color 0.2s linear;
+}
+
+@media (max-width: 767px) {
+    .editor-nav a {font-size: 14px;}
 }
 
 .editor-nav a.subscription {
