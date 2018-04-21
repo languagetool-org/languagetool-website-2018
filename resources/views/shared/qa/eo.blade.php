@@ -10,10 +10,10 @@
         <div id="qa">
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
             </h3>
             <div>
 
@@ -43,10 +43,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Ekrankopio en LibreOffice
             </h3>
             <div>
@@ -56,10 +56,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Ĉu vi bezonas helpon?
             </h3>
             <div>
@@ -70,10 +70,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Ligiloj al aliaj Esperantaj kontroliloj
             </h3>
             <div>
@@ -86,10 +86,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Permesilo kaj kodofonto
             </h3>
             <div>
@@ -106,6 +106,7 @@
     </div>
 </div>
 
+<!--
 <script>
     $(document).ready(function() {
         $("#qa").accordion({
@@ -114,3 +115,4 @@
         });
     });
 </script>
+-->

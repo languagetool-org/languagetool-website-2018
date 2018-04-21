@@ -7,10 +7,10 @@
         <div id="qa">
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Functionaliteit
             </h3>
             <div>
@@ -64,10 +64,10 @@
             </div>
 
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 LanguageTool in LibreOffice/OpenOffice
             </h3>
             <div>
@@ -93,10 +93,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 LanguageTool als los programma
             </h3>
             <div>
@@ -107,10 +107,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Meedoen
             </h3>
             <div>
@@ -121,10 +121,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Contact
             </h3>
             <div>
@@ -137,6 +137,7 @@
     </div>
 </div>
 
+<!--
 <script>
     $(document).ready(function() {
         $("#qa").accordion({
@@ -146,3 +147,4 @@
         });
     });
 </script>
+-->

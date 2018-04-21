@@ -7,10 +7,10 @@
         <div id="qa">
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 <!--headline-->
             </h3>
             <div>
@@ -23,10 +23,10 @@
             </div>
 
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Możliwości programu
             </h3>
             <div>
@@ -102,10 +102,10 @@
             </div>
 
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Użycie korektora LanguageTool w pakiecie LibreOffice/OpenOffice.org
             </h3>
             <div>
@@ -124,10 +124,10 @@
             </div>
 
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Kontakt
             </h3>
             <div>
@@ -141,6 +141,7 @@
     </div>
 </div>
 
+<!--
 <script>
     $(document).ready(function() {
         $("#qa").accordion({
@@ -150,3 +151,4 @@
         });
     });
 </script>
+-->

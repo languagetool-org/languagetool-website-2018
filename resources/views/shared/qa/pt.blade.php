@@ -1,31 +1,48 @@
 <div class="section-qa">
-    <div class="container">
+    <div class="container" style="text-align: left;">
 
         <h2 class="contentHead"><!--Top Headline--></h2>
         <!--<p class="section-subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
+
+        <h3>
+            LibreOffice
+        </h3>
+        <div>
+            <a title="O LanguageTool instalado como um complemento do LibreOffice" class="fancyboxImage"
+               href="/images/pt/LO_screenshot.png"><img style="margin-left: 15px" width="200" height="118" align="right"
+                                                        src="/images/pt/LO_screenshot_small.png" alt="Screenshot do LanguageTool"/></a>
+
+            <ul>
+                <li><strong>Se utilizar o <a href="https://pt.libreoffice.org/">LibreOffice</a>, recomendamos a versão mais recente </strong>. Algumas versões mais antigas têm problemas no arranque.</li>
+                <li>Utilize <em>Ferramentas -&gt; Gestor de Extensões -&gt; Adicionar…</em> no LibreOffice para instalar a extensão;</li>
+                <li><strong>Reinicie</strong> o LibreOffice após a instalação da extensão;</li>
+                <li>Se utilizar o LibreOffice 3.5.x (ou superior), <strong>desative o LightProof e ative o LanguageTool</strong> em <em>Opções -> Definições de idioma -> Auxiliares de escrita -> Editar…</em>.</li>
+            </ul>
+        </div>
+
+        <h3>
+            Outras versões
+        </h3>
+        <div>
+            <p>Os <em>builds</em> diários experimentais, com o estado mais recente de desenvolvimento, estão disponíveis em <a href="../download/snapshots/?C=M;O=D">SNAPSHOTS</a>
+                (<a href="https://github.com/languagetool-org/languagetool/blob/master/languagetool-standalone/CHANGES.md">lista de novidades</a>).</p>
+            <p>As versões antigas continuam disponíveis no diretório de <a href="../download/">transferências</a>.</p>
+        </div>
+
+        <h3>
+            Licença e Código-Fonte
+        </h3>
+        <div>
+            <p>O LanguageTool está disponível gratuitamente sob a licença <a href="http://www.fsf.org/licensing/licenses/lgpl.html#SEC1">LGPL</a>. Os dicionários de verificação ortográfica utilizados são os <a href="https://github.com/TiagoSantos81/PortugueseLibreOfficeExtension">Dicionários Portugueses Complementares</a>. O sintetizador e o dicionário morfológico são baseados numa derivação do <a href="https://github.com/TiagoSantos81/FreeLing">Freeling</a>. Para informações sobre as licenças dos componentes consulte o <a href="https://github.com/languagetool-org/languagetool/blob/master/languagetool-standalone/src/main/resources/third-party-licenses/README.txt">README.txt</a>.</p>
+            <p>O código-fonte está disponível em <a href="https://github.com/languagetool-org/">GitHub</a>.</p>
+
+            <h2>Versão em Português do Brasil</h2>
+            <p>Pode, também, visitar a página na versão para Português do Brasil, <a href="https://languagetool.org/pt-BR/">aqui</a>.</p>
+        </div>
+
         
         <div id="qa">
             
-            <h3>
-                <span class="qa-header-icon">
-                    <i class="fa fa-angle-down"></i>
-                    <i class="fa fa-angle-right"></i>
-                </span>
-                LibreOffice
-            </h3>
-            <div>
-                <a title="O LanguageTool instalado como um complemento do LibreOffice" class="fancyboxImage"
-                   href="/images/pt/LO_screenshot.png"><img style="margin-left: 15px" width="200" height="118" align="right"
-                                                          src="/images/pt/LO_screenshot_small.png" alt="Screenshot do LanguageTool"/></a>
-
-                <ul>
-                    <li><strong>Se utilizar o <a href="https://pt.libreoffice.org/">LibreOffice</a>, recomendamos a versão mais recente </strong>. Algumas versões mais antigas têm problemas no arranque.</li>
-                    <li>Utilize <em>Ferramentas -&gt; Gestor de Extensões -&gt; Adicionar…</em> no LibreOffice para instalar a extensão;</li>
-                    <li><strong>Reinicie</strong> o LibreOffice após a instalação da extensão;</li>
-                    <li>Se utilizar o LibreOffice 3.5.x (ou superior), <strong>desative o LightProof e ative o LanguageTool</strong> em <em>Opções -> Definições de idioma -> Auxiliares de escrita -> Editar…</em>.</li>
-                </ul>
-            </div>
-
             <h3>
                 <span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
@@ -249,34 +266,6 @@
                     </li>
                     <li><strong>E muito mais…</strong></li>
                 </ul>
-            </div>
-            
-            <h3>
-                <span class="qa-header-icon">
-                    <i class="fa fa-angle-down"></i>
-                    <i class="fa fa-angle-right"></i>
-                </span>
-                Outras versões
-            </h3>
-            <div>
-                <p>Os <em>builds</em> diários experimentais, com o estado mais recente de desenvolvimento, estão disponíveis em <a href="../download/snapshots/?C=M;O=D">SNAPSHOTS</a>
-                    (<a href="https://github.com/languagetool-org/languagetool/blob/master/languagetool-standalone/CHANGES.md">lista de novidades</a>).</p>
-                <p>As versões antigas continuam disponíveis no diretório de <a href="../download/">transferências</a>.</p>
-            </div>
-            
-            <h3>
-                <span class="qa-header-icon">
-                    <i class="fa fa-angle-down"></i>
-                    <i class="fa fa-angle-right"></i>
-                </span>
-                Licença e Código-Fonte
-            </h3>
-            <div>
-                <p>O LanguageTool está disponível gratuitamente sob a licença <a href="http://www.fsf.org/licensing/licenses/lgpl.html#SEC1">LGPL</a>. Os dicionários de verificação ortográfica utilizados são os <a href="https://github.com/TiagoSantos81/PortugueseLibreOfficeExtension">Dicionários Portugueses Complementares</a>. O sintetizador e o dicionário morfológico são baseados numa derivação do <a href="https://github.com/TiagoSantos81/FreeLing">Freeling</a>. Para informações sobre as licenças dos componentes consulte o <a href="https://github.com/languagetool-org/languagetool/blob/master/languagetool-standalone/src/main/resources/third-party-licenses/README.txt">README.txt</a>.</p>
-                <p>O código-fonte está disponível em <a href="https://github.com/languagetool-org/">GitHub</a>.</p>
-
-                <h2>Versão em Português do Brasil</h2>
-                <p>Pode, também, visitar a página na versão para Português do Brasil, <a href="https://languagetool.org/pt-BR/">aqui</a>.</p>
             </div>
             
         </div>

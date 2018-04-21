@@ -8,10 +8,10 @@
             
             {{-- 1 --}}
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->                
                 Instal·lació
             </h3>
             <div>
@@ -21,10 +21,10 @@
             </div>
 
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Funcions
             </h3>
             <div>
@@ -90,10 +90,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Limitacions conegudes
             </h3>
             <div>
@@ -109,10 +109,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Instruccions d'instal·lació per a LibreOffice/OpenOffice
             </h3>
             <div>
@@ -130,10 +130,10 @@
             </div>
 
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Com s'usa LanguageTool com a aplicació independent
             </h3>
             <div>
@@ -144,10 +144,10 @@
             </div>
 
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Contacte
             </h3>
             <div>
@@ -161,6 +161,7 @@
     </div>
 </div>
 
+<!--
 <script>
     $(document).ready(function() {
         $("#qa").accordion({
@@ -170,3 +171,4 @@
         });
     });
 </script>
+-->
