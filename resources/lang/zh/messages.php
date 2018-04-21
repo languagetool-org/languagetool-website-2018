@@ -27,7 +27,7 @@ return [
     'check_text_title' => '檢查文字（或按Ctrl+Return）',
     'check_text_button' => '檢查文字',
     'pricing' => '價格',
-    'billed_annually' => '少於每月:amount:currency',
+    'billed_annually' => '每月支付少於:amount:currency',
     'free_headline' => '免費',
     'free_limit' => '每次檢查最多:characters個字元',
     'many_rules_1' => '使用:number個語文樣式偵測英文錯誤',
@@ -38,7 +38,7 @@ return [
     'improved_error_detection2_example' => '例如，LanguageTool能識別「Sehr geehrte Frau Andreas Müller」是病句',
     'improved_error_detection3' => '使用更多單字配對和數據偵測拼字錯誤',
     'improved_error_detection3_example' => '例如，LanguageTool會發現「Man returns wallet he fount.」應為「Man returns wallet he found.」。',
-    'improved_error_detection4' => '超過75種額外錯誤的偵測',
+    'improved_error_detection4' => '偵測超過75種額外錯誤',
     'improved_error_detection4_example' => '例如：
 <ul> 
 <li>Create two strips with an <span class="error-marker">event</span> amount of wax on each strip. &#x2192; even</li> 
@@ -110,10 +110,10 @@ return [
     'standalone_old_releases' => '過去的版本',
     'standalone_daily_builds' => '每天的軟體組建',
     'googledocs_headline' => 'Google文件外掛程式',
-    'googledocs_intro' => '在Google文檔中直接使用LanguageTool',
+    'googledocs_intro' => '在Google文件中直接使用LanguageTool。',
     'googledocs_download' => '從Google商店安裝',
     'more_headline' => '更多套件',
-    'more_intro' => '我們社區為多款軟體構建了擴充套件。',
+    'more_intro' => '我們的開發社群為多款軟體構建了擴充套件。',
     'more_download' => '套件列表',
     'used_by' => '這些企業都在使用LanguageTool',
     'footer_development' => '開發',
