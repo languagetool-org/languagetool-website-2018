@@ -32,12 +32,21 @@
                     </span>
                 </a>
                 -->
-                <a class="pricing jump_menu header-nav-menu-item" href="/#Price">
-                    <span class="header-nav-menu-item-label">
-                        <?=__('messages.nav_price')?>
-                        <i class="fa fa-angle-right"></i>
-                    </span>
-                </a>
+                @isset ($selectedLang)
+                    <a class="pricing jump_menu header-nav-menu-item" href="#Price">
+                        <span class="header-nav-menu-item-label">
+                            <?=__('messages.nav_price')?>
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                    </a>
+                @else
+                    <a class="pricing jump_menu header-nav-menu-item" href="/#Price">
+                        <span class="header-nav-menu-item-label">
+                            <?=__('messages.nav_price')?>
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                    </a>
+                @endisset
                 <span class="header-nav-menu-item">
                     <span class="header-nav-menu-item-label">
                         <?=__('messages.nav_addons')?>
