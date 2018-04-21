@@ -12,14 +12,14 @@
     <section id="Price">
         <a name="premium"></a>
         <div class="container">
-            <h2 class="contentHead" id="Pricing"><?=__('messages.pricing')?></h2>
+            <h2 class="contentHead" id="Pricing">{{__('messages.pricing')}}</h2>
 
                 <section class="plans">
 
                         <div class="plan-wrapper free">
                             <div class="plan border-lt">
-                                <h2 class="plan-title"><?=__('messages.free_headline')?></h2>
-                                <p class="plan-price"><?=__('messages.free_limit', ['characters' => 20000])?></p>
+                                <h2 class="plan-title">{{__('messages.free_headline')}}</h2>
+                                <p class="plan-price"><{{__('messages.free_limit', ['characters' => 20000])}}</p>
                                 <p class="plan-price">languagetool.org</p>
                                 <ul class="plan-features">
                                     <li class="plan-feature">
@@ -62,14 +62,14 @@
                             </div>
 
                             <!--
-                            <h5 class="plan-for-who"><?=__('messages.free_for_whom')?></h5>
+                            <h5 class="plan-for-who">{{__('messages.free_for_whom')}}</h5>
                             -->
                         </div>
 
                         <div class="plan-wrapper premium">
                             <div class="plan plan-tall">
-                                <h2 class="plan-title"><?=__('messages.premium_headline')?></h2>
-                                <p class="plan-price"><?=__('messages.premium_limit')?></p>
+                                <h2 class="plan-title">{{__('messages.premium_headline')}}</h2>
+                                <p class="plan-price">{{__('messages.premium_limit')}}</p>
                                 <p class="plan-price"><a style="color: white" href="https://languagetoolplus.com">languagetoolplus.com</a></p>
                                 <ul class="plan-features">
                                     <li class="plan-feature">
@@ -129,9 +129,9 @@
 
                                     <div class="select-field">
                                         <select id="planSelect">
-                                            <option value="1"><?=__('messages.premium_1_month')?></option>
-                                            <option value="3"><?=__('messages.premium_3_months')?></option>
-                                            <option value="12" selected><?=__('messages.premium_12_months')?></option>
+                                            <option value="1">{{__('messages.premium_1_month')}}</option>
+                                            <option value="3">{{__('messages.premium_3_months')}}</option>
+                                            <option value="12" selected>{{__('messages.premium_12_months')}}</option>
                                         </select>
                                     </div>
 
@@ -159,19 +159,19 @@
                                     <a id="order-link" href='#' class="plan-button"
                                        data-fsc-action="Add,Checkout"
                                        data-fsc-item-path-value="languagetool-plus-premium-1-year-subscription">
-                                        <span class="price"><?=__('messages.premium_action')?></span>
+                                        <span class="price">{{__('messages.premium_action')}}</span>
                                     </a>
                                 </div>
 
                             </div>
 
-                            <h5 class="plan-for-who"><?=__('messages.premium_for_whom')?></h5>
+                            <h5 class="plan-for-who">{{__('messages.premium_for_whom')}}</h5>
                         </div>
 
                         <div class="plan-wrapper enterprise">
                             <div class="plan border-rd">
-                                <h2 class="plan-title"><?=__('messages.enterprise_headline')?></h2>
-                                <p class="plan-price"><?=__('messages.enterprise_limit')?></p>
+                                <h2 class="plan-title">{{__('messages.enterprise_headline')}}</h2>
+                                <p class="plan-price">{{__('messages.enterprise_limit')}}</p>
                                 <p class="plan-price"><a href="https://languagetoolplus.com">languagetoolplus.com</a></p>
                                 <ul class="plan-features">
                                     <li class="plan-feature">
@@ -224,7 +224,7 @@
                                 
                             </div>
 
-                            <h5 class="plan-for-who"><?=__('messages.enterprise_for_whom')?></h5>
+                            <h5 class="plan-for-who">{{__('messages.enterprise_for_whom')}}</h5>
 
                         </div>
 
@@ -241,7 +241,7 @@
             <div class="col-md-12">
                 <div class="padd-bott">
                     <a name="msword"></a>
-                    <h2 id="ludilo" class="contentHead"><?=__('messages.msword_headline')?></h2>
+                    <h2 id="ludilo" class="contentHead">{{__('messages.msword_headline')}}</h2>
                     <p><?=__('messages.msword_intro')?></p>
                     <p><?=__('messages.msword_download_blocked')?></p>
                 </div>
@@ -258,8 +258,8 @@
                                     </div>
 
                                     <div class="col-md-8">
-                                        <h2 class="steps-h"><?=__('messages.step_1')?></h2>
-                                        <p><?=__('messages.msword_1')?></p>
+                                        <h2 class="steps-h">{{__('messages.step_1')}}</h2>
+                                        <p>{{__('messages.msword_1')}}</p>
                                     </div>
                                 </div>
                             </li>
@@ -272,8 +272,8 @@
                                 </div>
 
                                 <div class="col-sm-12 col-md-8 col-md-pull-4">
-                                    <h2 class="steps-h"><?=__('messages.step_2')?></h2>
-                                    <p><?=__('messages.msword_2')?></p>
+                                    <h2 class="steps-h">{{__('messages.step_2')}}</h2>
+                                    <p>{{__('messages.msword_2')}}</p>
                                 </div>
 
                                 </div>
@@ -286,8 +286,8 @@
                                     </div>
 
                                     <div class="col-md-8">
-                                        <h2 class="steps-h"><?=__('messages.step_3')?></h2>
-                                        <p><?=__('messages.msword_3')?></p>
+                                        <h2 class="steps-h">{{__('messages.step_3')}}</h2>
+                                        <p>{{__('messages.msword_3')}}</p>
                                     </div>
                                 </div>
                             </li>
@@ -299,8 +299,8 @@
                                     </div>
 
                                     <div class="col-sm-12 col-md-8 col-md-pull-4">
-                                        <h2 class="steps-h"><?=__('messages.step_4')?></h2>
-                                        <p><?=__('messages.msword_4')?></p>
+                                        <h2 class="steps-h">{{__('messages.step_4')}}</h2>
+                                        <p>{{__('messages.msword_4')}}</p>
                                     </div>
 
                                 </div>
@@ -312,8 +312,8 @@
                                                     class="img-responsive" src="/images/msword/en/5_small.jpg"></a>
                                     </div>
                                     <div class="col-md-8">
-                                        <h2 class="steps-h"><?=__('messages.step_5')?></h2>
-                                        <p><?=__('messages.msword_5')?></p>
+                                        <h2 class="steps-h">{{__('messages.step_5')}}</h2>
+                                        <p>{{__('messages.msword_5')}}</p>
                                     </div>
                                 </div>
                             </li>
@@ -339,21 +339,23 @@
 
             <div class="row">
                 <a name="standalone"></a>
-                <h2 class="contentHead"><?=__('messages.libreoffice_headline')?></h2>
-                <!--<p><?=__('messages.libreoffice_intro')?></p>-->
+                <h2 class="contentHead">{{__('messages.libreoffice_headline')}}</h2>
+                <!--<p>{{__('messages.libreoffice_intro')}}</p>-->
             </div>
 
             <div class="row">
                 <div class="col-md-12 buttons-row">
                     <ul class="inline-btn">
                         <li class="btn_standalone">
-                            <a class="main-button" href="/download/LanguageTool-4.1.oxt"><?=__('messages.libreoffice_download')?> (v4.1, 94MB)</a>
+                            <a class="main-button" href="/download/LanguageTool-4.1.oxt">{{__('messages.libreoffice_download')}} (v4.1, 94MB)</a>
                         </li>
                     </ul>
                 </div>
                 <p><a href="https://java.com/download/">{{__('messages.libreoffice_requirements', ['version' => 8])}}</a>
                 &middot;
                 {{__('messages.libreoffice_help1')}} <a href="/issues">{{__('messages.libreoffice_help2')}}</a></p>
+                <p>{!! __('messages.libreoffice_instruction1') !!}
+                    {{__('messages.libreoffice_instruction2')}}</p>
             </div>
 
         </div>
@@ -373,12 +375,12 @@
                     <ul class="inline-btn">
                         <li class="btn_firefox">
                             <a class="main-button" href="https://addons.mozilla.org/firefox/addon/languagetool?src=external-ltp-homepage">
-                                <?=__('messages.browser_firefox_download')?>
+                                {{__('messages.browser_firefox_download')}}
                             </a>
                         </li>
                         <li class="btn_chrome">
                             <a class="main-button" href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji">
-                                <?=__('messages.browser_chrome_download')?>
+                                {{__('messages.browser_chrome_download')}}
                             </a>
                         </li>
                     </ul>
@@ -393,15 +395,15 @@
 
             <div class="row">
                 <a name="standalone"></a>
-                <h2 class="contentHead"><?=__('messages.googledocs_headline')?></h2>
-                <p><?=__('messages.googledocs_intro')?></p>
+                <h2 class="contentHead">{{__('messages.googledocs_headline')}}</h2>
+                <p>{{__('messages.googledocs_intro')}}</p>
             </div>
 
             <div class="row">
                 <div class="col-md-12 buttons-row">
                     <ul class="inline-btn">
                         <li class="btn_standalone">
-                            <a class="main-button" href="https://chrome.google.com/webstore/detail/languagetool/kjcoklfhicmkbfifghaecedbohbmofkm"><?=__('messages.googledocs_download')?></a>
+                            <a class="main-button" href="https://chrome.google.com/webstore/detail/languagetool/kjcoklfhicmkbfifghaecedbohbmofkm">{{__('messages.googledocs_download')}}</a>
                         </li>
                     </ul>
                 </div>
@@ -415,15 +417,15 @@
 
             <div class="row">
                 <a name="more"></a>
-                <h2 class="contentHead"><?=__('messages.more_headline')?></h2>
-                <p><?=__('messages.more_intro')?></p>
+                <h2 class="contentHead">{{__('messages.more_headline')}}</h2>
+                <p>{{__('messages.more_intro')}}</p>
             </div>
 
             <div class="row">
                 <div class="col-md-12 buttons-row">
                     <ul class="inline-btn">
                         <li class="btn_standalone">
-                            <a class="main-button" href="http://wiki.languagetool.org/software-that-supports-languagetool-as-a-plug-in-or-add-on"><?=__('messages.more_download')?></a>
+                            <a class="main-button" href="http://wiki.languagetool.org/software-that-supports-languagetool-as-a-plug-in-or-add-on">{{__('messages.more_download')}}</a>
                         </li>
                     </ul>
                 </div>
@@ -445,7 +447,7 @@
                 <div class="col-md-12 buttons-row">
                     <ul class="inline-btn">
                         <li class="btn_standalone">
-                            <a class="main-button" href="/download/LanguageTool-4.1.zip"><?=__('messages.standalone_download')?> (v4.1, 134MB)</a>
+                            <a class="main-button" href="/download/LanguageTool-4.1.zip">{{__('messages.standalone_download')}} (v4.1, 134MB)</a>
                         </li>
                     </ul>
                 </div>
@@ -453,9 +455,12 @@
 
             <div class="row">
                 <p>
-                    <?=__('messages.standalone_builds')?>
-                    <a href="/download/"><?=__('messages.standalone_old_releases')?></a> &middot;
-                    <a href="/download/snapshots/?C=M;O=D"><?=__('messages.standalone_daily_builds')?></a>
+                    {{__('messages.after_download')}}
+                </p>
+                <p>
+                    {{__('messages.standalone_builds')}}
+                    <a href="/download/">{{__('messages.standalone_old_releases')}}</a> &middot;
+                    <a href="/download/snapshots/?C=M;O=D">{{__('messages.standalone_daily_builds')}}</a>
                 </p>
             </div>
 
@@ -470,7 +475,7 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <a target="_blank"
-                       href="<?=__('messages.browser_chrome_video')?>"><i class="fa fa-play-circle"></i></a>
+                       href="{{__('messages.browser_chrome_video')}}"><i class="fa fa-play-circle"></i></a>
                 </div>
             </div>
 
@@ -486,7 +491,7 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <a target="_blank"
-                       href="<?=__('messages.browser_firefox_video')?>"><?=__('messages.browser_firefox_video_head')?></a>
+                       href="{{__('messages.browser_firefox_video')}}">{{__('messages.browser_firefox_video_head')}}</a>
                 </div>
             </div>
 
