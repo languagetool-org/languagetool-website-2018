@@ -40,7 +40,7 @@
 
                     <small>(Po przesunięciu kursora myszy nad błędem wyświetli się odpowiedni opis).</small>
 
-                    <a class="fancyboxImage" title="LanguageTool jako rozszerzenie w programie LibreOffice" href="images/screenshot.png"><img style="margin: 15px" align="right" src="images/screenshot_small.png" alt="Screenshot"/></a>
+                    <a class="fancyboxImage" title="LanguageTool jako rozszerzenie w programie LibreOffice" href="/images/pl/screenshot.png"><img style="margin: 15px" align="right" src="/images/pl/screenshot_small.png" alt="Screenshot"/></a>
 
                 <ul>
                     <li>Błędy fonetyczne
