@@ -2538,6 +2538,11 @@ body #footer span.footer-content-subscribe-form-message {
     border-color: #e00055 !important;
 }
 
+.editor_controls_premium:hover {
+    background-color: white !important;
+    border-color: white !important;
+}
+
 .dropdown .editor_controls_group_item {
     flex-basis: 150px;
 }
