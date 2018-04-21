@@ -4,6 +4,7 @@ return [
     'language_hint' => 'Czy chcesz używać korektora LanguageTool do obsługi języka: :lang?',
     'language_link' => 'Przejdź tam.',
     'title' => 'Szybko i łatwo poprawiaj tekst. Gramatyka, styl, ortografia',
+    'tagline' => 'proofreading service',
     'russian' => 'rosyjski',
     'auto_detect' => 'automatyczne wykrywanie',
     'fullscreen' => 'przełącz tryb pełnoekranowy',

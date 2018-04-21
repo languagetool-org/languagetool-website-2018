@@ -4,6 +4,7 @@ return [
     'language_hint' => 'Wollen Sie lieber zu LanguageTool für :lang?',
     'language_link' => 'Dann hier klicken',
     'title' => 'Texte einfach prüfen. Grammatik. Stil. Rechtschreibung.',
+    'tagline' => 'Grammatik- und Rechtschreibprüfung',
     'russian' => 'Russisch',
     'auto_detect' => 'Automatisch erkennen',
     'fullscreen' => 'Textfeld groß/klein',

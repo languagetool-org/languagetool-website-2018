@@ -4,6 +4,7 @@ return [
     'language_hint' => ':lang に興味があるようですね?',
     'language_link' => '見てみよう。',
     'title' => 'すばやく簡単にテキストの文法、スタイル、スペル方をチェックする。',
+    'tagline' => 'proofreading service',
     'russian' => 'ロシア語',
     'auto_detect' => '自動検出',
     'fullscreen' => '全画面表示を切り替え',

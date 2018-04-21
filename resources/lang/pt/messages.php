@@ -4,6 +4,7 @@ return [
     'language_hint' => 'Parece estar interessado no LanguageTool para :lang?',
     'language_link' => 'Leve-me lá.',
     'title' => 'Verifique o texto rápido e fácil. Gramática, estilo, ortografia.',
+    'tagline' => 'proofreading service',
     'russian' => 'Russo',
     'auto_detect' => 'Automático',
     'fullscreen' => 'Alternar o modo de ecrã completo',

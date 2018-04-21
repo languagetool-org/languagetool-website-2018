@@ -4,6 +4,7 @@ return [
     'language_hint' => 'Mogelijk heeft u interesse in LanguageTool voor :lang?',
     'language_link' => 'Ga daarheen.',
     'title' => 'Controleer tekst snel en eenvoudig. Grammatica, stijl en spelling.',
+    'tagline' => 'proofreading service',
     'russian' => 'Russisch',
     'auto_detect' => 'automatisch detecteren',
     'fullscreen' => 'volledig scherm aan of uit',

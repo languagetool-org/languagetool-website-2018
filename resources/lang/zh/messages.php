@@ -4,6 +4,7 @@ return [
     'language_hint' => '您好像對:langLanguageTool感興趣？',
     'language_link' => '去瞅瞅看！',
     'title' => '簡單快捷地揪出文法、文風和拼字等問題',
+    'tagline' => 'proofreading service',
     'russian' => '俄文',
     'auto_detect' => '自動偵測',
     'fullscreen' => '開關全螢幕',

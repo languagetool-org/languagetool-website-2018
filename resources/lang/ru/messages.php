@@ -4,6 +4,7 @@ return [
     'language_hint' => 'Возможно, вам нужна страничка LanguageTool для :lang?',
     'language_link' => 'Хочу туда!',
     'title' => 'Быстро и просто проверить текст. Грамматика, орфография, стиль.',
+    'tagline' => 'proofreading service',
     'russian' => 'Русский',
     'auto_detect' => 'авто-определение',
     'fullscreen' => 'переключить полноэкранный режим',
