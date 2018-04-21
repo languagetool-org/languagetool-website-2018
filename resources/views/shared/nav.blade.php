@@ -11,7 +11,7 @@
                 <div class="head-brand">
                     <a class="" href="{{ url('/') }}">
                         <span class="head-brand-name">LanguageTool</span><br>
-                        <span class="head-brand-slogan">proofreading service</span>
+                        <span class="head-brand-slogan">{{__('messages.tagline')}}</span>
                     </a>
                 </div>
             </div>
