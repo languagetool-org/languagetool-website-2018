@@ -31,9 +31,6 @@
         var googletag = googletag || {};
         googletag.cmd = googletag.cmd || [];
     </script>
-    
-    <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
-    <script src="{{ asset('vendors/glide/glide.js') }}"></script>
 
 </head>
 <body>

@@ -161,12 +161,14 @@ if (isset($_SERVER['QUERY_STRING']) && strpos($_SERVER['QUERY_STRING'], 'testmod
         data-popup-closed="closedCallback"
 >
 </script>
-<script src="{{ asset('js/lightbox2/js/lightbox-plus-jquery.js') }}"></script>
 
 {{-- javascript area end --}}
-
-<script src="{{ asset('js/vex.combined.min.js') }}"></script>
+    
 <script src="{{ asset('js/app.js') }}"></script>
+<script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
+<script src="{{ asset('vendors/glide/glide.js') }}"></script>
+<script src="{{ asset('js/lightbox2/js/lightbox.js') }}"></script>
+<script src="{{ asset('js/vex.combined.min.js') }}"></script>
 <script src="{{ asset('vendors/tiny_mce/tiny_mce.js') }}"></script>
 <script src="{{ asset('vendors/tiny_mce/plugins/atd-tinymce/editor_plugin2.js') }}"></script>
 <script src="{{ asset('vendors/tiny_mce/plugins/atd-tinymce/src/synonyms.js') }}"></script>

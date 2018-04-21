@@ -530,3 +530,14 @@ $(document).ready(function() {
 });
 
 vex.defaultOptions.className = 'vex-theme-default';
+
+$(document).ready(function() {
+    $('#Glide').glide({
+        type: 'slider'
+    });
+
+
+    $('#Reviews').glide({
+        type: 'slider'
+    });
+});

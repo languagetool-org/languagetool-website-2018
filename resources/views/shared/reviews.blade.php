@@ -25,10 +25,4 @@
         </div>
     </div>
 </div>
-
-<script type="text/javascript">
-    $("#Reviews").glide({
-        type: "carousel"
-    });
-</script>
 @endif

@@ -322,13 +322,7 @@
 
                     <div class="glide__bullets"></div>
 
-                </div>     
-
-                <script>
-                    $("#Glide").glide({
-                        type: "carousel"
-                    });
-                </script>
+                </div>
 
             </div>
         </div>
