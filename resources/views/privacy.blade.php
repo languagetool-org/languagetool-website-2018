@@ -129,8 +129,6 @@
                             sich bei einer Aufsichtsbehörde zu beschweren.</li>
                     </ul>
 
-                    <p><a href="https://github.com/languagetool-org/languagetool-website/commits/master/www/privacy/index.php">Änderungshistorie dieser Seite</a></p>
-
                 <?php } else { ?>
 
                     <h1>Privacy Policy</h1>
@@ -229,8 +227,6 @@
                         <li>You have the right, upon request and free of charge, to receive information about your personal data we store.</li>
                         <li>If you believe that the processing of your personal data is unlawful, you have the right to complain to a regulatory agency.</li>
                     </ul>
-
-                    <p><a href="https://github.com/languagetool-org/languagetool-website/commits/master/www/privacy/index.php">Change log of this page</a></p>
 
                 <?php } ?>
 

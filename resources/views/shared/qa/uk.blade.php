@@ -9,10 +9,12 @@
         <div id="qa">
             
             <h3>
+                <!--
                 <span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
                 </span>
+                -->
                 Зв'язок
             </h3>
             <div>
@@ -24,6 +26,7 @@
     </div>
 </div>
 
+<!--
 <script>
     $(document).ready(function() {
         $("#qa").accordion({
@@ -33,3 +36,4 @@
         });
     });
 </script>
+-->

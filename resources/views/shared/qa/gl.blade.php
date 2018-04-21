@@ -8,10 +8,10 @@
             
             {{-- 1 --}}
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 LibreOffice
             </h3>
             <div>
@@ -29,10 +29,10 @@
 
             {{-- 2 --}}
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Outras versións
             </h3>
             <div>
@@ -43,10 +43,10 @@
             
             {{-- 2 --}}
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Licenza e Código-Fonte
             </h3>
             <div>
@@ -59,6 +59,7 @@
     </div>
 </div>
 
+<!--
 <script>
     $(document).ready(function() {
         $("#qa").accordion({
@@ -68,3 +69,4 @@
         });
     });
 </script>
+-->

@@ -1207,8 +1207,8 @@ AtDCore.prototype.isIE = function() {
       /* send error example to our database */
       _sendErrorExample : function(sentence, correctedSentence, covered, replacement, lang, ruleId, suggestionPos) {
           var req = new XMLHttpRequest();
-          req.timeout = 60 * 1000; // milliseconds
           req.open('POST', "https://languagetoolplus.com/submitErrorExample", true);
+          req.timeout = 60 * 1000; // milliseconds
           //req.open('POST', "http://localhost:8000/submitErrorExample", true);
           req.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
           req.onload = function() {
@@ -1239,8 +1239,8 @@ AtDCore.prototype.isIE = function() {
       /* send false alarm to our database */
       _sendFalseAlarm : function(sentence, coveredText, lang, ruleId) {
           var req = new XMLHttpRequest();
-          req.timeout = 60 * 1000; // milliseconds
           req.open('POST', "https://languagetoolplus.com/submitFalseAlarm", true);
+          req.timeout = 60 * 1000; // milliseconds
           //req.open('POST', "http://localhost:8000/submitFalseAlarm", true);
           req.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
           req.onload = function() {
@@ -1267,8 +1267,8 @@ AtDCore.prototype.isIE = function() {
       /* send ignored rule to our database for tracking */
       _sendIgnoreRule : function(sentence, coveredText, lang, ruleId) {
           var req = new XMLHttpRequest();
-          req.timeout = 60 * 1000; // milliseconds
           req.open('POST', "https://languagetoolplus.com/submitIgnoreRule", true);
+          req.timeout = 60 * 1000; // milliseconds
           //req.open('POST', "http://localhost:8000/submitIgnoreRule", true);
           req.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
           req.onload = function() {

@@ -174,7 +174,7 @@ if (isset($_SERVER['QUERY_STRING']) && strpos($_SERVER['QUERY_STRING'], 'testmod
 <script src="{{ asset('vendors/tooltipster/tooltipster.bundle.min.js') }}"></script>
 <script src="{{ asset('js/jquery-ui.min.js') }}"></script>
 <script src="{{ asset('js/jquery.tablesorter.min.js') }}"></script>
-<script src="{{ asset('js/main.js') }}"></script>
+<script src="{{ asset('js/main.js') }}?20180420"></script>
 <script src="{{ asset('js/touchHover.js') }}"></script>
 
 

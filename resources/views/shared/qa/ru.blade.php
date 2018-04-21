@@ -7,10 +7,10 @@
         <div id="qa">
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Функциональность
             </h3>
             <div>
@@ -69,10 +69,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Демонстрация возможностей LanguageTool
             </h3>
             <div>
@@ -82,10 +82,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Скачать
             </h3>
             <div>
@@ -98,10 +98,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Установка для LibreOffice/OpenOffice.org
             </h3>
             <div>
@@ -126,10 +126,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Использование в качестве независимого приложения
             </h3>
             <div>
@@ -152,10 +152,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Использование в качестве консольного приложения
             </h3>
             <div>
@@ -172,10 +172,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Примеры интеграции
             </h3>
             <div>
@@ -201,10 +201,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Контакты
             </h3>
             <div>
@@ -213,10 +213,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Новости
             </h3>
             <div>
@@ -349,10 +349,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Нужна помощь?
             </h3>
             <div>
@@ -365,10 +365,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Лицензия и исходный код
             </h3>
             <div>
@@ -382,6 +382,7 @@
     </div>
 </div>
 
+<!--
 <script>
     $(document).ready(function() {
         $("#qa").accordion({
@@ -390,3 +391,4 @@
         });
     });
 </script>
+-->

@@ -8,10 +8,12 @@
             
             {{-- 1 --}}
             <h3>
+                <!--
                 <span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
                 </span>
+                -->
                 <!--headline-->
             </h3>
             <div>
@@ -30,23 +32,27 @@
             </div>
 
             <h3>
+                <!--
                 <span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
                 </span>
+                -->
                 Copie d’écran dans LibreOffice
             </h3>
             <div>
-                <img src="images/LanguageTool-LibreOffice.png" alt="LanguageTool (fr)"/>
+                <img src="/images/fr/LanguageTool-LibreOffice.png" alt="LanguageTool (fr)"/>
                 <p>LanguageTool peut signaler bien plus d’erreurs que sur cette copie d’écran puisque LanguageTool contient plus de 2000 règles XML pour détecter des erreurs. Les fautes de grammaire trouvées par LanguageTool sous soulignées en bleu. Les fautes d’orthographe trouvées par le dictionnaire français de LibreOffice sont soulignées en rouge.</p>
                 <p>Veuillez vous assurer que la langue sélectionnée pour le texte dans LibreOffice/OpenOffice est bien le français afin que le correcteur grammatical puisse fonctionner correctement en français.</p>
             </div>
             
             <h3>
+                <!--
                 <span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
                 </span>
+                -->
                 Licence &amp; code source
             </h3>
             <div>
@@ -62,6 +68,7 @@
     </div>
 </div>
 
+<!--
 <script>
     $(document).ready(function() {
         $("#qa").accordion({
@@ -71,3 +78,4 @@
         });
     });
 </script>
+-->

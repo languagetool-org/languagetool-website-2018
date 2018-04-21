@@ -7,10 +7,10 @@
         <div id="qa">
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 <!--headline-->
             </h3>
             <div>
@@ -22,10 +22,10 @@
             </div>
 
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 许可证和源代码
             </h3>
             <div>
@@ -35,10 +35,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 LanguageTool中文支持研究组
             </h3>
             <div>
@@ -51,6 +51,7 @@
     </div>
 </div>
 
+<!--
 <script>
     $(document).ready(function() {
         $("#qa").accordion({
@@ -60,3 +61,4 @@
         });
     });
 </script>
+-->

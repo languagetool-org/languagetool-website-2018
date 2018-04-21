@@ -58,6 +58,7 @@ Route::group(['prefix' => app('language.routePrefix')], function() {
 	Route::get('/chrome', 'LegacyController@chrome');
 	Route::get('/contribute', 'LegacyController@contribute');
 	Route::get('/forum', 'LegacyController@forum');
+	Route::get('/fakeerror', 'LegacyController@fakeerror');
 	Route::get('/home', 'HomeController@index')->name('home');
 	//languagetoolplus.com only:
 	//Route::get('/subscribe', 'SubscriptionController@subscribe');

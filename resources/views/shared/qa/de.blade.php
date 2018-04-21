@@ -8,10 +8,10 @@
             
             {{-- 1 --}}
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Erkannte Fehler
             </h3>
             <div>
@@ -78,10 +78,10 @@
             
             {{-- 2 --}}
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 LanguageTool im Browser
             </h3>
             <div>
@@ -96,10 +96,10 @@
             
             {{-- 3 --}}
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 LanguageTool in LibreOffice
             </h3>
             <div>
@@ -119,10 +119,10 @@
             
             {{-- 4 --}}
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 LanguageTool als eigenständiges Programm
             </h3>
             <div>
@@ -138,10 +138,10 @@
             
             {{-- 5 --}}
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Noch mehr Add-ons
             </h3>
             <div>
@@ -151,10 +151,10 @@
             
             {{-- 6 --}}
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Neue Versionen
             </h3>
             <div>
@@ -165,10 +165,10 @@
             
             {{-- 7 --}}
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Sprachvarianten
             </h3>
             <div>
@@ -184,10 +184,10 @@
             
             {{-- 8 --}}
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Mitmachen!
             </h3>
             <div>
@@ -200,10 +200,10 @@
             
             {{-- 9 --}}
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Kontakt
             </h3>
             <div>
@@ -213,10 +213,10 @@
             
             {{-- 10 --}}
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Wie funktioniert's?
             </h3>
             <div>
@@ -246,6 +246,7 @@
     </div>
 </div>
 
+<!--
 <script>
     $(document).ready(function() {
         $("#qa").accordion({
@@ -255,3 +256,4 @@
         });
     });
 </script>
+-->
