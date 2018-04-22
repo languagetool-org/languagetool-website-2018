@@ -15,7 +15,7 @@
                     </a>
                 </div>
             </div>
-            <div class="header-nav-menu mobile-toggle">
+            <div class="header-nav-menu mobile-toggle" data-menu="main">
                 <a class="about header-nav-menu-item">
                     <span class="header-nav-menu-item-label">
                         <?=__('messages.menu')?>
@@ -104,7 +104,7 @@
             </nav>
             @isset ($isLandingPage)
             <nav class="header-nav-menu langs">
-                <span class="header-nav-menu-item">
+                <span class="header-nav-menu-item" data-menu="languages">
                     <span class="header-nav-menu-item-label">
                         @isset ($langs[$selectedLang])
                             {{ $langs[$selectedLang] }}
@@ -117,15 +117,15 @@
                         @foreach ($langs as $key => $lang)
                             @if ($key != $selectedLang && in_array($key, $languagesWithPage))
                                 @if ($key == "en")
-                                    <a class=" jump_menu header-nav-menu-item-dropdown-item" href="/"><span>{{ $lang }}</span></a>
+                                    <a class="header-nav-menu-item-dropdown-item" href="/"><span>{{ $lang }}</span></a>
                                 @else
-                                    <a class=" jump_menu header-nav-menu-item-dropdown-item" href="/{{ $key }}/"><span>{{ $lang }}</span></a>
+                                    <a class="header-nav-menu-item-dropdown-item" href="/{{ $key }}/"><span>{{ $lang }}</span></a>
                                 @endif
                             @elseif($key == $selectedLang)
-                                <span class=" jump_menu header-nav-menu-item-dropdown-item" style="color:black">{{ $lang }}</span>
+                                <span class="header-nav-menu-item-dropdown-item active-lang">{{ $lang }}</span>
                             @endif
                         @endforeach
-                        <a href="/languages" class=" jump_menu header-nav-menu-item-dropdown-item" style="margin-top: 10px">{{__('messages.menu_overview')}}</a>
+                        <a href="/languages" class="header-nav-menu-item-dropdown-item" style="margin-top: 10px">{{__('messages.menu_overview')}}</a>
                     </div>
                 </span>
             </nav>

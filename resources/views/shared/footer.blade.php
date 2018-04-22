@@ -133,7 +133,7 @@
     }
     $(document).ready(function () {
         $(".jump_menu").on('click',function () {
-            $('body').removeClass('menu-open');
+            $('body').removeClass('main-menu-open');
 
             var href = $(this).attr('href');
             var target = href.substring(href.indexOf('#'));

@@ -7,8 +7,32 @@ $(document).ready(function() {
         }
     }
 
+    if (window.innerWidth <= 767) {
+        $('.header-nav-menu.langs .header-nav-menu-item').addClass('mobile-toggle');
+    }
+
     $('.mobile-toggle').on('click', function() {
-        $('body').toggleClass('menu-open');
+        var menu = $(this).attr('data-menu');
+        var bodyClassesStr = $('body').attr('class');
+        var menuClassesArr = [];
+        var isAlreadyShown = $('body').hasClass(menu + '-menu-open');
+
+        if (bodyClassesStr) {
+            var classesArr = bodyClassesStr.split(' ');
+            classesArr.forEach(function(item) {
+                var regex = /-menu-open/;
+
+                if (item.match(regex)) {
+                    menuClassesArr.push(item);
+                }
+            });
+
+            $('body').removeClass(menuClassesArr.join(' '));
+        }
+
+        if ( !isAlreadyShown ) {
+            $('body').addClass(menu + '-menu-open');
+        }
     });
 });
 

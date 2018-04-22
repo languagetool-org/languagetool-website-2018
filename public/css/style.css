@@ -1738,6 +1738,7 @@ body #footer span a:hover {
     height: 100%;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .header-nav-menu-item:hover {
@@ -1769,6 +1770,10 @@ body #footer span a:hover {
 
 .header-nav-menu-item-dropdown-item {
     margin: 5px 0;
+}
+
+.header-nav-menu.langs .header-nav-menu-item-dropdown-item.active-lang {
+    color: #000;
 }
 
 .header-nav-menu-item-dropdown-item:hover {
