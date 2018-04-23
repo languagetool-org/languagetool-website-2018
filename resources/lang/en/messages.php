@@ -3,7 +3,8 @@
 return [
     'language_hint' => 'Seems like you might be interested in LanguageTool for :lang?',
     'language_link' => 'Take me there.',
-    'title' => 'Check text fast and easy. Grammar, style, spelling.',
+    //'title' => 'Check text fast and easy. Grammar, style, spelling.',
+    'title' => 'Style and Grammar Checker',
     'tagline' => 'proofreading service',
     'russian' => 'Russian',
     'auto_detect' => 'auto-detect',
