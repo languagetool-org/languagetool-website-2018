@@ -95,7 +95,7 @@
                         <i class="fa fa-angle-right"></i>
                     </span>
                 </a>
-                <a class="development jump_menu header-nav-menu-item" href="/development">
+                <a class="development jump_menu header-nav-menu-item" href="/dev">
                     <span class="header-nav-menu-item-label">
                         <?=__('messages.nav_development')?>
                         <i class="fa fa-angle-right"></i>
