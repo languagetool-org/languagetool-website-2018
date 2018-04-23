@@ -22,7 +22,7 @@
     <link href="{{ asset('css/jquery-ui/jquery-ui.theme.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/vex.css') }}" rel="stylesheet">
     <link href="{{ asset('css/vex-theme-default.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/style.css') }}?20180420" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}?20180423" rel="stylesheet">
     <link href="{{ asset('css/media.css') }}?20180419" rel="stylesheet">
     <link href="{{ asset('css/tooltip.css') }}?20180419" rel="stylesheet">
 
