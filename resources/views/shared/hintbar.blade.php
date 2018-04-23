@@ -18,14 +18,14 @@
 		if (storage.getItem('isHideHintbar')) {
 			removeHintbar();
 		} else {
-			$('.hintbar-close').on('click', function() {
+			document.querySelector('.hintbar-close').addEventListener('click', function() {
 				removeHintbar();
 				storage.setItem('isHideHintbar', true);
 			});
 		}
 
 		function removeHintbar() {
-			$('.hintbar').remove();
+			document.querySelector('.hintbar').remove();
 		}
 	})();
 </script>
