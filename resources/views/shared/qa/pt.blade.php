@@ -44,10 +44,10 @@
         <div id="qa">
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Versão 3.9 (lançada a 26 de setembro de 2017)
             </h3>
             <div>
@@ -92,10 +92,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Versão 3.8 (lançada a 27 de julho de 2017)
             </h3>
             <div>
@@ -142,10 +142,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Versão 3.7 (lançada a 27 de março de 2017)
             </h3>
             <div>
@@ -215,10 +215,10 @@
             </div>
             
             <h3>
-                <span class="qa-header-icon">
+                <!--<span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
-                </span>
+                </span>-->
                 Versão 3.6 (lançada a 28 de dezembro de 2016)
             </h3>
             <div>
@@ -273,6 +273,7 @@
     </div>
 </div>
 
+<!--
 <script>
     $(document).ready(function() {
         $("#qa").accordion({
@@ -282,3 +283,4 @@
         });
     });
 </script>
+-->
