@@ -38,7 +38,7 @@
 
                 <small>Passeu el cursor per damunt d'un error per a veure la informació corresponent.</small>
 
-                <a class="fancyboxImage" title="LanguageTool com a extensió en LibreOffice.org" href="images/screenshot.png"><img style="margin: 15px" align="right" src="images/screenshot_small.png" alt="Screenshot"/></a>
+                <a class="fancyboxImage" title="LanguageTool com a extensió en LibreOffice.org" href="/images/ca/screenshot.png"><img style="margin: 15px" align="right" src="/images/ca/screenshot_small.png" alt="Screenshot"/></a>
 
                 <ul>
                     <li>Gramàtica
