@@ -83,7 +83,7 @@
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
                                         {{ __('messages.msword_feature') }}
-                                        (<a href="#msword">{{ __('messages.msword_feature_details') }}</a>)
+                                        (<a href="#msword" style="color:gold">{{ __('messages.msword_feature_details') }}</a>)
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
