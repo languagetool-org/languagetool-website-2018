@@ -3,7 +3,7 @@
 return [
     'language_hint' => ':lang に興味があるようですね?',
     'language_link' => '見てみよう。',
-    'title' => 'すばやく簡単にテキストの文法、スタイル、スペル方をチェックする。',
+    'title' => 'スタイルと文法チェッカー',
     'tagline' => '校正サービス',
     'russian' => 'ロシア語',
     'auto_detect' => '自動検出',
