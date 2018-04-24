@@ -28,7 +28,7 @@ return [
     'check_text_title' => '檢查文字（或按Ctrl+Return）',
     'check_text_button' => '檢查文字',
     'pricing' => '價格',
-    'billed_annually' => '每月支付少於:amount:currency',
+    'billed_annually' => '每月支付少於:currency:amount',
     'free_headline' => '免費',
     'free_limit' => '每次檢查最多:characters個字元',
     'many_rules_1' => '使用:number個語文樣式偵測英文錯誤',
@@ -37,7 +37,7 @@ return [
     'improved_error_detection1_example' => '例如，LanguageTool能偵測「ISBN 978-1784713936」中的筆誤',
     'improved_error_detection2' => '能偵測敬候語中錯誤的性別用詞（只適用於德文）',
     'improved_error_detection2_example' => '例如，LanguageTool能識別「Sehr geehrte Frau Andreas Müller」是病句',
-    'improved_error_detection3' => '使用更多單字配對和數據偵測拼字錯誤',
+    'improved_error_detection3' => '使用更多單字配對和數據偵測拼字問題',
     'improved_error_detection3_example' => '例如，LanguageTool會發現「Man returns wallet he fount.」應為「Man returns wallet he found.」。',
     'improved_error_detection4' => '偵測超過75種額外錯誤',
     'improved_error_detection4_example' => '例如：
