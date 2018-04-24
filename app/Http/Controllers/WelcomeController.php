@@ -64,7 +64,7 @@ class WelcomeController extends Controller
                 'uk'  => __('messages.langs.uk'),
                 'ast' => __('messages.langs.ast'),
                 'br'  => __('messages.langs.br'),
-                'zh'  => __('messages.langs.zh'),
+                'zh'  => __('messages.langs.zh-CN-Hans'),
                 'eo'  => __('messages.langs.eo'),
                 'gl'  => __('messages.langs.gl'),
                 'el'  => __('messages.langs.el'),
