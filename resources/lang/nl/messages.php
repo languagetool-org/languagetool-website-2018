@@ -129,7 +129,7 @@ return [
         'be' => 'Belarussisch',
         'br' => 'Bretons',
         'ca' => 'Catalaans',
-        'zh' => 'Chinees',
+        'zh-CN-Hans' => 'Simplified&nbsp;Chinese',
         'da' => 'Deens',
         'nl' => 'Nederlands',
         'en' => 'Engels',

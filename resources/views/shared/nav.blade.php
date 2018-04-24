@@ -119,10 +119,10 @@
                                 @if ($key == "en")
                                     <a class="header-nav-menu-item-dropdown-item" href="/"><span>{{ $lang }}</span></a>
                                 @else
-                                    <a class="header-nav-menu-item-dropdown-item" href="/{{ $key }}/"><span>{{ $lang }}</span></a>
+                                    <a class="header-nav-menu-item-dropdown-item" href="/{{ $key }}/"><span>{{ str_replace(" ", "&nbsp;", $lang) }}</span></a>
                                 @endif
                             @elseif($key == $selectedLang)
-                                <span class="header-nav-menu-item-dropdown-item active-lang">{{ $lang }}</span>
+                                <span class="header-nav-menu-item-dropdown-item active-lang">{{ str_replace(" ", "&nbsp;", $lang) }}</span>
                             @endif
                         @endforeach
                         <a href="/languages" class="header-nav-menu-item-dropdown-item" style="margin-top: 10px">{{__('messages.menu_overview')}}</a>

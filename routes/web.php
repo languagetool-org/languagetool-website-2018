@@ -59,6 +59,7 @@ Route::group(['prefix' => app('language.routePrefix')], function() {
 	Route::get('/contribute', 'LegacyController@contribute');
 	Route::get('/de/leichte-sprache/', 'LegacyController@de_leichte_sprache');
 	Route::get('/forum', 'LegacyController@forum');
+    Route::get('/zh', function() { return redirect('/zh-CN-Hans/'); });
 	Route::get('/fakeerror', 'LegacyController@fakeerror');
 	Route::get('/home', 'HomeController@index')->name('home');
 	//languagetoolplus.com only:

@@ -132,7 +132,7 @@ return [
         'be' => 'Weißrussisch',
         'br' => 'Bretonisch',
         'ca' => 'Katalanisch',
-        'zh' => 'Chinesisch',
+        'zh-CN-Hans' => 'Simplified&nbsp;Chinese',
         'da' => 'Dänisch',
         'nl' => 'Niederländisch',
         'en' => 'Englisch',
