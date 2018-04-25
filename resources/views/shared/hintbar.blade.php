@@ -1,11 +1,11 @@
 <div class="hintbar">
 	<?php
     $origLocale = App::getLocale();
-    App::setLocale($defaultLang);
+    App::setLocale($hintbarLang);
 	?>
 	<span class="hintbar-close"><i class="fa fa-close"></i></span>
-	<?=__('messages.language_hint', ['lang' => __('messages.langs.'.$defaultLang)])?>
-	<a href="/{{$defaultLang}}/"><?=__('messages.language_link')?></a>
+	<?=__('messages.language_hint', ['lang' => __('messages.langs.'.$hintbarLang)])?>
+	<a href="/{{$hintbarLang}}/"><?=__('messages.language_link')?></a>
 	<?php
 	App::setLocale($origLocale);
 	?>

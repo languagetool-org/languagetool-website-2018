@@ -163,10 +163,10 @@ function doit(doLog) {
     }
     if (doLog) {
         if (typeof(_paq) !== 'undefined') { _paq.push(['trackEvent', 'Action', 'CheckText', langCode]); } // Piwik tracking
+        // save language as default for next visit - in 'if' so it only happens on explicit user action:
+        document.cookie = "lt-language=" + langCode + ";max-age=1314000";  // one year
     }
     tinyMCE.activeEditor.execCommand('mceWritingImprovementTool', langCode);
-    // save language as default for next visit:
-    document.cookie = "lt-language=" + langCode + ";max-age=1314000";  // one year
 }
 
 function proofread() {

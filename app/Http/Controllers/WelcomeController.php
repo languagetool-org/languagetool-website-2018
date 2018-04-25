@@ -27,8 +27,10 @@ class WelcomeController extends Controller
         App::setLocale($locale);
         
         $isShowHintbar = false;
-        $defaultLang = $this->getDefaultLanguage();
-        if ($defaultLang != 'en' && $defaultLang != $locale && $defaultLang != 'auto') {
+        $defaultLang = $this->getDefaultLanguage($locale);
+        $browserLang = $this->getBrowserLanguage();
+        $browserLangShort = $this->getLanguageWithoutCountry($browserLang);
+        if ($browserLangShort != 'en' && $browserLangShort != $locale && $browserLangShort != 'auto') {
             $isShowHintbar = true;
         }
 
@@ -37,13 +39,14 @@ class WelcomeController extends Controller
 
         return view('welcome', [
             'languagesWithPage' => ['en', 'br', 'ca', /*'eo',*/ 'zh-CN-Hans', 'nl', 'es', 'fr', /*'gl',*/ 'de', 'it', 'pl', 'pt', 'ru', 'es', 'uk'],
-            'checkDefaultLang' => $this->getDefaultLanguage(),
-            'checkDefaultLangWithCountry' => $this->getDefaultLanguageAndCountry(),
-            'checkDefaultText' => $this->getDefaultDemoText($this->getDefaultLanguage()),
+            'checkDefaultLang' => $defaultLang,
+            'checkDefaultLangWithCountry' => $this->getDefaultLanguageAndCountry($locale),
+            'checkDefaultText' => $this->getDefaultDemoText($defaultLang),
             'defaultDemoTextMappingForJavaScript' => $this->getDefaultDemoTextMappingForJavaScript(),
             'currentLang' => "en",
             'toggleFullscreenMode' => __('messages.fullscreen'),
             'isShowHintbar' => $isShowHintbar,
+            'hintbarLang' => $this->getLanguageWithoutCountry($browserLang),
             'defaultLang' => $defaultLang,
             'selectedLang' => $locale,
             'langs' => $langs,
@@ -141,16 +144,21 @@ class WelcomeController extends Controller
         return $result;
     }
 
-    private function getDefaultLanguage()
+    private function getDefaultLanguage($locale)
     {
-        return $this->getLanguageWithoutCountry($this->getDefaultLanguageAndCountry());
+        return $this->getLanguageWithoutCountry($this->getDefaultLanguageAndCountry($locale));
     }
 
-    private function getDefaultLanguageAndCountry()
+    private function getDefaultLanguageAndCountry($locale)
     {
         if (isset($_COOKIE["lt-language"])) {
             return $_COOKIE["lt-language"];
         }
+        return $locale;
+    }
+
+    private function getBrowserLanguage()
+    {
         if (isset($_SERVER["HTTP_ACCEPT_LANGUAGE"])) {
             return $this->parseDefaultLanguage($_SERVER["HTTP_ACCEPT_LANGUAGE"]);
         } else {
