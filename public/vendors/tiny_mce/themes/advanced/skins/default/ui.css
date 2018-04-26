@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
     background: transparent;
-    white-space: nowrap;
+    white-space: normal;
     text-decoration: none;
     font-weight: normal;
     cursor: default;
@@ -24,21 +24,6 @@
     width: auto;
     border-collapse: separate;
     text-align: left
-}
-@media (max-width: 480px) {
-    .defaultSkin table,
-    .defaultSkin tbody,
-    .defaultSkin a,
-    .defaultSkin img,
-    .defaultSkin tr,
-    .defaultSkin div,
-    .defaultSkin td,
-    .defaultSkin iframe,
-    .defaultSkin span,
-    .defaultSkin *,
-    .defaultSkin .mceText {
-        white-space: normal;
-    }
 }
 
 .defaultSkin a:hover,
