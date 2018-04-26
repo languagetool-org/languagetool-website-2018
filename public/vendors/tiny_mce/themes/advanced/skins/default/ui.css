@@ -25,6 +25,21 @@
     border-collapse: separate;
     text-align: left
 }
+@media (max-width: 480px) {
+    .defaultSkin table,
+    .defaultSkin tbody,
+    .defaultSkin a,
+    .defaultSkin img,
+    .defaultSkin tr,
+    .defaultSkin div,
+    .defaultSkin td,
+    .defaultSkin iframe,
+    .defaultSkin span,
+    .defaultSkin *,
+    .defaultSkin .mceText {
+        white-space: normal;
+    }
+}
 
 .defaultSkin a:hover,
 .defaultSkin a:link,
