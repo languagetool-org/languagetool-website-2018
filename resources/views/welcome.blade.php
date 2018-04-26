@@ -252,12 +252,12 @@
                         <ul class="glide__track">
                             <li class="glide__slide">
                                 <div class="features row">
-                                    <div class="imageLeft col-md-4">
+                                    <div class="feature-image col-md-5">
                                         <a data-lightbox="screenshots" href="/images/msword/en/1.png"><img
                                                     class="img-responsive" src="/images/msword/en/1_small.jpg"></a>
                                     </div>
 
-                                    <div class="col-md-8">
+                                    <div class="col-md-offset-1 col-md-6">
                                         <h2 class="steps-h">{{__('messages.step_1')}}</h2>
                                         <p>{{__('messages.msword_1')}}</p>
                                     </div>
@@ -266,26 +266,26 @@
                             <li class="glide__slide">
                                 <div class="features row">
 
-                                <div class="col-sm-12 col-md-4 col-md-push-8">
-                                    <a data-lightbox="screenshots" href="/images/msword/en/2.png"><img
-                                                class="img-responsive" src="/images/msword/en/2_small.jpg"></a>
-                                </div>
+                                    <div class="feature-image col-md-offset-1 col-md-5 col-md-push-6">
+                                        <a data-lightbox="screenshots" href="/images/msword/en/2.png"><img
+                                                    class="img-responsive" src="/images/msword/en/2_small.jpg"></a>
+                                    </div>
 
-                                <div class="col-sm-12 col-md-8 col-md-pull-4">
-                                    <h2 class="steps-h">{{__('messages.step_2')}}</h2>
-                                    <p>{{__('messages.msword_2')}}</p>
-                                </div>
+                                    <div class="col-md-6 col-md-pull-6">
+                                        <h2 class="steps-h">{{__('messages.step_2')}}</h2>
+                                        <p>{{__('messages.msword_2')}}</p>
+                                    </div>
 
                                 </div>
                             </li>
                             <li class="glide__slide">
                                 <div class="features row">
-                                    <div class="imageLeft col-md-4">
+                                    <div class="feature-image col-md-5">
                                         <a data-lightbox="screenshots" href="/images/msword/en/3.png"><img
                                                     class="img-responsive" src="/images/msword/en/3_small.jpg"></a>
                                     </div>
 
-                                    <div class="col-md-8">
+                                    <div class="col-md-offset-1 col-md-6">
                                         <h2 class="steps-h">{{__('messages.step_3')}}</h2>
                                         <p>{{__('messages.msword_3')}}</p>
                                     </div>
@@ -293,12 +293,12 @@
                             </li>
                             <li class="glide__slide">
                                 <div class="row features">
-                                    <div class="col-sm-12 col-md-4 col-md-push-8">
+                                    <div class="feature-image col-md-offset-1 col-md-5 col-md-push-6">
                                         <a data-lightbox="screenshots" href="/images/msword/en/4.png"><img
                                                     class="img-responsive" src="/images/msword/en/4_small.jpg"></a>
                                     </div>
 
-                                    <div class="col-sm-12 col-md-8 col-md-pull-4">
+                                    <div class="col-md-6 col-md-pull-6">
                                         <h2 class="steps-h">{{__('messages.step_4')}}</h2>
                                         <p>{{__('messages.msword_4')}}</p>
                                     </div>
@@ -307,11 +307,11 @@
                             </li>
                             <li class="glide__slide">
                                 <div class="features row">
-                                    <div class="imageLeft col-md-4">
+                                    <div class="feature-image col-md-5">
                                         <a data-lightbox="screenshots" href="/images/msword/en/5.png"><img
                                                     class="img-responsive" src="/images/msword/en/5_small.jpg"></a>
                                     </div>
-                                    <div class="col-md-8">
+                                    <div class="col-md-offset-1 col-md-6">
                                         <h2 class="steps-h">{{__('messages.step_5')}}</h2>
                                         <p>{{__('messages.msword_5')}}</p>
                                     </div>
