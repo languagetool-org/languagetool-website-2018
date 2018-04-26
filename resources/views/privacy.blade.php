@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
 @section('title', 'Datenschutzerklärung')
+@section('noindex')
+    <meta name="robots" content="noindex">
+@stop
 
 @section('content')
     <div id="textContent" class="content-section">
