@@ -54,6 +54,7 @@ class WelcomeController extends Controller
             'langs' => $langs,
             'reviews' => $reviews['items'],
             'isLandingPage' => true,
+            // the languages that appear in the dropdown:
             'checkLanguage' => [
                 'auto' => __('messages.auto_detect'),
                 'nl'  => __('messages.langs.nl'),
@@ -69,7 +70,6 @@ class WelcomeController extends Controller
                 'ast' => __('messages.langs.ast'),
                 'br'  => __('messages.langs.br'),
                 'zh'  => __('messages.langs.zh-CN-Hans'),
-                'zh-CN-Hans'  => __('messages.langs.zh-CN-Hans'),
                 'eo'  => __('messages.langs.eo'),
                 'gl'  => __('messages.langs.gl'),
                 'el'  => __('messages.langs.el'),
