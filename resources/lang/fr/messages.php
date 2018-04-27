@@ -36,9 +36,7 @@ return [
     'improved_error_detection1' => 'Détection de sommes de contrôle incorrectes dans les numéros ISBN et IBAN',
     'improved_error_detection1_example' => 'Par exemple, détecte la faute de frappe dans \'ISBN 978-1784713936\'',
     'improved_error_detection2' => 'Détection du mauvais genre dans la salutation (allemand seulement)',
-    'improved_error_detection2_example' => 'Détecte les erreurs comme \'Sehr geehrte Frau Andreas Müller\'',
     'improved_error_detection3' => 'Paires de mots supplémentaires pour la détection statistique des fautes de frappe',
-    'improved_error_detection3_example' => 'Par exemple, suggère \'found\' dans \'Man returns wallet he fount.\'',
     'improved_error_detection4' => 'Détection de plus de 75 autres erreurs supplémentaires',
     'improved_error_detection4_example' => 'Quelques exemples:
         <ul> 

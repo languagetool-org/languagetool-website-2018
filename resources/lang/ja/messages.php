@@ -36,9 +36,7 @@ return [
     'improved_error_detection1' => 'ISBNおよびIBAN番号の不正なチェックサムの検出',
     'improved_error_detection1_example' => 'たとえば、「ISBN 978-1784713936」の入力ミスを検出できます',
     'improved_error_detection2' => '挨拶における間違いの検出(ドイツ語のみ)',
-    'improved_error_detection2_example' => 'たとえば、「Sehr geehrte Frau AndreasMüller」のようなエラーを検出する',
     'improved_error_detection3' => 'タイプミスの統計的検出のための追加単語対',
-    'improved_error_detection3_example' => 'たとえば、found」を「Man returns wallet he fount.」に提案する',
     'improved_error_detection4' => '他の75以上の追加エラーの検出',
     'improved_error_detection4_example' => 'いくつかの例：
         <ul> 

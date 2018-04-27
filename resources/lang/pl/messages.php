@@ -36,9 +36,7 @@ return [
     'improved_error_detection1' => 'Wykrywanie nieprawidłowych sum kontrolnych w numerach ISBN i IBAN',
     'improved_error_detection1_example' => 'Wykrywany jest na przykład błąd w numerze „ISBN 978-1784713936”.',
     'improved_error_detection2' => 'Wykrywanie nieprawidłowego rodzaju w zwrotach grzecznościowych (tylko język niemiecki)',
-    'improved_error_detection2_example' => 'Wykrywane są błędy takie jak „Sehr geehrte Frau Andreas Müller”.',
     'improved_error_detection3' => 'Dodatkowe pary słów do statystycznego wykrywania błędów',
-    'improved_error_detection3_example' => 'Na przykład sugerowany jest wyraz „found” dla zdania „Man returns wallet he fount”.',
     'improved_error_detection4' => 'Wykrywanie ponad 75 dodatkowych błędów',
     'improved_error_detection4_example' => 'Przykłady: 
         <ul> 

@@ -36,16 +36,9 @@ return [
     'improved_error_detection1' => 'Позначення некоректних номерів ISBN та IBAN',
     'improved_error_detection1_example' => 'Наприклад, позначає помилку в  \'ISBN 978-1784713936\'',
     'improved_error_detection2' => 'Визначення неправильного роду в привітаннях (лише для німецької)',
-    'improved_error_detection2_example' => 'Визначення помилок на штиб \'Sehr geehrte Frau Andreas Müller\'',
     'improved_error_detection3' => 'Додаткові пари слів для статистичного визначення помилок',
-    'improved_error_detection3_example' => 'Наприклад, пропонує «found» у фразі \'Man returns wallet he fount.\'',
     'improved_error_detection4' => 'Визначення більш ніж 75 додаткових помилок',
-    'improved_error_detection4_example' => 'Some examples:
-        <ul>
-            <li>Create two strips with an <span class="error-marker">event</span> amount of wax on each strip. -> even</li>
-            <li>I\'m <span class="error-marker">kinder</span> bored. -> kind of</li>
-            <li>I <span class="error-marker">don’t the</span> answer. -> verb missing</li>
-        </ul>',
+    'improved_error_detection4_example' => 'Some examples:',
     'api_access' => 'Доступ до API',
     'api_access_detail' => 'вхід: текст, вихід: JSON з визначеними помилками',
     'free_action' => 'Зареєструватися',

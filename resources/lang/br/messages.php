@@ -36,9 +36,7 @@ return [
     'improved_error_detection1' => 'Diguzhiñ a ra sammadoù-kontroliñ direizh e-barzh an niveroù ISBN hag IBAN',
     'improved_error_detection1_example' => 'Diguzhiñ a ra da skouer ar fazi bizskrivañ e-barzh \'ISBN 978-1784713936\'',
     'improved_error_detection2' => 'Diguzhadur ar mod fall da zemata (en Alamaneg hepken)',
-    'improved_error_detection2_example' => 'Diguzhiñ ar fazioù evel \'Sehr geehrte Frau Andreas Müller\'',
     'improved_error_detection3' => 'Reoù gerioù ouzhpenn evit an diguzhiñ statistikel fazioù',
-    'improved_error_detection3_example' => 'Kinnig a ra da skouer \'found\' e-barzh \'Man returns wallet he fount.\'',
     'improved_error_detection4' => 'Diguzhiñ a ra muioc\'h evit 75 doare fazi ouzhpenn',
     'improved_error_detection4_example' => 'Un nebeud skouerioù:
         <ul> 

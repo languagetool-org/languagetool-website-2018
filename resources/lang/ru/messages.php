@@ -36,9 +36,7 @@ return [
     'improved_error_detection1' => 'Обнаружение неправильных контрольных сумм в номерах ISBN и IBAN',
     'improved_error_detection1_example' => 'Обнаружение ошибок в  \'ISBN 978-1784713936\'',
     'improved_error_detection2' => 'Обнаружение неправильного рода в приветствии (только на немецком языке)',
-    'improved_error_detection2_example' => 'Обнаруживает ошибки типа: "Sehr geehrte Frau Andreas Müller"',
     'improved_error_detection3' => 'Дополнительные пары слов для статистического обнаружения опечаток',
-    'improved_error_detection3_example' => 'Например, предлагает вариант "found" в примере "Man returns wallet he fount."',
     'improved_error_detection4' => 'Обнаружение дополнительно более 75 видов других ошибок',
     'improved_error_detection4_example' => 'Примеры: 
         <ul> 

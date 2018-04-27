@@ -51,7 +51,7 @@
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-ban"></i></span>
-                                        {{ __('messages.improved_error_detection4') }}
+                                        {{ __('messages.improved_error_detection4', ['number' => 300]) }}
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-ban"></i></span>
@@ -111,7 +111,7 @@
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
-                                        {{ __('messages.improved_error_detection4') }}
+                                        {{ __('messages.improved_error_detection4', ['number' => 300]) }}
                                         <span class="explainFeature"
                                               data-tooltip-content="#improved_error_detection4_example">
                                               <i class="fa fa-question-circle"></i>
@@ -201,7 +201,7 @@
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
-                                        {{ __('messages.improved_error_detection4') }}
+                                        {{ __('messages.improved_error_detection4', ['number' => 300]) }}
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>

@@ -36,16 +36,9 @@ return [
     'improved_error_detection1' => 'Detection of incorrect checksums in ISBN and IBAN numbers',
     'improved_error_detection1_example' => 'For example, detects the typo in \'ISBN 978-1784713936\'',
     'improved_error_detection2' => 'Detection of wrong gender in salutation (German only)',
-    'improved_error_detection2_example' => 'Detects errors like \'Sehr geehrte Frau Andreas Müller\'',
-    'improved_error_detection3' => 'Additional word pairs for statistical detection of typos',
-    'improved_error_detection3_example' => 'For example, suggests \'found\' in \'Man returns wallet he fount.\'',
-    'improved_error_detection4' => 'Detection of more than 75 other additional errors',
-    'improved_error_detection4_example' => 'Some examples:
-        <ul>
-            <li>Create two strips with an <span class="error-marker">event</span> amount of wax on each strip. -> even</li>
-            <li>I\'m <span class="error-marker">kinder</span> bored. -> kind of</li>
-            <li>I <span class="error-marker">don’t the</span> answer. -> verb missing</li>
-        </ul>',
+    'improved_error_detection3' => 'Additional word pairs for statistical detection of typos for English and German',
+    'improved_error_detection4' => 'Detection of more than :number other additional errors for German and English',
+    'improved_error_detection4_example' => 'Some examples:',
     'api_access' => 'API access',
     'api_access_detail' => 'input: text, output: JSON with the detected error',
     'free_action' => 'Sign Up',

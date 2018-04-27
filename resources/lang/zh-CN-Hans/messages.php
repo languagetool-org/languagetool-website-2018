@@ -36,9 +36,7 @@ return [
     'improved_error_detection1' => '能检测错误的ISBN和IBAN',
     'improved_error_detection1_example' => '例如，LanguageTool能发现「ISBN 978-1784713936」中的笔误',
     'improved_error_detection2' => '能侦测敬候语中错误的性别用词（只适用于德语）',
-    'improved_error_detection2_example' => '例如，LanguageTool能识别「Sehr geehrte Frau Andreas Müller」是病句',
     'improved_error_detection3' => '使用更多单字配对和数据检测拼字错误',
-    'improved_error_detection3_example' => '例如，LanguageTool会发现「Man returns wallet he fount.」应为「Man returns wallet he found.」。',
     'improved_error_detection4' => '检测超过75种额外错误',
     'improved_error_detection4_example' => '例如：
 <ul> 

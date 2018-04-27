@@ -36,9 +36,7 @@ return [
     'improved_error_detection1' => 'Herkenning van fouten in ISBN en IBAN',
     'improved_error_detection1_example' => 'Ontdekt bijvoorbeeld de typefout in \'ISBN 978-1784713936\'',
     'improved_error_detection2' => 'Herkenning van verkeerd geslacht in aanhef (Duits)',
-    'improved_error_detection2_example' => 'Signaleer fouten als \'Sehr geehrte Frau Andreas Müller\'',
     'improved_error_detection3' => 'Meer woordgroepen voor het statistisch herkennen van typefouten',
-    'improved_error_detection3_example' => 'Suggereert bijvoorbeeld \'found\' in \'Man returns wallet he fount.\'',
     'improved_error_detection4' => 'Detectie van meer dan 75 andere fouten',
     'improved_error_detection4_example' => 'Een paar voorbeelden:
         <ul>

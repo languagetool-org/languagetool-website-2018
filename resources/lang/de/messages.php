@@ -3,7 +3,7 @@
 return [
     'language_hint' => 'Wollen Sie lieber zu LanguageTool für :lang?',
     'language_link' => 'Dann hier klicken',
-    'title' => 'Texte einfach prüfen. Grammatik. Stil. Rechtschreibung.',
+    'title' => 'Prüfung für Rechtschreibung und Grammatik',
     'tagline' => 'Grammatik- und Rechtschreibprüfung',
     'russian' => 'Russisch',
     'auto_detect' => 'Automatisch erkennen',
@@ -39,16 +39,9 @@ return [
             <li>Findet einen Fehler in \'ISBN 978-3570552798\' (richtig wäre 978-3570552<b>6</b>98)</li>
         </ul>',
     'improved_error_detection2' => 'Erkennung von falschem Geschlecht bei einer Anrede',
-    'improved_error_detection2_example' => 'Findet Fehler wie "Sehr geehrte Frau Andreas Müller"<br>Meldung:<br>"Das Geschlecht stimmt nicht mit der Anrede überein. \'Andreas\' ist üblicherweise ein männlicher Vorname"',
-    'improved_error_detection3' => 'Zusätzliche Wortpaare in der statistischen Tippfehler-Erkennung',
-    'improved_error_detection3_example' => 'Schlägt z. B. \'Schritt\' vor in Sätzen wie \'Der nächste Schrott zum Klassenerhalt ist getan\'',
-    'improved_error_detection4' => 'Erkennung über 100 weiterer Fehler',
-    'improved_error_detection4_example' => 'Einige Beispiele:
-        <ul>
-            <li><span class="error-marker">Da</span> Auto fährt schnell. -> Das</li>
-            <li>An <span class="error-marker">machen</span> Stellen könnte es eng werden. -> manchen</li>
-            <li>Ich kann ein Häuschen mit Garten mein <span class="error-marker">eigen</span> nennen. -> Eigen</li>
-        </ul>',
+    'improved_error_detection3' => 'Zusätzliche Wortpaare in der statistischen Tippfehler-Erkennung für Deutsch und Englisch',
+    'improved_error_detection4' => 'Erkennung über :number weiterer Fehler für Englisch und Deutsch',
+    'improved_error_detection4_example' => 'Einige Beispiele:',
     'api_access' => 'API-Zugang',
     'api_access_detail' => 'Eingabe: Text, Ausgabe: JSON mit erkannten Fehlern',
     'free_action' => 'Anmelden',
@@ -132,7 +125,7 @@ return [
         'be' => 'Weißrussisch',
         'br' => 'Bretonisch',
         'ca' => 'Katalanisch',
-        'zh-CN-Hans' => 'Simplified Chinese',
+        'zh-CN-Hans' => 'Chinesisch (Kurzzeichen)',
         'da' => 'Dänisch',
         'nl' => 'Niederländisch',
         'en' => 'Englisch',

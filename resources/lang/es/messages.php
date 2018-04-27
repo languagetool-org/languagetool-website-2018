@@ -36,9 +36,7 @@ return [
     'improved_error_detection1' => 'Detection of incorrect checksums in ISBN and IBAN numbers',
     'improved_error_detection1_example' => 'For example, detects the typo in \'ISBN 978-1784713936\'',
     'improved_error_detection2' => 'Detection of wrong gender in salutation (German only)',
-    'improved_error_detection2_example' => 'Detects errors like \'Sehr geehrte Frau Andreas Müller\'',
     'improved_error_detection3' => 'Additional word pairs for statistical detection of typos',
-    'improved_error_detection3_example' => 'For example, suggests \'found\' in \'Man returns wallet he fount.\'',
     'improved_error_detection4' => 'Detection of more than 75 other additional errors',
     'improved_error_detection4_example' => 'Some examples:
         <ul>
@@ -153,10 +151,10 @@ return [
         'ta' => 'Tamil',
         'tl' => 'Tagalo',
         'uk' => 'Ucraniano',
-    ],
+     ],
     'reviews' => [
         'label' => 'Opiniones',
         'items' => ["This application has helped me a lot. Thank you for this fine tool! (Cosmonaut Rico)", "I love LanguageTool! I have been using it in LibreOffice for years. It's the best. (Scott Harpster)", "Finally, it is a good grammar checker, catching a decent range of agreement errors and style weaknesses. I've been a paid user for two months now and I'm very pleased with it. (Tim Richardson)"],
-    ],
+     ],
 ];
 ?>

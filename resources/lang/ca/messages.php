@@ -36,9 +36,7 @@ return [
     'improved_error_detection1' => 'Detecció de sumes de verificació incorrectes de números ISBN i IBAN.',
     'improved_error_detection1_example' => 'Per exemple, detecta l\'error en \'ISBN 978-1784713936\'',
     'improved_error_detection2' => 'Detecció de gènere incorrecte en salutacions (només alemany)',
-    'improved_error_detection2_example' => 'Detecta errors com \'Sehr geehrte Frau Andreas Müller\'',
     'improved_error_detection3' => 'Parells de paraules addicionals per a la detecció estadística d\'errors',
-    'improved_error_detection3_example' => 'Per exemple, suggereix \'found\' en \'Man returns wallet he fount.\'',
     'improved_error_detection4' => 'Detecció de més de 75 errors addicionals.',
     'improved_error_detection4_example' => 'Alguns exemples: 
         <ul> 

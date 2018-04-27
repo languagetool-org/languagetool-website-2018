@@ -155,13 +155,30 @@
         <?=__('messages.improved_error_detection1_example')?>
     </span>
         <span id="improved_error_detection2_example">
-        <?=__('messages.improved_error_detection2_example')?>
+        Beispiel: "Sehr geehrte Frau Andreas Müller".
+        &rarr;&nbsp; Das Geschlecht stimmt nicht mit der Anrede überein. 'Andreas' ist üblicherweise ein männlicher Vorname.
     </span>
-        <span id="improved_error_detection3_example">
-        <?=__('messages.improved_error_detection3_example')?>
+    <span id="improved_error_detection3_example">
+        <b>English example:</b> Man returns wallet he <span class="error-marker">fount</span>. &rarr;&nbsp;found
+        <br>
+        <b>Deutsches Beispiel:</b> Der nächste <span class="error-marker">Schrott</span> zum Klassenerhalt ist getan. &rarr;&nbsp;Schritt
     </span>
         <span id="improved_error_detection4_example">
         <?=__('messages.improved_error_detection4_example')?>
+            <p>English:</p>
+            <ul>
+                <li>Create two strips with an <span class="error-marker">event</span> amount of wax on each strip. &rarr;&nbsp;even</li>
+                <li>I'm <span class="error-marker">kinder</span> bored. &rarr;&nbsp;kind&nbsp;of</li>
+                <li>I <span class="error-marker">don’t the</span> answer. &rarr;&nbsp;verb&nbsp;missing</li>
+            </ul>
+
+            <p>Deutsch:</p>
+            <ul>
+                <li><span class="error-marker">Da</span> Auto fährt schnell. &rarr;&nbsp;Das</li>
+                <li>An <span class="error-marker">machen</span> Stellen könnte es eng werden. &rarr;&nbsp;manchen</li>
+                <li>Ich kann ein Häuschen mit Garten mein <span class="error-marker">eigen</span> nennen. &rarr;&nbsp;Eigen</li>
+            </ul>
+
     </span>
         <span id="api_access_detail">
         <?=__('messages.api_access_detail')?>
