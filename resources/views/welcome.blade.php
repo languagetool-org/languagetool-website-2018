@@ -45,10 +45,12 @@
                                         <span class="plan-feature-icon"><i class="fa fa-ban"></i></span>
                                         {{ __('messages.improved_error_detection3') }}
                                     </li>
-                                    <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-ban"></i></span>
-                                        {{ __('messages.improved_error_detection1') }}
-                                    </li>
+                                    @if ($selectedLang == "en" || $selectedLang == "de")
+                                        <li class="plan-feature">
+                                            <span class="plan-feature-icon"><i class="fa fa-ban"></i></span>
+                                            {{ __('messages.improved_error_detection1') }}
+                                        </li>
+                                    @endif
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-ban"></i></span>
                                         {{ __('messages.improved_error_detection4', ['number' => 300]) }}
@@ -101,14 +103,16 @@
                                               <i class="fa fa-question-circle"></i>
                                         </span>
                                     </li>
-                                    <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
-                                        {{ __('messages.improved_error_detection1') }}
-                                        <span class="explainFeature"
-                                              data-tooltip-content="#improved_error_detection1_example">
-                                              <i class="fa fa-question-circle"></i>
-                                        </span>
-                                    </li>
+                                    @if ($selectedLang == "en" || $selectedLang == "de")
+                                        <li class="plan-feature">
+                                            <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
+                                            {{ __('messages.improved_error_detection1') }}
+                                            <span class="explainFeature"
+                                                  data-tooltip-content="#improved_error_detection1_example">
+                                                  <i class="fa fa-question-circle"></i>
+                                            </span>
+                                        </li>
+                                    @endif
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
                                         {{ __('messages.improved_error_detection4', ['number' => 300]) }}
@@ -195,10 +199,12 @@
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
                                         {{ __('messages.improved_error_detection3') }}
                                     </li>
-                                    <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
-                                        {{ __('messages.improved_error_detection1') }}
-                                    </li>
+                                    @if ($selectedLang == "en" || $selectedLang == "de")
+                                        <li class="plan-feature">
+                                            <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
+                                            {{ __('messages.improved_error_detection1') }}
+                                        </li>
+                                    @endif
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
                                         {{ __('messages.improved_error_detection4', ['number' => 300]) }}
