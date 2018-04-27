@@ -125,6 +125,7 @@ return [
         'be' => 'Weißrussisch',
         'br' => 'Bretonisch',
         'ca' => 'Katalanisch',
+        'zh' => 'Chinesisch',
         'zh-CN-Hans' => 'Chinesisch (Kurzzeichen)',
         'da' => 'Dänisch',
         'nl' => 'Niederländisch',

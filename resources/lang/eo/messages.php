@@ -122,6 +122,7 @@ return [
         'be' => 'Belarusian',
         'br' => 'Breton',
         'ca' => 'Catalan',
+        'zh' => 'Chinese',
         'zh-CN-Hans' => 'Simplified Chinese',
         'da' => 'Danish',
         'nl' => 'Dutch',

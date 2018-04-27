@@ -127,6 +127,7 @@ return [
         'be' => 'Białoruski',
         'br' => 'Bretoński',
         'ca' => 'Kataloński',
+        'zh' => 'Chiński',
         'zh-CN-Hans' => 'Simplified Chinese',
         'da' => 'Duński',
         'nl' => 'Holenderski',

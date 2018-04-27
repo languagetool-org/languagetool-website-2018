@@ -127,6 +127,7 @@ return [
         'be' => 'Belaruseg',
         'br' => 'Brezhoneg',
         'ca' => 'Katalaneg',
+        'zh' => 'Sinaeg',
         'zh-CN-Hans' => 'Sinaeg eeunaet',
         'da' => 'Daneg',
         'nl' => 'Nederlandeg',

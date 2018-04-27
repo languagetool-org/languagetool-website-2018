@@ -127,6 +127,7 @@ return [
         'be' => 'bielorús',
         'br' => 'bretó',
         'ca' => 'català',
+        'zh' => 'xinès',
         'zh-CN-Hans' => 'xinès simplificat',
         'da' => 'danès',
         'nl' => 'neerlandès',
