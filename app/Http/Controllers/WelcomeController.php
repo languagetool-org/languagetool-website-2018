@@ -31,7 +31,9 @@ class WelcomeController extends Controller
         $browserLang = $this->getBrowserLanguage();
         $browserLangShort = $this->getLanguageWithoutCountry($browserLang);
         if ($browserLangShort != 'en' && $browserLangShort != $locale && $browserLangShort != 'auto') {
-            $isShowHintbar = true;
+            if ($locale != 'zh-CN-Hans') {  // doesn't work properly yet because zh != zh-CN-Hans
+                $isShowHintbar = true;
+            }
         }
 
         $langs = Lang::get('messages.langs');
@@ -51,7 +53,6 @@ class WelcomeController extends Controller
             'selectedLang' => $locale,
             'langs' => $langs,
             'reviews' => $reviews['items'],
-            'langStr' => $langs[$defaultLang],
             'isLandingPage' => true,
             'checkLanguage' => [
                 'auto' => __('messages.auto_detect'),
