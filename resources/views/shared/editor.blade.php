@@ -8,11 +8,11 @@
                         <?=__('messages.subscription')?>
                     </a>
                     -->
-                    <?php if (strpos($_SERVER['HTTP_USER_AGENT'], "Chrome/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
+                    <?php if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "Chrome/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
                         <a class="ff-chrome jump_menu" type="button" onclick="return installChromeExtension('calltoaction')" href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji">
                             <?=__('messages.chromeAddon')?>
                         </a>
-                    <?php } else if (strpos($_SERVER['HTTP_USER_AGENT'], "Firefox/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
+                    <?php } else if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "Firefox/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
                         <a class="ff-chrome jump_menu" type="button" href="https://addons.mozilla.org/firefox/addon/languagetool/?src=external-lt-homepage" target="_blank">
                             <?=__('messages.ffAddon')?>
                         </a>
