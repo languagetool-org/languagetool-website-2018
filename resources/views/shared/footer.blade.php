@@ -227,9 +227,9 @@ $(document).ready(function() {
             piwikTrack('PriceSwitch', '1month');
         } else if (val == 3) {
             if ($("#price-3-months").text().indexOf("€") >= 0) {
-                $('#plan-prices-save').html('<?=__('messages.details_3_months_euro', ['percent' => 32])?>');
+                $('#plan-prices-save').html("<?=__('messages.details_3_months_euro', ['percent' => 32])?>");
             } else {
-                $('#plan-prices-save').html('<?=__('messages.details_3_months', ['percent' => 32])?>');
+                $('#plan-prices-save').html("<?=__('messages.details_3_months', ['percent' => 32])?>");
             }
             //$('#planPriceTotal').text("39€");
             $("#price-1-month").hide();
@@ -238,7 +238,7 @@ $(document).ready(function() {
             $('#order-link').attr("data-fsc-item-path-value", "languagetool-plus-premium-3-month-subscription");
             piwikTrack('PriceSwitch', '3months');
         } else if (val == 12) {
-            $('#plan-prices-save').html('<?=__('messages.billed_annually', ['currency' => '€', 'amount' => '5'])?>');
+            $('#plan-prices-save').html("<?=__('messages.billed_annually', ['currency' => '€', 'amount' => '5'])?>");
             //$('#planPriceTotal').text("79€");
             $("#price-1-month").hide();
             $("#price-3-months").hide();
