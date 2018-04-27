@@ -108,8 +108,8 @@
                                 (einschließlich Ihrer gekürzten IP-Adresse) an unseren Server übertragen und zu Nutzungsanalysezwecken gespeichert, was
                                 der Webseitenoptimierung unsererseits dient. Ihre IP-Adresse wird bei diesem Vorgang umgehend anonymisiert, so
                                 dass Sie als Nutzer für uns anonym bleiben. Sie können die Verwendung der Cookies durch eine entsprechende Einstellung
-                                Ihrer Browser Software verhindern, es kann jedoch sein, dass Sie in diesem Fall gegebenenfalls nicht sämtliche
-                                Funktionen dieser Website voll umfänglich nutzen können.</p>
+                                Ihrer Browser-Software verhindern, es kann jedoch sein, dass Sie in diesem Fall gegebenenfalls nicht sämtliche
+                                Funktionen dieser Website in vollem Umfang nutzen können.</p>
                             <p>Wenn Sie mit der Speicherung und Auswertung dieser Daten aus Ihrem Besuch nicht einverstanden sind, dann können Sie der
                                 Speicherung und Nutzung nachfolgend per Mausklick jederzeit widersprechen. In diesem Fall wird in Ihrem Browser ein sog.
                                 Opt-Out-Cookie abgelegt, was zur Folge hat, dass Piwik keinerlei Sitzungsdaten erhebt. <b>Achtung:</b> Wenn Sie Ihre Cookies
