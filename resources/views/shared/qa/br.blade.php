@@ -42,7 +42,7 @@
 
                 <h2>Skramm skouer</h2>
 
-                <img src="images/languagetool-brezhoneg.png" alt="LanguageTool"/>            
+                <img src="/images/br/languagetool-brezhoneg.png" alt="LanguageTool"/>            
             </div>
             
             <h3>
