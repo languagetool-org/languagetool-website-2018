@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'language_hint' => ':lang に興味があるようですね?',
+    'language_hint' => ':langLangToolに興味があるようですか？',
     'language_link' => '見てみよう。',
     'title' => 'スタイルと文法チェッカー',
     'tagline' => '校正サービス',
@@ -79,7 +79,7 @@ return [
     'register_success_title' => 'おめでとうございます！',
     'register_success_text' => 'あなたは今ログインしています',
     'verify_success_title' => 'ようこそ!',
-    'msword_feature' => 'Word  アドイン',
+    'msword_feature' => 'Microsoft Word アドイン',
     'msword_feature_details' => 'もっと…',
     'msword_headline' => 'Microsoft Word アドイン',
     'msword_intro' => 'プレミアムユーザー専用のMicrosoft Word 2013-2016およびOutlook 2013-2016(Windows版)のアドイン(ベータ版)を提供しています。',
@@ -129,7 +129,7 @@ return [
         'be' => 'ベラルーシ語',
         'br' => 'ブルトン語',
         'ca' => 'カタロニア語',
-        'zh-CN-Hans' => 'Simplified Chinese',
+        'zh-CN-Hans' => '中国語(簡体字)',
         'da' => 'デンマーク語',
         'nl' => 'オランダ語',
         'en' => '英語',
