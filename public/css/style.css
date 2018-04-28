@@ -1496,6 +1496,7 @@ body #footer span a:hover {
 .plan-feature-icon {
     position: absolute;
     left: 0px;
+    top: -1px;
 }
 
 .premium .plan-features {
@@ -1639,7 +1640,7 @@ body #footer span a:hover {
 }
 
 .premium .plan-features.inactive, .premium .plan-features.inactive li i  {
-    color: black;
+    color: #50168b;
 }
 
 .plan-prices {
@@ -1770,11 +1771,9 @@ body #footer span a:hover {
 }
 
 .header-nav-menu.links .header-nav-menu-item-dropdown {
-    width: 165px;
 }
 
 .header-nav-menu.langs .header-nav-menu-item-dropdown {
-    width: 140px;
     height: 160px;
     overflow: scroll;
     right: 0;
@@ -1796,7 +1795,15 @@ body #footer span a:hover {
 }
 
 .header-nav-menu.langs .header-nav-menu-item-dropdown-item.active-lang {
-    color: #000;
+    position: relative;
+}
+
+
+.header-nav-menu.langs .header-nav-menu-item-dropdown-item.active-lang img {
+    position: absolute;
+    left: 13px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .header-nav-menu-item-dropdown-item:hover {
@@ -2016,20 +2023,14 @@ body #footer span a:hover {
 }
 
 .select-field:after {
-    content: "\f107";
-    font-family: FontAwesome;
-    font-size: 18px;
-    line-height: 20px;
-    display: block;
     position: absolute;
     width: 20px;
     right: 10px;
     height: 20px;
     background: #fff;
-    z-index: 99999;
-    bottom: 0;
-    top: 0;
-    margin: auto;
+    content: url('/images/icon-arrow-purple.svg');
+    top: 46%;
+    transform: translateY(-50%);
     pointer-events: none;
 }
 

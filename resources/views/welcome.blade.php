@@ -23,38 +23,38 @@
                                 <p class="plan-price">languagetool.org</p>
                                 <ul class="plan-features">
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-purple.svg') }}"></span>
                                         {{ __('messages.many_rules_1', ['number' => 1700]) }}
                                     </li>
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-purple.svg') }}"></span>
                                         {{ __('messages.many_rules_2', ['number' => 2400]) }}
                                     </li>
                                 </ul>
                                 <ul class="plan-features inactive">
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-ban"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-x.svg') }}"></span>
                                         {{ __('messages.msword_feature') }}
                                         (<a href="#msword">{{ __('messages.msword_feature_details') }}</a>)
                                     </li>
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-ban"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-x.svg') }}"></span>
                                         {{ __('messages.improved_error_detection2') }}
                                     </li>
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-ban"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-x.svg') }}"></span>
                                         {{ __('messages.improved_error_detection3') }}
                                     </li>
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-ban"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-x.svg') }}"></span>
                                         {{ __('messages.improved_error_detection1') }}
                                     </li>
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-ban"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-x.svg') }}"></span>
                                         {{ __('messages.improved_error_detection4') }}
                                     </li>
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-ban"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-x.svg') }}"></span>
                                         {{ __('messages.api_access') }}
                                     </li>
                                 </ul>
@@ -73,20 +73,20 @@
                                 <p class="plan-price"><a style="color: white" href="https://languagetoolplus.com">languagetoolplus.com</a></p>
                                 <ul class="plan-features">
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-white.svg') }}"></span>
                                         {{ __('messages.many_rules_1', ['number' => 1700]) }}
                                     </li>
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-white.svg') }}"></span>
                                         {{ __('messages.many_rules_2', ['number' => 2400]) }}
                                     </li>
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-white.svg') }}"></span>
                                         {{ __('messages.msword_feature') }}
                                         (<a href="#msword" style="color:gold">{{ __('messages.msword_feature_details') }}</a>)
                                     </li>
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-white.svg') }}"></span>
                                         {{ __('messages.improved_error_detection2') }}
                                         <span class="explainFeature"
                                               data-tooltip-content="#improved_error_detection2_example">
@@ -94,7 +94,7 @@
                                         </span>
                                     </li>
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-white.svg') }}"></span>
                                         {{ __('messages.improved_error_detection3') }}
                                         <span class="explainFeature"
                                               data-tooltip-content="#improved_error_detection3_example">
@@ -102,7 +102,7 @@
                                         </span>
                                     </li>
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-white.svg') }}"></span>
                                         {{ __('messages.improved_error_detection1') }}
                                         <span class="explainFeature"
                                               data-tooltip-content="#improved_error_detection1_example">
@@ -110,7 +110,7 @@
                                         </span>
                                     </li>
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-white.svg') }}"></span>
                                         {{ __('messages.improved_error_detection4') }}
                                         <span class="explainFeature"
                                               data-tooltip-content="#improved_error_detection4_example">
@@ -120,7 +120,7 @@
                                 </ul>
                                 <ul class="plan-features inactive">
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-ban"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-x-purple.svg') }}"></span>
                                         {{ __('messages.api_access') }}
                                     </li>
                                 </ul>
@@ -175,36 +175,36 @@
                                 <p class="plan-price"><a href="https://languagetoolplus.com">languagetoolplus.com</a></p>
                                 <ul class="plan-features">
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-purple.svg') }}"></span>
                                         {{ __('messages.many_rules_1', ['number' => 1700]) }}
                                     </li>
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-purple.svg') }}"></span>
                                         {{ __('messages.many_rules_2', ['number' => 2400]) }}
                                     </li>
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-purple.svg') }}"></span>
                                         {{ __('messages.msword_feature') }}
                                         (<a href="#msword">{{ __('messages.msword_feature_details') }}</a>)
                                     </li>
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-purple.svg') }}"></span>
                                         {{ __('messages.improved_error_detection2') }}
                                     </li>
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-purple.svg') }}"></span>
                                         {{ __('messages.improved_error_detection3') }}
                                     </li>
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-purple.svg') }}"></span>
                                         {{ __('messages.improved_error_detection1') }}
                                     </li>
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-purple.svg') }}"></span>
                                         {{ __('messages.improved_error_detection4') }}
                                     </li>
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><i class="fa fa-check"></i></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-purple.svg') }}"></span>
                                         {{ __('messages.api_access') }}
                                         <span class="explainFeature" data-tooltip-content="#api_access_detail">
                                             <i class="fa fa-question-circle"></i>

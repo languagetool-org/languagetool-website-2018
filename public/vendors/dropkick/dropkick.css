@@ -35,11 +35,9 @@
 
 .dk_toggle:after {
     position: absolute;
-    top: 50%;
+    content: url('/images/icon-arrow-purple.svg');
+    top: 46%;
     right: 10px;
-    content: "\f107";
-    font-family: FontAwesome;
-    color: #000000;
     transform: translateY(-50%);
 }
 
