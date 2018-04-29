@@ -685,6 +685,18 @@ body #editor_controls .submit button:active {
     -webkit-transition: all 0.2s linear;
 }
 
+body #editor_controls .submit button.editor_controls_premium,
+body #editor_controls .submit button.editor_controls_premium {
+    background-color: #e00055;
+    border-color: #e00055;
+}
+
+body #editor_controls .submit button.editor_controls_premium:hover,
+body #editor_controls .submit button.editor_controls_premium:active {
+    background-color: #c5004b;
+    border-color: #c5004b;
+}
+
 body #editor_controls .submit button:disabled {
     background-color: #98a6f3;
     cursor: default;
@@ -2653,16 +2665,6 @@ body #footer span.footer-content-subscribe-form-message {
 
 .editor_controls_group_item {
     margin: 0 10px;
-}
-
-.editor_controls_premium {
-    background-color: #e00055 !important;
-    border-color: #e00055 !important;
-}
-
-.editor_controls_premium:hover {
-    background-color: white !important;
-    border-color: white !important;
 }
 
 .dropdown .editor_controls_group_item {
