@@ -116,6 +116,9 @@ return [
     'footer_development' => 'Розробляння',
     'footer_screenshots' => 'Знімки екрана',
     'footer_team' => 'Команда',
+    'footer_source_and_license_header' => 'License & Source Code',
+    'footer_license' => 'LanguageTool is freely available under the :license or later.',
+    'footer_source' => '<a href=":link">The source</a> is available on github.',
     'langs' => [
         'auto' => 'визначити автоматично',
         'ast' => 'Астурійська',

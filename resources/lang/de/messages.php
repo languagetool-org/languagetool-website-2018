@@ -119,6 +119,9 @@ return [
     'footer_development' => 'Development',
     'footer_screenshots' => 'Screenshots',
     'footer_team' => 'Team',
+    'footer_source_and_license_header' => 'Lizenz & Quellcode',
+    'footer_license' => 'LanguageTool ist freie Software und steht unter der :license oder neuer zur Verfügung.',
+    'footer_source' => '<a href=":link">Der Quellcode</a> befindet sich auf github.',
     'langs' => [
         'auto' => 'Autom. erkennen',
         'ast' => 'Asturisch',

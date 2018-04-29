@@ -121,6 +121,9 @@ return [
     'footer_development' => 'Ontwikkeling',
     'footer_screenshots' => 'Schermafbeeldingen',
     'footer_team' => 'Team',
+    'footer_source_and_license_header' => 'License & Source Code',
+    'footer_license' => 'LanguageTool is freely available under the :license or later.',
+    'footer_source' => '<a href=":link">The source</a> is available on github.',
     'langs' => [
         'auto' => 'detecteren',
         'ast' => 'Asturiaans',
