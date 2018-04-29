@@ -1751,6 +1751,7 @@ body #footer span a:hover {
 
 .header-nav-menu-item-label {
     transition: all 0.3s ease;
+    white-space: nowrap;
 }
 
 .header-nav-menu-item:hover .header-nav-menu-item-label {
@@ -1781,6 +1782,7 @@ body #footer span a:hover {
 .header-nav-menu-item-dropdown-item {
     padding: 7px 23px;
     color: #000;
+    white-space: nowrap;
 }
 
 .header-nav-menu.langs .header-nav-menu-item-dropdown-item {
