@@ -53,10 +53,6 @@
                     n2g('create', 'uu17lt9z-vviro8yr-1e92');
                     n2g('subscribe:createForm', config);
                 </script>
-{{--                 <form class="footer-content-subscribe-form">
-                    <input type="text" placeholder="Enter your email">
-                    <button type="submit">Subscribe</button>
-                </form> --}}
             </div>
             <div class="footer-content-social">
                 <div class="footer-content-heading">Follow us</div>
@@ -72,9 +68,21 @@
             </div>
         </div>
     </div>
-    <div class="footer-links">
-        <div class="container">
-            <div class="footer-links-inner">
+</div>
+<div class="footer-links">
+    <div class="container">
+        <div class="footer-links-inner">
+            <div class="footer-links-code">
+                <p class="footer-links-code-header">
+                    <img src="/images/github.png">
+                    {{__('messages.footer_source_and_license_header')}}
+                </p>
+                <p class="footer-links-code-desc">
+                    {!! __('messages.footer_license', ['license' => "<a href='http://www.gnu.org/licenses/old-licenses/lgpl-2.1'>LGPL 2.1</a>"]) !!}
+                    {!! __('messages.footer_source', ['link' => 'https://github.com/languagetool-org/']) !!}
+                </p>
+            </div>
+            <div class="footer-links-items">
                 <?php
                 $footer_pages = array(
                     array( 'name' => __('messages.footer_development'), 'url' => '/development'),
