@@ -85,7 +85,7 @@
             <div class="footer-links-items">
                 <?php
                 $footer_pages = array(
-                    array( 'name' => __('messages.footer_development'), 'url' => '/development'),
+                    array( 'name' => __('messages.footer_development'), 'url' => '/dev'),
                     array( 'name' => __('messages.footer_team'), 'url' => '/team'),
                     array( 'name' => __('messages.privacy'), 'url' => '/legal/privacy'),
                     //array( 'name' => __('messages.terms'), 'url' => '/legal/terms'),
