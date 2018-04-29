@@ -229,6 +229,12 @@
     {
 
     }
+    .footer-content-subscribe-form-container {
+        justify-content: center;
+    }
+    .main-button {
+        font-size: 15px;
+    }
 }
 @media(max-width: 720px) {
     .loginmodal-container {
@@ -508,9 +514,6 @@
         bottom: 0;
         right: 0;
         width: 15px;
-    }
-    #Reviews .review-quote-right img, #Reviews .review-quote-left img {
-        max-width: 100%;
     }
     .glide__bullet {
         width: 7px;

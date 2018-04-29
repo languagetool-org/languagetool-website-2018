@@ -19,7 +19,7 @@
                 <a class="about header-nav-menu-item">
                     <span class="header-nav-menu-item-label">
                         <?=__('messages.menu')?>
-                        <i class="fa fa-angle-down"></i>
+                        <img src="{{ asset('images/icon-arrow-white.svg') }}">
                     </span>
                 </a>
             </div>
@@ -36,22 +36,19 @@
                     <a class="pricing jump_menu header-nav-menu-item" href="#Price">
                         <span class="header-nav-menu-item-label">
                             <?=__('messages.nav_price')?>
-                            <i class="fa fa-angle-right"></i>
                         </span>
                     </a>
                 @else
                     <a class="pricing jump_menu header-nav-menu-item" href="/#Price">
                         <span class="header-nav-menu-item-label">
                             <?=__('messages.nav_price')?>
-                            <i class="fa fa-angle-right"></i>
                         </span>
                     </a>
                 @endisset
                 <span class="header-nav-menu-item">
                     <span class="header-nav-menu-item-label">
                         <?=__('messages.nav_addons')?>
-                        <i class="fa fa-angle-down"></i>
-                        <i class="fa fa-angle-right"></i>
+                        <img src="{{ asset('images/icon-arrow-white.svg') }}">
                     </span>
                     <div class="header-nav-menu-item-dropdown">
                             @isset ($selectedLang)
@@ -92,13 +89,11 @@
                 <a class="forum jump_menu header-nav-menu-item" href="https://forum.languagetool.org">
                     <span class="header-nav-menu-item-label">
                         <?=__('messages.nav_forum')?>
-                        <i class="fa fa-angle-right"></i>
                     </span>
                 </a>
                 <a class="development jump_menu header-nav-menu-item" href="/dev">
                     <span class="header-nav-menu-item-label">
                         <?=__('messages.nav_development')?>
-                        <i class="fa fa-angle-right"></i>
                     </span>
                 </a>
             </nav>
@@ -111,7 +106,7 @@
                         @else
                             English
                         @endisset
-                        <i class="fa fa-angle-down"></i>
+                        <img src="{{ asset('images/icon-arrow-white.svg') }}">
                     </span>
                     <div class="header-nav-menu-item-dropdown">
                         @foreach ($langs as $key => $lang)
@@ -122,7 +117,10 @@
                                     <a class="header-nav-menu-item-dropdown-item" href="/{{ $key }}/"><span>{{ str_replace(" ", "&nbsp;", $lang) }}</span></a>
                                 @endif
                             @elseif($key == $selectedLang)
-                                <span class="header-nav-menu-item-dropdown-item active-lang">{{ str_replace(" ", "&nbsp;", $lang) }}</span>
+                                <span class="header-nav-menu-item-dropdown-item active-lang">
+                                    <img src="{{ asset('images/icon-check.svg') }}">
+                                    {{ str_replace(" ", "&nbsp;", $lang) }}
+                                </span>
                             @endif
                         @endforeach
                         <a href="/languages" class="header-nav-menu-item-dropdown-item" style="margin-top: 10px">{{__('messages.menu_overview')}}</a>

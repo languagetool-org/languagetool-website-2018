@@ -6,7 +6,7 @@ html, body {
 
 body {
     overflow-x: hidden;
-    color: #373739;
+    color: #372747;
     background-color: #7821d2;
     /* standard content page without many images etc: */
     /* language-specific page: */
@@ -98,7 +98,6 @@ body .contentHead {
 }
 
 .features {
-    margin-top: 54px;
     padding: 0 50px 50px;
 }
 
@@ -140,7 +139,7 @@ body .contentHead {
 }
 
 #libreoffice.addon-section {
-    padding-top: 70px;
+    padding-top: 90px;
 }
 
 .addon-section .buttons-row a {
@@ -162,7 +161,7 @@ body .contentHead {
 .main-button {
     border-radius: 4px;
     background-color: #28bf9a;
-    padding: 10px 35px;
+    padding: 11px 40px;
     display: inline-block;
     color: white;
     text-decoration: none;
@@ -171,12 +170,12 @@ body .contentHead {
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 2.2;
+    font-size: 16px;
 }
 
 .main-button:hover {
     transition: all 0.5s ease 0s;
-    background-color: #7020c3;
+    background-color: #24a787;
     text-decoration: none;
     color: #fff;
 }
@@ -286,7 +285,7 @@ body .contentHead {
 }
 
 #add-on {
-    padding: 100px 0px;
+    padding: 90px 0px;
     background-color: #f8f9fa;
 }
 
@@ -304,7 +303,7 @@ body .contentHead {
 }
 
 .features p {
-    color: grey;
+    color: #372747;
     font-size: 18px;
     font-style: normal;
     font-stretch: normal;
@@ -314,12 +313,16 @@ body .contentHead {
     text-align: left;
 }
 
+.feature-image {
+    padding-top: 15px;
+}
+
 .padd-bott {
-    margin-bottom: 117px;
+    margin-bottom: 110px;
 }
 
 .padd-bott p {
-    color: grey;
+    color: #372747;
     font-size: 18px;
     font-style: normal;
     font-stretch: normal;
@@ -677,8 +680,7 @@ body #editor_controls .submit button:first-child {
 
 body #editor_controls .submit button:hover,
 body #editor_controls .submit button:active {
-    background-color: #fff;
-    color: #6f20c4;
+    background-color: #24a787;
     -webkit-transition: all 0.2s linear;
 }
 
@@ -1350,7 +1352,7 @@ body #footer span a:hover {
 }
 
 #Pricing {
-    padding-bottom: 66px;
+    padding-bottom: 55px;
 }
 
 #wordHeadline {
@@ -1475,7 +1477,7 @@ body #footer span a:hover {
     padding: 0;
     letter-spacing: 0.8px;
     text-align: left;
-    color: #525254;
+    color: #372747;
     margin: 0;
 }
 
@@ -1494,6 +1496,7 @@ body #footer span a:hover {
 .plan-feature-icon {
     position: absolute;
     left: 0px;
+    top: -1px;
 }
 
 .premium .plan-features {
@@ -1510,7 +1513,7 @@ body #footer span a:hover {
     margin: 0 auto;
     border-radius: 10px;
     background-color: #7020c3;
-    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.36);
+    box-shadow: 0 3px 27px 0 rgba(61, 11, 113, 0.59);
     padding-bottom: 0;
     border: 0;
     position: relative;
@@ -1529,8 +1532,7 @@ body #footer span a:hover {
 }
 
 .plan-tall .plan-button:hover {
-    background-color: #fff;
-    color: #7020c3;
+    background-color: #24a787;
     text-decoration: none;
 }
 
@@ -1638,7 +1640,7 @@ body #footer span a:hover {
 }
 
 .premium .plan-features.inactive, .premium .plan-features.inactive li i  {
-    color: black;
+    color: #50168b;
 }
 
 .plan-prices {
@@ -1654,7 +1656,7 @@ body #footer span a:hover {
 }
 
 #Price {
-    padding: 20px 0 200px;
+    padding: 90px 0 200px;
     background-color: #ffffff;
 }
 
@@ -1761,19 +1763,44 @@ body #footer span a:hover {
     flex-direction: column;
     top: 100%;
     background-color: #fff;
-    padding: 10px 20px;
-    margin-left: -20px;
-    border-radius: 6px;
+    padding: 13px 0;
+    border-radius: 5px;
     transition: all 0.3s ease;
     transform: translateY(0px);
+    box-shadow: 0 2px 18px 0 rgba(44, 16, 73, 0.39);
+}
+
+.header-nav-menu.links .header-nav-menu-item-dropdown {
+}
+
+.header-nav-menu.langs .header-nav-menu-item-dropdown {
+    right: 0;
 }
 
 .header-nav-menu-item-dropdown-item {
-    margin: 5px 0;
+    padding: 7px 23px;
+    color: #000;
+}
+
+.header-nav-menu.langs .header-nav-menu-item-dropdown-item {
+    padding: 7px 33px;
+}
+
+.header-nav-menu-item-dropdown-item:hover {
+    color: #000;
+    background-color: #f7f7f7;
 }
 
 .header-nav-menu.langs .header-nav-menu-item-dropdown-item.active-lang {
-    color: #000;
+    position: relative;
+}
+
+
+.header-nav-menu.langs .header-nav-menu-item-dropdown-item.active-lang img {
+    position: absolute;
+    left: 13px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .header-nav-menu-item-dropdown-item:hover {
@@ -1804,7 +1831,7 @@ body #footer span a:hover {
     text-align: left;
     color: rgb(255, 255, 255);
     display: flex;
-    margin: 0 10px;
+    margin-left: 23px;
     flex-direction: column;
 }
 
@@ -1989,6 +2016,19 @@ body #footer span a:hover {
     background-color: #ffffff;
     height: 42px;
     cursor: pointer;
+    position: relative;
+}
+
+.select-field:after {
+    position: absolute;
+    width: 20px;
+    right: 10px;
+    height: 20px;
+    background: #fff;
+    content: url('/images/icon-arrow-purple.svg');
+    top: 46%;
+    transform: translateY(-50%);
+    pointer-events: none;
 }
 
 #register-modal {
@@ -2287,16 +2327,22 @@ body #footer span a:hover {
 
 #Reviews .review-quote-left, #Reviews .review-quote-right {
     position: absolute;
+    width: 30px;
+}
+
+
+#Reviews .review-quote-right img, #Reviews .review-quote-left img {
+    max-width: 100%;
 }
 
 #Reviews .review-quote-left {
     top: 30px;
-    left: 5px;
+    left: 1px;
 }
 
 #Reviews .review-quote-right {
     bottom: 30px;
-    right: 5px;
+    right: 1px;
 }
 
 #Reviews .review-quote-right img {
@@ -2436,7 +2482,10 @@ body #footer span a:hover {
 
 .footer-content-subscribe-form-container {
     display: flex;
-    justify-content: center;
+}
+
+.footer-content-subscribe-form-container img {
+    position: absolute;
 }
 
 .footer-content-subscribe-form-row .footer-content-subscribe-form-col:first-child {
@@ -2467,8 +2516,7 @@ body #footer span.footer-content-subscribe-form-message {
 }
 
 .footer-content-subscribe-form-button:hover {
-    color: #6f20c4;
-    background-color: #fff;
+    background-color: #24a787;
 }
 
 .footer-content-subscribe-form-input:focus, .footer-content-subscribe-form-button:focus {outline: none;}
@@ -2528,7 +2576,7 @@ body #footer span.footer-content-subscribe-form-message {
 .footer-content-social-item {
     width: 40px;
     height: 40px;
-    background-color: #522599;
+    background-color: #5a1a9f;
     border-radius: 50%;
     line-height: 40px;
     text-align: center;
@@ -2543,11 +2591,7 @@ body #footer span.footer-content-subscribe-form-message {
 }
 
 .footer-content-social-item:hover {
-    background-color: #fff;
-}
-
-.footer-content-social-item:hover a {
-    color: #6f20c4;
+    background-color: ##4e148c;
 }
 
 .section-clients {
