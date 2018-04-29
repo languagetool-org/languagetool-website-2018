@@ -3,7 +3,7 @@
 @section('title', 'LanguageTool Development')
 
 @section('content')
-    <div id="textContent" class="content-section" style="text-align: left">
+    <div id="textContent" class="content-section page-development" style="text-align: left">
         <div class="container">
 
             <h1>Development</h1>
@@ -21,16 +21,16 @@
             <p>LanguageTool is an Open Source project and we're looking forward to your contributions.</p>
 
             <ul>
-                <li style="font-size: large"><a href="https://github.com/languagetool-org/languagetool"><strong>Source code at github</strong></a></li>
-                <li style="font-size: large"><a href="http://wiki.languagetool.org"><strong>wiki.languagetool.org</strong></a> contains the complete development documentation, including:
+                <li><a href="https://github.com/languagetool-org/languagetool">Source code at github</a></li>
+                <li><a href="http://wiki.languagetool.org">wiki.languagetool.org</a> contains the complete development documentation, including:
                     <ul>
                         <li><a href="http://wiki.languagetool.org/development-overview">Development Overview</a>, for users who want to extend LanguageTool with their own rules
                     </ul>
                 </li>
-                <li style="font-size: large"><a href="http://community.languagetool.org"><strong>community.languagetool.org</strong></a>,
+                <li><a href="http://community.languagetool.org">community.languagetool.org</a>,
                     includes <a href="http://community.languagetool.org/ruleEditor2/index?lang=en">a rule editor</a> and
                     <a href="http://community.languagetool.org/analysis">a text analyzer</a></li>
-                <li style="font-size: large"><a href="https://forum.languagetool.org/c/development"><strong>Development discussion in our forum</strong></a>
+                <li><a href="https://forum.languagetool.org/c/development">Development discussion in our forum</a>
                     <ul>
                         <li><a href="http://www.mail-archive.com/languagetool-devel@lists.sourceforge.net/">Mailing list archive at mail-archive.com</a>
                             (alternatively, use the archive at <a href="http://markmail.org/search/?q=list%3Anet.sourceforge.lists.languagetool-devel">markmail.org</a> or
@@ -63,14 +63,21 @@
                 <li><a href="https://www.discoursehosting.com">DiscourseHosting.com</a> for sponsoring <a href="https://forum.languagetool.org/">our forum</a></li>
             </ul>
 
-            <a href="http://www.oxygenxml.com" title="Oxygen XML Editor"><img src="/images/development/oxygen190x62.png" width="190" height="62" alt="Oxygen XML Editor" border="0"/></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://www.jetbrains.com/idea/"><img src="/images/development/logo_intellij_idea.png" alt="IntelliJ logo"/></a>
-            <br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="http://www.cloudbees.com/"><img src="/images/development/cloudbees-logo.png" alt="CloudBees logo"/></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="http://www.ej-technologies.com/products/jprofiler/overview.html"><img style="margin-right: 15px; margin-bottom: 2px" src="/images/development/jprofiler_large.png" alt="JProfiler Java profiler logo"/></a>
+            <div class="development-sources">
+                <a href="http://www.oxygenxml.com" title="Oxygen XML Editor">
+                    <img src="/images/development/oxygen190x62.png" width="190" height="62" alt="Oxygen XML Editor" border="0">
+                </a>
+                <a href="https://www.jetbrains.com/idea/">
+                    <img src="/images/development/logo_intellij_idea.png" alt="IntelliJ logo">
+                </a>
+                <a href="http://www.cloudbees.com/">
+                    <img src="/images/development/cloudbees-logo.png" alt="CloudBees logo">
+                </a>
+                <a href="http://www.ej-technologies.com/products/jprofiler/overview.html">
+                    <img src="/images/development/jprofiler_large.png" alt="JProfiler Java profiler logo">
+                </a>
+            </div>
+
 
         </div>
     </div>

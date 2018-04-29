@@ -14,6 +14,7 @@ body {
 
 body a {
     text-decoration: none;
+    color: #0a69d8;
 }
 
 body .contentHead {
@@ -1199,7 +1200,7 @@ body #footer span a:hover {
     margin-right: auto;
     text-align: center;
     background-color: white;
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 #content .container {
@@ -2261,7 +2262,7 @@ body #footer span a:hover {
 .section-reviews {
     padding: 70px 0;
     background-color: #f7f7f7;
-    margin-top: -50px;
+    margin-top: -100px;
 }
 
 .section-reviews-heading {
@@ -2649,4 +2650,61 @@ table.tablesorter thead tr .tablesorter-headerAsc, table.tablesorter thead tr .t
     max-width: 300px;
     min-width: 150px;
     width: 100% !important;
+}
+.page-development {
+    font-weight: 300;
+}
+.page-development a {
+    font-weight: 400;
+}
+#content .page-development p, #content .page-development ul li, #content .page-development ol li {
+    font-size: 20px;
+}
+#textContent.page-development h1 {
+    margin: 0 0 40px;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#textContent.page-development h2 {
+    font-weight: 600;
+    margin: 40px 0 30px;
+    font-size: 25px;
+    letter-spacing: 1.3px;
+}
+#textContent.page-development ul, #textContent.page-development ol {
+    margin: 30px 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    list-style-type: none;
+}
+#textContent.page-development ul li, #textContent.page-development ol li {
+    position: relative;
+    margin: 0 20px 15px;
+}
+#textContent.page-development ul li::before, #textContent.page-development ol li::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 9px;
+    background-color: #444;
+}
+#textContent.page-development ul ul li::before, #textContent.page-development ol ol li::before {
+    content: none;
+}
+.development-sources {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 40px 0 0;
+}
+.development-sources a {
+    margin: 10px 0;
 }
