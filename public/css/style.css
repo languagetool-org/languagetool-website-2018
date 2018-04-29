@@ -2567,6 +2567,12 @@ body #footer span.footer-content-subscribe-form-message {
     flex-basis: 45%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-links-item {
+    color: #372747;
+    margin: 0 5px;
 }
 
 .footer-content-social-items {

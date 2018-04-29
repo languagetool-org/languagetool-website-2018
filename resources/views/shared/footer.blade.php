@@ -92,7 +92,7 @@
                     array( 'name' => __('messages.imprint'), 'url' => '/legal/' )
                 );
                 foreach ($footer_pages as $page) {
-                    print '<span><a href="'.$page['url'].'">'.$page['name'].'</a></span>';
+                    print '<a class="footer-links-item" href="'.$page['url'].'">'.$page['name'].'</a>';
                 }
                 ?>
             </div>
