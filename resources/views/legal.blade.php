@@ -26,6 +26,14 @@
                     E-Mail: <span style="color:#555555">daniel.naber <span>a&#116;</span> languagetool<span>.</span>org</span>
                 </p>
 
+                <h2>EU-Förderung</h2>
+
+                <p>Die Europäische Union und der Europäische Fonds für regionale Entwicklung (EFRE) unterstützen
+                    dieses Projekt finanziell. Konkret gefördert wird die Entwicklung von Verfahren zur
+                    Fehlererkennung in multilingualen Texten, unsere Browser Add-ons und unsere Website.
+                </p>
+                <img src="/images/Emblem-WEB-1.16189762.jpg" style="width:300px">
+                
                 <h2>Verfügbarkeit</h2>
 
                 <p>languagetool.org ist eine kostenlose Website zur Prüfung von Texten. Wir geben keine Garantien
