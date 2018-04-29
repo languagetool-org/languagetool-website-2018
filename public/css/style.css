@@ -1641,7 +1641,7 @@ body #footer span a:hover {
 }
 
 .premium .plan-features.inactive, .premium .plan-features.inactive li i  {
-    color: #50168b;
+    color: #000;
 }
 
 .plan-prices {

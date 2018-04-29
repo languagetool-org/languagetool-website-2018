@@ -124,7 +124,7 @@
                                 </ul>
                                 <ul class="plan-features inactive">
                                     <li class="plan-feature">
-                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-x-purple.svg') }}"></span>
+                                        <span class="plan-feature-icon"><img src="{{ asset('images/icon-x-black.svg') }}"></span>
                                         {{ __('messages.api_access') }}
                                     </li>
                                 </ul>
