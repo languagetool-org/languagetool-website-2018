@@ -116,9 +116,9 @@ return [
     'footer_development' => '開發',
     'footer_screenshots' => '截圖',
     'footer_team' => '團隊',
-    'footer_source_and_license_header' => 'License & Source Code',
-    'footer_license' => 'LanguageTool is freely available under the :license or later.',
-    'footer_source' => '<a href=":link">The source</a> is available on github.',
+    'footer_source_and_license_header' => '授權條款及原始碼',
+    'footer_license' => 'LanguageTool是一款自由軟體，在:license或更新版本之條款下提供',
+    'footer_source' => '<a href=":link">原始碼</a>可在Github找到。',
     'langs' => [
         'auto' => '自動偵測',
         'ast' => '阿斯圖里亞斯文',
