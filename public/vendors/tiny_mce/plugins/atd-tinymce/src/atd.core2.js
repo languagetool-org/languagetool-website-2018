@@ -63,8 +63,7 @@ AtDCore.prototype.processJSON = function(responseJSON) {
     for (var key in json.matches) {
         var match = json.matches[key];
         var suggestion = {};
-        // I didn't manage to make the CSS break the text, so we add breaks with Javascript:
-        suggestion["description"] = this._wordwrap(match.message, 50, "<br/>");
+        suggestion["description"] = match.message;
         suggestion["suggestions"] = [];
         var suggestions = [];
         for (var k = 0; k < match.replacements.length; k++) {
@@ -91,20 +90,6 @@ AtDCore.prototype.processJSON = function(responseJSON) {
     }
     return {suggestions: this.suggestions, incompleteResults: incompleteResults, incompleteResultsReason: incompleteResultsReason};
 };
-
-// Wrapper code by James Padolsey
-// Source: http://james.padolsey.com/javascript/wordwrap-for-javascript/
-// License: "This is free and unencumbered software released into the public domain.",
-// see http://james.padolsey.com/terms-conditions/
-AtDCore.prototype._wordwrap = function(str, width, brk, cut) {
-    brk = brk || '\n';
-    width = width || 75;
-    cut = cut || false;
-    if (!str) { return str; }
-    var regex = '.{1,' +width+ '}(\\s|$)' + (cut ? '|.{' +width+ '}|.+$' : '|\\S+?(\\s|$)');
-    return str.match( new RegExp(regex, 'g') ).join( brk );
-};
-// End of wrapper code by James Padolsey
 
 AtDCore.prototype.findSuggestion = function(element) {
     var metaInfo = element.getAttribute(this.surrogateAttribute);
