@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="29" height="23" viewBox="0 0 29 23">
     <g fill="none" fill-rule="evenodd">
-        <g fill="#8440CA" transform="rotate(-180 14.5 11.5)">
+        <g fill="#017fee" transform="rotate(-180 14.5 11.5)">
             <ellipse cx="6.4" cy="6.16" rx="6.092" ry="6.16"/>
             <path d="M7.767 6.3l4.186 2.48L4.466 22.06l-4.2-2.425z"/>
         </g>
-        <g fill="#7020C3" opacity=".85" transform="rotate(-180 6.5 11.5)">
+        <g fill="#017fee" opacity=".85" transform="rotate(-180 6.5 11.5)">
             <ellipse cx="6.4" cy="6.16" rx="6.092" ry="6.16"/>
             <path d="M7.767 6.3l4.186 2.48L4.466 22.06l-4.2-2.425z"/>
         </g>

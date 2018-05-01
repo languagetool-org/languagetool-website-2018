@@ -173,7 +173,6 @@
     }
     #header .container {
         width: 100%;
-        margin: 10px auto ;
     }
     #header .container #logo {
         width: 52px;
@@ -389,7 +388,7 @@
     .footer-content-social {
         padding: 20px 0;
         border-left: none;
-        border-top: 1px solid #512599;
+        border-top: 1px solid #519bd2;
         margin: 0 -15px;
     }
     .footer-content-social-items {

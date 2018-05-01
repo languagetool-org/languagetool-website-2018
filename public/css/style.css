@@ -7,7 +7,7 @@ html, body {
 body {
     overflow-x: hidden;
     color: #372747;
-    background-color: #7821d2;
+    background-color: #fff;
     /* standard content page without many images etc: */
     /* language-specific page: */
 }
@@ -161,7 +161,7 @@ body .contentHead {
 
 .main-button {
     border-radius: 4px;
-    background-color: #28bf9a;
+    background-color: #20e197;
     padding: 11px 40px;
     display: inline-block;
     color: white;
@@ -176,7 +176,7 @@ body .contentHead {
 
 .main-button:hover {
     transition: all 0.5s ease 0s;
-    background-color: #24a787;
+    background-color: #1ab97c;
     text-decoration: none;
     color: #fff;
 }
@@ -287,7 +287,7 @@ body .contentHead {
 
 #add-on {
     padding: 90px 0px;
-    background-color: #f8f9fa;
+    background-color: #f2f6f9;
 }
 
 .features h2 {
@@ -645,7 +645,7 @@ body #textOrLanguageContent .previousMaintainer {
 body #editor_controls {
     padding: 20px;
     margin-top: 0;
-    background-color: #7020c3;
+    background-color: #007fee;
     border-bottom-right-radius: 6px;
     border-bottom-left-radius: 6px;
 }
@@ -669,7 +669,7 @@ body #editor_controls .submit button {
     display: inline-block;
 }
 body #editor_controls .submit button[name="_action_checkText"] {
-    background-color: #28bf9a;
+    background-color: #20e197;
 }
 body #editor_controls .submit button:not([name="_action_checkText"]) {
     border: 1px solid #fff;
@@ -681,20 +681,20 @@ body #editor_controls .submit button:first-child {
 
 body #editor_controls .submit button:hover,
 body #editor_controls .submit button:active {
-    background-color: #24a787;
+    background-color: #1ab97c;
     -webkit-transition: all 0.2s linear;
 }
 
 body #editor_controls .submit button.editor_controls_premium,
 body #editor_controls .submit button.editor_controls_premium {
-    background-color: #e00055;
-    border-color: #e00055;
+    background-color: #f6ac38;
+    border-color: #f6ac38;
 }
 
 body #editor_controls .submit button.editor_controls_premium:hover,
 body #editor_controls .submit button.editor_controls_premium:active {
-    background-color: #c5004b;
-    border-color: #c5004b;
+    background-color: #da962c;
+    border-color: #da962c;
 }
 
 body #editor_controls .submit button:disabled {
@@ -903,7 +903,7 @@ body #stage .inner #editor #handle {
     width: 100%;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
-    background: #e3d7ef;
+    background: #cce9ff;
 }
 
 body #stage .inner #editor #handle #feedbackMessage {
@@ -1525,8 +1525,11 @@ body #footer span a:hover {
     padding-top: 34px;
     margin: 0 auto;
     border-radius: 10px;
-    background-color: #7020c3;
-    box-shadow: 0 3px 27px 0 rgba(61, 11, 113, 0.59);
+    background: rgb(41,147,240);
+    background: -webkit-linear-gradient(bottom, rgba(41,147,240,1) 0%, rgba(0,242,254,1) 100%);
+    background: -o-linear-gradient(bottom, rgba(41,147,240,1) 0%, rgba(0,242,254,1) 100%);
+    background: linear-gradient(to top, rgba(41,147,240,1) 0%, rgba(0,242,254,1) 100%);
+    box-shadow: 0 3px 27px 0 rgba(41, 147, 240, 0.6);
     padding-bottom: 0;
     border: 0;
     position: relative;
@@ -1539,13 +1542,13 @@ body #footer span a:hover {
 
 .plan-tall .plan-button {
     color: #ffffff;
-    background-color: #28bf9a;
+    background-color: #20e197;
     box-shadow: -1px 2px 8px 0 rgba(0, 0, 0, 0.15);
     border: none;
 }
 
 .plan-tall .plan-button:hover {
-    background-color: #24a787;
+    background-color: #1ab97c;
     text-decoration: none;
 }
 
@@ -2241,7 +2244,7 @@ body #footer span a:hover {
 
 .hintbar {
     position: relative;
-    background-color: #52188f;
+    background-color: #007fee;
     color: #fff;
     text-align: center;
     padding: 20px 60px 20px 20px;
@@ -2288,7 +2291,7 @@ body #footer span a:hover {
 }
 
 .glide__bullets > .active {
-    background-color: #7020c3;
+    background-color: #2993f0;
 }
 
 .glide__arrow {
@@ -2297,10 +2300,10 @@ body #footer span a:hover {
 }
 
 .section-main {
-    background-image: url(../images/background.png);
+    background-image: url(../images/background.svg);
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: 100%;
+    background-size: cover;
 }
 
 #textContent.section-team ul, #textContent.section-team ol {
@@ -2315,7 +2318,7 @@ body #footer span a:hover {
 
 .section-reviews {
     padding: 70px 0;
-    background-color: #f7f7f7;
+    background-color: #f3f8fc;
     margin-top: -100px;
 }
 
@@ -2458,7 +2461,10 @@ body #footer span a:hover {
 }
 
 #footer {
-    background-color: #6f20c4;
+    background: rgb(0,242,254);
+    background: -webkit-linear-gradient(left, rgba(0,242,254,1) 0%, rgba(79,172,254,1) 100%);
+    background: -o-linear-gradient(left, rgba(0,242,254,1) 0%, rgba(79,172,254,1) 100%);
+    background: linear-gradient(to right, rgba(0,242,254,1) 0%, rgba(79,172,254,1) 100%);
 }
 
 .footer-content {
@@ -2484,7 +2490,7 @@ body #footer span a:hover {
 .footer-content-social {
     flex-basis: 350px;
     padding: 10px 0 10px 60px;
-    border-left: 1px solid #512599;
+    border-left: 0.5px solid #519bd2;
 }
 
 .footer-content-subscribe {
@@ -2527,11 +2533,11 @@ body #footer span.footer-content-subscribe-form-message {
     border-radius: 0 6px 6px 0;
     font-size: 15px;
     letter-spacing: 0.8px;
-    background-color: #28bf9a;
+    background-color: #20e197;
 }
 
 .footer-content-subscribe-form-button:hover {
-    background-color: #24a787;
+    background-color: #1ab97c;
 }
 
 .footer-content-subscribe-form-input:focus, .footer-content-subscribe-form-button:focus {outline: none;}
@@ -2597,7 +2603,7 @@ body #footer span.footer-content-subscribe-form-message {
 .footer-content-social-item {
     width: 40px;
     height: 40px;
-    background-color: #5a1a9f;
+    background-color: #549fda;
     border-radius: 50%;
     line-height: 40px;
     text-align: center;
