@@ -168,7 +168,7 @@ return [
      ],
     'reviews' => [
         'label' => 'Opiniones',
-        'items' => ["This application has helped me a lot. Thank you for this fine tool! (Cosmonaut Rico)", "¡Absolutamente genial! Identifica cosas que jamás haría llamado mi atención. (Mathias Bacher)", "Finally, it is a good grammar checker, catching a decent range of agreement errors and style weaknesses. I've been a paid user for two months now and I'm very pleased with it. (Tim Richardson)"],
+        'items' => ["This application has helped me a lot. Thank you for this fine tool! (Cosmonaut Rico)", "¡Absolutamente genial! Identifica cosas que jamás harían llamado mi atención. (Mathias Bacher)", "Finally, it is a good grammar checker, catching a decent range of agreement errors and style weaknesses. I've been a paid user for two months now and I'm very pleased with it. (Tim Richardson)"],
      ],
 ];
 ?>
