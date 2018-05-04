@@ -36,6 +36,8 @@
                                         <span class="plan-feature-icon"><img src="{{ asset('images/icon-x.svg') }}"></span>
                                         {{ __('messages.msword_feature') }}
                                         (<a href="#msword">{{ __('messages.msword_feature_details') }}</a>)
+                                        -
+                                        {{ __('messages.msword_feature_limit') }}
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><img src="{{ asset('images/icon-x.svg') }}"></span>
@@ -86,6 +88,8 @@
                                         <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-white.svg') }}"></span>
                                         {{ __('messages.msword_feature') }}
                                         (<a href="#msword" style="color:gold">{{ __('messages.msword_feature_details') }}</a>)
+                                        -
+                                        {{ __('messages.msword_feature_limit') }}
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-white.svg') }}"></span>
@@ -190,6 +194,8 @@
                                         <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-purple.svg') }}"></span>
                                         {{ __('messages.msword_feature') }}
                                         (<a href="#msword">{{ __('messages.msword_feature_details') }}</a>)
+                                        -
+                                        {{ __('messages.msword_feature_limit') }}
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-purple.svg') }}"></span>
@@ -248,7 +254,10 @@
                 <div class="padd-bott">
                     <a name="msword"></a>
                     <h2 id="ludilo" class="contentHead">{{__('messages.msword_headline')}}</h2>
-                    <p><?=__('messages.msword_intro')?></p>
+                    <p>
+                        <?=__('messages.msword_intro')?>
+                        <?=__('messages.msword_intro_limit')?>
+                    </p>
                     <p><?=__('messages.msword_download_blocked')?></p>
                 </div>
 
