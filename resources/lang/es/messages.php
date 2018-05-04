@@ -105,7 +105,7 @@ return [
     'after_download' => 'Después de la descarga: Extraiga el archivo e inicie languagetool.jar con un doble clic.',
     'standalone_builds' => 'Otras descargas:',
     'standalone_old_releases' => 'Versiones antiguas',
-    'standalone_daily_builds' => 'Daily builds',
+    'standalone_daily_builds' => 'Versiones actualizados diariamente',
     'googledocs_headline' => 'Add-on para Google Docs',
     'googledocs_intro' => 'Utilizar LanguageTool directamente en Google Docs.',
     'googledocs_download' => 'Instalar desde el Google Store',
@@ -168,7 +168,7 @@ return [
      ],
     'reviews' => [
         'label' => 'Opiniones',
-        'items' => ["This application has helped me a lot. Thank you for this fine tool! (Cosmonaut Rico)", "¡Absolutamente genial! Identifica cosas que jamás harían llamado mi atención. (Mathias Bacher)", "Finally, it is a good grammar checker, catching a decent range of agreement errors and style weaknesses. I've been a paid user for two months now and I'm very pleased with it. (Tim Richardson)"],
+        'items' => ["Una corrección ortográfica es obligatoria para todos usando MS-Office. (netzwelt.de)", "¡Absolutamente genial! Identifica cosas que jamás harían llamado mi atención. (Mathias Bacher)", "Con el LanguageTool verificaciones de ortografía y gramática están realizados muy rápidos y fiables. (chip.de)"],
      ],
 ];
 ?>
