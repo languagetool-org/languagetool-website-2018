@@ -39,6 +39,9 @@
     top: 46%;
     right: 10px;
     transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    right: 0;
 }
 
 .dk_focus .dk_toggle {
