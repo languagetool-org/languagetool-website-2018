@@ -31,8 +31,8 @@ return [
     'billed_annually' => 'weniger als :amount:currency/Monat',
     'free_headline' => 'Kostenlos',
     'free_limit' => 'bis :characters Zeichen pro Prüfung',
-    'many_rules_1' => 'Über :number Muster zur Fehlererkennung (Deutsch)',
-    'many_rules_2' => 'Über :number Muster zur Fehlererkennung (Englisch)',
+    'many_rules_1' => 'Über :number Muster zur Fehlererkennung (Englisch)',
+    'many_rules_2' => 'Über :number Muster zur Fehlererkennung (Deutsch)',
     'improved_error_detection1' => 'Erkennung falscher IBAN- und ISBN-Prüfsummen',
     'improved_error_detection1_example' => '<ul>
             <li>Findet einen Fehler in \'IBAN DE63370205000005123307\' (richtig wäre DE63370205000005<b>0</b>23307)</li>
@@ -77,8 +77,10 @@ return [
     'verify_success_title' => 'Willkommen!',
     'msword_feature' => 'Add-on für Microsoft Word',
     'msword_feature_details' => 'Details',
+    'msword_feature_limit' => 'keine Beschränkung der Textlänge',
     'msword_headline' => 'Add-on für Microsoft Word',
     'msword_intro' => 'Exklusiv für unsere Premium-Nutzer bieten wir jetzt ein Add-on (Beta-Version) für<br><b>Microsoft Word 2013-2016 und Outlook 2013-2016 auf Windows</b> an.',
+    'msword_intro_limit' => 'Hier gilt keine Längenbeschränkung - prüfen Sie in MS Word beliebig lange Dokumente!',
     'msword_download' => 'Jetzt herunterladen (ca. 2,4 MB)',
     'msword_download_blocked' => '(Download verfügbar für Premium-Nutzer auf <a href="https://languagetoolplus.com/">languagetoolplus.com</a>)',
     'msword_1' => 'Mit dem Word Add-on können Sie languagetoolplus.com direkt in Word benutzen. Nach Installation des Add-ons erscheint oben rechts der Button „Seite prüfen“. Wenn Sie Ihren Text überprüfen möchten, klicken Sie einfach auf diesen Button.',
