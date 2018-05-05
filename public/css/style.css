@@ -1526,9 +1526,7 @@ body #footer span a:hover {
     margin: 0 auto;
     border-radius: 10px;
     background: rgb(41,147,240);
-    background: -webkit-linear-gradient(bottom, rgba(41,147,240,1) 0%, rgba(0,242,254,1) 100%);
-    background: -o-linear-gradient(bottom, rgba(41,147,240,1) 0%, rgba(0,242,254,1) 100%);
-    background: linear-gradient(to top, rgba(41,147,240,1) 0%, rgba(0,242,254,1) 100%);
+    background: linear-gradient(0deg, rgba(41,147,240,1) 0%, rgba(0,195,233,1) 100%);
     box-shadow: 0 3px 27px 0 rgba(41, 147, 240, 0.6);
     padding-bottom: 0;
     border: 0;
@@ -2525,6 +2523,7 @@ body #footer span.footer-content-subscribe-form-message {
     font-size: 15px;
     letter-spacing: 0.8px;
     color: #000;
+    box-shadow: none;
 }
 
 .footer-content-subscribe-form-button {
