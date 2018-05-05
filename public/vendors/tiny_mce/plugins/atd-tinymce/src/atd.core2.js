@@ -176,6 +176,18 @@ AtDCore.prototype.markMyWords = function() {
     newText = newText.replace(/^\n/, "");
     newText = newText.replace(/\n/g, "<br/>");
     ed.setContent(newText);
+    
+    setTimeout(function() {
+        var elems = ed.dom.doc.querySelectorAll('.hiddenSpellError, .hiddenSuggestion, .hiddenGrammarError');
+        
+        elems.forEach(function(elem) { 
+            elem.addEventListener('click', function(e) {
+                e.stopPropagation();
+                ed.plugins.AtD._showMenu(ed, e);
+            })
+        });
+    }, 0);
+
     // now place the cursor where it was:
     ed.selection.select(ed.dom.select('span#caret_pos_holder')[0]);
     ed.dom.remove(ed.dom.select('span#caret_pos_holder')[0]);
