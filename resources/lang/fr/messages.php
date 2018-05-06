@@ -4,6 +4,7 @@ return [
     'language_hint' => 'On dirait que vous pourriez être intérréssé par LanguageTool en :lang?',
     'language_link' => 'Redirigez-moi.',
     'title' => 'Correcteur de style et de grammaire',
+    'description' => 'LanguageTool is a proofreading software for English, German, Spanish, Russian, and more than 20 other languages.',
     'tagline' => 'service de relecture',
     'russian' => 'Russe',
     'auto_detect' => 'détection automatique',
@@ -36,14 +37,9 @@ return [
     'improved_error_detection1' => 'Détection de sommes de contrôle incorrectes dans les numéros ISBN et IBAN',
     'improved_error_detection1_example' => 'Par exemple, détecte la faute de frappe dans \'ISBN 978-1784713936\'',
     'improved_error_detection2' => 'Détection du mauvais genre dans la salutation (allemand seulement)',
-    'improved_error_detection3' => 'Paires de mots supplémentaires pour la détection statistique des fautes de frappe',
-    'improved_error_detection4' => 'Détection de plus de 75 autres erreurs supplémentaires',
-    'improved_error_detection4_example' => 'Quelques exemples:
-        <ul> 
-            <li>Create two strips with an <span class="error-marker">event</span> amount of wax on each strip. -> even</li> 
-            <li>I\'m <span class="error-marker">kinder</span> bored. -> kind of</li> 
-            <li>I <span class="error-marker">don’t the</span> answer. -> verb missing</li> 
-        </ul>',
+    'improved_error_detection3' => 'Paires de mots supplémentaires pour la détection statistique des fautes de frappe pour l\'Anglais et l\'Allemand',
+    'improved_error_detection4' => 'Détection de plus de :number fautes pour l\'Allemand et l\'Anglais',
+    'improved_error_detection4_example' => 'Quelques exemples:',
     'api_access' => 'Accès à l\'API',
     'api_access_detail' => 'input: texte, sortie: JSON avec l\'erreur détectée',
     'free_action' => 'S\'inscrire',
@@ -79,10 +75,10 @@ return [
     'verify_success_title' => 'Bienvenue !',
     'msword_feature' => 'Greffon pour Microsoft Word',
     'msword_feature_details' => 'plus...',
-    'msword_feature_limit' => 'no character limit',
+    'msword_feature_limit' => 'aucune limite de caractères',
     'msword_headline' => 'Greffon pour Microsoft Word',
     'msword_intro' => 'Nous proposons un module complémentaire (version bêta) pour Microsoft Word 2013-2016 et Outlook 2013-2016 sous Windows, exclusivement pour les utilisateurs Premium.',
-    'msword_intro_limit' => 'No character limit here - use with documents of any length!',
+    'msword_intro_limit' => 'Aucune limite de caractères ici - à utiliser pour des documents de toutes les tailles !',
     'msword_download' => 'Télécharger maintenant (environ 2,4 Mo)',
     'msword_download_blocked' => '(Téléchargement disponible pour les utilisateurs premium à <a href="https://languagetoolplus.com/"> languagetoolplus.com</a>)',
     'msword_1' => 'Avec l\'aide du mot \'add-on\', vous pouvez utiliser languagetoolplus.com directement dans Word. Après avoir installé le module complémentaire, vous aurez un bouton \'Vérifier la page\' dans le coin supérieur droit de votre document. Chaque fois que vous souhaitez vérifier votre texte, cliquez simplement sur ce bouton.',
@@ -123,9 +119,9 @@ return [
     'footer_development' => 'Développement',
     'footer_screenshots' => 'Captures d\'écran',
     'footer_team' => 'Équipe',
-    'footer_source_and_license_header' => 'License & Source Code',
-    'footer_license' => 'LanguageTool is freely available under the :license or later.',
-    'footer_source' => '<a href=":link">The source</a> is available on github.',
+    'footer_source_and_license_header' => 'License & Code Source',
+    'footer_license' => 'LanguageTool est disponible gratuitement sous la :license ou plus récente.',
+    'footer_source' => '<a href=":link">Le code source</a> est disponible sur github.',
     'langs' => [
         'auto' => 'détection automatique',
         'ast' => 'Asturien',

@@ -4,6 +4,7 @@ return [
     'language_hint' => 'У нас есть страничка LanguageTool для языка :lang!',
     'language_link' => 'Хочу туда!',
     'title' => 'Корректор грамматики и стиля',
+    'description' => 'LanguageTool is a proofreading software for English, German, Spanish, Russian, and more than 20 other languages.',
     'tagline' => 'Сервис проверки грамматики и орфографии',
     'russian' => 'Русский',
     'auto_detect' => 'авто-определение',

@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
 @section('title', __('messages.title'))
+@section('description')
+    <meta name='description' content='{{__('messages.description')}}'>
+@stop
 
 @section('before_content')
     @include('shared.editor')

@@ -4,6 +4,7 @@ return [
     'language_hint' => 'Wollen Sie lieber zu LanguageTool für :lang?',
     'language_link' => 'Dann hier klicken',
     'title' => 'Prüfung für Rechtschreibung und Grammatik',
+    'description' => 'LanguageTool ist eine Software zur Textprüfung, die Englisch, Deutsch, Spanisch, Russisch und mehr als 20 weitere Sprachen unterstützt.',
     'tagline' => 'Grammatik- und Rechtschreibprüfung',
     'russian' => 'Russisch',
     'auto_detect' => 'Automatisch erkennen',

@@ -4,6 +4,7 @@ return [
     'language_hint' => 'Схоже вас цікавить LanguageTool для :lang?',
     'language_link' => 'Так, перейти.',
     'title' => 'Програма перевірки граматики та стилю',
+    'description' => 'LanguageTool is a proofreading software for English, German, Spanish, Russian, and more than 20 other languages.',
     'tagline' => 'правописна служба',
     'russian' => 'Російська',
     'auto_detect' => 'автовизначення',

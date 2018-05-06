@@ -4,6 +4,7 @@ return [
     'language_hint' => 'Sembla que esteu interessat en LanguageTool per a :lang?',
     'language_link' => 'Porta-m\'hi.',
     'title' => 'Revisió de gramàtica i estil',
+    'description' => 'LanguageTool is a proofreading software for English, German, Spanish, Russian, and more than 20 other languages.',
     'tagline' => 'servei de revisió de texts',
     'russian' => 'rus',
     'auto_detect' => 'autodetecció',

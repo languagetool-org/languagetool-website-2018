@@ -4,6 +4,7 @@ return [
     'language_hint' => 'Czy chcesz używać korektora LanguageTool do obsługi języka: :lang?',
     'language_link' => 'Przejdź tam.',
     'title' => 'Korektor stylistyczny i gramatyczny',
+    'description' => 'LanguageTool is a proofreading software for English, German, Spanish, Russian, and more than 20 other languages.',
     'tagline' => 'usługa korekty tekstu',
     'russian' => 'rosyjski',
     'auto_detect' => 'automatyczne wykrywanie',

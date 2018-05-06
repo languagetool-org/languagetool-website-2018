@@ -4,6 +4,7 @@ return [
     'language_hint' => 'Seems like you might be interested in LanguageTool for :lang?',
     'language_link' => 'Take me there.',
     'title' => 'Style and Grammar Checker',
+    'description' => 'LanguageTool is a proofreading software for English, German, Spanish, Russian, and more than 20 other languages.',
     'tagline' => 'proofreading service',
     'russian' => 'Russian',
     'auto_detect' => 'auto-detect',

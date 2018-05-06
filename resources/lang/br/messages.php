@@ -4,6 +4,7 @@ return [
     'language_hint' => 'Diskouez a rit bezañ dedennet gant LanguageTool e :lang, n\'oc\'h ket?',
     'language_link' => 'Kasit ac\'hanon di.',
     'title' => 'Difazier stil ha yezhadur',
+    'description' => 'LanguageTool is a proofreading software for English, German, Spanish, Russian, and more than 20 other languages.',
     'tagline' => 'servij adlenn',
     'russian' => 'Ruseg',
     'auto_detect' => 'em-ziguzhiñ',
@@ -36,14 +37,9 @@ return [
     'improved_error_detection1' => 'Diguzhiñ a ra sammadoù-kontroliñ direizh e-barzh an niveroù ISBN hag IBAN',
     'improved_error_detection1_example' => 'Diguzhiñ a ra da skouer ar fazi bizskrivañ e-barzh \'ISBN 978-1784713936\'',
     'improved_error_detection2' => 'Diguzhadur ar mod fall da zemata (en Alamaneg hepken)',
-    'improved_error_detection3' => 'Reoù gerioù ouzhpenn evit an diguzhiñ statistikel fazioù',
-    'improved_error_detection4' => 'Diguzhiñ a ra muioc\'h evit 75 doare fazi ouzhpenn',
-    'improved_error_detection4_example' => 'Un nebeud skouerioù:
-        <ul> 
-            <li>Create two strips with an <span class="error-marker">event</span> amount of wax on each strip. -> even</li> 
-            <li>I\'m <span class="error-marker">kinder</span> bored. -> kind of</li> 
-            <li>I <span class="error-marker">don’t the</span> answer. -> verb missing</li> 
-        </ul>',
+    'improved_error_detection3' => 'Reoù gerioù ouzhpenn evit an diguzhiañ statistikel fazioù evit ar Saozneg hag an Alamaneg',
+    'improved_error_detection4' => 'Diguzhiañ a ra muioc\'h evit :number doare fazi ouzhpenn evit an Alamaneg hag ar Saozneg',
+    'improved_error_detection4_example' => 'Un nebeud skouerioù:',
     'api_access' => 'Moned API',
     'api_access_detail' => 'enmont: testenn, ezvont: JSON gant ar fazi diguzhet',
     'free_action' => 'En em enskrivañ',
@@ -79,10 +75,10 @@ return [
     'verify_success_title' => 'Degemer mat!',
     'msword_feature' => 'Lugant evit Microsoft Word',
     'msword_feature_details' => 'muioc\'h...',
-    'msword_feature_limit' => 'no character limit',
+    'msword_feature_limit' => 'n\'eus bevenn ebet a arouezioù',
     'msword_headline' => 'Lugant evit Microsoft Word',
     'msword_intro' => 'Kinnig a reomp deoc\'h ul lugant (stumm beta) evit Microsoft Word 2013-2016 hag Outlook 2013-2016 war windows, dreist-holl evit an implijerien Premium.',
-    'msword_intro_limit' => 'No character limit here - use with documents of any length!',
+    'msword_intro_limit' => 'N\'eus bevenn ebet a arouezioù amañ - implijit gant teulioù forzh pegen hir e vefent!',
     'msword_download' => 'Pellgargañ bremañ (w-d. 2,4 MO)',
     'msword_download_blocked' => '(Pellgargañ hegerz evit an implijerien premium war <a href="https://languagetoolplus.com/">languagetoolplus.com</a>)',
     'msword_1' => 'Gant skoazell ar ger \'add-on\' e c\'hallit implijout languagetoolplus.com war-eeun e-barzh Word. War-lerc\'h bezañ staliet al lugant, bez ho po ur bouton "Gwiriañ ar bajenn" e korn laez dehou ho teuliad. Seul wech m\'ho po c\'hoant da wiriañ ho testenn, klikit ken eeun ha tra war ar bouton-mañ.',
@@ -123,9 +119,9 @@ return [
     'footer_development' => 'Diorren',
     'footer_screenshots' => 'Tapadennoù skramm',
     'footer_team' => 'Skipailh',
-    'footer_source_and_license_header' => 'License & Source Code',
-    'footer_license' => 'LanguageTool is freely available under the :license or later.',
-    'footer_source' => '<a href=":link">The source</a> is available on github.',
+    'footer_source_and_license_header' => 'Lisañs & Tarzh',
+    'footer_license' => 'LanguageTool a zo hegerz en un doare digoust dindan an/ar/al :license pe nevesoc\'h.',
+    'footer_source' => '<a href=":link">An tarzh</a> a zo hegerz war github.',
     'langs' => [
         'auto' => 'em-ziguzhiñ',
         'ast' => 'Asturianeg',

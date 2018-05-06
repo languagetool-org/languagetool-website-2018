@@ -4,6 +4,7 @@ return [
     'language_hint' => '¿Quería llegar al LanguageTool de :lang?',
     'language_link' => 'Entonces haga clic aquí',
     'title' => 'Verificar textos sencillamente. Gramática. Estilo. Ortografía.',
+    'description' => 'LanguageTool is a proofreading software for English, German, Spanish, Russian, and more than 20 other languages.',
     'tagline' => 'Verificación de gramática y ortografía',
     'russian' => 'Ruso',
     'auto_detect' => 'Reconocer automáticamente',

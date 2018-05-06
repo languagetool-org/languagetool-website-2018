@@ -4,6 +4,7 @@ return [
     'language_hint' => 'Mogelijk heeft u interesse in LanguageTool voor :lang?',
     'language_link' => 'Ga daarheen.',
     'title' => 'Controle van grammatica en stijl.',
+    'description' => 'LanguageTool is a proofreading software for English, German, Spanish, Russian, and more than 20 other languages.',
     'tagline' => 'proefleesdienst',
     'russian' => 'Russisch',
     'auto_detect' => 'automatisch detecteren',
