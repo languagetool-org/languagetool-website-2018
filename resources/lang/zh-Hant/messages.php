@@ -42,6 +42,7 @@ return [
     'improved_error_detection4_example' => '例如：',
     'api_access' => '使用API',
     'api_access_detail' => '輸入文字，輸出標明錯誤的JSON',
+    'api_access_on_premise' => ' - also available as an on-premise solution',
     'free_action' => '註冊',
     'signed_up_already' => '已經註冊',
     'free_for_whom' => '適合任何人',

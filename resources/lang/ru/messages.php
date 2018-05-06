@@ -42,6 +42,7 @@ return [
     'improved_error_detection4_example' => 'Некоторые примеры:',
     'api_access' => 'Доступ к API',
     'api_access_detail' => 'ввод: текст, вывод: JSON с выявленными ошибками',
+    'api_access_on_premise' => ' - also available as an on-premise solution',
     'free_action' => 'Зарегистрироваться',
     'signed_up_already' => 'Уже зарегистрированы',
     'free_for_whom' => 'Хороший выбор для каждого',

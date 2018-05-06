@@ -47,6 +47,7 @@ return [
         </ul>',
     'api_access' => 'Acesso API',
     'api_access_detail' => 'input: texto, output: JSON com o erro detetado',
+    'api_access_on_premise' => ' - also available as an on-premise solution',
     'free_action' => 'Inscreva-se',
     'signed_up_already' => 'Já está inscrito',
     'free_for_whom' => 'Adequado para todos',

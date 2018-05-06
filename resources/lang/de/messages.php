@@ -45,6 +45,7 @@ return [
     'improved_error_detection4_example' => 'Einige Beispiele:',
     'api_access' => 'API-Zugang',
     'api_access_detail' => 'Eingabe: Text, Ausgabe: JSON mit erkannten Fehlern',
+    'api_access_on_premise' => ' - auch zur lokalen Installation (on-premise)',
     'free_action' => 'Anmelden',
     'signed_up_already' => 'Bereits angemeldet',
     'free_for_whom' => 'Praktisch für jedermann',

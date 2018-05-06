@@ -47,6 +47,7 @@ return [
         </ul>',
     'api_access' => 'APIアクセス',
     'api_access_detail' => '入力：テキスト、出力：検出されたエラーのあるJSON',
+    'api_access_on_premise' => ' - also available as an on-premise solution',
     'free_action' => '登録',
     'signed_up_already' => 'すでに登録済み',
     'free_for_whom' => 'みんなの良いパートナー',

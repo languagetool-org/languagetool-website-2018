@@ -47,6 +47,7 @@ return [
         </ul>',
     'api_access' => 'Toegang tot de API',
     'api_access_detail' => 'invoer: text, uitvoer: JSON met de gedetecteerde fouten',
+    'api_access_on_premise' => ' - also available as an on-premise solution',
     'free_action' => 'Schrijf u in',
     'signed_up_already' => 'Al ingeschreven',
     'free_for_whom' => 'Geschikt voor iedereen',

@@ -224,6 +224,7 @@
                                         <span class="explainFeature" data-tooltip-content="#api_access_detail">
                                             <i class="fa fa-question-circle"></i>
                                         </span>
+                                        {{ __('messages.api_access_on_premise') }}
                                     </li>
                                 </ul>
 

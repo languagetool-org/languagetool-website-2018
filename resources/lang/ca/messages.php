@@ -42,6 +42,7 @@ return [
     'improved_error_detection4_example' => 'Alguns exemples:',
     'api_access' => 'Accés a l\'API',
     'api_access_detail' => 'entrada: text, sortida: JSON amb els errors detectats',
+    'api_access_on_premise' => ' - also available as an on-premise solution',
     'free_action' => 'Registreu-vos',
     'signed_up_already' => 'Ja registrat',
     'free_for_whom' => 'Una bona opció per a tothom',

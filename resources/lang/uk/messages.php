@@ -42,6 +42,7 @@ return [
     'improved_error_detection4_example' => 'Some examples:',
     'api_access' => 'Доступ до API',
     'api_access_detail' => 'вхід: текст, вихід: JSON з визначеними помилками',
+    'api_access_on_premise' => ' - also available as an on-premise solution',
     'free_action' => 'Зареєструватися',
     'signed_up_already' => 'Вже зареєстрований',
     'free_for_whom' => 'Підходить для всіх',

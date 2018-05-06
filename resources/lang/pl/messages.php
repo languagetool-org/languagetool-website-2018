@@ -42,6 +42,7 @@ return [
     'improved_error_detection4_example' => 'Przykłady:',
     'api_access' => 'Dostęp do API',
     'api_access_detail' => 'Wejście: tekst, wyjście: JSON z wykrytymi błędami.',
+    'api_access_on_premise' => ' - also available as an on-premise solution',
     'free_action' => 'Zarejestruj się',
     'signed_up_already' => 'Użytkownik jest już zarejestrowany',
     'free_for_whom' => 'Dobry wybór dla każdego',

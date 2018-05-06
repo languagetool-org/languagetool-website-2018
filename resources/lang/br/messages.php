@@ -42,6 +42,7 @@ return [
     'improved_error_detection4_example' => 'Un nebeud skouerioù:',
     'api_access' => 'Moned API',
     'api_access_detail' => 'enmont: testenn, ezvont: JSON gant ar fazi diguzhet',
+    'api_access_on_premise' => ' - also available as an on-premise solution',
     'free_action' => 'En em enskrivañ',
     'signed_up_already' => 'Enskrivet endeo',
     'free_for_whom' => 'Ur marc\'had eus ar c\'hentañ evit an holl',
