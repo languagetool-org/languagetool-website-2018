@@ -60,10 +60,12 @@
                                         <span class="plan-feature-icon"><img src="{{ asset('images/icon-x.svg') }}"></span>
                                         {{ __('messages.improved_error_detection4', ['number' => 300]) }}
                                     </li>
+                                    <!--
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><img src="{{ asset('images/icon-x.svg') }}"></span>
                                         {{ __('messages.api_access') }}
                                     </li>
+                                    -->
                                 </ul>
                                 <p class="quote"></p>
                             </div>
