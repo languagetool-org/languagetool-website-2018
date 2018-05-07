@@ -2809,3 +2809,17 @@ table.tablesorter thead tr .tablesorter-headerAsc, table.tablesorter thead tr .t
 .development-sources a {
     margin: 10px 0;
 }
+
+.cc_container .cc_btn {
+    background-color: #e4e4e4 !important;
+    color: #000 !important;
+}
+
+.cc_container {
+    background: #1f6888 !important;
+    color: #fdfdfd !important;
+}
+
+.cc_container a {
+    color: #51c5ff !important;
+}

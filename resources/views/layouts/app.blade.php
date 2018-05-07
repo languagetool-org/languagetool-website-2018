@@ -34,6 +34,19 @@
         googletag.cmd = googletag.cmd || [];
     </script>
 
+    <!-- Start Cookie Plugin -->
+    <script type="text/javascript">
+        window.cookieconsent_options = {
+            message: 'Diese Website nutzt Cookies, um bestmögliche Funktionalität bieten zu können und für Werbung.',
+            dismiss: 'Ok',
+            learnMore: 'Mehr Infos / Datenschutzerklärung',
+            link: 'https://languagetool.org/legal/privacy',
+            theme: 'dark-bottom'
+        };
+    </script>
+    <script type="text/javascript" src="/js/cookie-script.js"></script>
+    <!-- Ende Cookie Plugin -->
+    
 </head>
 <body>
     @yield('after_body')
