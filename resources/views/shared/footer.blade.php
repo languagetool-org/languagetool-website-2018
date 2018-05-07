@@ -58,12 +58,8 @@
                 <div class="footer-content-heading">Follow us</div>
                 <div class="footer-content-par">We want to hear from you</div>
                 <div class="footer-content-social-items">
-                    <div class="footer-content-social-item">
-                        <a href="http://twitter.com/languagetoolorg"><i class="fa fa-twitter"></i></a>
-                    </div>
-                    <div class="footer-content-social-item">
-                        <a href="https://github.com/languagetool-org/"><i class="fa fa-github"></i></a>
-                    </div>
+                    <a href="http://twitter.com/languagetoolorg"><div class="footer-content-social-item"><i class="fa fa-twitter"></i></div></a>
+                    <a href="https://github.com/languagetool-org/"><div class="footer-content-social-item"><i class="fa fa-github"></i></div></a>
                 </div>
             </div>
         </div>
