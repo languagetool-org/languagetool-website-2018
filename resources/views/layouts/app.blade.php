@@ -37,9 +37,9 @@
     <!-- Start Cookie Plugin -->
     <script type="text/javascript">
         window.cookieconsent_options = {
-            message: 'Diese Website nutzt Cookies, um bestmögliche Funktionalität bieten zu können und für Werbung.',
-            dismiss: 'Ok',
-            learnMore: 'Mehr Infos / Datenschutzerklärung',
+            message: "{{__('messages.cookie_hint')}}",
+            dismiss: "{{__('messages.cookie_ok')}}",
+            learnMore: "{{__('messages.cookie_more')}}",
             link: 'https://languagetool.org/legal/privacy',
             theme: 'dark-bottom'
         };
