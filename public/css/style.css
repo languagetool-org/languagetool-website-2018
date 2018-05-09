@@ -1857,6 +1857,10 @@ body #footer span a:hover {
     flex-direction: column;
 }
 
+.head-brand a:hover, .head-brand a:focus {
+    text-decoration: none;
+}
+
 .head-brand-name {
     color: white;
 }
