@@ -38,9 +38,11 @@ class WelcomeController extends Controller
 
         $langs = Lang::get('messages.langs');
         $reviews = Lang::get('messages.reviews');
+        $AllMessages = Lang::get('messages');
 
         return view('welcome', [
             'languagesWithPage' => ['en', 'br', 'ca', /*'eo',*/ 'zh-CN-Hans', 'nl', 'es', 'fr', /*'gl',*/ 'de', 'it', 'pl', 'pt', 'ru', 'es', 'uk'],
+            'AllMessages' => $AllMessages,
             'checkDefaultLang' => $defaultLang,
             'checkDefaultLangWithCountry' => $this->getDefaultLanguageAndCountry($locale),
             'checkDefaultText' => $this->getDefaultDemoText($defaultLang),
