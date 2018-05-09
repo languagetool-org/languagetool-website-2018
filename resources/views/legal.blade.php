@@ -87,7 +87,7 @@
                 <h2>EU Funding</h2>
 
                 <p>The European Union and the European Regional Development Fund (ERDF) support this project by providing funding.
-                They support the development of error detection algorithms in multilingual text, our browser add-ons, and our website.</p>
+                They support the development of error detection algorithms in multilingual texts, our browser add-ons, and our website.</p>
                 <img src="/images/Emblem-WEB-1.16189762.jpg" style="width:300px">
 
                 <h2>Availability</h2>
