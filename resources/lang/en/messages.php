@@ -109,7 +109,7 @@ return [
     'standalone_headline' => 'Desktop version for offline use',
     'standalone_intro' => 'LanguageTool can be downloaded for offline use. <b>Note: this requires <a href="https://java.com/download">Java 8 or later</a> to be installed and unless you install additional data, this will be less powerful than the version on this website. See <a href="/compare">this comparison table</a></b>.',
     'standalone_download' => 'Download Desktop Version',
-    'after_download' => 'After downloading, unzip the file and start languagetool.jar by double clicking it.',
+    'after_download' => 'After download, unzip the file and start languagetool.jar by double clicking it.',
     'standalone_builds' => 'Other Downloads:',
     'standalone_old_releases' => 'Old releases',
     'standalone_daily_builds' => 'Daily builds',
