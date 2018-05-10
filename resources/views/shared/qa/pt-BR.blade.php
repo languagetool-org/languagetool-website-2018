@@ -7,10 +7,12 @@
         <div id="qa">
 
             <h3>
+                <!--
                 <span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
                 </span>
+                -->
                 Funcionalidades
             </h3>
             <div>
@@ -31,10 +33,12 @@
             </div>
 
             <h3>
+                <!--
                 <span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
                 </span>
+                -->
                 Baixar a aplicação
             </h3>
             <div>
@@ -46,10 +50,12 @@
             </div>
 
             <h3>
+                <!--
                 <span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
                 </span>
+                -->
                 LibreOffice
             </h3>
             <div>
@@ -75,10 +81,12 @@
             </div>
 
             <h3>
+                <!--
                 <span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
                 </span>
+                -->
                 Licença &amp; Código-Fonte
             </h3>
             <div>
@@ -88,10 +96,12 @@
 
 
             <h3>
+                <!--
                 <span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
                 </span>
+                -->
                 Versão 3.8 (lançada em 27 de julho de 2017)
             </h3>
             <div>
@@ -138,10 +148,12 @@
             </div>
 
             <h3>
+                <!--
                 <span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
                 </span>
+                -->
                 Versão 3.7 (lançada a 27 de março de 2017)
             </h3>
             <div>
@@ -206,10 +218,12 @@
             </div>
             
             <h3>
+                <!--
                 <span class="qa-header-icon">
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
                 </span>
+                -->
                 Versão 3.6 (lançada a 28 de dezembro de 2016)
             </h3>
             <div>
