@@ -42,12 +42,7 @@ return [
     'improved_error_detection2' => 'Herkenning van verkeerd geslacht in aanhef (Duits)',
     'improved_error_detection3' => 'Meer woordgroepen voor het statistisch herkennen van typefouten in Engels en Duits',
     'improved_error_detection4' => 'Detectie van meer dan 75 andere fouten',
-    'improved_error_detection4_example' => 'Een paar voorbeelden:
-        <ul>
-            <li>Create two strips with an <span class="error-marker">event</span> amount of wax on each strip. -> even</li>
-            <li>I\'m <span class="error-marker">kinder</span> bored. -> kind of</li>
-            <li>I <span class="error-marker">don’t the</span> answer. -> verb missing</li>
-        </ul>',
+    'improved_error_detection4_example' => 'Een paar voorbeelden:',
     'api_access' => 'Toegang tot de API',
     'api_access_detail' => 'invoer: text, uitvoer: JSON met de gedetecteerde fouten',
     'api_access_on_premise' => ' - also available as an on-premise solution',

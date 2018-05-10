@@ -42,12 +42,7 @@ return [
     'improved_error_detection2' => '挨拶における間違いの検出(ドイツ語のみ)',
     'improved_error_detection3' => 'タイプミスの統計的検出のための追加単語対',
     'improved_error_detection4' => '他の75以上の追加エラーの検出',
-    'improved_error_detection4_example' => 'いくつかの例：
-        <ul> 
-            <li>Create two strips with an <span class="error-marker">event</span> amount of wax on each strip. -> even</li> 
-            <li>I\'m <span class="error-marker">kinder</span> bored. -> kind of</li> 
-            <li>I <span class="error-marker">don’t the</span> answer. -> verb missing</li> 
-        </ul>',
+    'improved_error_detection4_example' => 'いくつかの例：',
     'api_access' => 'APIアクセス',
     'api_access_detail' => '入力：テキスト、出力：検出されたエラーのあるJSON',
     'api_access_on_premise' => ' - also available as an on-premise solution',

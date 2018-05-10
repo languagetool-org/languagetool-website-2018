@@ -42,12 +42,7 @@ return [
     'improved_error_detection2' => 'Deteção de género incorreto na saudação (Alemão apenas)',
     'improved_error_detection3' => 'Pares adicionais de palavras para deteção estatística de erros',
     'improved_error_detection4' => 'Deteção de mais de 75 erros extras',
-    'improved_error_detection4_example' => 'Alguns exemplos: 
-        <ul> 
-            <li>Create two strips with an <span class="error-marker">event</span> amount of wax on each strip. -> even</li> 
-            <li>I\'m <span class="error-marker">kinder</span> bored. -> kind of</li> 
-            <li>I <span class="error-marker">don’t the</span> answer. -> verb missing</li> 
-        </ul>',
+    'improved_error_detection4_example' => 'Alguns exemplos:',
     'api_access' => 'Acesso API',
     'api_access_detail' => 'input: texto, output: JSON com o erro detetado',
     'api_access_on_premise' => ' - também disponível como uma solução na premissa',
