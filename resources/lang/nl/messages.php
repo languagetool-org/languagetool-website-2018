@@ -38,6 +38,7 @@ return [
     'editor_ignore_success' => 'Word will be ignored in this session - <a href="https://languagetoolplus.com">visit languagetoolplus.com</a> to store ignore words',
     'editor_no_errors' => 'No errors were found.',
     'editor_detected_language' => 'Detected language:',
+    'editor_insert_demo_text' => 'Insert Demo Text',
     'privacy' => 'Privacy',
     'imprint' => 'Contact',
     'subscription' => 'Schrijf uzelf in voor het laatste nieuws',

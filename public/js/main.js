@@ -297,7 +297,8 @@ $(function(){
                     doit();
                     $('#feedbackMessage').html('');
                 } else {
-                    $('#feedbackMessage').html('<a href="#" onclick="return setDemoText()">Demo Text</a>');
+                    var demoText = AllMessages['editor_insert_demo_text'] || "Demo text";
+                    $('#feedbackMessage').html('<a href="#" onclick="return setDemoText()">' + demoText + '</a>');
                 }
             } else {
                 if (currentText.trim() === "" || currentText === oldDemoText || currentText === "Text hier einfügen" || currentText === "Add your text here") {
