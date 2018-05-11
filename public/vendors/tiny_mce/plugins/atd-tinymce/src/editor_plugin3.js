@@ -157,15 +157,14 @@
                   langDiv.find('option[value="auto"]').remove();
                   langDiv.prepend($("<option selected/>").val("auto").text("Auto-detected: " + detectedLang));
                   langDiv.dropkick('refresh');*/
-                  $('#feedbackMessage').html("Detected language: " + detectedLang);
+                  $('#feedbackMessage').html(t._getTranslation('editor_detected_language') + " " + detectedLang);
                   $('#detectedLanguage').text(json.language.code);
                }
 
                if (results.suggestions.length == 0) {
-                  var lang = plugin.editor.getParam('languagetool_i18n_current_lang')();
-                  var noErrorsText = plugin.editor.getParam('languagetool_i18n_no_errors')[lang] || "No errors were found.";
+                  var noErrorsText = t._getTranslation('editor_no_errors');
                   if (languageCode === "auto") {
-                     noErrorsText += " Detected language: " + detectedLang;
+                     noErrorsText += " " + t._getTranslation('editor_detected_language') + " " + detectedLang;
                   }
                   $('#feedbackMessage').html(noErrorsText);
                }
@@ -403,7 +402,7 @@
                                  ruleId.indexOf("FR_SPELLING_RULE") !== -1;
             this._updateSentenceTrackingArea(lang);
              
-            var otherReplTitleMenuItem = t._getTranslation('languagetool_i18n_other_replace_by', lang, "Replace with...");
+            var otherReplTitleMenuItem = t._getTranslation('editor_other_replace_by');
             if (errorDescription == undefined)
             {
                m.add({title : plugin.editor.getLang('AtD.menu_title_no_suggestions', 'No suggestions'), 'class' : 'mceMenuItemTitle'}).setDisabled(1);
@@ -436,13 +435,13 @@
                       });
                    })(errorDescription["suggestions"][i]);
                }
-               otherReplTitleMenuItem = t._getTranslation('languagetool_i18n_other_suggestion', lang, "(another replacement)");
+               otherReplTitleMenuItem = t._getTranslation('editor_other_suggestion');
 
             }
 
             m.add({ title : otherReplTitleMenuItem, onclick:
                  function() {
-                     var otherReplDialog = t._getTranslation('languagetool_i18n_other_suggestion_dialog', lang, "Replace with:");
+                     var otherReplDialog = t._getTranslation('editor_other_suggestion_dialog', lang, "Replace with:");
                      var res = prompt(otherReplDialog, errorDescription["coveredtext"]);
                      if (res !== null) {
                          var repl = $('<div/>').text(res).html();
@@ -456,24 +455,12 @@
 
             m.addSeparator();
 
-            var explainText = plugin.editor.getParam('languagetool_i18n_explain')[lang] || "Explain...";
-            var ignoreThisText = plugin.editor.getParam('languagetool_i18n_ignore_once')[lang] || "Ignore this type of error";
-            var ruleExamples = "Examples...";
-            if (plugin.editor.getParam('languagetool_i18n_rule_examples')) {
-              ruleExamples = plugin.editor.getParam('languagetool_i18n_rule_examples')[lang] || "Examples...";
-            }
-            var noRuleExamples = "Sorry, no examples found for this rule.";
-            if (plugin.editor.getParam('languagetool_i18n_rule_no_examples')) {
-              noRuleExamples = plugin.editor.getParam('languagetool_i18n_rule_no_examples')[lang] || "Sorry, no examples found for this rule.";
-            }
-            var ruleImplementation = "Rule implementation...";
-            if (plugin.editor.getParam('languagetool_i18n_rule_implementation')) {
-              ruleImplementation = plugin.editor.getParam('languagetool_i18n_rule_implementation')[lang] || "Rule implementation...";
-            }
-            var suggestWord = "Suggest word for dictionary...";
-            if (plugin.editor.getParam('languagetool_i18n_suggest_word')) {
-              suggestWord = plugin.editor.getParam('languagetool_i18n_suggest_word')[lang] || "Suggest word for dictionary...";
-            }
+            var explainText = t._getTranslation('editor_explain');
+            var ignoreThisText = t._getTranslation('editor_ignore_once');
+            var ruleExamples = t._getTranslation('editor_rule_examples');
+            var noRuleExamples = t._getTranslation('editor_rule_no_examples');
+            var ruleImplementation = t._getTranslation('editor_rule_implementation');
+            var suggestWord = t._getTranslation('editor_suggest_word');
             var suggestWordUrl;
             if (plugin.editor.getParam('languagetool_i18n_suggest_word_url')) {
               suggestWordUrl = plugin.editor.getParam('languagetool_i18n_suggest_word_url')[lang];
@@ -522,7 +509,7 @@
                     }
                 });
                 m.add({
-                    title : t._getTranslation('languagetool_i18n_track_false_alarm_menu', lang, "Report as false alarm..."),
+                    title : t._getTranslation('editor_track_false_alarm_menu'),
                     onclick : function()
                     {
                         var surrogate = e.target.getAttribute(plugin.editor.core.surrogateAttribute);
@@ -534,9 +521,9 @@
                         var escapedSentence = $("<div>").text(errorDescription["sentence"]).html();
                         vex.dialog.open({
                             unsafeMessage:
-                                t._getTranslation('languagetool_i18n_track_false_alarm1', lang, "Report the error and this sentence to LanguageTool as a false alarm, i.e. a misleading error?") +
+                                t._getTranslation('editor_track_false_alarm1') +
                                 "<br><br><b>" + escapedSentence + "</b><br><br>" +
-                                t._getTranslation('languagetool_i18n_track_false_alarm2', lang, "If you click 'OK', the sentence will be stored anonymously."),
+                                t._getTranslation('editor_track_false_alarm2'),
                             callback: function (data) {
                                 if (data) {
                                     console.log('Okay to store false alarm');
@@ -549,10 +536,7 @@
                     }
                 });
             } else {
-                var ignoreThisKindOfErrorText = "Ignore error for this word";
-                if (plugin.editor.getParam('languagetool_i18n_ignore_all')) {
-                    ignoreThisKindOfErrorText = plugin.editor.getParam('languagetool_i18n_ignore_all')[lang] || "Ignore error for this word";
-                }
+                var ignoreThisKindOfErrorText = t._getTranslation('editor_ignore_all');
                 m.add({
                     title : ignoreThisKindOfErrorText,
                     onclick : function()
@@ -562,12 +546,7 @@
                         var coveredText = plugin.editor.core.getSurrogatePart(surrogate, 'coveredtext');
                         ed.core.ignoredSpellingErrors.push(coveredText);
                         t._removeWordsByRuleId(ruleId, coveredText);
-                        
-                        var ignoreSuccessMessage = "";
-                        if (plugin.editor.getParam('languagetool_i18n_ignore_all')) {
-                            ignoreSuccessMessage = plugin.editor.getParam('languagetool_i18n_ignore_success')[lang] 
-                                || "Word will be ignored in this session - <a href='https://languagetoolplus.com'>visit languagetoolplus.com</a> to store ignore words";
-                        }
+                        var ignoreSuccessMessage = t._getTranslation('editor_ignore_success'); 
                         $('#feedbackErrorMessage').html("<div id='personalDictMessage'>" + ignoreSuccessMessage + "</div>");
                         
                         t._trackEvent('IgnoreSpellingError', lang);
@@ -694,14 +673,11 @@
            // source: https://github.com/HubSpot/vex/blob/master/docs/intro.md
            var escapedSentence = $("<div>").text(errorDescription["sentence"]).html();
            var t = this;
-           var trackMessage = this._getTranslation('languagetool_i18n_track_message', lang,
-                    "To further improve LanguageTool, we're looking for data about " +
-                    "how it's used. Please allow us to store your corrected sentences anonymously " +
-                    "(i.e. your IP address will not be saved).") + "<br><br>" +
-                    this._getTranslation('languagetool_i18n_track_message_sentence', lang, "Sentence:") + " ";
-           var trackRememberMessage = this._getTranslation('languagetool_i18n_track_remember_message', lang, "Remember this decision");
-           var trackNo = this._getTranslation('languagetool_i18n_track_no', lang, "No");
-           var trackYes = this._getTranslation('languagetool_i18n_track_yes', lang, "Okay, store the sentence");
+           var trackMessage = this._getTranslation('editor_track_message') + "<br><br>" +
+                    this._getTranslation('editor_track_message_sentence') + " ";
+           var trackRememberMessage = this._getTranslation('editor_track_remember_message');
+           var trackNo = this._getTranslation('editor_track_no');
+           var trackYes = this._getTranslation('editor_track_yes');
            vex.dialog.open({
                unsafeMessage: trackMessage +
                "\"" + escapedSentence + "\"",
@@ -742,19 +718,16 @@
            });
        },
        
-       _getTranslation : function(key, lang, defaultText) {
-           return this.editor.getParam(key) && this.editor.getParam(key)[lang] || defaultText;
+       _getTranslation : function(key) {
+           return AllMessages[key] || "ERROR:" + key;
        },
        
        _showGenericContributionDialog : function(lang) {
            var t = this;
-           var trackMessage = this._getTranslation('languagetool_i18n_track_message', lang,
-                   "To further improve LanguageTool, we're looking for data about " +
-                   "how it's used. Please allow us to store your corrected sentences anonymously " +
-                   "(i.e. your IP address will not be saved).");
-           var trackNo = this._getTranslation('languagetool_i18n_track_no', lang, "No");
-           var trackYes = this._getTranslation('languagetool_i18n_track_yes_plural', lang, "Okay, store the sentences");
-           var trackAsk = this._getTranslation('languagetool_i18n_track_ask', lang, "Ask every time");
+           var trackMessage = this._getTranslation('editor_track_message');
+           var trackNo = this._getTranslation('editor_track_no');
+           var trackYes = this._getTranslation('editor_track_yes_plural');
+           var trackAsk = this._getTranslation('editor_track_ask');
            vex.dialog.open({
                unsafeMessage: trackMessage,
                buttons: [
@@ -787,9 +760,9 @@
 
        _updateSentenceTrackingArea : function(lang) {
            var t = this;
-           var changeSettingText = this._getTranslation('languagetool_i18n_tracking_change', lang, "Change setting");
+           var changeSettingText = this._getTranslation('editor_tracking_change');
            if (userHasPastedText && document.cookie && document.cookie.indexOf("sentenceTracking=store") !== -1) {
-               var contributingText = this._getTranslation('languagetool_i18n_do_track', lang, "Thanks for contributing corrections.");
+               var contributingText = this._getTranslation('editor_do_track');
                $('#sentenceContributionMessage').html("<div id='sentenceContribution'>" + contributingText +
                    " <a href='#' onclick='return false'>" + changeSettingText + "</a></a></div>");
                $('#sentenceContribution').unbind('click');
@@ -797,7 +770,7 @@
                    t._showGenericContributionDialog(lang);
                });
            } else if (userHasPastedText && document.cookie && document.cookie.indexOf("sentenceTracking=do-not-store") !== -1) {
-               var notContributingText = this._getTranslation('languagetool_i18n_do_not_track', lang, "You're not contributing corrections.");
+               var notContributingText = this._getTranslation('editor_do_not_track');
                $('#sentenceContributionMessage').html("<div id='sentenceContribution'>" + notContributingText +
                    " <a href='#' onclick='return false'>" + changeSettingText + "</a></a></div>");
                $('#sentenceContribution').unbind('click');

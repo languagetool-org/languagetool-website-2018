@@ -2827,3 +2827,11 @@ table.tablesorter thead tr .tablesorter-headerAsc, table.tablesorter thead tr .t
 .cc_container a {
     color: #51c5ff !important;
 }
+
+#personalDictMessage {
+    margin-bottom: 10px;
+}
+
+#personalDictMessage a {
+    color: white;
+}
