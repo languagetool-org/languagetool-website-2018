@@ -178,7 +178,7 @@ if (isset($_SERVER['QUERY_STRING']) && strpos($_SERVER['QUERY_STRING'], 'testmod
 <script src="{{ asset('js/lightbox2/js/lightbox.js') }}"></script>
 <script src="{{ asset('js/vex.combined.min.js') }}"></script>
 <script src="{{ asset('vendors/tiny_mce/tiny_mce.js') }}"></script>
-<script src="{{ asset('vendors/tiny_mce/plugins/atd-tinymce/editor_plugin2.js') }}"></script>
+<script src="{{ asset('vendors/tiny_mce/plugins/atd-tinymce/editor_plugin3.js') }}"></script>
 <script src="{{ asset('vendors/tiny_mce/plugins/atd-tinymce/src/synonyms.js') }}"></script>
 <script src="{{ asset('vendors/dropkick/jquery.dropkick.js') }}"></script>
 <script src="{{ asset('vendors/tooltipster/tooltipster.bundle.min.js') }}"></script>
