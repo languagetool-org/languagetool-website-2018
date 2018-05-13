@@ -11,8 +11,13 @@
 				<img src="/images/references/rsp24.png" alt="rechtschreibpruefung24.de">
 			</div>
 			<div class="section-clients-item">
-				<img width="150" src="/images/references/iserv.png" alt="IServ">
+				<img width="150" src="/images/references/iserv.png" alt="IServ GmbH">
 			</div>
+			<!--
+			<div class="section-clients-item">
+				<img width="220" src="/images/references/invaris.png" alt="INVARIS Informationssysteme GmbH">
+			</div>
+			-->
 		</div>
 		<div class="section-clients-description">
             <?=__('messages.used_by')?>
