@@ -166,9 +166,11 @@ if (isset($_SERVER['QUERY_STRING']) && strpos($_SERVER['QUERY_STRING'], 'testmod
 >
 </script>
 
-<script>
-    var AllMessages = {!! json_encode($AllMessages) !!};
-</script>
+<?php if (isset($AllMessages)) { ?>
+    <script>
+        var AllMessages = {!! json_encode($AllMessages) !!};
+    </script>
+<?php } ?>
 
 {{-- javascript area end --}}
     
