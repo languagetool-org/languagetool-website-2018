@@ -15,6 +15,11 @@
 			</div>
 			<!--
 			<div class="section-clients-item">
+				<img width="280" src="/images/references/brandwatch.png" alt="brandwatch">
+			</div>
+			-->
+			<!--
+			<div class="section-clients-item">
 				<img width="220" src="/images/references/invaris.png" alt="INVARIS Informationssysteme GmbH">
 			</div>
 			-->
