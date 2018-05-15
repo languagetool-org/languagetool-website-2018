@@ -11,6 +11,8 @@
 
 
 <?php
+$englishRuleCount = 1700;
+$germanRuleCount = 2400;
 $additionalErrorsCount = 500;
 ?>
 
@@ -31,11 +33,11 @@ $additionalErrorsCount = 500;
                                 <ul class="plan-features">
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-purple.svg') }}"></span>
-                                        {{ __('messages.many_rules_1', ['number' => 1700]) }}
+                                        {{ __('messages.many_rules_1', ['number' => $englishRuleCount]) }}
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-purple.svg') }}"></span>
-                                        {{ __('messages.many_rules_2', ['number' => 2400]) }}
+                                        {{ __('messages.many_rules_2', ['number' => $germanRuleCount]) }}
                                     </li>
                                 </ul>
                                 <ul class="plan-features inactive">
@@ -87,11 +89,11 @@ $additionalErrorsCount = 500;
                                 <ul class="plan-features">
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-white.svg') }}"></span>
-                                        {{ __('messages.many_rules_1', ['number' => 1700]) }}
+                                        {{ __('messages.many_rules_1', ['number' => $englishRuleCount]) }}
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-white.svg') }}"></span>
-                                        {{ __('messages.many_rules_2', ['number' => 2400]) }}
+                                        {{ __('messages.many_rules_2', ['number' => $germanRuleCount]) }}
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-white.svg') }}"></span>
@@ -193,11 +195,11 @@ $additionalErrorsCount = 500;
                                 <ul class="plan-features">
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-purple.svg') }}"></span>
-                                        {{ __('messages.many_rules_1', ['number' => 1700]) }}
+                                        {{ __('messages.many_rules_1', ['number' => $englishRuleCount]) }}
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-purple.svg') }}"></span>
-                                        {{ __('messages.many_rules_2', ['number' => 2400]) }}
+                                        {{ __('messages.many_rules_2', ['number' => $germanRuleCount]) }}
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-purple.svg') }}"></span>
