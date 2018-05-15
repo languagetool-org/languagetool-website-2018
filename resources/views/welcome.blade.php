@@ -10,6 +10,10 @@
 @endsection
 
 
+<?php
+$additionalErrorsCount = 500;
+?>
+
 @section('content')
     @include('shared.reviews')
     <section id="Price">
@@ -58,7 +62,7 @@
                                     @endif
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><img src="{{ asset('images/icon-x.svg') }}"></span>
-                                        {{ __('messages.improved_error_detection4', ['number' => 300]) }}
+                                        {{ __('messages.improved_error_detection4', ['number' => $additionalErrorsCount]) }}
                                     </li>
                                     <!--
                                     <li class="plan-feature">
@@ -124,7 +128,7 @@
                                     @endif
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-white.svg') }}"></span>
-                                        {{ __('messages.improved_error_detection4', ['number' => 300]) }}
+                                        {{ __('messages.improved_error_detection4', ['number' => $additionalErrorsCount]) }}
                                         <span class="explainFeature"
                                               data-tooltip-content="#improved_error_detection4_example">
                                               <i class="fa fa-question-circle"></i>
@@ -218,7 +222,7 @@
                                     @endif
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-purple.svg') }}"></span>
-                                        {{ __('messages.improved_error_detection4', ['number' => 300]) }}
+                                        {{ __('messages.improved_error_detection4', ['number' => $additionalErrorsCount]) }}
                                     </li>
                                     <li class="plan-feature">
                                         <span class="plan-feature-icon"><img src="{{ asset('images/icon-check-purple.svg') }}"></span>
