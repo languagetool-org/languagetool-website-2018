@@ -11,7 +11,7 @@
             <p>We’re sorry to see you’ve uninstalled our extension. It would be great if you told us the
                 reason for your decision, so that we can fix it and improve LanguageTool:</p>
 
-            <form id="mainform" action="submit-feedback.php" method="get">
+            <form id="mainform" action="submit-feedback.php" method="get" onsubmit="return checkLength()">
                 <input id="version" name="version" type="hidden" value="">
                 <input id="usageCounter" name="usageCounter" type="hidden" value="-1">
 
@@ -33,4 +33,20 @@
             
         </div>
     </div>
+
+    <script>
+        function checkLength() {
+            if (typeof(_paq) !== 'undefined') {
+                // Piwik tracking
+                _paq.push(['trackEvent', 'UninstallFeedback', document.querySelector('input[name="reason"]:checked').value]);
+            }
+            setTimeout(function() {
+                document.getElementById("mainform").submit();
+            }, 500);
+            return false;
+        }
+        function show(id, messageFieldId) {
+        }
+    </script>
+    
 @endsection
