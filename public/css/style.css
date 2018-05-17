@@ -2641,7 +2641,36 @@ body #footer span.footer-content-subscribe-form-message {
     justify-content: space-between;
     margin-bottom: 30px;
     flex-wrap: wrap;
+    padding: 0 80px;
+    position: relative;
 }
+
+.section-clients-items-control {
+    font-size: 30px;
+    color: #ced5dc;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: 0;
+    outline: none;
+    transition: color .3s ease;
+}
+
+.section-clients-items-control:hover {
+    color: #0a69d8;
+}
+
+.section-clients-items-control-left {
+    position: absolute;
+    left: 0
+}
+
+.section-clients-items-control-right {
+    position: absolute;
+    right: 0;
+}
+
+#Clients .glide__slides { align-items: center; }
 
 .section-clients-item {
 }

@@ -411,12 +411,30 @@ $(document).ready(function() {
 vex.defaultOptions.className = 'vex-theme-default';
 
 $(document).ready(function() {
-    $('#Glide').glide({
-        type: 'slider'
-    });
+    new Glide('#Glide', {
+        autoplay: 3000
+    }).mount();
 
+    new Glide('#Reviews', {
+        autoplay: 3000
+    }).mount();
 
-    $('#Reviews').glide({
-        type: 'slider'
+    var ClientsGlide = new Glide('#Clients', {
+        type: 'carousel',
+        perView: 3,
+        animationDuration: 1200,
+        breakpoints: {
+            767: {
+                perView: 2
+            },
+            480: {
+                perView: 1
+            }
+        }
+    }).mount();
+
+    $('.section-clients-items-control').on('click', function() {
+        var direction = $(this).attr('data-glide-dir');
+        ClientsGlide.go(direction);
     });
 });
