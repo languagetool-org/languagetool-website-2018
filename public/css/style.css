@@ -2675,13 +2675,6 @@ body #footer span.footer-content-subscribe-form-message {
 .section-clients-item {
 }
 
-.section-clients-item.ibm {flex-basis: 7.4%;}
-.section-clients-item.sony {flex-basis: 10.6%;}
-.section-clients-item.amazon {flex-basis: 9.6%;}
-.section-clients-item.zendesk {flex-basis: 13.8%;}
-.section-clients-item.soundcloud {flex-basis: 7.4%;}
-.section-clients-item.huge {flex-basis: 7.4%;}
-
 .section-clients-item img {
     max-width: 100%;
 }
