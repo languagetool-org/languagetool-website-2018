@@ -1866,8 +1866,8 @@ body #footer span a:hover {
 }
 
 .head-brand-slogan {
-    color: #e9def5;
-    /*font-weight: 200;*/
+    color: #fff;
+    font-weight: 100;
 }
 
 .dialog-custom {
