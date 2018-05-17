@@ -13,8 +13,8 @@
     <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/oldceeleldhonbafppcapldpdifcinji">
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('vendors/glide/glide.core.css') }}">
-    <link rel="stylesheet" href="{{ asset('vendors/glide/glide.theme.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendors/glide3/dist/css/glide.core.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendors/glide3/dist/css/glide.theme.min.css') }}">
     <link href="{{ asset('vendors/dropkick/dropkick.css') }}" rel="stylesheet">
     <link href="{{ asset('vendors/tooltipster/tooltipster.bundle.min.css') }}" rel="stylesheet">
     <link href="{{ asset('vendors/tooltipster/tooltipster-sideTip-shadow.min.css') }}" rel="stylesheet">

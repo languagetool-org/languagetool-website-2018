@@ -12,8 +12,8 @@
                 <img src="/images/review-quote-left.svg">
             </span>
 
-            <div class="glide__wrapper">
-                <ul class="glide__track">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
                     @foreach ($reviews as $review)
                         <li class="glide__slide">{{ $review }}</li>
                     @endforeach

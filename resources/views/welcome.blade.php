@@ -275,8 +275,8 @@ $additionalErrorsCount = 500;
 
                 <div id="Glide" class="glide">
 
-                    <div class="glide__wrapper">
-                        <ul class="glide__track">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
                             <li class="glide__slide">
                                 <div class="features row">
                                     <div class="feature-image col-md-5">
