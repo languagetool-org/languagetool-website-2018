@@ -66,7 +66,14 @@
                                             $lang = $checkLanguage[$langCode];
                                             print "<option value=\"$langCode\" $checked>$lang</option>\n";
                                         }
-                                        foreach ($checkLanguage as $key => $val) {
+                                        $sortedCheckLanguage = $checkLanguage;
+                                        uksort($sortedCheckLanguage, function($a, $b) use ($checkLanguage) {
+                                            if ($a == "auto") {
+                                                return -1;
+                                            }
+                                            return strcasecmp($checkLanguage[$a], $checkLanguage[$b]); 
+                                        });
+                                        foreach ($sortedCheckLanguage as $key => $val) {
                                             printLangOption($checkDefaultLang, $checkLanguage, $key);
                                         }
                                         ?>
