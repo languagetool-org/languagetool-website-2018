@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Lang;
 
 class LegacyController extends Controller
 {
@@ -29,7 +30,11 @@ class LegacyController extends Controller
     public function chrome() { return view('chrome'); }
     public function firefox() { return view('firefox'); }
     public function contribute() { return view('contribute'); }
-    public function de_leichte_sprache() { return view('de/leichte_sprache'); }
+    public function de_leichte_sprache() {
+        return view('de/leichte_sprache', [
+            'AllMessages' => Lang::get('messages')
+        ]);
+    }
     
     public function fakeerror() {
         throw new \Exception("test exception");
