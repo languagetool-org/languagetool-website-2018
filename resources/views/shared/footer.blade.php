@@ -174,7 +174,6 @@ if (isset($_SERVER['QUERY_STRING']) && strpos($_SERVER['QUERY_STRING'], 'testmod
 
 {{-- javascript area end --}}
     
-<script src="{{ asset('js/app.js') }}"></script>
 <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
 <script src="{{ asset('vendors/glide3/dist/glide.min.js') }}"></script>
 <script src="{{ asset('js/lightbox2/js/lightbox.js') }}"></script>
