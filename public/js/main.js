@@ -440,4 +440,9 @@ $(document).ready(function() {
         var direction = $(this).attr('data-glide-dir');
         ClientsGlide.go(direction);
     });
+
+    $('a[data-lightbox]').on('click', function(event) {
+        event.preventDefault();
+        lightbox.start($(this));
+    });
 });
