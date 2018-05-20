@@ -423,15 +423,6 @@
         font-size: 14px;
         letter-spacing: 0.5px;
     }
-    .section-clients-item {
-        padding: 10px 20px;
-    }
-    .section-clients-item.ibm {flex-basis: 22.2%;}
-    .section-clients-item.sony {flex-basis: 31.8%;}
-    .section-clients-item.amazon {flex-basis: 28.8%;}
-    .section-clients-item.zendesk {flex-basis: 41.4%;}
-    .section-clients-item.soundcloud {flex-basis: 22.2%;}
-    .section-clients-item.huge {flex-basis: 22.2%;}
     #firefox_chrome p {
         font-size: 14px;
         letter-spacing: 0.6px;
@@ -677,5 +668,13 @@
     }
     .header-nav-menu.langs .header-nav-menu-item-dropdown-item.active-lang {
         color: #a574dc;
+    }
+    .section-clients-items {
+        padding: 0 50px;
+    }
+}
+@media (max-width: 480px) {
+    .section-clients-items {
+        padding: 0 30px;
     }
 }

@@ -423,12 +423,15 @@ $(document).ready(function() {
         type: 'carousel',
         perView: 3,
         animationDuration: 1200,
+        gap: 60,
         breakpoints: {
             767: {
-                perView: 2
+                perView: 2,
+                gap: 30
             },
             480: {
-                perView: 1
+                perView: 1,
+                gap: 0
             }
         }
     }).mount();

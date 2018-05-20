@@ -2676,7 +2676,7 @@ body #footer span.footer-content-subscribe-form-message {
 }
 
 .section-clients-item img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .section-clients-description {
@@ -2857,3 +2857,7 @@ table.tablesorter thead tr .tablesorter-headerAsc, table.tablesorter thead tr .t
 #personalDictMessage a {
     color: white;
 }
+/*
+.glide__slide {
+    width: auto;
+}*/
