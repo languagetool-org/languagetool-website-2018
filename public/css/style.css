@@ -675,6 +675,10 @@ body #editor_controls .submit button:not([name="_action_checkText"]) {
     border: 1px solid #fff;
 }
 
+body .fullscreen #editor_controls .submit button#upgradeButton {
+    display: none;
+}
+
 body #editor_controls .submit button:first-child {
     padding: 10px 14px;
 }

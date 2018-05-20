@@ -130,7 +130,7 @@
                                     </button>
                                     -->
                                     <?php if (Auth::guest() || !Auth::user()->hasActivePremium()) { ?>
-                                    <button class="btn-lt editor_controls_group_item editor_controls_premium" type="submit"
+                                    <button id="upgradeButton" class="btn-lt editor_controls_group_item editor_controls_premium" type="submit"
                                             onClick="if (typeof(_paq) !== 'undefined') { _paq.push(['trackEvent', 'UpgradeClick', '<?=$_SERVER['REQUEST_URI']?>']); } window.location = window.location.origin + window.location.pathname + '#premium';return false;">
                                         <?=__('messages.premium_upgrade')?>
                                     </button>
