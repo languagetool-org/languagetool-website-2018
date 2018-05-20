@@ -1866,8 +1866,7 @@ body #footer span a:hover {
 }
 
 .head-brand-slogan {
-    color: #fff;
-    font-weight: 100;
+    color: #e9def5;
 }
 
 .dialog-custom {
@@ -2856,8 +2855,4 @@ table.tablesorter thead tr .tablesorter-headerAsc, table.tablesorter thead tr .t
 
 #personalDictMessage a {
     color: white;
-}
-/*
-.glide__slide {
-    width: auto;
-}*/
+}§
