@@ -3,11 +3,6 @@
         <div class="row">
             <div class="col-xs-12">
                 <nav class="nav editor-nav">
-                    @if($selectedLang == "de")
-                        <a class="subscription jump_menu" type="button" href="/job/vertrieb">
-                            Job: Vertriebler/in gesucht!
-                        </a>
-                    @endif
                     <?php if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "Chrome/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
                         <a class="ff-chrome jump_menu" type="button" onclick="return installChromeExtension('calltoaction')" href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji">
                             <?=__('messages.chromeAddon')?>
