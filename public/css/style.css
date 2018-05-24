@@ -2339,7 +2339,7 @@ body #footer span a:hover {
     text-align: left;
 }
 
-#Reviews {
+.reviews-wrapper {
     text-align: left;
     padding: 0 70px;
     position: relative;
@@ -2351,30 +2351,29 @@ body #footer span a:hover {
     letter-spacing: 0.8px;
     display: flex;
     align-items: center;
-    /*font-weight: 200;*/
 }
 
-#Reviews .review-quote-left, #Reviews .review-quote-right {
+.reviews-wrapper .review-quote-left, .reviews-wrapper .review-quote-right {
     position: absolute;
     width: 30px;
 }
 
 
-#Reviews .review-quote-right img, #Reviews .review-quote-left img {
+.reviews-wrapper .review-quote-right img, .reviews-wrapper .review-quote-left img {
     max-width: 100%;
 }
 
-#Reviews .review-quote-left {
+.reviews-wrapper .review-quote-left {
     top: 30px;
     left: 1px;
 }
 
-#Reviews .review-quote-right {
+.reviews-wrapper .review-quote-right {
     bottom: 30px;
     right: 1px;
 }
 
-#Reviews .review-quote-right img {
+.reviews-wrapper .review-quote-right img {
     transform: rotate(180deg);
 }
 
