@@ -73,6 +73,11 @@
                             Weitere Informationen finden Sie hier: <a href="https://www.newsletter2go.de/informationen-newsletter-empfaenger/">https://www.newsletter2go.de/informationen-newsletter-empfaenger/</a>
                         </li>
                         <li>
+                            <a href="https://forum.languagetool.org/">Unser Forum</a> wird von discoursehosting.com
+                            betrieben. Details zu der Datenspeicherung finden Sie in der 
+                            <a href="https://www.discoursehosting.com/privacy-policy/">Datenschutzerklärung von discoursehosting.com</a>.
+                        </li>
+                        <li>
                             <p>Unserer Website verwendet Piwik/Matomo, gehostet bei <a href="http://www.mysnip-solutions.de/impressum.html">mysnip</a>
                                 (MySnip Solutions - Thomas Seifert, Kreutzigerstr. 4a, 10247 Berlin). Dabei handelt es sich um einen sogenannten Webanalysedienst.
                                 Piwik verwendet sog. “Cookies”, das sind Textdateien, die auf Ihrem Computer gespeichert werden und die unsererseits eine
@@ -414,6 +419,11 @@
                             More information: <a href="https://www.newsletter2go.com/information-for-newsletter-recipients/">https://www.newsletter2go.com/information-for-newsletter-recipients/</a>
                         </li>
                         <li>
+                            <a href="https://forum.languagetool.org/">Our forum</a> is run by discoursehosting.com.
+                            You can find details about how your data is stored in 
+                            <a href="https://www.discoursehosting.com/privacy-policy/">discoursehosting.com's privacy policy</a>.
+                        </li>
+                        <li>
                             <p>Our website uses Piwik/Matomo, hosted by <a href="http://www.mysnip-solutions.de/impressum.html">mysnip</a>
                                 (MySnip Solutions - Thomas Seifert, Kreutzigerstr. 4a, 10247 Berlin). This is a so-called web analysis service.
                                 Piwik uses "cookies", which are text files placed on your computer, to help us analyze your use of the website.
@@ -682,7 +692,7 @@
                                 on racial or ethnic origin, political opinions, religious or philosophical beliefs, 
                                 trade union membership, health, or sex life. yieldlove also does not knowingly collect 
                                 data from children under the age of 12.
-                                However, if you want to correct, update or delete the banner advertising data we have,
+                                However, if you want to correct, update or delete the banner advertising data yieldlove has,
                                 or if you would like to correct, update or delete the personal data that you have provided 
                                 to yieldlove via the contact form on our homepage, you can contact us or yieldlove by e-mail at privacy@yieldlove.com.
 
