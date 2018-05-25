@@ -146,7 +146,7 @@ return [
     'more_headline' => 'More Add-ons',
     'more_intro' => 'Our community has developed add-ons and plugins for many programs.',
     'more_download' => 'See List of Add-ons',
-    'used_by' => 'LanguageTool is used by these companies',
+    'used_by' => 'Some of the companies that use LanguageTool',
     'footer_development' => 'Development',
     'footer_screenshots' => 'Screenshots',
     'footer_team' => 'Team',

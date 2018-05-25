@@ -23,7 +23,7 @@ return [
     'editor_track_message_sentence' => 'Frazenn:',
     'editor_do_track' => 'Trugarez da vezañ kaset difaziadennoù.',
     'editor_do_not_track' => 'Ne zegasit difaziadenn ebet.',
-    'editor_other_suggestion' => '(erlerc\'hiañ all)',
+    'editor_other_suggestion' => '(erlerc\'hiañ)',
     'editor_other_suggestion_dialog' => 'Erlerc\'hiañ gant:',
     'editor_track_false_alarm_menu' => 'Danevelliñ evel ur fals-alarm...',
     'editor_track_false_alarm1' => 'Danevelliñ ar fazi hag ar frazenn-mañ da LanguageTool evel ur fals-alarm, d.l.e ur fazi tromplus?',
