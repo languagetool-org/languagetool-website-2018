@@ -486,8 +486,8 @@
         font-size: 18px;
         letter-spacing: 0.8px;
     }
-    #Reviews {
-        padding: 0 25px;
+    .reviews-wrapper {
+        padding: 0 50px;
     }
     #Reviews .glide__slide {
         padding: 5px 0;
