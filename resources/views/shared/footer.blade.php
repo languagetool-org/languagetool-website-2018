@@ -151,9 +151,9 @@
 </script>
 
 <?php
-$fsStorefront = "languagetooler.onfastspring.com/popup-languagetooler";
+$fsStorefront = "languagetooler.onfastspring.com/popup-languagetool-org";
 if (isset($_SERVER['QUERY_STRING']) && strpos($_SERVER['QUERY_STRING'], 'testmode') !== false) {
-    $fsStorefront = "languagetooler.test.onfastspring.com/popup-languagetooler";
+    $fsStorefront = "languagetooler.test.onfastspring.com/popup-languagetool-org";
 }
 ?>
 <script
