@@ -131,7 +131,7 @@
             } else {
                 _paq.push(['trackEvent', "FastSpring", "OrderFinished"]);
                 fastspring.builder.reset();
-                window.location.replace("https://languagetoolplus.com/subscribe/?source=ltp&orderId=" + orderObjOrNull.id);
+                window.location.replace("https://languagetoolplus.com/subscribe/?source=lt&orderId=" + orderObjOrNull.id);
             }
         }
     }
