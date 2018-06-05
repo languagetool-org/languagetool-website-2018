@@ -39,8 +39,8 @@
                                       rows="10"><?= $checkDefaultText ?></textarea>
                             <?php } ?>
                         </p>
+                        <div id="feedbackErrorMessage"></div>
                         <div id="editor_controls">
-                            <div id="feedbackErrorMessage"></div>
                             <div id="sentenceContributionMessage"></div>
 
                             <div class="editor_controls_items">
