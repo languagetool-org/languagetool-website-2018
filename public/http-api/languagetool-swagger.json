@@ -136,7 +136,7 @@
                                         },
                                         "detectedLanguage": {
                                             "type": "object",
-                                            "description": "The automatically detected text language.",
+                                            "description": "The automatically detected text language (might be different from the language actually used for checking).",
                                             "required": [
                                                 "name",
                                                 "code"
