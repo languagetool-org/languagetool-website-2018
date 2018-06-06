@@ -203,7 +203,16 @@ function setDemoText() {
 }
 
 function switchLanguage(langCode) {
-    document.checkform.lang.value = langCode;
+    var allCodes = [];
+    $('#lang option').map(function() {
+        allCodes.push($(this).val());
+    });
+    if (allCodes.includes(langCode)) {
+        document.checkform.lang.value = langCode;
+    } else {
+        // e.g. 'br-FR' needs to be 'br':
+        document.checkform.lang.value = langCode.replace(/-..$/, "");
+    }
     fillSubLanguageSelect(langCode.replace(/-..$/, ""));
     $('#lang').dropkick('refresh');
     doit();
