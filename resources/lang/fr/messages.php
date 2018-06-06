@@ -38,6 +38,7 @@ return [
     'editor_ignore_success' => 'Le mot sera ignoré pour cette session - <a href="https://languagetoolplus.com">veuillez visiter languagetoolplus.com</a> pour stocker les mots ignorés',
     'editor_no_errors' => 'Aucune erreur n\'a été trouvée.',
     'editor_detected_language' => 'Langue détectée :',
+    'editor_detected_language_switch' => 'Switch to :language',
     'editor_insert_demo_text' => 'Insérer un texte de démonstration',
     'privacy' => 'Vie Privée',
     'imprint' => 'Contact',

@@ -202,6 +202,14 @@ function setDemoText() {
     return false;
 }
 
+function switchLanguage(langCode) {
+    document.checkform.lang.value = langCode;
+    fillSubLanguageSelect(langCode.replace(/-..$/, ""));
+    $('#lang').dropkick('refresh');
+    doit();
+    return false;
+}
+
 $(function(){
 
     tinyMCE.init({

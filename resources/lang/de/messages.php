@@ -38,6 +38,7 @@ return [
     'editor_ignore_success' => 'Wort wird jetzt für diese Sitzung ignoriert - unter <a href="https://languagetoolplus.com">languagetoolplus.com</a> können Sie Ihre eigenen Wörter dauerhaft speichern',
     'editor_no_errors' => 'Keine Fehler gefunden.',
     'editor_detected_language' => 'Erkannte Sprache:',
+    'editor_detected_language_switch' => 'Auf :language umschalten',
     'editor_insert_demo_text' => 'Beispieltext anzeigen',
     'privacy' => 'Datenschutz',
     'imprint' => 'Kontakt &amp; Impressum',

@@ -506,7 +506,15 @@ AtDCore.prototype.isIE = function() {
                   plugin.markMyWords();
                   ed.suggestions = results.suggestions; 
                }
-               if (results.incompleteResults) {
+
+               if (json.language.detectedLanguage && json.language.code !== json.language.detectedLanguage.code && textContent.length > 3) {
+                   var fullLangCode = json.language.detectedLanguage.code;
+                   var langCode = fullLangCode.replace(/-.*/, "");
+                   var translatedLang = t._getTranslation('langs')[langCode];
+                   $('#feedbackErrorMessage').html("<div id='severeError'>" + t._getTranslation('editor_detected_language') + " " +
+                       " <a href='#' onclick=\"return switchLanguage('" + fullLangCode + "')\">" +
+                       t._getTranslation('editor_detected_language_switch').replace(/:language/, translatedLang) + "</a></div>");
+               } else if (results.incompleteResults) {
                    if (results.incompleteResultsReason) {
                        $('#feedbackErrorMessage').html("<div id='severeError'>" + $('<div/>').text(results.incompleteResultsReason).html() + "</div>");
                    } else {
@@ -514,7 +522,9 @@ AtDCore.prototype.isIE = function() {
                        $('#feedbackErrorMessage').html("<div id='severeError'>These results may be incomplete due to a server timeout.</div>");
                    }
                    t._trackEvent('CheckError', 'ErrorWithException', "Incomplete Results");
-                }
+               } else {
+                   $('#feedbackErrorMessage').html("");
+               }
             });
          });
           
@@ -1290,6 +1300,7 @@ AtDCore.prototype.isIE = function() {
       sendRequest : function(file, data, languageCode, success)
       {
          url = this.editor.getParam("languagetool_rpc_url", "{backend}");
+         // url = "http://localhost:8081/v2/check";  // for testing
          //console.log("url", url);
          var plugin = this;
 

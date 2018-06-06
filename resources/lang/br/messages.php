@@ -38,6 +38,7 @@ return [
     'editor_ignore_success' => 'Ar ger na vo ket graet van outañ e-kerzh an dalc\'h-mañ - <a href="https://languagetoolplus.com">kit d\'ober ur sell war languagetoolplus.com</a> evit derc\'hel war ar gerioù bet fae outo',
     'editor_no_errors' => 'N\'eus bet kavet fazi ebet.',
     'editor_detected_language' => 'Yezhoù diguzhet:',
+    'editor_detected_language_switch' => 'Switch to :language',
     'editor_insert_demo_text' => 'Enlakaat un destenn diskouez',
     'privacy' => 'Prevezded',
     'imprint' => 'Darempred',

@@ -38,6 +38,7 @@ return [
     'editor_ignore_success' => 'Слово будет игнорировано в этой сессии – <a href="https://languagetoolplus.com">посетите languagetoolplus.com</a> для сохранения слов',
     'editor_no_errors' => 'Ошибки не найдены',
     'editor_detected_language' => 'Обнаружен язык:',
+    'editor_detected_language_switch' => 'Switch to :language',
     'editor_insert_demo_text' => 'Вставить пробный текст',
     'privacy' => 'Приватность',
     'imprint' => 'Контакты',
