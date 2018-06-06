@@ -174,12 +174,16 @@
                }
 
                if (json.language.detectedLanguage && json.language.code !== json.language.detectedLanguage.code && textContent.length > 3) {
-                   var fullLangCode = json.language.detectedLanguage.code;
-                   var langCode = fullLangCode.replace(/-.*/, "");
-                   var translatedLang = t._getTranslation('langs')[langCode];
-                   $('#feedbackErrorMessage').html("<div id='severeError'>" + t._getTranslation('editor_detected_language') + " " +
-                       " <a href='#' onclick=\"return switchLanguage('" + fullLangCode + "')\">" +
-                       t._getTranslation('editor_detected_language_switch').replace(/:language/, translatedLang) + "</a></div>");
+                   var detectedLangShort = json.language.detectedLanguage.code.replace(/-..$/, "");
+                   var usedLangShort = json.language.code.replace(/-..$/, "");
+                   if (detectedLangShort !== usedLangShort) {
+                       var fullLangCode = json.language.detectedLanguage.code;
+                       var langCode = fullLangCode.replace(/-.*/, "");
+                       var translatedLang = t._getTranslation('langs')[langCode];
+                       $('#feedbackErrorMessage').html("<div id='severeError'>" + t._getTranslation('editor_detected_language') + " " +
+                           " <a href='#' onclick=\"return switchLanguage('" + fullLangCode + "')\">" +
+                           t._getTranslation('editor_detected_language_switch').replace(/:language/, translatedLang) + "</a></div>");                       
+                   }
                } else if (results.incompleteResults) {
                    if (results.incompleteResultsReason) {
                        $('#feedbackErrorMessage').html("<div id='severeError'>" + $('<div/>').text(results.incompleteResultsReason).html() + "</div>");
