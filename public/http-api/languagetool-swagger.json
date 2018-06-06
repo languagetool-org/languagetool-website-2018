@@ -3,7 +3,7 @@
     "info": {
         "title": "LanguageTool API",
         "description": "Check texts for style and grammar issues with LanguageTool",
-        "version": "1.0.1"
+        "version": "1.0.2"
     },
     "host": "languagetool.org",
     "schemes": [
@@ -119,9 +119,11 @@
                                 },
                                 "language": {
                                     "type": "object",
+                                    "description": "The language used for checking the text.",
                                     "required": [
                                         "name",
-                                        "code"
+                                        "code",
+                                        "detectedLanguage"
                                     ],
                                     "properties": {
                                         "name": {
@@ -130,7 +132,25 @@
                                         },
                                         "code": {
                                             "type": "string",
-                                            "description": "ISO 639-1 code like 'en', 'en-US', or 'ca-ES-valencia'"
+                                            "description": "Language name like 'French' or 'English (US)'."
+                                        },
+                                        "detectedLanguage": {
+                                            "type": "object",
+                                            "description": "The automatically detected text language.",
+                                            "required": [
+                                                "name",
+                                                "code"
+                                            ],
+                                            "properties": {
+                                                "name": {
+                                                    "type": "string",
+                                                    "description": "Language name like 'French' or 'English (US)'."
+                                                },
+                                                "code": {
+                                                    "type": "string",
+                                                    "description": "Language name like 'French' or 'English (US)'."
+                                                }
+                                            }
                                         }
                                     }
                                 },
