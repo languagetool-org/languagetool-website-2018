@@ -38,7 +38,7 @@ return [
     'editor_ignore_success' => 'Woord wordt in deze sessie genegeerd - <a href="https://languagetoolplus.com">ga naar languagetoolplus.com</a> om te negeren woorden te bewaren',
     'editor_no_errors' => 'Geen fouten gevonden.',
     'editor_detected_language' => 'Gedetecteerde taal:',
-    'editor_detected_language_switch' => 'Switch to :language',
+    'editor_detected_language_switch' => 'Schakel om naar :language',
     'editor_insert_demo_text' => 'Voeg demonstratie toe',
     'privacy' => 'Privacy',
     'imprint' => 'Contact',

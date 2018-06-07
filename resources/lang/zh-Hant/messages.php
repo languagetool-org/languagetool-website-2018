@@ -38,7 +38,7 @@ return [
     'editor_ignore_success' => '在本時段，LanguageTool將不標示某些單詞的錯誤。請到<a href="https://languagetoolplus.com">languagetoolplus.com</a>永久儲存此設定。',
     'editor_no_errors' => '找不到錯誤。',
     'editor_detected_language' => '偵測語言:',
-    'editor_detected_language_switch' => 'Switch to :language',
+    'editor_detected_language_switch' => '切換至:language',
     'editor_insert_demo_text' => '輸入示範文本',
     'privacy' => '隱私',
     'imprint' => '聯絡我們',
