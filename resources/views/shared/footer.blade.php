@@ -1,3 +1,7 @@
+
+<!-- used by editor_plugin2.js: -->
+<div style="display: none;" id="detectedLanguage"></div>
+
 <div id="footer">
     <div class="container">
         <div class="footer-content">
