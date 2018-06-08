@@ -2,7 +2,7 @@
 # compiles the current LanguageTool code and moves the result to a snapshots directory
 
 export JAVA_HOME=/home/languagetool/java
-export MAVEN_OPTS="-Xmx1000M"
+export MAVEN_OPTS="-Xmx1500M"
 
 SNAPSHOT_DIR=../languagetool-website-2018/public/download/snapshots
 if [ $# -eq 1 ]
