@@ -1601,7 +1601,7 @@ body #footer span a:hover {
 }
 
 .quote-layer {
-    font-size: 50px;
+    font-size: 30px;
     letter-spacing: 1.8px;
     text-align: center;
     color: #ffffff;
@@ -1676,8 +1676,8 @@ body #footer span a:hover {
 #plan-prices-save {
     color: #fff;
     text-align: center;
-    margin: 0 0;
-    font-size: 16px;
+    margin-top: -20px;
+    font-size: 20px;
     letter-spacing: 1.3px;
 }
 
