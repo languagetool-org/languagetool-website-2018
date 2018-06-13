@@ -44,7 +44,7 @@
                                     Ursache zu finden und den Fehler zu beheben.</li>
                             </ul>
                             In all diesen Fällen speichern wir weder Ihre IP-Adresse, noch sonstige Informationen,
-                            die es uns erlauben würden, Sie zu identifizieren. Da wird Ihnen Ihre Daten nicht mehr zuordnen können,
+                            die es uns erlauben würden, Sie zu identifizieren. Da wir Ihnen Ihre Daten nicht mehr zuordnen können,
                             ist es auch nicht möglich, Ihre Daten gezielt wieder zu löschen.
                         </li>
                         <li>Um unser Angebot zu verbessern, speichern wir folgende Informationen:
