@@ -278,5 +278,5 @@ $(document).ready(function() {
         g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
     })();
 </script>
-<noscript><p><img src="http://openthesaurus.stats.mysnip-hosting.de/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+<noscript><p><img src="https://openthesaurus.stats.mysnip-hosting.de/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
 <!-- End Piwik Code -->
