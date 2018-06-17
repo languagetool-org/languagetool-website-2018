@@ -13,6 +13,7 @@
         var apiPerformanceDataUrl = "/regression-tests/performance-api-recent.log";
         var apiPerformanceDataUrl2 = "/regression-tests/performance-api-recent2.log";
         var apiPerformanceDataUrl3 = "/regression-tests/performance-ltp-recent.log";
+        var apiPerformanceDataUrl4 = "/regression-tests/performance-ltp-api-cloud-recent.log";
         var apiPerformanceDataItemsToUse = 2500;
         var accessCountDataUrl = "api-log.csv";
 
@@ -64,6 +65,7 @@
         drawApiGraph(apiPerformanceDataUrl, "api-perf-graph");
         drawApiGraph(apiPerformanceDataUrl2, "api2-perf-graph");
         drawApiGraph(apiPerformanceDataUrl3, "api3-perf-graph");
+        drawApiGraph(apiPerformanceDataUrl4, "api4-perf-graph");
 
         var fields = ['DATE','TOTAL','FF','CHROME','ANDROID','CLIENT','SUBLIME','WEBEXT','MSWORD','WEBEXTFF','WEBEXTCHROME','TOTALHOME', 'GOOGLEAPP'];  // see report.sh
         var ignoreFields = ['FF', 'CHROME', 'ANDROID'];
@@ -159,8 +161,11 @@
 <h2>API response time (api.languagetool.org)</h2>
 <div id="api2-perf-graph"></div>
 
-<h2>API response time (LTP)</h2>
+<h2>API response time (languagetoolplus.com/api)</h2>
 <div id="api3-perf-graph"></div>
+
+<h2>API response time (api.languagetoolplus.com)</h2>
+<div id="api4-perf-graph"></div>
 
 <h2>API access count</h2>
 <div id="access-count-graph"></div>
