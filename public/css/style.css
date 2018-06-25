@@ -2855,9 +2855,11 @@ table.tablesorter thead tr .tablesorter-headerAsc, table.tablesorter thead tr .t
 }
 
 #personalDictMessage {
+    margin-left: 5px;
     margin-bottom: 10px;
 }
 
 #personalDictMessage a {
-    color: white;
+    color: black;
+    font-weight: bold;
 }
