@@ -28,6 +28,20 @@
     <link href="{{ asset('css/media.css') }}?20180419" rel="stylesheet">
     <link href="{{ asset('css/tooltip.css') }}?20180419" rel="stylesheet">
 
+    <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
+    <script src="{{ asset('vendors/glide3/dist/glide.min.js') }}"></script>
+    <script src="{{ asset('js/lightbox2/js/lightbox.js') }}"></script>
+    <script src="{{ asset('js/vex.combined.min.js') }}"></script>
+    <script src="{{ asset('vendors/tiny_mce/tiny_mce.js') }}"></script>
+    <script src="{{ asset('vendors/tiny_mce/plugins/atd-tinymce/editor_plugin3.js?20180606') }}"></script>
+    <script src="{{ asset('vendors/tiny_mce/plugins/atd-tinymce/src/synonyms.js') }}"></script>
+    <script src="{{ asset('vendors/dropkick/jquery.dropkick.js') }}"></script>
+    <script src="{{ asset('vendors/tooltipster/tooltipster.bundle.min.js') }}"></script>
+    <script src="{{ asset('js/jquery-ui.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.tablesorter.min.js') }}"></script>
+    <script src="{{ asset('js/main.js') }}?20180606"></script>
+    <script src="{{ asset('js/touchHover.js') }}"></script>
+
     <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
     <script>
         var googletag = googletag || {};

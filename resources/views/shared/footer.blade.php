@@ -115,7 +115,6 @@
 @endif
 
 {{-- javascript area start --}}
-<script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
 <script type="text/javascript">
     function errorCallback(code, string) {
         console.log("Error: ", code, string);
@@ -178,18 +177,6 @@ if (isset($_SERVER['QUERY_STRING']) && strpos($_SERVER['QUERY_STRING'], 'testmod
 
 {{-- javascript area end --}}
     
-<script src="{{ asset('vendors/glide3/dist/glide.min.js') }}"></script>
-<script src="{{ asset('js/lightbox2/js/lightbox.js') }}"></script>
-<script src="{{ asset('js/vex.combined.min.js') }}"></script>
-<script src="{{ asset('vendors/tiny_mce/tiny_mce.js') }}"></script>
-<script src="{{ asset('vendors/tiny_mce/plugins/atd-tinymce/editor_plugin3.js?20180606') }}"></script>
-<script src="{{ asset('vendors/tiny_mce/plugins/atd-tinymce/src/synonyms.js') }}"></script>
-<script src="{{ asset('vendors/dropkick/jquery.dropkick.js') }}"></script>
-<script src="{{ asset('vendors/tooltipster/tooltipster.bundle.min.js') }}"></script>
-<script src="{{ asset('js/jquery-ui.min.js') }}"></script>
-<script src="{{ asset('js/jquery.tablesorter.min.js') }}"></script>
-<script src="{{ asset('js/main.js') }}?20180606"></script>
-<script src="{{ asset('js/touchHover.js') }}"></script>
 
 
 <!-- Script for Register Modal -->
