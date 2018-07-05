@@ -4,7 +4,7 @@ return [
     'language_hint' => 'Seems like you might be interested in LanguageTool for :lang?',
     'language_link' => 'Take me there.',
     'title' => 'Spell and Grammar Checker',
-    'description' => 'LanguageTool is a proofreading software for English, German, Spanish, Russian, and more than 20 other languages.',
+    'description' => 'LanguageTool is a free proofreading software for English, German, Spanish, Russian, and more than 20 other languages.',
     'cookie_hint' => 'This website uses cookies for a better user experience and to show ads.',
     'cookie_more' => 'More / privacy policy',
     'cookie_ok' => 'Ok',
