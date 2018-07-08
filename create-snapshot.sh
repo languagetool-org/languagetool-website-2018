@@ -50,7 +50,7 @@ fi
 # deploy JARs to community.languagetool.org:
 # =====================================================================
 echo "--- Deploying JARs to community.languagetool.org ---"
-/bin/sh /home/languagetool/languagetool.org/languagetool-website/deploy-jars.sh
+/bin/sh /home/languagetool/languagetool.org/languagetool-website-2018/deploy-jars.sh
 
 # =====================================================================
 # deploy to API server:
