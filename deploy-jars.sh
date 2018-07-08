@@ -3,13 +3,17 @@
 # Run this after a new snapshot has been created - root needs to restart Tomcat then.
 # dnaber, 2014-03-04
 
-SNAPSHOT_DIR=/home/languagetool/languagetool.org/languagetool-website-2018/public/download/snapshots
-WEB_LIB=/home/languagetool/tomcat/webapps/ROOT/WEB-INF/lib
 DATE=`date +%Y%m%d`
 
 if [ $# = 1 ]; then
   DATE=$1
 fi
+
+SNAPSHOT_FILE=LanguageTool-$DATE-snapshot.zip
+SNAPSHOT_URL=https://languagetool.org/download/snapshots/$SNAPSHOT_FILE
+WIKI_SNAPSHOT_FILE=LanguageTool-wikipedia-$DATE-snapshot.zip
+WIKI_SNAPSHOT_URL=https://languagetool.org/download/snapshots/$WIKI_SNAPSHOT_FILE
+WEB_LIB=/home/languagetool/tomcat/webapps/ROOT/WEB-INF/lib
 
 echo "Using date: $DATE"
 
@@ -17,14 +21,18 @@ cd /home/languagetool/languagetool.org/git-checkout
 rm -r /tmp/lt-snapshot
 rm -r /tmp/lt-wikipedia-snapshot
 
-SNAPSHOT=$SNAPSHOT_DIR/LanguageTool-$DATE-snapshot.zip
-if [ ! -f $SNAPSHOT ]; then
-  echo "Error: $SNAPSHOT not found, stopping"
+cd  /tmp
+wget $SNAPSHOT_URL
+wget $WIKI_SNAPSHOT_URL
+if [ ! -f $SNAPSHOT_FILE ]; then
+  echo "Error: $SNAPSHOT_FILE not found, stopping"
   exit
 fi
+cd -
 
-echo "Going to unzip: $SNAPSHOT"
-unzip -d /tmp/lt-snapshot $SNAPSHOT
+echo "Going to unzip: $SNAPSHOT_FILE"
+unzip -d /tmp/lt-snapshot /tmp/$SNAPSHOT_FILE
+rm /tmp/$SNAPSHOT_FILE
 
 # backup of libs:
 rm -r /home/languagetool/tomcat/lib-bak/
@@ -47,11 +55,11 @@ rm $WEB_LIB/languagetool-core-*-SNAPSHOT.jar
 mkdir -p /home/languagetool/tomcat/webapps/ROOT/WEB-INF/classes/META-INF/org/languagetool/
 cp /tmp/lt-snapshot/LanguageTool-*-SNAPSHOT/META-INF/org/languagetool/language-module.properties /home/languagetool/tomcat/webapps/ROOT/WEB-INF/classes/META-INF/org/languagetool/
 
-WIKI_JAR=$SNAPSHOT_DIR/LanguageTool-wikipedia-$DATE-snapshot.zip
 rm $WEB_LIB/languagetool-wikipedia-*-SNAPSHOT.jar
-echo "Going to unzip: $WIKI_JAR"
-unzip -d /tmp/lt-wikipedia-snapshot $WIKI_JAR
+echo "Going to unzip: /tmp/$WIKI_SNAPSHOT_FILE"
+unzip -d /tmp/lt-wikipedia-snapshot /tmp/$WIKI_SNAPSHOT_FILE
 cp /tmp/lt-wikipedia-snapshot/LanguageTool-*-SNAPSHOT/languagetool-wikipedia.jar $WEB_LIB
+rm /tmp/$WIKI_SNAPSHOT_FILE
 
 # commented out as this now requires root permission:
 #cd /home/languagetool
