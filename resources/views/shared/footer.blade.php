@@ -161,7 +161,7 @@ if (isset($_SERVER['QUERY_STRING']) && strpos($_SERVER['QUERY_STRING'], 'testmod
 ?>
 <script
         id="fsc-api"
-        src="https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.7.4/fastspring-builder.min.js"
+        src="https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.7.6/fastspring-builder.min.js"
         type="text/javascript"
         data-storefront="<?=$fsStorefront?>"
         data-error-callback="errorCallback"
