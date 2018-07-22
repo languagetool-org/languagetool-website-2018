@@ -238,12 +238,14 @@ $additionalErrorsCount = 500;
 
                                 <br><br>
                                 <script>
-                                    var mt = "mail" + "to";
+                                    /*var mt = "mail" + "to";
                                     var fp = "sales";
                                     var domain = "languagetoolplus";
                                     var subject = "?subject=contact request for enterprise version (languagetool.org)";
                                     var buttonText = "{{ __('messages.enterprise_action') }}";
                                     document.write("<a class='plan-button' href='" + mt + ":" + fp + "@" + domain + ".com" + subject + "'>" + buttonText + "</a>");
+                                    */
+                                    document.write("<a class='plan-button' href='https://languagetoolplus.com'>languagetoolplus<br>.com</a>");
                                 </script>
                                 
                             </div>
