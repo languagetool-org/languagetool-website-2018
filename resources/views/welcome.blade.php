@@ -183,6 +183,7 @@ $additionalErrorsCount = 500;
                                 </div>
 
                             </div>
+                            <span class="text-span-bott"><?=__('messages.prices_incl_vat')?></span>
 
                             <h5 class="plan-for-who">{{__('messages.premium_for_whom')}}</h5>
                         </div>
