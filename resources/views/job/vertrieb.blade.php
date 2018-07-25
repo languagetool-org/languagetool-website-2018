@@ -36,7 +36,7 @@
             <p><b>Was wir bieten:</b></p>
 
             <ul>
-                <li>Ein kleines, agiles Team mit flachen Hierarchien</li>
+                <li>ein kleines, agiles Team mit flachen Hierarchien</li>
                 <li>ein Grundgehalt von 15 €/h und die Möglichkeit zusätzlicher Provisionen</li>
                 <li>Arbeiten, von wo Du willst - im Home-Office oder in unserem Büro im Herzen von Potsdam-Babelsberg
                     mit sehr guter S-Bahn-Anbindung nach Berlin</li>
