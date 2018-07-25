@@ -7,42 +7,40 @@
 
         <div class="container">
 
-            <p style="text-align: right">Stand: 01.05.2018</p>
+            <p style="text-align: right">Stand: 25.07.2018</p>
             
-            <h1>Vertriebsmitarbeiter (m/w)</h1>
+            <h1>Praktikum oder Nebenjob Inside Sales</h1>
 
             <p>Die LanguageTooler GmbH betreibt auf languagetool.org eine beliebte Stil- und Grammatikprüfung. Jeden Tag prüfen
                 wir mehr als 500.000 Texte. Viele andere Websites, darunter korrekturen.de und rechtschreibpruefung24.de,
                 nutzen unsere Technologie ebenfalls. Wir suchen ab sofort eine/n</p>
 
-            <h2 style="text-align: center">Vertriebsmitarbeiter/in</h2>
+            <h2 style="text-align: center">Praktikanten/Praktikantin oder Studenten/Studentin Inside Sales,<br>8 bis 20 Stunden/Woche</h2>
 
             <p><b>Deine Aufgaben:</b></p>
 
             <ul>
-                <li>Akquise von Neukunden für unsere Software zur Textprüfung</li>
-                <li>Selbstständige vertriebliche Verantwortung vom Erstkontakt bis zum Vertragsabschluss</li>
-                <li>Eigenständige Erstellung von Angeboten</li>
-                <li>Pflege des CRM-Systems</li>
+                <li>Recherche von potenziellen Nutzern im Internet</li>
+                <li>Beratungsgespräche und Kundenbetreuung</li>
+                <li>Ansprache potenzieller Nutzer via Social Media, E-Mail und Telefon</li>
+                <li>Angebotserstellung</li>
             </ul>
 
             <p><b>Unsere Anforderungen:</b></p>
 
             <ul>
-                <li>Mehrjährige Erfahrung im Bereich Telefonvertrieb mit nachweisbaren Erfolgen</li>
-                <li>Selbstbewusstes und überzeugendes Auftreten, Kommunikationsstärke und Durchhaltevermögen</li>
-                <li>Internet- und Technikaffinität und im besten Fall auch ein Interesse an Sprache</li>
-                <li>Die Arbeit mit Kunden macht Dir Spaß und Du kannst Dich in deren Bedürfnisse hineinversetzen</li>
-                <li>Du bist ehrgeizig, ergreifst die Initiative und willst eigenverantwortlich handeln</li>
+                <li>erste Erfahrungen im Sales-Bereich sind von Vorteil, aber nicht erforderlich</li>
+                <li>sehr gute schriftliche Deutschkenntnisse</li>
             </ul>
 
             <p><b>Was wir bieten:</b></p>
 
             <ul>
                 <li>Ein kleines, agiles Team mit flachen Hierarchien</li>
-                <li>Reichlich Freiraum für eigene Ideen, die uns gemeinsam voranbringen</li>
+                <li>ein Grundgehalt von 15 €/h und die Möglichkeit zusätzlicher Provisionen</li>
                 <li>Arbeiten, von wo Du willst - im Home-Office oder in unserem Büro im Herzen von Potsdam-Babelsberg
-                    mit sehr guter S-Bahn-Anbindung nach Berlin</li> 
+                    mit sehr guter S-Bahn-Anbindung nach Berlin</li>
+                <li>flexible Arbeitszeiten</li>
             </ul>
 
             <p>Interessiert? Bitte schicke Deine Fragen oder direkt eine Bewerbung per
