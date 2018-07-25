@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Stellenanzeige Vertriebsmitarbeiter (m/w)')
+@section('title', 'Stellenanzeige: Praktikum oder Nebenjob Vertrieb (Inside Sales)')
 
 @section('content')
     <div id="textContent" class="content-section" style="text-align: left">
