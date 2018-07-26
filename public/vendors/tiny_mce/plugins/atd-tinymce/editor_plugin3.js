@@ -510,7 +510,7 @@ AtDCore.prototype.isIE = function() {
                if (json.language.detectedLanguage && json.language.code !== json.language.detectedLanguage.code && textContent.length > 3) {
                    var detectedLangShort = json.language.detectedLanguage.code.replace(/-..$/, "");
                    var usedLangShort = json.language.code.replace(/-..$/, "");
-                   if (detectedLangShort !== usedLangShort) {
+                   if (detectedLangShort !== usedLangShort && json.language.code !== "de-DE-x-simple-language") {
                        var fullLangCode = json.language.detectedLanguage.code;
                        var langCode = fullLangCode.replace(/-.*/, "");
                        var translatedLang = t._getTranslation('langs')[langCode];
