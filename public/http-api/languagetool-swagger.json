@@ -23,8 +23,15 @@
                         "name": "text",
                         "in": "formData",
                         "type": "string",
-                        "description": "The text to be checked.",
-                        "required": true
+                        "description": "The text to be checked. This or 'data' is required.",
+                        "required": false
+                    },
+                    {
+                        "name": "data",
+                        "in": "formData",
+                        "type": "string",
+                        "description": "The text to be checked, given as a JSON document that specifies what's text and what's markup. Markup will be ignored when looking for errors. Example text: <pre>A &lt;b>test&lt;/b></pre>JSON for the example text: <pre>{\"annotation\":[\n {\"text\": \"A \"},\n {\"markup\": \"&lt;b>\"},\n {\"text\": \"test\"},\n {\"markup\": \"&lt;/b>\"}\n]}</pre> This is not limited to HTML or XML, it can be used for any kind of markup. This or 'text' is required.",
+                        "required": false
                     },
                     {
                         "name": "language",
