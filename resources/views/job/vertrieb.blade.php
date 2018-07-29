@@ -1,21 +1,21 @@
 @extends('layouts.app')
 
-@section('title', 'Stellenanzeige: Praktikum oder Nebenjob Vertrieb (Inside Sales)')
+@section('title', 'Stellenanzeige: Praktikum oder Nebenjob Marketing/Vertrieb')
 
 @section('content')
     <div id="textContent" class="content-section" style="text-align: left">
 
         <div class="container">
 
-            <p style="text-align: right">Stand: 25.07.2018</p>
+            <p style="text-align: right">Stand: 29.07.2018</p>
             
-            <h1>Praktikum oder Nebenjob Inside Sales</h1>
+            <h1>Praktikum oder Nebenjob Marketing/Vertrieb</h1>
 
             <p>Die LanguageTooler GmbH betreibt auf languagetool.org eine beliebte Stil- und Grammatikprüfung. Jeden Tag prüfen
                 wir mehr als 500.000 Texte. Viele andere Websites, darunter korrekturen.de und rechtschreibpruefung24.de,
                 nutzen unsere Technologie ebenfalls. Wir suchen ab sofort eine/n</p>
 
-            <h2 style="text-align: center">Praktikanten/Praktikantin oder Studenten/Studentin Inside Sales,<br>8 bis 20 Stunden/Woche</h2>
+            <h2 style="text-align: center">Praktikanten (m/w) oder Studenten (m/w) für Marketing und Vertrieb,<br>8 bis 20 Stunden/Woche</h2>
 
             <p><b>Deine Aufgaben:</b></p>
 
@@ -23,7 +23,7 @@
                 <li>Recherche von potenziellen Nutzern im Internet</li>
                 <li>Beratungsgespräche und Kundenbetreuung</li>
                 <li>Ansprache potenzieller Nutzer via Social Media, E-Mail und Telefon</li>
-                <li>Angebotserstellung</li>
+                <li>Bespielen der Social-Media-Kanäle</li>
             </ul>
 
             <p><b>Unsere Anforderungen:</b></p>
@@ -41,6 +41,7 @@
                 <li>Arbeiten, von wo Du willst - im Home-Office oder in unserem Büro im Herzen von Potsdam-Babelsberg
                     mit sehr guter S-Bahn-Anbindung nach Berlin</li>
                 <li>flexible Arbeitszeiten</li>
+                <li>Dauer Praktikum: nach Absprache, mindestens aber 3 Monate; Nebenjob: dauerhaft</li>
             </ul>
 
             <p>Interessiert? Bitte schicke Deine Fragen oder direkt eine Bewerbung per
