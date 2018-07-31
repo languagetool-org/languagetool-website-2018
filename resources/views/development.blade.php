@@ -57,22 +57,15 @@
 
             <ul>
                 <li>Syncro Soft for a free license of the <a href="http://www.oxygenxml.com">oXygen XML editor</a></li>
-                <li><a href="https://www.jetbrains.com">JetBrains</a> for free licenses of the IntelliJ Ultimate Edition</li>
-                <li><a href="http://www.cloudbees.com/">CloudBees</a> for free access to a hosted Jenkins instance</li>
                 <li>ej-technologies for providing us with free licenses of their <a href="http://www.ej-technologies.com/products/jprofiler/overview.html">Java profiler</a></li>
                 <li><a href="https://www.discoursehosting.com">DiscourseHosting.com</a> for sponsoring <a href="https://forum.languagetool.org/">our forum</a></li>
             </ul>
-
-            <div class="development-sources">
+            
+            <div>
                 <a href="http://www.oxygenxml.com" title="Oxygen XML Editor">
                     <img src="/images/development/oxygen190x62.png" width="190" height="62" alt="Oxygen XML Editor" border="0">
                 </a>
-                <a href="https://www.jetbrains.com/idea/">
-                    <img src="/images/development/logo_intellij_idea.png" alt="IntelliJ logo">
-                </a>
-                <a href="http://www.cloudbees.com/">
-                    <img src="/images/development/cloudbees-logo.png" alt="CloudBees logo">
-                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="http://www.ej-technologies.com/products/jprofiler/overview.html">
                     <img src="/images/development/jprofiler_large.png" alt="JProfiler Java profiler logo">
                 </a>
