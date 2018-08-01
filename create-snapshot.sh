@@ -1,8 +1,13 @@
-#!/bin/sh
+#!/bin/bash
 # compiles the current LanguageTool code and moves the result to a snapshots directory
 
 export JAVA_HOME=/home/languagetool/java
 export MAVEN_OPTS="-Xmx1500M"
+
+mailFromPart1=naber
+mailFromPart2=danielnaber.de
+mailToPart1=naber
+mailToPart2=danielnaber.de
 
 SNAPSHOT_DIR=../languagetool-website-2018/public/download/snapshots
 if [ $# -eq 1 ]
@@ -43,6 +48,7 @@ BUILD_SUCCESS=$?
 if [ $BUILD_SUCCESS -ne 0 ]
 then
     echo "Tests failed, stopping deployment"
+    echo "See `uname -a` for details" | mail -aFrom:${mailFromPart1}@${mailFromPart2} -s "LanguageTool nightly build failed" ${mailToPart1}@${mailToPart2}
     exit
 fi
 
