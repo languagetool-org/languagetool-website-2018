@@ -16,6 +16,8 @@
         var apiPerformanceDataUrl4 = "/regression-tests/performance-ltp-api-cloud-recent.log";
         var apiPerformanceDataItemsToUse = 2500;
         var accessCountDataUrl = "api-log.csv";
+        var accessCountDataHE2Url = "https://data.languagetool.org/analytics/api-log.csv";
+        var errorCountDataHE2Url = "https://data.languagetool.org/analytics/api-errors-log.csv";
 
         function drawApiGraph(dataUrl, divId) {
             Plotly.d3.csv(dataUrl, function(err, rows){
@@ -70,9 +72,9 @@
         var fields = ['DATE','TOTAL','FF','CHROME','ANDROID','CLIENT','SUBLIME','WEBEXT','MSWORD','WEBEXTFF','WEBEXTCHROME','TOTALHOME', 'GOOGLEAPP'];  // see report.sh
         var ignoreFields = ['FF', 'CHROME', 'ANDROID'];
 
-        function prepareData(err, rows, divName, calcAverage) {
+        function prepareData(err, rows, divName, calcAverage, fields, ignoreFields) {
             if (!rows) {
-                console.error("Error: 'rows' not defined - is this script on the same server as the data?: " + accessCountDataUrl);
+                console.error("Error: 'rows' not defined - is this script on the same server as the data? (if not, turn on CORS headers): " + accessCountDataUrl);
                 return;
             }
             for (j = 1; j < fields.length; j++) {
@@ -112,8 +114,14 @@
             }
         }
         
-        Plotly.d3.csv(accessCountDataUrl, function(err, rows) { prepareData(err, rows, 'access-count-graph', false) });
-        Plotly.d3.csv(accessCountDataUrl, function(err, rows) { prepareData(err, rows, 'access-count-graph-weekly', true) });
+        Plotly.d3.csv(accessCountDataUrl, function(err, rows) { prepareData(err, rows, 'access-count-graph', false, fields, ignoreFields) });
+        Plotly.d3.csv(accessCountDataUrl, function(err, rows) { prepareData(err, rows, 'access-count-graph-weekly', true, fields, ignoreFields) });
+
+        var fieldsHE2 = ['DATE2', 'TOTAL', 'IGNORE1', 'CHROME', 'ANDROID', 'CLIENT', 'SUBLIME', 'IGNORE2', 'MSWORD', 'WEBEXTFF', 'WEBEXTCHROME', 'TOTALHOME', 'GOOGLEAPP'];  // see report-he2.sh
+        Plotly.d3.csv(accessCountDataHE2Url, function(err, rows) { prepareData(err, rows, 'access-count-graph-he2', false, fieldsHE2,
+            ['TOTAL', 'IGNORE1', 'IGNORE2', 'CHROME', 'ANDROID', 'CLIENT', 'SUBLIME', 'MSWORD', 'TOTALHOME', 'GOOGLEAPP']) });
+        var errorFieldsHE2 = ['DATE','ERROR_OOM', 'ERROR_TOO_MANY_PAR_REQ', 'ERROR_INCOMPLETE_RES', 'ERROR_RATE_TOO_HIGH', 'ERROR_WARN'];  // see report-he2.sh
+        Plotly.d3.csv(errorCountDataHE2Url, function(err, rows) { prepareData(err, rows, 'error-count-graph-he2', false, errorFieldsHE2, []) });
 
         /**
          * returns an array with moving average of the input array
@@ -172,6 +180,12 @@
 
 <h2>API access count (avg. of 7 days)</h2>
 <div id="access-count-graph-weekly"></div>
+
+<h2>API access count (HE2)</h2>
+<div id="access-count-graph-he2"></div>
+
+<h2>Error count (HE2)</h2>
+<div id="error-count-graph-he2"></div>
 
 </body>
 </html>
