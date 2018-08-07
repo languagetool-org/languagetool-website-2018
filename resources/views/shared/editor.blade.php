@@ -4,11 +4,13 @@
             <div class="col-xs-12">
                 <nav class="nav editor-nav">
                     
+                    <!--
                     <?php if ($_SERVER['REQUEST_URI'] == "/de/" || $checkDefaultLang == "de") { ?>
                         <a class="ff-chrome jump_menu" type="button" href="/job/vertrieb">
                             Praktikum oder Nebenjob bei LanguageTool
                         </a>
                     <?php } ?>
+                    -->
 
                     <?php if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "Chrome/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
                         <a class="ff-chrome jump_menu" type="button" onclick="return installChromeExtension('calltoaction')" href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji">
