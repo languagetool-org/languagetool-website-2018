@@ -18,6 +18,8 @@
         var accessCountDataUrl = "api-log.csv";
         var accessCountDataHE2Url = "https://data.languagetool.org/analytics/api-log.csv";
         var errorCountDataHE2Url = "https://data.languagetool.org/analytics/api-errors-log.csv";
+        var accessCountDataHE3Url = "https://api1.languagetool.org/analytics/api-log.csv";
+        var errorCountDataHE3Url = "https://api1.languagetool.org/analytics/api-errors-log.csv";
 
         function drawApiGraph(dataUrl, divId) {
             Plotly.d3.csv(dataUrl, function(err, rows){
@@ -117,13 +119,18 @@
         Plotly.d3.csv(accessCountDataUrl, function(err, rows) { prepareData(err, rows, 'access-count-graph', false, fields, ignoreFields) });
         Plotly.d3.csv(accessCountDataUrl, function(err, rows) { prepareData(err, rows, 'access-count-graph-weekly', true, fields, ignoreFields) });
 
-        var fieldsHE2 = ['DATE2', 'TOTAL', 'IGNORE1', 'CHROME', 'ANDROID', 'CLIENT', 'SUBLIME', 'IGNORE2', 'MSWORD', 'WEBEXTFF', 'WEBEXTCHROME', 'TOTALHOME', 'GOOGLEAPP'];  // see report-he2.sh
-        Plotly.d3.csv(accessCountDataHE2Url, function(err, rows) { prepareData(err, rows, 'access-count-graph-he2', false, fieldsHE2,
-            ['TOTAL', 'IGNORE1', 'IGNORE2', 'CHROME', 'ANDROID', 'CLIENT', 'SUBLIME', 'MSWORD', 'TOTALHOME', 'GOOGLEAPP']) });
-        var errorFieldsHE2 = ['DATE', 'ERROR_OOM', 'ERROR_TOO_MANY_PAR_REQ', 'ERROR_INCOMPLETE_RES', 'ERROR_RATE_TOO_HIGH', 'ERROR_WARN',
-            'ERROR_SOME', 'ERROR_TOO_MANY_REQ', 'ERROR_TOO_MANY_REQ_ANDROID', 'ERROR_REQ_LIMIT', 'ERROR_REQ_SIZE_LIMIT',
-            'ERROR_TIMEOUT'];  // see report-he2.sh
-        Plotly.d3.csv(errorCountDataHE2Url, function(err, rows) { prepareData(err, rows, 'error-count-graph-he2', false, errorFieldsHE2, ['ERROR_TOO_MANY_ERRORS']) });
+        function plotStandardServerLogs(accessDataUrl, errorDataUrl, accessPlotId, errorPlotId) {
+            var fieldsHE = ['DATE2', 'TOTAL', 'IGNORE1', 'CHROME', 'ANDROID', 'CLIENT', 'SUBLIME', 'IGNORE2', 'MSWORD', 'WEBEXTFF', 'WEBEXTCHROME', 'TOTALHOME', 'GOOGLEAPP'];  // see report-he2.sh
+            Plotly.d3.csv(accessDataUrl, function(err, rows) { prepareData(err, rows, accessPlotId, false, fieldsHE,
+                ['TOTAL', 'IGNORE1', 'IGNORE2', 'CHROME', 'ANDROID', 'CLIENT', 'SUBLIME', 'MSWORD', 'TOTALHOME', 'GOOGLEAPP']) });
+            var errorFieldsHE = ['DATE', 'ERROR_OOM', 'ERROR_TOO_MANY_PAR_REQ', 'ERROR_INCOMPLETE_RES', 'ERROR_RATE_TOO_HIGH', 'ERROR_WARN',
+                'ERROR_SOME', 'ERROR_TOO_MANY_REQ', 'ERROR_TOO_MANY_REQ_ANDROID', 'ERROR_REQ_LIMIT', 'ERROR_REQ_SIZE_LIMIT',
+                'ERROR_TIMEOUT'];  // see report-he2.sh
+            Plotly.d3.csv(errorDataUrl, function(err, rows) { prepareData(err, rows, errorPlotId, false, errorFieldsHE, ['ERROR_TOO_MANY_ERRORS']) });
+        }
+
+        plotStandardServerLogs(accessCountDataHE2Url, errorCountDataHE2Url, 'access-count-graph-he2', 'error-count-graph-he2');
+        plotStandardServerLogs(accessCountDataHE3Url, errorCountDataHE3Url, 'access-count-graph-he3', 'error-count-graph-he3');
 
         /**
          * returns an array with moving average of the input array
@@ -177,10 +184,10 @@
 <h2>API response time (api.languagetoolplus.com)</h2>
 <div id="api4-perf-graph"></div>
 
-<h2>API access count</h2>
+<h2>API access count (HE1) </h2>
 <div id="access-count-graph"></div>
 
-<h2>API access count (avg. of 7 days)</h2>
+<h2>API access count (HE1) (avg. of 7 days)</h2>
 <div id="access-count-graph-weekly"></div>
 
 <h2>API access count (HE2)</h2>
@@ -188,6 +195,12 @@
 
 <h2>Error count (HE2)</h2>
 <div id="error-count-graph-he2"></div>
+
+<h2>API access count (HE3)</h2>
+<div id="access-count-graph-he3"></div>
+
+<h2>Error count (HE3)</h2>
+<div id="error-count-graph-he3"></div>
 
 </body>
 </html>
