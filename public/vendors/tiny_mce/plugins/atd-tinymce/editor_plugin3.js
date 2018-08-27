@@ -88,7 +88,8 @@ AtDCore.prototype.processJSON = function(responseJSON) {
         }
         this.suggestions.push(suggestion);
     }
-    return {suggestions: this.suggestions, incompleteResults: incompleteResults, incompleteResultsReason: incompleteResultsReason};
+    return {suggestions: this.suggestions, incompleteResults: incompleteResults, incompleteResultsReason: incompleteResultsReason,
+            hiddenMatches: json.hiddenMatches ? json.hiddenMatches.length : 0};
 };
 
 AtDCore.prototype.findSuggestion = function(element) {
@@ -526,8 +527,27 @@ AtDCore.prototype.isIE = function() {
                        $('#feedbackErrorMessage').html("<div id='severeError'>These results may be incomplete due to a server timeout.</div>");
                    }
                    t._trackEvent('CheckError', 'ErrorWithException', "Incomplete Results");
+               }
+               if (results.hiddenMatches > 0) {
+                   if (lang === "auto") {
+                       lang = json.language.code;
+                   }
+                   var startText = t._getTranslation('premium_warning1');
+                   if (startText.indexOf("ERROR") === -1) {  // don't show hint if we don't have translation of the message
+                       if (results.hiddenMatches > 1) {
+                           startText = results.hiddenMatches + " " + t._getTranslation('premium_warning1_plural');
+                       }
+                       $('#feedbackPremiumMessage').show();
+                       $('#feedbackPremiumMessage').html("<div id='premiumWarning'>" + startText + " " +
+                           t._getTranslation('premium_warning2') + "</div>");
+                       t._trackEvent('PremiumMatchesHiddenCount', results.hiddenMatches);
+                       t._trackEvent('PremiumMatchesHidden', userHasPastedText ? "UserText" : "DemoText");
+                   }
                } else {
                    $('#feedbackErrorMessage').html("");
+                   $('#feedbackPremiumMessage').hide();
+                   t._trackEvent('PremiumMatchesHiddenCount', 'none');
+                   t._trackEvent('NoPremiumMatchesHidden');
                }
             });
          });

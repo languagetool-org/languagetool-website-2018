@@ -49,6 +49,7 @@
                             <?php } ?>
                         </p>
                         <div id="feedbackErrorMessage"></div>
+                        <div id="feedbackPremiumMessage"></div>
                         <div id="editor_controls">
                             <div id="sentenceContributionMessage"></div>
 

@@ -88,7 +88,8 @@ AtDCore.prototype.processJSON = function(responseJSON) {
         }
         this.suggestions.push(suggestion);
     }
-    return {suggestions: this.suggestions, incompleteResults: incompleteResults, incompleteResultsReason: incompleteResultsReason};
+    return {suggestions: this.suggestions, incompleteResults: incompleteResults, incompleteResultsReason: incompleteResultsReason,
+            hiddenMatches: json.hiddenMatches ? json.hiddenMatches.length : 0};
 };
 
 AtDCore.prototype.findSuggestion = function(element) {
