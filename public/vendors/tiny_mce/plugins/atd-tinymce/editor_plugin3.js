@@ -1327,7 +1327,8 @@ AtDCore.prototype.isIE = function() {
          // There's a bug somewhere in AtDCore.prototype.markMyWords which makes
          // multiple spaces vanish - thus disable that rule to avoid confusion:
          var postData = "disabledRules=WHITESPACE_RULE&" +
-             "allowIncompleteResults=true&" + 
+             "allowIncompleteResults=true&" +
+             "enableHiddenRules=true&" +
              "text=" + encodeURI(data).replace(/&/g, '%26').replace(/\+/g, '%2B') + langParam;
          jQuery.ajax({
             url:   url,
