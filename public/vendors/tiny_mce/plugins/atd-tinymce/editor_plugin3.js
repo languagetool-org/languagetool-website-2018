@@ -239,6 +239,7 @@ AtDCore.prototype.getPlainText = function() {
 
 AtDCore.prototype._getPlainText = function(removeCursor) {
     var plainText = tinyMCE.activeEditor.getContent({ format: 'raw' })
+            .replace(/^<p>/, "")
             .replace(/<p>/g, "\n\n")
             .replace(/<br>/g, "\n")
             .replace(/<br\s*\/>/g, "\n")
