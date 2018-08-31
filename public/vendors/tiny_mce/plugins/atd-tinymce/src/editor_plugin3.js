@@ -192,6 +192,8 @@
                        $('#feedbackErrorMessage').html("<div id='severeError'>These results may be incomplete due to a server timeout.</div>");
                    }
                    t._trackEvent('CheckError', 'ErrorWithException', "Incomplete Results");
+               } else {
+                   $('#feedbackErrorMessage').html("");
                }
                if (results.hiddenMatches > 0) {
                    if (lang === "auto") {
@@ -209,7 +211,6 @@
                        t._trackEvent('PremiumMatchesHidden', userHasPastedText ? "UserText" : "DemoText");
                    }
                } else {
-                   $('#feedbackErrorMessage').html("");
                    $('#feedbackPremiumMessage').hide();
                    t._trackEvent('PremiumMatchesHiddenCount', 'none');
                    t._trackEvent('NoPremiumMatchesHidden');
