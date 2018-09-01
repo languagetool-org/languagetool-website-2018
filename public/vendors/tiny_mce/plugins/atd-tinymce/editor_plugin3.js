@@ -1330,6 +1330,16 @@ AtDCore.prototype.isIE = function() {
          //console.log("url", url);
          var plugin = this;
 
+         var wordCountForLog;
+         if (data.trim() === "") {
+             wordCountForLog = "none";
+         } else if (data.trim().split(' ').length === 1) {
+             wordCountForLog = "1";
+         } else {
+             wordCountForLog = "2+";
+         }
+         this._trackEvent('WordCount', wordCountForLog);
+
          if (url == '{backend}') 
          {
             this.editor.setProgressState(0);
