@@ -37,7 +37,7 @@
                         "name": "language",
                         "in": "formData",
                         "type": "string",
-                        "description": "A language code like `en` or `en-US`, or `auto` to guess the language automatically (see `preferredVariants` below). For languages with variants (English, German, Portuguese) spell checking will only be activated when you specify the variant, e.g. `en-GB` instead of just `en`.",
+                        "description": "A language code like `en-US`, `de-DE`, `fr`, or `auto` to guess the language automatically (see `preferredVariants` below). For languages with variants (English, German, Portuguese) spell checking will only be activated when you specify the variant, e.g. `en-GB` instead of just `en`.",
                         "required": true
                     },
                     {
