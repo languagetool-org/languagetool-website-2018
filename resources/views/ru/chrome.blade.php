@@ -22,7 +22,7 @@
             <div id="download" style="margin-top: 20px">
                 <div style="width:280px" class="button_container">
                     <a href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji"
-                       onclick="return installChromeExtension()" class="piwik_download">
+                       class="piwik_download" target="_blank">
                         <div class="inner_button" style="text-align: center">
                             <div class="title"><strong>Щёлкните здесь</strong> для установки</div>
                         </div>
