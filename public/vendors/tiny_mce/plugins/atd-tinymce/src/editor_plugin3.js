@@ -23,6 +23,13 @@
    var maxTextLength = 20000;
    var userHasPastedText = false;
 
+   const ID_RANGE = 4294967294; // MySQL unsigned INTEGER range
+   var pasteId = null;
+   function newPasteId() { 
+       pasteId = Math.round(Math.random() * ID_RANGE); 
+       return pasteId;
+    };
+
    tinymce.create('tinymce.plugins.AfterTheDeadlinePlugin', 
    {
       getInfo : function() 
@@ -1019,13 +1026,18 @@
              langParam = "&language=" + encodeURI(languageCode);
          }
 
+         var pasteParam = "";
+         if (pasteId != null) {
+             pasteParam = "&textSessionId=" + encodeURI(pasteId);
+         }
+
          var t = this;
          // There's a bug somewhere in AtDCore.prototype.markMyWords which makes
          // multiple spaces vanish - thus disable that rule to avoid confusion:
          var postData = "disabledRules=WHITESPACE_RULE&" +
              "allowIncompleteResults=true&" +
              "enableHiddenRules=true&" +
-             "text=" + encodeURI(data).replace(/&/g, '%26').replace(/\+/g, '%2B') + langParam;
+             "text=" + encodeURI(data).replace(/&/g, '%26').replace(/\+/g, '%2B') + langParam + pasteParam;
          jQuery.ajax({
             url:   url,
             type:  "POST",
