@@ -88,7 +88,8 @@ AtDCore.prototype.processJSON = function(responseJSON) {
         }
         this.suggestions.push(suggestion);
     }
-    return {suggestions: this.suggestions, incompleteResults: incompleteResults, incompleteResultsReason: incompleteResultsReason};
+    return {suggestions: this.suggestions, incompleteResults: incompleteResults, incompleteResultsReason: incompleteResultsReason,
+            hiddenMatches: json.hiddenMatches ? json.hiddenMatches.length : 0};
 };
 
 AtDCore.prototype.findSuggestion = function(element) {
@@ -238,6 +239,7 @@ AtDCore.prototype.getPlainText = function() {
 
 AtDCore.prototype._getPlainText = function(removeCursor) {
     var plainText = tinyMCE.activeEditor.getContent({ format: 'raw' })
+            .replace(/^<p>/, "")
             .replace(/<p>/g, "\n\n")
             .replace(/<br>/g, "\n")
             .replace(/<br\s*\/>/g, "\n")

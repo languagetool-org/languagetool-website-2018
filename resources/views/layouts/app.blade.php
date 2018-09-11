@@ -24,7 +24,7 @@
     <link href="{{ asset('css/jquery-ui/jquery-ui.theme.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/vex.css') }}" rel="stylesheet">
     <link href="{{ asset('css/vex-theme-default.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/style.css') }}?20180625" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}?20180827" rel="stylesheet">
     <link href="{{ asset('css/media.css') }}?20180419" rel="stylesheet">
     <link href="{{ asset('css/tooltip.css') }}?20180419" rel="stylesheet">
 
@@ -33,7 +33,7 @@
     <script src="{{ asset('js/lightbox2/js/lightbox.js') }}"></script>
     <script src="{{ asset('js/vex.combined.min.js') }}"></script>
     <script src="{{ asset('vendors/tiny_mce/tiny_mce.js') }}"></script>
-    <script src="{{ asset('vendors/tiny_mce/plugins/atd-tinymce/editor_plugin3.js?20180606') }}"></script>
+    <script src="{{ asset('vendors/tiny_mce/plugins/atd-tinymce/editor_plugin3.js?20180831') }}"></script>
     <script src="{{ asset('vendors/tiny_mce/plugins/atd-tinymce/src/synonyms.js') }}"></script>
     <script src="{{ asset('vendors/dropkick/jquery.dropkick.js') }}"></script>
     <script src="{{ asset('vendors/tooltipster/tooltipster.bundle.min.js') }}"></script>

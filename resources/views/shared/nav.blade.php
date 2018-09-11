@@ -109,12 +109,18 @@
                         <img src="{{ asset('images/icon-arrow-white.svg') }}">
                     </span>
                     <div class="header-nav-menu-item-dropdown">
+                        <?php
+                        $origLocale = App::getLocale();
+                        ?>
                         @foreach ($langs as $key => $lang)
+                            <?php
+                            App::setLocale($key);
+                            ?>
                             @if ($key != $selectedLang && in_array($key, $languagesWithPage))
                                 @if ($key == "en")
-                                    <a class="header-nav-menu-item-dropdown-item" href="/"><span>{{ $lang }}</span></a>
+                                    <a class="header-nav-menu-item-dropdown-item" href="/"><span>{{__('messages.langs.'.$key)}}</span></a>
                                 @else
-                                    <a class="header-nav-menu-item-dropdown-item" href="/{{ $key }}/"><span>{{ str_replace(" ", "&nbsp;", $lang) }}</span></a>
+                                    <a class="header-nav-menu-item-dropdown-item" href="/{{ $key }}/"><span>{{__('messages.langs.'.$key)}}</span></a>
                                 @endif
                             @elseif($key == $selectedLang)
                                 <span class="header-nav-menu-item-dropdown-item active-lang">
@@ -123,6 +129,9 @@
                                 </span>
                             @endif
                         @endforeach
+                        <?php
+                        App::setLocale($origLocale);
+                        ?>
                         <a href="/languages" class="header-nav-menu-item-dropdown-item" style="margin-top: 10px">{{__('messages.menu_overview')}}</a>
                     </div>
                 </span>

@@ -88,7 +88,8 @@ AtDCore.prototype.processJSON = function(responseJSON) {
         }
         this.suggestions.push(suggestion);
     }
-    return {suggestions: this.suggestions, incompleteResults: incompleteResults, incompleteResultsReason: incompleteResultsReason};
+    return {suggestions: this.suggestions, incompleteResults: incompleteResults, incompleteResultsReason: incompleteResultsReason,
+            hiddenMatches: json.hiddenMatches ? json.hiddenMatches.length : 0};
 };
 
 AtDCore.prototype.findSuggestion = function(element) {
@@ -238,6 +239,7 @@ AtDCore.prototype.getPlainText = function() {
 
 AtDCore.prototype._getPlainText = function(removeCursor) {
     var plainText = tinyMCE.activeEditor.getContent({ format: 'raw' })
+            .replace(/^<p>/, "")
             .replace(/<p>/g, "\n\n")
             .replace(/<br>/g, "\n")
             .replace(/<br\s*\/>/g, "\n")
@@ -528,6 +530,26 @@ AtDCore.prototype.isIE = function() {
                    t._trackEvent('CheckError', 'ErrorWithException', "Incomplete Results");
                } else {
                    $('#feedbackErrorMessage').html("");
+               }
+               if (results.hiddenMatches > 0) {
+                   if (lang === "auto") {
+                       lang = json.language.code;
+                   }
+                   var startText = t._getTranslation('premium_warning1');
+                   if (startText.indexOf("ERROR") === -1) {  // don't show hint if we don't have translation of the message
+                       if (results.hiddenMatches > 1) {
+                           startText = results.hiddenMatches + " " + t._getTranslation('premium_warning1_plural');
+                       }
+                       $('#feedbackPremiumMessage').show();
+                       $('#feedbackPremiumMessage').html("<div id='premiumWarning'>" + startText + " " +
+                           t._getTranslation('premium_warning2') + "</div>");
+                       t._trackEvent('PremiumMatchesHiddenCount', results.hiddenMatches);
+                       t._trackEvent('PremiumMatchesHidden', userHasPastedText ? "UserText" : "DemoText");
+                   }
+               } else {
+                   $('#feedbackPremiumMessage').hide();
+                   t._trackEvent('PremiumMatchesHiddenCount', 'none');
+                   t._trackEvent('NoPremiumMatchesHidden');
                }
             });
          });
@@ -1308,6 +1330,16 @@ AtDCore.prototype.isIE = function() {
          //console.log("url", url);
          var plugin = this;
 
+         var wordCountForLog;
+         if (data.trim() === "") {
+             wordCountForLog = "none";
+         } else if (data.trim().split(' ').length === 1) {
+             wordCountForLog = "1";
+         } else {
+             wordCountForLog = "2+";
+         }
+         this._trackEvent('WordCount', wordCountForLog);
+
          if (url == '{backend}') 
          {
             this.editor.setProgressState(0);
@@ -1327,7 +1359,8 @@ AtDCore.prototype.isIE = function() {
          // There's a bug somewhere in AtDCore.prototype.markMyWords which makes
          // multiple spaces vanish - thus disable that rule to avoid confusion:
          var postData = "disabledRules=WHITESPACE_RULE&" +
-             "allowIncompleteResults=true&" + 
+             "allowIncompleteResults=true&" +
+             "enableHiddenRules=true&" +
              "text=" + encodeURI(data).replace(/&/g, '%26').replace(/\+/g, '%2B') + langParam;
          jQuery.ajax({
             url:   url,

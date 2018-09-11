@@ -2863,3 +2863,15 @@ table.tablesorter thead tr .tablesorter-headerAsc, table.tablesorter thead tr .t
     color: black;
     font-weight: bold;
 }
+
+body #premiumWarning {
+    color: #666666;
+    padding: 10px;
+    background-color: white;
+    border-color: #ff4e24;
+    margin: 5px;
+}
+
+body .fullscreen #premiumWarning {
+    display: none;
+}
