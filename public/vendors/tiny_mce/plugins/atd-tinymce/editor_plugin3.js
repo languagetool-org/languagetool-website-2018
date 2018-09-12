@@ -578,6 +578,7 @@ AtDCore.prototype.isIE = function() {
              t._trackEvent('PasteText');
              $('#matchCountArea').text("");
              userHasPastedText = true;
+             newPasteId();
              /*if (document.cookie.indexOf("addonSurveyShown=true") === -1) {
                  t._trackEvent('ShowAddonSurvey');
                  document.cookie = "addonSurveyShown=true;max-age=2628000";
