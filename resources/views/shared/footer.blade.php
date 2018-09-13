@@ -134,7 +134,11 @@
             } else {
                 _paq.push(['trackEvent', "FastSpring", "OrderFinished"]);
                 fastspring.builder.reset();
-                window.location.replace("https://languagetoolplus.com/subscribe/?source=lt&orderId=" + orderObjOrNull.id);
+                if (document.cookie.indexOf("premiumHint=true") !== -1) {
+                    window.location.replace("https://languagetoolplus.com/subscribe/?source=lt&premiumHint=true&orderId=" + orderObjOrNull.id);
+                } else {
+                    window.location.replace("https://languagetoolplus.com/subscribe/?source=lt&orderId=" + orderObjOrNull.id);
+                }
             }
         }
     }
