@@ -52,6 +52,7 @@ Route::group(['prefix' => app('language.routePrefix')], function() {
 	Route::get('/contact/newsletter.php', 'LegacyController@newsletter_old');
 	Route::get('/job/computational_linguist.php', 'LegacyController@job_computational_linguist');
 	Route::get('/job/vertrieb', 'LegacyController@job_vertrieb');
+	Route::get('/job/rule-developer', 'LegacyController@job_rule_dev');
 	Route::get('/webextension/uninstall.php', 'LegacyController@webextension_uninstall');
 	Route::get('/webextension/submit-feedback.php', 'LegacyController@webextension_feedback');   // TODO: should be POST, but doesn't work
 	Route::get('/usage', 'LegacyController@usage');

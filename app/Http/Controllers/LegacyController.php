@@ -23,6 +23,7 @@ class LegacyController extends Controller
     public function privacy_old() { return redirect('legal/privacy'); }
     public function job_computational_linguist() { return view('job/computational_linguist'); }
     public function job_vertrieb() { return view('job/vertrieb'); }
+    public function job_rule_dev() { return view('job/rule_developer'); }
     public function webextension_uninstall() { return view('webextension/uninstall'); }
     public function webextension_feedback() { return view('webextension/submit-feedback'); }
     public function usage() { return redirect('http://wiki.languagetool.org/command-line-options'); }

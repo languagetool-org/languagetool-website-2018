@@ -5,9 +5,9 @@
                 <nav class="nav editor-nav">
                     
                     <!--
-                    <?php if ($_SERVER['REQUEST_URI'] == "/de/" || $checkDefaultLang == "de") { ?>
+                    <?php if ($_SERVER['REQUEST_URI'] == "/" || $checkDefaultLang == "en") { ?>
                         <a class="ff-chrome jump_menu" type="button" href="/job/vertrieb">
-                            Praktikum oder Nebenjob bei LanguageTool
+                            Part-time job: Rule Editor 
                         </a>
                     <?php } ?>
                     -->
