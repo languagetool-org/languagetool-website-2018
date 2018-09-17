@@ -20,15 +20,15 @@
             <p><b>Your tasks</b></p>
 
             <ul>
-                <li>write new  error detection rules for mistakes people make writing English</li>
-                <li>test your new rules and the existing ones and improve them</li>
+                <li>write new  error detection rules for mistakes people make when writing English</li>
+                <li>test your new rules and existing ones and improve them</li>
             </ul>
 
             <p><b>Requirements</b></p>
 
             <ul>
-                <li>excellent command of English</li>
-                <li>intention to learn the syntax and technology needed to write error detection rules</li>
+                <li>excellent command of English (native speaker)</li>
+                <li>willingness to learn the syntax and technology needed to write error detection rules</li>
             </ul>
 
             <p><b>Why should you apply?</b></p>
@@ -37,7 +37,7 @@
                 <li>a salary of €12/h</li>
                 <li>work from home</li>
                 <li>work whenever you want</li>
-                <li>help improve a software that's used by hundreds of thousand people a month</li>
+                <li>help improve software that's used by hundreds of thousands of people a month</li>
             </ul>
 
             <p>Interested? Please send your questions or your application to
