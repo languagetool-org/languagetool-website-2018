@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Stellenanzeige: Praktikum oder Nebenjob Marketing/Vertrieb')
+@section('title', 'Part-time job: rule editor')
 
 @section('content')
     <div id="textContent" class="content-section" style="text-align: left">
