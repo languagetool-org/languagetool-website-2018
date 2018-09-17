@@ -7,7 +7,7 @@
 
         <div class="container">
 
-            <p style="text-align: right">Date: 2018-09-13</p>
+            <p style="text-align: right">Date: 2018-09-17</p>
             
             <h1>Rule editor</h1>
 
