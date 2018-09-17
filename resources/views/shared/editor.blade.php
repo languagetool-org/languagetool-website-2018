@@ -5,7 +5,7 @@
                 <nav class="nav editor-nav">
                     
                     <?php if ($_SERVER['REQUEST_URI'] == "/" || $checkDefaultLang == "en") { ?>
-                        <a class="ff-chrome jump_menu" type="button" href="/job/vertrieb">
+                        <a class="ff-chrome jump_menu" type="button" href="/job/rule-developer">
                             Part-time job: Rule Editor 
                         </a>
                     <?php } ?>
