@@ -889,33 +889,35 @@ AtDCore.prototype.isIE = function() {
                         }
                     }
                 });
-                m.add({
-                    title : t._getTranslation('editor_track_false_alarm_menu'),
-                    onclick : function()
-                    {
-                        var surrogate = e.target.getAttribute(plugin.editor.core.surrogateAttribute);
-                        var ruleId = plugin.editor.core.getSurrogatePart(surrogate, 'id');
-                        var coveredText = plugin.editor.core.getSurrogatePart(surrogate, 'coveredtext');
-                        t._removeWordsByRuleId(ruleId, coveredText);
-                        ed.selection.setContent(coveredText); // remove selection
-                        t._trackEvent('ReportFalseAlarm', lang, ruleId);
-                        var escapedSentence = $("<div>").text(errorDescription["sentence"]).html();
-                        vex.dialog.open({
-                            unsafeMessage:
+                if (userHasPastedText) {
+                    m.add({
+                        title : t._getTranslation('editor_track_false_alarm_menu'),
+                        onclick : function()
+                        {
+                            var surrogate = e.target.getAttribute(plugin.editor.core.surrogateAttribute);
+                            var ruleId = plugin.editor.core.getSurrogatePart(surrogate, 'id');
+                            var coveredText = plugin.editor.core.getSurrogatePart(surrogate, 'coveredtext');
+                            t._removeWordsByRuleId(ruleId, coveredText);
+                            ed.selection.setContent(coveredText); // remove selection
+                            t._trackEvent('ReportFalseAlarm', lang, ruleId);
+                            var escapedSentence = $("<div>").text(errorDescription["sentence"]).html();
+                            vex.dialog.open({
+                                unsafeMessage:
                                 t._getTranslation('editor_track_false_alarm1') +
                                 "<br><br><b>" + escapedSentence + "</b><br><br>" +
                                 t._getTranslation('editor_track_false_alarm2'),
-                            callback: function (data) {
-                                if (data) {
-                                    console.log('Okay to store false alarm');
-                                    t._sendFalseAlarm(errorDescription["sentence"], coveredText, lang, ruleId);
-                                } else {
-                                    console.log('Not okay to store false alarm');
+                                callback: function (data) {
+                                    if (data) {
+                                        console.log('Okay to store false alarm');
+                                        t._sendFalseAlarm(errorDescription["sentence"], coveredText, lang, ruleId);
+                                    } else {
+                                        console.log('Not okay to store false alarm');
+                                    }
                                 }
-                            }
-                        });
-                    }
-                });
+                            });
+                        }
+                    });
+                }
             } else {
                 var ignoreThisKindOfErrorText = t._getTranslation('editor_ignore_all');
                 m.add({
