@@ -1387,10 +1387,11 @@ AtDCore.prototype.isIE = function() {
             success: success,
             error: function(jqXHR, textStatus, errorThrown) {
                 // try again
-                t._serverLog("Error on first try, trying again...");
                 setTimeout(function() {
+                    var fallbackUrl = t.editor.getParam("languagetool_rpc_url_fallback", "{backend}");
+                    console.log("Error on first try, trying again using " + fallbackUrl);
                     jQuery.ajax({
-                        url:   url,
+                        url:   fallbackUrl,
                         type:  "POST",
                         data:  postData,
                         success: success,
@@ -1418,7 +1419,7 @@ AtDCore.prototype.isIE = function() {
                             t._serverLog(errorText + " (second try)");
                         }
                     });
-                }, 500);
+                }, 50);
             }
          });
 

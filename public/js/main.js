@@ -264,8 +264,9 @@ $(function(){
             },
 
         languagetool_i18n_current_lang :    function() { return document.checkform.lang.value; },
-        /* the URL of your LanguageTool server or the URL of your proxy file: */
-        languagetool_rpc_url                 : "https://languagetool.org/api/v2/check",  // requires the server to be started with '--allow-origin ...'
+        /* the URL of your LanguageTool server (requires the server to be started with '--allow-origin ...'): */
+        languagetool_rpc_url                 : "https://languagetool.org/api/v2/check",
+        languagetool_rpc_url_fallback        : "https://api.languagetool.org/v2/check",
         //languagetool_rpc_url                 : "http://localhost:8081/v2/check",
         /* edit this file to customize how LanguageTool shows errors: */
         languagetool_css_url                 : "/vendors/tiny_mce/plugins/atd-tinymce/css/content.css?v5",

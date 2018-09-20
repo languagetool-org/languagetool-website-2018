@@ -33,13 +33,13 @@
     <script src="{{ asset('js/lightbox2/js/lightbox.js') }}"></script>
     <script src="{{ asset('js/vex.combined.min.js') }}"></script>
     <script src="{{ asset('vendors/tiny_mce/tiny_mce.js') }}"></script>
-    <script src="{{ asset('vendors/tiny_mce/plugins/atd-tinymce/editor_plugin3.js?20180831') }}"></script>
+    <script src="{{ asset('vendors/tiny_mce/plugins/atd-tinymce/editor_plugin3.js?20180920') }}"></script>
     <script src="{{ asset('vendors/tiny_mce/plugins/atd-tinymce/src/synonyms.js') }}"></script>
     <script src="{{ asset('vendors/dropkick/jquery.dropkick.js') }}"></script>
     <script src="{{ asset('vendors/tooltipster/tooltipster.bundle.min.js') }}"></script>
     <script src="{{ asset('js/jquery-ui.min.js') }}"></script>
     <script src="{{ asset('js/jquery.tablesorter.min.js') }}"></script>
-    <script src="{{ asset('js/main.js') }}?20180606"></script>
+    <script src="{{ asset('js/main.js') }}?20180920"></script>
     <script src="{{ asset('js/touchHover.js') }}"></script>
 
     <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
