@@ -41,6 +41,13 @@
                         "required": true
                     },
                     {
+                        "name": "altLanguages",
+                        "in": "formData",
+                        "type": "string",
+                        "description": "EXPERIMENTAL: Comma-separated list of language codes to check if a word is not similar to one of the main language (parameter `language`). Unknown words that are similar to a word from the main language will still be considered errors but with type `Hint`. For languages with variants (English, German, Portuguese) you need to specify the variant, e.g. `en-GB` instead of just `en`.",
+                        "required": false
+                    },
+                    {
                         "name": "motherTongue",
                         "in": "formData",
                         "type": "string",
