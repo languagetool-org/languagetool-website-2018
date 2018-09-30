@@ -202,7 +202,7 @@
                } else {
                    $('#feedbackErrorMessage').html("");
                }
-               if (false && results.hiddenMatches > 0) {
+               if (results.hiddenMatches > 0) {
                    if (lang === "auto") {
                        lang = json.language.code;
                    }
