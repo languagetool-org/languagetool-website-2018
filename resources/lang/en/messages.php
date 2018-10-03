@@ -8,7 +8,7 @@ return [
     'cookie_hint' => 'This website uses cookies for a better user experience and to show ads.',
     'cookie_more' => 'More / privacy policy',
     'cookie_ok' => 'Ok',
-    'tagline' => 'proofreading service',
+    'tagline' => 'proofreading software',
     'russian' => 'Russian',
     'auto_detect' => 'auto-detect',
     'fullscreen' => 'toggle fullscreen mode',
