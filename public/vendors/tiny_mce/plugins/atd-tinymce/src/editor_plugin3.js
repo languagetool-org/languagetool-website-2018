@@ -635,8 +635,11 @@
                     title : ruleExamples,
                     onclick : function() {
                         plugin.editor.setProgressState(1);
-                        jQuery.getJSON("https://community.languagetool.org/ruleApi/exampleSentences?lang="
-                            + encodeURI(langCode) +"&ruleId=" + encodeURI(errorDescription["id"]),
+                        var exampleUrl = "https://community.languagetool.org/ruleApi/exampleSentences?lang="
+                            + encodeURI(langCode) +"&ruleId=" + encodeURI(errorDescription["id"]);
+                        //var exampleUrl = "https://api.languagetool.org/v2/rule/examples?lang="
+                        //    + encodeURI(langCode) +"&ruleId=" + encodeURI(errorDescription["id"]);
+                        jQuery.getJSON(exampleUrl,
                             function(data) {
                                 var ruleHtml = "";
                                 var exampleCount = 0;
