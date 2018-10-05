@@ -75,6 +75,7 @@ AtDCore.prototype.processJSON = function(responseJSON) {
         suggestion["offset"]      = match.offset;
         suggestion["errorlength"] = match.length;
         suggestion["type"]        = match.rule.category.name;
+        suggestion["typeName"]    = match.type && match.type.typeName ? match.type.typeName : "";
         suggestion["ruleid"]      = match.rule.id;
         suggestion["subid"]       = match.rule.subId;
         suggestion["its20type"]   = match.rule.issueType;
@@ -141,7 +142,9 @@ AtDCore.prototype.markMyWords = function() {
                 continue;
             }
             var cssName;
-            if (ruleId.indexOf("SPELLER_RULE") >= 0 || ruleId.indexOf("MORFOLOGIK_RULE") == 0 || ruleId == "HUNSPELL_NO_SUGGEST_RULE" || ruleId == "HUNSPELL_RULE" || ruleId == "FR_SPELLING_RULE") {
+            if (suggestion.typeName === "Hint") {
+                cssName = "hiddenSuggestion";
+            } else if (ruleId.indexOf("SPELLER_RULE") >= 0 || ruleId.indexOf("MORFOLOGIK_RULE") == 0 || ruleId == "HUNSPELL_NO_SUGGEST_RULE" || ruleId == "HUNSPELL_RULE" || ruleId == "FR_SPELLING_RULE") {
                 cssName = "hiddenSpellError";
             } else if (suggestion.its20type === 'style' || suggestion.its20type === 'locale-violation' || suggestion.its20type === 'register') {
                 cssName = "hiddenSuggestion";
@@ -1373,13 +1376,31 @@ AtDCore.prototype.isIE = function() {
              pasteParam = "&textSessionId=" + encodeURI(pasteId);
          }
 
+         var altLangParam = "";
+         /*if (navigator.languages && languageCode.indexOf("en") !== 0) {
+             if (navigator.languages.indexOf("en-GB") !== -1) {
+                 altLangParam += "&altLanguages=en-GB";
+             } else if (navigator.languages.indexOf("en-CA") !== -1) {
+                 altLangParam += "&altLanguages=en-CA";
+             } else if (navigator.languages.indexOf("en-ZA") !== -1) {
+                 altLangParam += "&altLanguages=en-ZA";
+             } else if (navigator.languages.indexOf("en-NZ") !== -1) {
+                 altLangParam += "&altLanguages=en-NZ";
+             } else if (navigator.languages.indexOf("en-AU") !== -1) {
+                 altLangParam += "&altLanguages=en-AU";
+             } else if (navigator.languages.indexOf("en-US") !== -1 || navigator.languages.indexOf("en") !== -1) {
+                 altLangParam += "&altLanguages=en-US";
+             }
+         }*/
+         //console.log("altLangParam:", altLangParam);
+
          var t = this;
          // There's a bug somewhere in AtDCore.prototype.markMyWords which makes
          // multiple spaces vanish - thus disable that rule to avoid confusion:
          var postData = "disabledRules=WHITESPACE_RULE&" +
              "allowIncompleteResults=true&" +
              "enableHiddenRules=true&" +
-             "text=" + encodeURI(data).replace(/&/g, '%26').replace(/\+/g, '%2B') + langParam + pasteParam;
+             "text=" + encodeURI(data).replace(/&/g, '%26').replace(/\+/g, '%2B') + langParam + altLangParam + pasteParam;
          jQuery.ajax({
             url:   url,
             type:  "POST",

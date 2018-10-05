@@ -75,6 +75,7 @@ AtDCore.prototype.processJSON = function(responseJSON) {
         suggestion["offset"]      = match.offset;
         suggestion["errorlength"] = match.length;
         suggestion["type"]        = match.rule.category.name;
+        suggestion["typeName"]    = match.type && match.type.typeName ? match.type.typeName : "";
         suggestion["ruleid"]      = match.rule.id;
         suggestion["subid"]       = match.rule.subId;
         suggestion["its20type"]   = match.rule.issueType;
@@ -141,7 +142,9 @@ AtDCore.prototype.markMyWords = function() {
                 continue;
             }
             var cssName;
-            if (ruleId.indexOf("SPELLER_RULE") >= 0 || ruleId.indexOf("MORFOLOGIK_RULE") == 0 || ruleId == "HUNSPELL_NO_SUGGEST_RULE" || ruleId == "HUNSPELL_RULE" || ruleId == "FR_SPELLING_RULE") {
+            if (suggestion.typeName === "Hint") {
+                cssName = "hiddenSuggestion";
+            } else if (ruleId.indexOf("SPELLER_RULE") >= 0 || ruleId.indexOf("MORFOLOGIK_RULE") == 0 || ruleId == "HUNSPELL_NO_SUGGEST_RULE" || ruleId == "HUNSPELL_RULE" || ruleId == "FR_SPELLING_RULE") {
                 cssName = "hiddenSpellError";
             } else if (suggestion.its20type === 'style' || suggestion.its20type === 'locale-violation' || suggestion.its20type === 'register') {
                 cssName = "hiddenSuggestion";
