@@ -1378,7 +1378,7 @@ AtDCore.prototype.isIE = function() {
          }
 
          var altLangParam = "";
-         /*if (navigator.languages && languageCode.indexOf("en") !== 0) {
+         if (navigator.languages && languageCode.indexOf("en") !== 0) {
              if (navigator.languages.indexOf("en-GB") !== -1) {
                  altLangParam += "&altLanguages=en-GB";
              } else if (navigator.languages.indexOf("en-CA") !== -1) {
@@ -1392,7 +1392,7 @@ AtDCore.prototype.isIE = function() {
              } else if (navigator.languages.indexOf("en-US") !== -1 || navigator.languages.indexOf("en") !== -1) {
                  altLangParam += "&altLanguages=en-US";
              }
-         }*/
+         }
          //console.log("altLangParam:", altLangParam);
 
          var t = this;
