@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Lang;
+use Illuminate\Support\Facades\Log;
 
 class LegacyController extends Controller
 {
@@ -25,7 +26,13 @@ class LegacyController extends Controller
     public function job_vertrieb() { return view('job/vertrieb'); }
     public function job_rule_dev() { return view('job/rule_developer'); }
     public function webextension_uninstall() { return view('webextension/uninstall'); }
-    public function webextension_feedback() { return view('webextension/submit-feedback'); }
+    public function webextension_feedback(Request $req) {
+        Log::info('Uninstall feedback: '.$req->reason." , version: ".$req->version.", last site: ".$req->lastUsedOn.
+            ", usage counter: ".$req->usageCounter.", ua: ".$req->header('User-Agent').
+            ", langs: ".$req->header('Accept-Language')
+        );
+        return view('webextension/submit-feedback');
+    }
     public function usage() { return redirect('http://wiki.languagetool.org/command-line-options'); }
     public function forum() { return redirect('https://forum.languagetool.org/'); }
     public function chrome() { return view('chrome'); }
