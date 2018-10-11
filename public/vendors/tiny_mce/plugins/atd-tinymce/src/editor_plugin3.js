@@ -1062,6 +1062,7 @@
          var postData = "disabledRules=WHITESPACE_RULE&" +
              "allowIncompleteResults=true&" +
              "enableHiddenRules=true&" +
+             "useragent=ltorg&" +
              "text=" + encodeURI(data).replace(/&/g, '%26').replace(/\+/g, '%2B') + langParam + altLangParam + pasteParam;
          jQuery.ajax({
             url:   url,
