@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
 @section('title', 'Style and Grammar Checking for Chrome')
+@section('noindex')
+<meta name="robots" content="noindex">
+@stop
 
 @section('content')
     <div id="textContent" class="content-section">
@@ -8,6 +11,10 @@
         <div class="container">
 
             <h1>Style and Grammar Checking for Chrome</h1>
+            
+            <div style="background-color: yellow; padding: 15px; margin-bottom: 20px">
+                This page is archived - its contents is not updated anymore.
+            </div>
 
             <p>Google Chrome supports spell checking, but even for native speakers it's easy
                 to mix up words ("Children resemble <u>there</u> parents") or to make
