@@ -27,10 +27,13 @@ class LegacyController extends Controller
     public function job_rule_dev() { return view('job/rule_developer'); }
     public function webextension_uninstall() { return view('webextension/uninstall'); }
     public function webextension_feedback(Request $req) {
-        Log::info('Uninstall feedback: '.$req->reason." , version: ".$req->version.", last site: ".$req->lastUsedOn.
+        Log::info('Uninstall feedback: '.$req->reason.", version: ".$req->version.", last site: ".$req->lastUsedOn.
             ", usage counter: ".$req->usageCounter.", ua: ".$req->header('User-Agent').
             ", langs: ".$req->header('Accept-Language')
         );
+        if ($req->otherDetail) {
+            Log::info('Other detail: '.$req->otherDetail);
+        }
         return view('webextension/submit-feedback');
     }
     public function usage() { return redirect('http://wiki.languagetool.org/command-line-options'); }
