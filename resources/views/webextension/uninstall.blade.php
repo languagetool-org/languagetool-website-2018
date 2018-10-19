@@ -17,6 +17,7 @@
                     <input id="version" name="version" type="hidden" value="{{Request::get('version')}}">
                     <input id="usageCounter" name="usageCounter" type="hidden" value="{{Request::get('usageCounter')}}">
                     <input id="lastUsedOn" name="lastUsedOn" type="hidden" value="{{Request::get('lastUsedOn')}}">
+                    <input id="autoCheck" name="autoCheck" type="hidden" value="{{Request::get('autoCheck')}}">
     
                     <label><input name="reason" value="site-fail" type="radio" onclick="show('site-fail-detail', 'message1')"> it did not work on a site I use</label><br>
                     <label><input name="reason" value="checking-too-slow" type="radio"> the checking is too slow</label><br>
