@@ -29,7 +29,7 @@ class LegacyController extends Controller
     public function webextension_feedback(Request $req) {
         Log::info('Uninstall feedback: '.$req->reason.", version: ".$req->version.", last site: ".$req->lastUsedOn.
             ", usage counter: ".$req->usageCounter.", ua: ".$req->header('User-Agent').
-            ", langs: ".$req->header('Accept-Language')
+            ", langs: ".$req->header('Accept-Language').", autoCheck: ".$req->autoCheck
         );
         if ($req->otherDetail) {
             Log::info('Other detail: '.$req->otherDetail);
