@@ -362,10 +362,9 @@ AtDCore.prototype.isIE = function() {
    var maxTextLength = 20000;
    var userHasPastedText = false;
 
-   const ID_RANGE = 4294967294; // MySQL unsigned INTEGER range
    var pasteId = null;
    function newPasteId() { 
-       pasteId = Math.round(Math.random() * ID_RANGE); 
+       pasteId = Math.round(Math.random() * 99999) + ':' + Date.now();
        return pasteId;
     };
 
