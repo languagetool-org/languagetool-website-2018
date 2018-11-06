@@ -21,6 +21,15 @@
                             <?=__('messages.ffAddon')?>
                         </a>
                     <?php } ?>
+                    <script>
+                        /*$( document ).ready(function() {
+                            if (document.documentElement.hasAttribute("data-lt-installed")) {  // from v2.0.8
+                                console.log("#installed!");
+                            } else {
+                                console.log("#not installed");
+                            }
+                        });*/
+                    </script>
                 </nav>
             </div>
         </div>
