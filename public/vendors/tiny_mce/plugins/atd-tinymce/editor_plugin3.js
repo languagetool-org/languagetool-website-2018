@@ -525,9 +525,11 @@ AtDCore.prototype.isIE = function() {
                        var fullLangCode = json.language.detectedLanguage.code;
                        var langCode = fullLangCode.replace(/-.*/, "");
                        var translatedLang = t._getTranslation('langs')[langCode];
-                       $('#feedbackErrorMessage').html("<div id='severeError'>" + t._getTranslation('editor_detected_language') + " " +
-                           " <a href='#' onclick=\"return switchLanguage('" + fullLangCode + "')\">" +
-                           t._getTranslation('editor_detected_language_switch').replace(/:language/, translatedLang) + "</a></div>");                       
+                       if (translatedLang) {
+                           $('#feedbackErrorMessage').html("<div id='severeError'>" + t._getTranslation('editor_detected_language') + " " +
+                               " <a href='#' onclick=\"return switchLanguage('" + fullLangCode + "')\">" +
+                               t._getTranslation('editor_detected_language_switch').replace(/:language/, translatedLang) + "</a></div>");
+                       }
                    }
                } else if (results.incompleteResults) {
                    if (results.incompleteResultsReason) {
