@@ -18,14 +18,22 @@
                     <input id="usageCounter" name="usageCounter" type="hidden" value="{{Request::get('usageCounter')}}">
                     <input id="lastUsedOn" name="lastUsedOn" type="hidden" value="{{Request::get('lastUsedOn')}}">
                     <input id="autoCheck" name="autoCheck" type="hidden" value="{{Request::get('autoCheck')}}">
-    
-                    <label><input name="reason" value="site-fail" type="radio" onclick="show('site-fail-detail', 'message1')"> it did not work on a site I use</label><br>
-                    <label><input name="reason" value="checking-too-slow" type="radio"> the checking is too slow</label><br>
-                    <label><input name="reason" value="browser-slow-down" type="radio" onclick="show('browser-slow-down-detail', 'message5')"> it slows down my browser</label><br>
-                    <label><input name="reason" value="error-not-found" type="radio" onclick="show('error-not-found-detail', 'message2')"> it did not find enough errors</label><br>
-                    <label><input name="reason" value="too-many-false-alarms" type="radio"> found too many 'errors' that are not really errors</label><br>
-                    <label><input name="reason" value="other" type="radio" onclick="document.getElementById('otherDetail').focus()"> something else</label>: <input type="text" name="otherDetail" id="otherDetail"><br>
-                    <!--<label><input name="reason" value="something-else" type="radio" onclick="show('something-else-detail', 'message4')"> something else:</label><br>-->
+                    
+                    <?php
+                    $data = array(
+                            "site-fail" => "it did not work on a site I use",
+                            "checking-too-slow" => "the checking is too slow",
+                            "browser-slow-down" => "it slows down my browser",
+                            "error-not-found" => "it did not find enough errors",
+                            "did-not-understand" => "I could not understand how it works",
+                            "too-many-false-alarms" => "found too many matches that are not really errors",
+                    );
+                    foreach ($data as $id => $text) {
+                        print "<label><input name='reason' value='".$id."' type='radio'> $text</label><br>\n";
+                    }
+                    ?>
+                    <label><input name="reason" value="other" type="radio" onclick="document.getElementById('otherDetail').focus()"> something else</label>:
+                        <input type="text" name="otherDetail" id="otherDetail"><br>
                     <!--
                     <br>
                     <div style="width:500px">
@@ -55,8 +63,6 @@
                 document.getElementById("mainform").submit();
             }, 500);
             return false;
-        }
-        function show(id, messageFieldId) {
         }
     </script>
     
