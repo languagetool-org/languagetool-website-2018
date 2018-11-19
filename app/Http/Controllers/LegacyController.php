@@ -34,6 +34,9 @@ class LegacyController extends Controller
         if ($req->otherDetail) {
             Log::info('Other detail: '.$req->otherDetail);
         }
+        if ($req->siteDetail) {
+            Log::info('Site detail: '.$req->siteDetail);
+        }
         return view('webextension/submit-feedback');
     }
     public function usage() { return redirect('http://wiki.languagetool.org/command-line-options'); }

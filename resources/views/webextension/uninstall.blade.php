@@ -18,10 +18,12 @@
                     <input id="usageCounter" name="usageCounter" type="hidden" value="{{Request::get('usageCounter')}}">
                     <input id="lastUsedOn" name="lastUsedOn" type="hidden" value="{{Request::get('lastUsedOn')}}">
                     <input id="autoCheck" name="autoCheck" type="hidden" value="{{Request::get('autoCheck')}}">
-                    
+
+                    <label><input name="reason" value="site-fail" type="radio" onclick="document.getElementById('siteDetail').focus()"> it did not work on a site I use</label>:
+                        <input type="text" name="siteDetail" id="siteDetail" placeholder="please enter the website"><br>
                     <?php
                     $data = array(
-                            "site-fail" => "it did not work on a site I use",
+                            //"site-fail" => "it did not work on a site I use",
                             "checking-too-slow" => "the checking is too slow",
                             "browser-slow-down" => "it slows down my browser",
                             "error-not-found" => "it did not find enough errors",
@@ -33,7 +35,7 @@
                     }
                     ?>
                     <label><input name="reason" value="other" type="radio" onclick="document.getElementById('otherDetail').focus()"> something else</label>:
-                        <input type="text" name="otherDetail" id="otherDetail"><br>
+                        <input style="width:250px" type="text" name="otherDetail" id="otherDetail"><br>
                     <!--
                     <br>
                     <div style="width:500px">
