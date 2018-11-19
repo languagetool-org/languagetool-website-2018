@@ -19,6 +19,7 @@
                     <input id="lastUsedOn" name="lastUsedOn" type="hidden" value="{{Request::get('lastUsedOn')}}">
                     <input id="autoCheck" name="autoCheck" type="hidden" value="{{Request::get('autoCheck')}}">
 
+                    <label><input name="reason" value="default-option" type="radio"> please select below</label><br>
                     <label><input name="reason" value="site-fail" type="radio" onclick="document.getElementById('siteDetail').focus()"> it did not work on a site I use</label>:
                         <input type="text" name="siteDetail" id="siteDetail" placeholder="please enter the website"><br>
                     <?php
