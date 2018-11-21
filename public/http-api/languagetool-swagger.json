@@ -163,6 +163,10 @@
                                                 "code": {
                                                     "type": "string",
                                                     "description": "ISO 639-1 code like 'en', 'en-US', or 'ca-ES-valencia'."
+                                                },
+                                                "confidence": {
+                                                    "type": "number",
+                                                    "description": "Estimate of the probability of the submitted text being in the detected language. Between 0 and 1."
                                                 }
                                             }
                                         }
