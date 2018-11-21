@@ -37,6 +37,9 @@ class LegacyController extends Controller
         if ($req->siteDetail) {
             Log::info('Site detail: '.$req->siteDetail);
         }
+        if ($req->languageDetail) {
+            Log::info('Language detail: '.$req->languageDetail);
+        }
         return view('webextension/submit-feedback');
     }
     public function usage() { return redirect('http://wiki.languagetool.org/command-line-options'); }

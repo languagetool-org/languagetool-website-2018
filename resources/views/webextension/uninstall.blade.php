@@ -21,7 +21,9 @@
 
                     <label><input name="reason" value="default-option" type="radio"> please select below</label><br>
                     <label><input name="reason" value="site-fail" type="radio" onclick="document.getElementById('siteDetail').focus()"> it did not work on a site I use</label>:
-                        <input type="text" name="siteDetail" id="siteDetail" placeholder="please enter the website"><br>
+                        <input style="width:250px" type="text" name="siteDetail" id="siteDetail" placeholder="please enter the website"><br>
+                    <label><input name="reason" value="lang-not-supported" type="radio" onclick="document.getElementById('languageDetail').focus()"> a language important to me is not supported</label>:
+                        <input type="text" name="languageDetail" id="languageDetail" placeholder="which language"><br>
                     <?php
                     $data = array(
                             //"site-fail" => "it did not work on a site I use",
