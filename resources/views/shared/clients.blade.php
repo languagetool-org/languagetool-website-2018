@@ -6,6 +6,9 @@
 	            <div class="glide__track" data-glide-el="track">
 	                <ul class="glide__slides">
 						<div class="section-clients-item glide__slide">
+							<img src="/images/references/lokalise.png" alt="lokalise.co">
+						</div>
+						<div class="section-clients-item glide__slide">
 							<img src="/images/references/abacus.png" alt="ABACUS Business Software">
 						</div>
 						<div class="section-clients-item glide__slide">
