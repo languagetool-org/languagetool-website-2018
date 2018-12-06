@@ -11,6 +11,9 @@
 						<div class="section-clients-item glide__slide">
 							<img src="/images/references/abacus.png" alt="ABACUS Business Software">
 						</div>
+                        <div class="section-clients-item glide__slide">
+                            <img width="110" src="/images/references/translate5.png" alt="translate5.net/">
+                        </div>
 						<div class="section-clients-item glide__slide">
 							<img src="/images/references/korrekturen_de.png" alt="korrekturen.de">
 						</div>
