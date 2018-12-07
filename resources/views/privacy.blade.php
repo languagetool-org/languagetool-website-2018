@@ -166,7 +166,7 @@
                                 Suchanfragen) insgesamt und nicht beschränkt auf unser Online-Angebot, basiert.
 
                             <p>Yieldlove liefert im Auftrag seiner Kunden Werbebanner aus. Alle yieldlive-Banner verwenden Cookies. yieldlove platziert
-                                diese Banner mit Hilfe von Drittanbietern auf Websites Dritter, wie zum Beispiel einer Nachrichtenseite oder openthesaurus.de.
+                                diese Banner mit Hilfe von Drittanbietern auf Websites Dritter, wie zum Beispiel einer Nachrichtenseite oder languagetool.org.
 
                             <p>Zu Diagnosezwecken, Fehlersuche und Aufdeckung von betrügerischem Verhalten sammelt yieldlove in einigen Anzeigeneinheiten
                                 Benutzerinformationen mittels Cookies, die eine Lebensdauer von 6 Monaten haben. Die erfassten Benutzerinformationen
@@ -500,7 +500,7 @@
 
 
                             <p>Yieldlove delivers advertising banners on behalf of its customers. All our banners use cookies. yieldlove places
-                                these banners on third-party websites, such as a news page, with the help of third-party providers.
+                                these banners on third-party websites, such as a news page or languagetool.org, with the help of third-party providers.
 
                             <p>For diagnostic purposes, troubleshooting, and detecting fraudulent behavior, yieldlove collects user information 
                                 in cookies using yieldlove's 6-month lifecycle. The captured user information includes user agent, 
