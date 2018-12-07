@@ -5,33 +5,27 @@
 
 	            <div class="glide__track" data-glide-el="track">
 	                <ul class="glide__slides">
-						<div class="section-clients-item glide__slide">
-							<img src="/images/references/lokalise.png" alt="lokalise.co">
-						</div>
-						<div class="section-clients-item glide__slide">
-							<img src="/images/references/abacus.png" alt="ABACUS Business Software">
-						</div>
-                        <div class="section-clients-item glide__slide">
-                            <img width="110" src="/images/references/translate5.png" alt="translate5.net/">
-                        </div>
-						<div class="section-clients-item glide__slide">
-							<img src="/images/references/korrekturen_de.png" alt="korrekturen.de">
-						</div>
-						<div class="section-clients-item glide__slide">
-							<img width="210" src="/images/references/papyrus.png" alt="Papyrus Autor">
-						</div>
-						<div class="section-clients-item glide__slide">
-							<img src="/images/references/rsp24.png" alt="rechtschreibpruefung24.de">
-						</div>
-						<div class="section-clients-item glide__slide">
-							<img width="150" src="/images/references/iserv.png" alt="IServ GmbH">
-						</div>
-                        <div class="section-clients-item glide__slide">
-                            <img width="280" src="/images/references/brandwatch.png" alt="brandwatch">
-                        </div>
-                        <div class="section-clients-item glide__slide">
-                            <img width="220" src="/images/references/invaris.png" alt="INVARIS Informationssysteme GmbH">
-                        </div>
+                        <?php
+                        $clients = [
+                                'lokalise.co' => 'lokalise.png',
+                                'ABACUS Business Software' => 'abacus.png',
+                                'translate5.net' => 'translate5.png',
+                                'korrekturen.de' => 'korrekturen_de.png',
+                                'Papyrus Autor' => 'papyrus.png',
+                                'rechtschreibpruefung24.de' => 'rsp24.png',
+                                'IServ GmbH' => 'iserv.png',
+                                'brandwatch' => 'brandwatch.png',
+                                'INVARIS Informationssysteme GmbH' => 'invaris.png',
+                        ];
+                        shuffle($clients);
+                        foreach ($clients as $name => $image) {
+                            ?>
+                            <div class="section-clients-item glide__slide">
+                                <img src="/images/references/{{$image}}" alt="{{$name}}">
+                            </div>
+                        <?php
+                        }
+                        ?>
 	                </ul>
 	            </div>
 			</div>
