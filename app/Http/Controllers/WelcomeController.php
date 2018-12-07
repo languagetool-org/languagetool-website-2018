@@ -43,9 +43,9 @@ class WelcomeController extends Controller
         return view('welcome', [
             'languagesWithPage' => ['en', 'br', 'ca', /*'eo',*/ 'zh-CN-Hans', 'nl', 'es', 'fr', /*'gl',*/ 'de', 'it', 'pl', 'pt', 'ru', 'es', 'uk'],
             'AllMessages' => $AllMessages,
-            'checkDefaultLang' => $defaultLang,
+            'checkDefaultLang' => isset($r->text) ? "auto" : $defaultLang,
             'checkDefaultLangWithCountry' => $this->getDefaultLanguageAndCountry($locale),
-            'checkDefaultText' => $this->getDefaultDemoText($defaultLang),
+            'checkDefaultText' => isset($r->text) ? htmlspecialchars(substr($r->text, 0, 200)) : $this->getDefaultDemoText($defaultLang),
             'defaultDemoTextMappingForJavaScript' => $this->getDefaultDemoTextMappingForJavaScript(),
             'currentLang' => "en",
             'toggleFullscreenMode' => __('messages.fullscreen'),
