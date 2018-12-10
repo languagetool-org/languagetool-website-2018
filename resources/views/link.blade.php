@@ -26,7 +26,7 @@
 		var f = function() {
 			//console.log(">"+encodeURI($('#textfield').val()));
 			var encodedText = encodeURI($('#textfield').val());
-			var link = "http://languagetool.org/?text=" + encodedText;
+			var link = "https://languagetool.org/?text=" + encodedText;
 			$('#link').html("<a href='" + link + "'>" + link + "</a>");
 		};
 		$('#textfield').change(f);
