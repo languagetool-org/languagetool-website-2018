@@ -45,7 +45,7 @@ class WelcomeController extends Controller
             'AllMessages' => $AllMessages,
             'checkDefaultLang' => isset($r->text) ? "auto" : $defaultLang,
             'checkDefaultLangWithCountry' => $this->getDefaultLanguageAndCountry($locale),
-            'checkDefaultText' => isset($r->text) ? htmlspecialchars(substr($r->text, 0, 200)) : $this->getDefaultDemoText($defaultLang),
+            'checkDefaultText' => isset($r->text) ? htmlspecialchars(mb_substr($r->text, 0, 200)) : $this->getDefaultDemoText($defaultLang),
             'defaultDemoTextMappingForJavaScript' => $this->getDefaultDemoTextMappingForJavaScript(),
             'currentLang' => "en",
             'toggleFullscreenMode' => __('messages.fullscreen'),

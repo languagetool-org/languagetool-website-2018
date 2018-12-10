@@ -209,6 +209,7 @@ function switchLanguage(langCode) {
 $(function(){
 
     tinyMCE.init({
+		editor_deselector : "mceNoEditor",
         mode : "textareas",
         plugins                     : "AtD,paste",
         //directionality              : 'auto',   // will display e.g. Persian in right-to-left -- doesn't work in MSIE
