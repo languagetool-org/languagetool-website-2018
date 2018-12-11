@@ -16,7 +16,7 @@
                 <textarea id="textfield" style="width:500px" maxlength="200" class="mceNoEditor" ></textarea>
             </form>
             
-            Link: <span id="link"></span>
+            Link: <a target="LanguageToolHome" id="link" href=""><span id="linkText"></span></a>
         </div>
         
     </div>
@@ -27,7 +27,8 @@
 			//console.log(">"+encodeURI($('#textfield').val()));
 			var encodedText = encodeURI($('#textfield').val());
 			var link = "https://languagetool.org/?text=" + encodedText;
-			$('#link').html("<a href='" + link + "'>" + link + "</a>");
+			$('#link').attr('href', link);
+			$('#linkText').html(link);
 		};
 		$('#textfield').change(f);
 		$('#textfield').keyup(f);
