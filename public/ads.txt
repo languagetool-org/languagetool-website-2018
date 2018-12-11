@@ -59,3 +59,8 @@ spotxchange.com, 220321, RESELLER, 7842df1d2fe2db34
 appnexus.com, 7944, RESELLER
 districtm.io, 101161, DIRECT
 openx.com, 540364076, RESELLER, 6a698e2ec38604c6
+appnexus.com, 1314, RESELLER
+lkqd.net, 504, RESELLER, 59c49fa9598a0117
+spotx.tv, 228454, RESELLER, 7842df1d2fe2db34
+spotxchange.com, 228454, RESELLER, 7842df1d2fe2db34
+triplelift.com, 6006, DIRECT
