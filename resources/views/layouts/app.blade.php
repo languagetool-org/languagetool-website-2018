@@ -27,6 +27,7 @@
     <link href="{{ asset('css/style.css') }}?20181212" rel="stylesheet">
     <link href="{{ asset('css/media.css') }}?20180419" rel="stylesheet">
     <link href="{{ asset('css/tooltip.css') }}?20180419" rel="stylesheet">
+    <link rel="search" type="application/opensearchdescription+xml" title="LanguageTool" href="/opensearch.xml" />
 
     <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
     <script src="{{ asset('vendors/glide3/dist/glide.min.js') }}"></script>
