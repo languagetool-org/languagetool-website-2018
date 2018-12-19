@@ -110,7 +110,7 @@
                             sich bei einer Aufsichtsbehörde zu beschweren.</li>
                         <li>
                             Gelegentlich müssen wir Passagen dieser Datenschutzbestimmungen anpassen. Zum Beispiel, wenn wir unsere Website ändern
-                            oder wenn sich die Gesetze für Cookies oder Datenschutz ändern. Wir Bitte kehren Sie zu
+                            oder wenn sich die Gesetze für Cookies oder Datenschutz ändern. Bitte kehren Sie zu
                             dieser Seite zurück, um die neueste Version zu prüfen.
                         </li>
                         <li>
