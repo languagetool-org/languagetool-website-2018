@@ -144,7 +144,7 @@ AtDCore.prototype.markMyWords = function() {
             var cssName;
             if (suggestion.typeName === "Hint") {
                 cssName = "hiddenSuggestion";
-            } else if (ruleId.indexOf("SPELLER_RULE") >= 0 || ruleId.indexOf("MORFOLOGIK_RULE") == 0 || ruleId == "HUNSPELL_NO_SUGGEST_RULE" || ruleId == "HUNSPELL_RULE" || ruleId == "FR_SPELLING_RULE") {
+            } else if (suggestion.typeName === "UnknownWord" || ruleId.indexOf("SPELLER_RULE") >= 0 || ruleId.indexOf("MORFOLOGIK_RULE") == 0 || ruleId == "HUNSPELL_NO_SUGGEST_RULE" || ruleId == "HUNSPELL_RULE" || ruleId == "FR_SPELLING_RULE") {
                 cssName = "hiddenSpellError";
             } else if (suggestion.its20type === 'style' || suggestion.its20type === 'locale-violation' || suggestion.its20type === 'register') {
                 cssName = "hiddenSuggestion";

@@ -51,9 +51,10 @@
                             <ul>
                                 <li>Datum und Zeit, Länge des Textes, Sprache des Textes, Dauer der Verarbeitung, Anzahl
                                     der erkannten Fehler (aber nicht den fehlerhaften Text, außer Sie haben dem zugestimmt),</li>
-                                <li>die Seite, von der die Anfrage abgeschickt wurde (normalerweise languagetool.org),</li>
+                                <li>die Seite, von der die Anfrage abgeschickt wurde (z.B. languagetool.org),</li>
                                 <li>interne Fehler (wenn z.&nbsp;B. das Browser Add-on auf den zu prüfenden Text nicht zugreifen kann),</li>
-                                <li>die Anzahl der Nutzungen des Browser-Add-ons (nur bei einer Deinstallation übertragen)</li>
+                                <li>nur bei einer Browser-Add-on-Deinstallation wird übertragen: die Anzahl der Nutzungen des Add-ons
+                                    und die URL der Seite, auf der das Add-on zuletzt benutzt wurde</li>
                             </ul>
                             Keine dieser Informationen kann genutzt werden, um Sie zu identifizieren.
                         </li>
@@ -165,7 +166,7 @@
                                 Suchanfragen) insgesamt und nicht beschränkt auf unser Online-Angebot, basiert.
 
                             <p>Yieldlove liefert im Auftrag seiner Kunden Werbebanner aus. Alle yieldlive-Banner verwenden Cookies. yieldlove platziert
-                                diese Banner mit Hilfe von Drittanbietern auf Websites Dritter, wie zum Beispiel einer Nachrichtenseite oder openthesaurus.de.
+                                diese Banner mit Hilfe von Drittanbietern auf Websites Dritter, wie zum Beispiel einer Nachrichtenseite oder languagetool.org.
 
                             <p>Zu Diagnosezwecken, Fehlersuche und Aufdeckung von betrügerischem Verhalten sammelt yieldlove in einigen Anzeigeneinheiten
                                 Benutzerinformationen mittels Cookies, die eine Lebensdauer von 6 Monaten haben. Die erfassten Benutzerinformationen
@@ -398,9 +399,10 @@
                         <li>To improve our proofreading service, we keep a log of the following information:
                             <ul>
                                 <li>date and time, length of submitted text, text language, processing time on server, number of detected errors (but not the actual errors unless you have agreed to that),</li>
-                                <li>the page on which you submitted the request (referrer),</li>
+                                <li>the page on which you submitted the request (referrer, e.g. languagetool.org),</li>
                                 <li>internal errors that occur (e.g. the browser add-on not being able to access the text to be checked),</li>
-                                <li>the number of times you used the browser add-on (only transferred when you uninstall the add-on)</li>
+                                <li>only transferred when you uninstall the browser add-on: the number of times you used the add-on
+                                    and the URL of the page where the add-on was last used</li>
                             </ul>
                             None of this information can be used to identify you.
                         </li>
@@ -498,7 +500,7 @@
 
 
                             <p>Yieldlove delivers advertising banners on behalf of its customers. All our banners use cookies. yieldlove places
-                                these banners on third-party websites, such as a news page, with the help of third-party providers.
+                                these banners on third-party websites, such as a news page or languagetool.org, with the help of third-party providers.
 
                             <p>For diagnostic purposes, troubleshooting, and detecting fraudulent behavior, yieldlove collects user information 
                                 in cookies using yieldlove's 6-month lifecycle. The captured user information includes user agent, 

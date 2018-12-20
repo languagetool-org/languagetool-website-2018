@@ -37,6 +37,9 @@ class LegacyController extends Controller
         if ($req->siteDetail) {
             Log::info('Site detail: '.$req->siteDetail);
         }
+        if ($req->languageDetail) {
+            Log::info('Language detail: '.$req->languageDetail);
+        }
         return view('webextension/submit-feedback');
     }
     public function usage() { return redirect('http://wiki.languagetool.org/command-line-options'); }
@@ -44,6 +47,7 @@ class LegacyController extends Controller
     public function chrome() { return view('chrome'); }
     public function firefox() { return view('firefox'); }
     public function contribute() { return view('contribute'); }
+    public function link() { return view('link'); }
     public function de_leichte_sprache() {
         return view('de/leichte_sprache', [
             'AllMessages' => Lang::get('messages')

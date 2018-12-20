@@ -90,6 +90,8 @@ return [
     'premium_6_months' => '6-Monats-Abo',
     'premium_12_months' => 'Jahresabo',
     'premium_action' => 'Bestellen',
+    'discount1' => 'RABATTAKTION BIS 1.1.2019<br> Nutzen Sie den Rabattcode <b>2018END</b>, um beim Jahresabo 20&nbsp;% zu sparen!',
+    'discount2' => '',
     'premium_for_whom' => 'Für Studierende, Selbständige, Autoren',
     'enterprise_headline' => 'Enterprise',
     'enterprise_limit' => '40.000+ Zeichen pro Prüfung',

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>LanguageTool</ShortName>
+    <Description>Spell and Grammar Checking by LanguageTool</Description>
+    <Image height="16" width="16" type="image/x-icon">https://languagetool.org/favicon.ico</Image>
+    <Image height="64" width="64" type="image/png">https://languagetool.org/images/icon64.png</Image>
+    <Url type="text/html" template="http://languagetool.org/?text={searchTerms}"/>
+    <Language>*</Language>
+    <OutputEncoding>UTF-8</OutputEncoding>
+    <InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>

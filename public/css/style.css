@@ -2875,3 +2875,9 @@ body #premiumWarning {
 body .fullscreen #premiumWarning {
     display: none;
 }
+
+.discount {
+    background-color: #ffb44e;
+    border-radius: 5px;
+    padding: 8px;
+}

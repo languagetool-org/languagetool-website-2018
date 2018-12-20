@@ -180,6 +180,11 @@ $additionalErrorsCount = 500;
                                        data-fsc-item-path-value="languagetool-plus-premium-1-year-subscription">
                                         <span class="price">{{__('messages.premium_action')}}</span>
                                     </a>
+                                    <br>
+                                    <div class="discount">{!!__('messages.discount1')!!}<br>{!!__('messages.discount2')!!}</div>
+                                    <br>
+                                    <br>
+                                    <br>
                                 </div>
 
                             </div>

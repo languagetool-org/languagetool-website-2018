@@ -43,9 +43,9 @@ class WelcomeController extends Controller
         return view('welcome', [
             'languagesWithPage' => ['en', 'br', 'ca', /*'eo',*/ 'zh-CN-Hans', 'nl', 'es', 'fr', /*'gl',*/ 'de', 'it', 'pl', 'pt', 'ru', 'es', 'uk'],
             'AllMessages' => $AllMessages,
-            'checkDefaultLang' => $defaultLang,
+            'checkDefaultLang' => isset($r->text) ? "auto" : $defaultLang,
             'checkDefaultLangWithCountry' => $this->getDefaultLanguageAndCountry($locale),
-            'checkDefaultText' => $this->getDefaultDemoText($defaultLang),
+            'checkDefaultText' => isset($r->text) ? htmlspecialchars(mb_substr($r->text, 0, 200)) : $this->getDefaultDemoText($defaultLang),
             'defaultDemoTextMappingForJavaScript' => $this->getDefaultDemoTextMappingForJavaScript(),
             'currentLang' => "en",
             'toggleFullscreenMode' => __('messages.fullscreen'),
@@ -114,7 +114,7 @@ class WelcomeController extends Controller
         $map['gl'] = "Esta vai a ser unha mostra de de exemplo para amosar  o funcionamento de LanguageTool.";
         $map['ja'] = "これわ文章を入力して'Check Text'をクリックすると、誤記を探すことができる。着色した文字をクリックすると、間違いの詳細の表示する。";
         $map['km'] = "ឃ្លា​នេះ​បង្ហាញ​ពី​ពី​កំហុស​វេយ្យាករណ៍ ដើម្បី​បញ្ជាក់​ពី​ប្រសិទ្ធភាព​របស់​កម្មវិធី LanguageTool សំរាប់​ភាសាខ្មែរ។";
-        $map['nl'] = "Languagetool doet van zelfsprekend veel meer dan spellingcontrole. Het ziet het ook fouten die minder inde gaten lopen, die je zelf geen eens ziet. De meldingen komen uit regels die door vrijwilligers gemaakt zijn aan de hand van suggesties van gebruikers en tips van taaldeskundigen. Ondanks het feit dat er veel aandacht aan de regels wordt besteed, blijven suggesties altijd welkom. Probeer het rustig zelf eens uit hier, of download een van de plugins op deze pagina.";
+        $map['nl'] = "Languagetool doet van zelfsprekend veel meer dan spellingcontrole. Het ziet het ook fouten die minder inde gaten lopen, die je zelf geen eens ziet. De meldingen komen uit regels die door vrijwilligers gemaakt zijn aan de hand van suggesties van gebruikers en tips van taaldeskundigen. Ondanks het feit dat er veel aandacht aan de regels wordt besteed, blijven suggesties altijd welkom op het forum of op Twitter: @languagetool_nl. Probeer het rustig zelf eens uit hier, of download een van de plugins op deze pagina.";
         $map['sk'] = "Toto je ukážkový vstup, na predvedenie funkčnosti LanguageTool. Pamätajte si si, že neobsahuje \"kontrolu\" preklepo.";
         $map['sl'] = "Tukaj vnesite svoje besedilo... Pa poglejmo primer besedila s nekaj napakami ki jih lahko razpozna orodje LanguageTool; ko opazite napake, jih lahko enostavno popiravite. ( Obenem se izvrši tudi preverjanje črkovanja črkovanja.";
         $map['ta'] = "இந்த பெட்டியில் உங்கள் உரையை ஒட்டி சரிவர சோதிக்கிறதா என பாருங்கள். 'லேங்குவேஜ் டூல்' சில இலக்கணப் பிழைகளைச் சரியாக கண்டுபிடிக்கும். பல பிழைகளைப் பிடிக்க தடுமாறலாம்.";
