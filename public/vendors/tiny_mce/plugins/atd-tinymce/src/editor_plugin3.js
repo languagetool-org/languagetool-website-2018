@@ -882,7 +882,7 @@
           var req = new XMLHttpRequest();
           req.open('POST', "https://languagetoolplus.com/submitErrorExample", true);
           req.timeout = 60 * 1000; // milliseconds
-          //req.open('POST', "http://localhost:8000/submitErrorExample", true);
+        //   req.open('POST', "http://localhost:8000/submitErrorExample", true);
           req.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
           req.onload = function() {
               if (req.status !== 200) {
@@ -905,7 +905,9 @@
               "&suggestionPos=" + suggestionPos +
               "&covered=" + encodeURIComponent(covered) +
               "&replacement=" + encodeURIComponent(replacement) +
-              "&username=website"
+              "&username=website" +
+              "&client=ltorg" + 
+              (pasteId != null ? "&textSessionId=" + encodeURIComponent(pasteId) : "")
           );
       },
        
