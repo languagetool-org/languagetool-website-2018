@@ -53,6 +53,7 @@
                                     der erkannten Fehler (aber nicht den fehlerhaften Text, außer Sie haben dem zugestimmt),</li>
                                 <li>die Seite, von der die Anfrage abgeschickt wurde (z.B. languagetool.org),</li>
                                 <li>interne Fehler (wenn z.&nbsp;B. das Browser Add-on auf den zu prüfenden Text nicht zugreifen kann),</li>
+                                <li>nur beim Browser Add-on: Add-on-Version; Datum der Installation; zufällige ID des Textfeldes, dessen Text geprüft wird
                                 <li>nur bei einer Browser-Add-on-Deinstallation wird übertragen: die Anzahl der Nutzungen des Add-ons
                                     und die URL der Seite, auf der das Add-on zuletzt benutzt wurde</li>
                             </ul>
@@ -401,6 +402,7 @@
                                 <li>date and time, length of submitted text, text language, processing time on server, number of detected errors (but not the actual errors unless you have agreed to that),</li>
                                 <li>the page on which you submitted the request (referrer, e.g. languagetool.org),</li>
                                 <li>internal errors that occur (e.g. the browser add-on not being able to access the text to be checked),</li>
+                                <li>only for the browser add-on: add-on version; date of installation; random id of the text field that is being checked
                                 <li>only transferred when you uninstall the browser add-on: the number of times you used the add-on
                                     and the URL of the page where the add-on was last used</li>
                             </ul>
