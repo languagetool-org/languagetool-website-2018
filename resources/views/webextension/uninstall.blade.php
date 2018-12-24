@@ -45,6 +45,20 @@
                         <b>Your email: <input style="width:300px" type="text" name="email" placeholder="you@provider.org">
                     </div>
                     -->
+                    
+                    <br>
+                    <p>If you have found a bug, please describe it 
+                    <script>
+                    <!--
+                        var firstPart = "feedback";
+                        var lastPart = "languagetool.org";
+                        document.write("<a href='mail" + "to:" + firstPart + "@" + lastPart + "?subject=Uninstall feedback ({{Request::get('version')}})'>via email<" + "/a>");
+                    // -->
+                    </script>
+                    or post it at <a target="_blank" href="https://forum.languagetool.org">our forum</a> or
+                    <a target="_blank" href="https://github.com/languagetool-org/languagetool-browser-addon/issues">at github</a>.
+                    </p>
+                    
                     <input style="margin-top: 10px;margin-bottom: 15px" type="submit" value="Submit feedback">
                 </form>
 
