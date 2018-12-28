@@ -27,7 +27,7 @@
                                     <a href="#" title="toggle fullscreen mode" onClick="fullscreen_toggle();return false;"></a>
                                 </div>
                                 <p id="checktextpara" style="margin: 0;">
-                                    <textarea id="checktext" name="text" style="width: 100%" rows="10">Fügen Sie hier Ihren Text ein oder benutzen Sie diesen Text als Beispiel. Dieser Text wurde nur zum Testen geschrieben. Die Donaudampfschifffahrt darf da nicht fehlen. Und die Nutzung des Genitivs auch nicht.</textarea>
+                                    <textarea id="checktext" name="text" style="width: 100%" rows="10">Fügen Sie hier Ihren Text ein oder benutzen Sie diesen Text als Beispiel. Dieser Text wurde nur zum Testen geschrieben. Die Donaudampfschifffahrt darf da nicht fehlen. Und die Nutzung des Genitivs auch nicht. Diese Prüfung umfasst nur einige Regeln von Leichter Sprache. Viele andere LanguageTool-Regeln sind nicht aktiv.</textarea>
                                 </p>
                                 <div id="editor_controls">
                                     <div id="feedbackErrorMessage"></div>
