@@ -18,7 +18,7 @@
                 <a href="http://www.melaniesiegel.de/publications/2014_tekom_Lieske-Siegel.pdf">Verstehen leicht gemacht</a>.</p>
 
                 <div style="width: 90%;padding-top:15px;padding-bottom:0;">
-                    <div style="width:90%;margin: auto;">
+                    <div style="width:90%;margin: auto;box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);">
 
                         <form id="checkform" class="" name="checkform" action="#" method="post">
                             <div id="handle"><div id="feedbackMessage"></div></div>
