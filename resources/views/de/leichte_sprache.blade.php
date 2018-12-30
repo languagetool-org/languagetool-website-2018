@@ -12,10 +12,15 @@
                 <p>Die Leichte Sprache ist eine besonders leicht verständliche Ausdrucksweise.
                 Es existiert kein offizieller Standard, was genau Leichte Sprache ausmacht, es gibt zur Orientierung allerdings
                 einige Regeln. Mit dieser Seite können Sie LanguageTool benutzen, um Texte gegen einige dieser
-                Regeln zu prüfen. Hier ist eine <a href="https://multisprech.org/einfache-sprache/einfach-schreiben/languagetool-leichte-sprache/">Übersicht der Regeln</a>. Mögliche Fehler werden farbig markiert. Durch Klick auf die markierten Wörter erhalten
+                Regeln zu prüfen. Hier ist eine <a target="_blank" href="https://multisprech.org/einfache-sprache/einfach-schreiben/languagetool-leichte-sprache/">Übersicht der Regeln</a>. Mögliche Fehler werden farbig markiert. Durch Klick auf die markierten Wörter erhalten
                 Sie eine genauere Beschreibung des möglichen Problems. Mehr Informationen zu Leichter Sprache finden Sie beim
                 <a href="http://www.leichtesprache.org/">Netzwerk Leichte Sprache</a> und im Artikel
-                <a href="http://www.melaniesiegel.de/publications/2014_tekom_Lieske-Siegel.pdf">Verstehen leicht gemacht</a>.</p>
+                <a href="http://www.melaniesiegel.de/publications/2014_tekom_Lieske-Siegel.pdf">Verstehen leicht gemacht</a>.
+                </p>
+                
+                <p>Diese Prüfung umfasst nur einige Regeln von Leichter Sprache. Viele andere LanguageTool-Regeln sind nicht aktiv.
+                Für eine zusätzliche Grammatik- und Rechtschreibprüfung können Sie die <a href="/de/">Hauptseite von LanguageTool</a> nutzen.
+                </p>
 
                 <div style="width: 90%;padding-top:15px;padding-bottom:0;">
                     <div style="width:90%;margin: auto;box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);border-radius:5px;padding-top:4px">
@@ -27,7 +32,7 @@
                                     <a href="#" title="toggle fullscreen mode" onClick="fullscreen_toggle();return false;"></a>
                                 </div>
                                 <p id="checktextpara" style="margin: 0;">
-                                    <textarea id="checktext" name="text" style="width: 100%" rows="10">Fügen Sie hier Ihren Text ein oder benutzen Sie diesen Text als Beispiel. Dieser Text wurde nur zum Testen geschrieben. Die Donaudampfschifffahrt darf da nicht fehlen. Und die Nutzung des Genitivs auch nicht. Nur Glückspilze finden keine Fehler! Diese Prüfung umfasst nur einige Regeln von Leichter Sprache. Viele andere LanguageTool-Regeln sind nicht aktiv.</textarea>
+                                    <textarea id="checktext" name="text" style="width: 100%" rows="10">Fügen Sie hier Ihren Text ein oder benutzen Sie diesen Text als Beispiel. Dieser Text wurde nur zum Testen geschrieben. Die Donaudampfschifffahrt darf da nicht fehlen. Und die Nutzung des Genitivs auch nicht. Es wäre sogar möglich, dass Sie Glückspilze finden.</textarea>
                                 </p>
                                 <div id="editor_controls">
                                     <div id="feedbackErrorMessage"></div>
