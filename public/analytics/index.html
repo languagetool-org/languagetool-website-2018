@@ -3,6 +3,11 @@
     <title>LanguageTool statistics</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <script src="plotly-latest.min.js"></script>
+    <style>
+        #graphs div {
+            height: 320px;
+        }
+    </style>
 </head>
 <body>
 
@@ -130,7 +135,6 @@
         }
 
         plotStandardServerLogs(accessCountDataHE2Url, errorCountDataHE2Url, 'access-count-graph-he2', 'error-count-graph-he2');
-        plotStandardServerLogs(accessCountDataHE3Url, errorCountDataHE3Url, 'access-count-graph-he3', 'error-count-graph-he3');
 
         /**
          * returns an array with moving average of the input array
@@ -172,6 +176,7 @@
     
 </script>
 
+<div id="graphs">
 <h2>API response time (languagetool.org/api)</h2>
 <div id="api-perf-graph"></div>
 
@@ -195,12 +200,7 @@
 
 <h2>Error count (HE2)</h2>
 <div id="error-count-graph-he2"></div>
-
-<h2>API access count (HE3)</h2>
-<div id="access-count-graph-he3"></div>
-
-<h2>Error count (HE3)</h2>
-<div id="error-count-graph-he3"></div>
+</div>
 
 </body>
 </html>
