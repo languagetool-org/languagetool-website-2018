@@ -126,7 +126,7 @@
             _paq.push(['trackEvent', type1, type2, type3]);
         }
     }
-    function closedCallback(orderObjOrNull) {
+    function webhookCallback(orderObjOrNull) {
         console.log("orderObjOrNull: ", orderObjOrNull);
         if (typeof(_paq) !== 'undefined') {  // Piwik tracking
             if (orderObjOrNull === null) {
@@ -169,7 +169,7 @@ if (isset($_SERVER['QUERY_STRING']) && strpos($_SERVER['QUERY_STRING'], 'testmod
         type="text/javascript"
         data-storefront="<?=$fsStorefront?>"
         data-error-callback="errorCallback"
-        data-popup-closed="closedCallback"
+        data-popup-webhook-received="webhookCallback"
 >
 </script>
 
