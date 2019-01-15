@@ -141,6 +141,7 @@ function turnOnFullScreenView() {
     tinymce.execCommand('mceFocus', false, 'checktext');
 }
 
+var adCount = 0;
 function doit(doLog) {
     document.checkform._action_checkText.disabled = true;
     var langCode = document.checkform.lang.value;
@@ -154,6 +155,10 @@ function doit(doLog) {
         document.cookie = "lt-language=" + langCode + ";max-age=1314000";  // one year
     }
     tinyMCE.activeEditor.execCommand('mceWritingImprovementTool', langCode);
+    adCount++;
+    if (googletag && adCount % 2 == 0) {
+        googletag.pubads().refresh();  // load a new ad
+    }
 }
 
 function proofread() {
