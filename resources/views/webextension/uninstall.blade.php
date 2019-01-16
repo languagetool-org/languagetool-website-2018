@@ -1,4 +1,7 @@
 @extends('layouts.app')
+<?php
+$LATEST_VERSION = "2.0.24";
+?>
 
 @section('title', 'Uninstallation successful')
 
@@ -9,6 +12,39 @@
             <h1>Uninstallation successful</h1>
 
             @if(Request::get('version') && strpos(Request::get('version'), '2') === 0)
+            
+                @if(str_replace('.', '', Request::get('version')) < str_replace('.', '', $LATEST_VERSION))
+                
+                    <div class="oldVersionWarning">
+                        Oops, you've been using an old version. Chances are good your problem has already
+                        been fixed in the latest version.
+                        
+                        @if(Request::header('User-Agent') && strpos(Request::header('User-Agent'), 'Firefox/') !== false)
+                            <div class="reinstallButton"><a href="https://addons.mozilla.org/firefox/addon/languagetool/?src=uninstall-page">Install latest version on Firefox</a></div>
+                        @elseif(Request::header('User-Agent') && strpos(Request::header('User-Agent'), 'Chrome/') !== false)
+                            <div class="reinstallButton"><a href="https://chrome.google.com/webstore/detail/grammar-and-spell-checker/oldceeleldhonbafppcapldpdifcinji">Install latest version on Chrome</a></div>
+                        @else
+                            <div class="reinstallButton"><a href="https://addons.mozilla.org/firefox/addon/languagetool/?src=uninstall-page">Install latest version on Firefox</a></div>
+                            <div class="reinstallButton"><a href="https://chrome.google.com/webstore/detail/grammar-and-spell-checker/oldceeleldhonbafppcapldpdifcinji">Install latest version on Chrome</a></div>
+                        @endif
+                    </div> 
+                
+                @else
+                
+                    <div class="oldVersionWarning">
+                        Have you removed the LanguageTool add-on by accident?
+    
+                        @if(Request::header('User-Agent') && strpos(Request::header('User-Agent'), 'Firefox/') !== false)
+                            <div class="reinstallButton"><a href="https://addons.mozilla.org/firefox/addon/languagetool/?src=uninstall-page">Re-install now</a></div>
+                        @elseif(Request::header('User-Agent') && strpos(Request::header('User-Agent'), 'Chrome/') !== false)
+                            <div class="reinstallButton"><a href="https://chrome.google.com/webstore/detail/grammar-and-spell-checker/oldceeleldhonbafppcapldpdifcinji">Re-install now</a></div>
+                        @else
+                            <div class="reinstallButton"><a href="https://addons.mozilla.org/firefox/addon/languagetool/?src=uninstall-page">Re-install on Firefox</a></div>
+                            <div class="reinstallButton"><a href="https://chrome.google.com/webstore/detail/grammar-and-spell-checker/oldceeleldhonbafppcapldpdifcinji">Re-install on Chrome</a></div>
+                        @endif
+                    </div>
+                
+                @endif
 
                 <p>We’re sorry to see you’ve uninstalled our extension. It would be great if you told us the
                     reason for your decision, so that we can fix it and improve LanguageTool:</p>

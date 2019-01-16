@@ -2881,3 +2881,14 @@ body .fullscreen #premiumWarning {
     border-radius: 5px;
     padding: 8px;
 }
+
+.oldVersionWarning {
+    background-color: #fbffbc;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.reinstallButton {
+}
