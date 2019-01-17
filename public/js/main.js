@@ -156,7 +156,7 @@ function doit(doLog) {
     }
     tinyMCE.activeEditor.execCommand('mceWritingImprovementTool', langCode);
     adCount++;
-    if (googletag && adCount % 2 == 0) {
+    if (googletag && googletag.pubads && adCount % 2 == 0) {
         googletag.pubads().refresh();  // load a new ad
     }
 }
