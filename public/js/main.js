@@ -431,6 +431,7 @@ $(document).ready(function() {
     }).mount();
 
     var ClientsGlide = new Glide('#Clients', {
+        autoplay: 3000,
         type: 'carousel',
         perView: 3,
         animationDuration: 1200,
