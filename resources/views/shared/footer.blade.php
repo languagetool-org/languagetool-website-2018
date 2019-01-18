@@ -221,7 +221,7 @@ $(document).ready(function() {
     $("#planSelect").change(function(e) {
         var val = $("#planSelect").val();
         if (val == 1) {
-            $('#plan-prices-save').html('&nbsp;');
+            $('#plan-prices-save').html("<?=__('messages.details_1_month_euro')?>");
             //$('#planPriceTotal').text("19€");
             $("#price-1-month").show();
             $("#price-3-months").hide();
