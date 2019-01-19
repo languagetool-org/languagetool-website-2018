@@ -1,6 +1,6 @@
 @extends('layouts.app')
 <?php
-$LATEST_VERSION = "2.0.24";
+$LATEST_VERSION = "2.0.25";
 ?>
 
 @section('title', 'Uninstallation successful')
