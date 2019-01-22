@@ -217,6 +217,7 @@
                        if (Math.random() > 0.5) {
                          warnStyle = "premiumWarning2";
                        }
+                       t._trackEvent('PremiumHintShown', warnStyle);
                        //console.log("warnStyle", warnStyle);
                        $('#feedbackPremiumMessage').html("<div id=\"" + warnStyle + "\">" + startText + " " +
                            t._getTranslation('premium_warning2') + "</div>");
