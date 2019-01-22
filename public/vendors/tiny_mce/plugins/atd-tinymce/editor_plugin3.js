@@ -562,7 +562,11 @@ AtDCore.prototype.isIE = function() {
                            t._getTranslation('premium_warning2') + "</div>");
                        t._trackEvent('PremiumMatchesHiddenCount', results.hiddenMatches);
                        t._trackEvent('PremiumMatchesHidden', userHasPastedText ? "UserText" : "DemoText");
-                       $('#premiumWarning').click(function() {
+                       $('#premiumWarning1').click(function() {
+                           document.cookie = "premiumHint=true;max-age=86400;path=/";  // 86.400 = 1 day
+                           t._trackEvent('PremiumHintClicked', warnStyle);
+                       });
+                       $('#premiumWarning2').click(function() {
                            document.cookie = "premiumHint=true;max-age=86400;path=/";  // 86.400 = 1 day
                            t._trackEvent('PremiumHintClicked', warnStyle);
                        });
