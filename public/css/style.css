@@ -2864,8 +2864,16 @@ table.tablesorter thead tr .tablesorter-headerAsc, table.tablesorter thead tr .t
     font-weight: bold;
 }
 
-body #premiumWarning {
+body #premiumWarning1 {
     color: #666666;
+    padding: 10px;
+    background-color: white;
+    border-color: #ff4e24;
+    margin: 5px;
+}
+
+body #premiumWarning2 {
+    color: #222222;
     padding: 10px;
     background-color: white;
     border-color: #ff4e24;

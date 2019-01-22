@@ -553,13 +553,18 @@ AtDCore.prototype.isIE = function() {
                            startText = results.hiddenMatches + " " + t._getTranslation('premium_warning1_plural');
                        }
                        $('#feedbackPremiumMessage').show();
-                       $('#feedbackPremiumMessage').html("<div id='premiumWarning'>" + startText + " " +
+                       var warnStyle = "premiumWarning1";
+                       if (Math.random() > 0.5) {
+                         warnStyle = "premiumWarning2";
+                       }
+                       //console.log("warnStyle", warnStyle);
+                       $('#feedbackPremiumMessage').html("<div id=\"" + warnStyle + "\">" + startText + " " +
                            t._getTranslation('premium_warning2') + "</div>");
                        t._trackEvent('PremiumMatchesHiddenCount', results.hiddenMatches);
                        t._trackEvent('PremiumMatchesHidden', userHasPastedText ? "UserText" : "DemoText");
                        $('#premiumWarning').click(function() {
                            document.cookie = "premiumHint=true;max-age=86400;path=/";  // 86.400 = 1 day
-                           t._trackEvent('PremiumHintClicked');
+                           t._trackEvent('PremiumHintClicked', warnStyle);
                        });
                    }
                } else {
