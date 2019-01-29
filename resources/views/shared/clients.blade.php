@@ -9,6 +9,7 @@
                         $clients = [
                                 'lokalise.co' => 'lokalise.png',
                                 'ABACUS Business Software' => 'abacus.png',
+                                'Dimelo' => 'dimelo.png',
                                 'translate5.net' => 'translate5.png',
                                 'korrekturen.de' => 'korrekturen_de.png',
                                 'Papyrus Autor' => 'papyrus.png',
