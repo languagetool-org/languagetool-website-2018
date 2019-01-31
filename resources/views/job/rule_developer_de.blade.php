@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
-@section('title', 'Teilzeit-Job: Regel-Entwickler / Redakteur')
+@section('title', 'Teilzeit-Job: Regel-Entwickler / Redakteur (m/w/d)')
 
 @section('content')
     <div id="textContent" class="content-section" style="text-align: left">
 
         <div class="container">
 
-            <p style="text-align: right">Date: 2019-01-30</p>
+            <p style="text-align: right">Datum: 31.01.2019</p>
             
             <h1>Regel-Entwickler / Redakteur (m/w/d)</h1>
 
