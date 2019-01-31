@@ -4,13 +4,11 @@
             <div class="col-xs-12">
                 <nav class="nav editor-nav">
                     
-                    <!--
-                    <?php if ($_SERVER['REQUEST_URI'] == "/" || $checkDefaultLang == "en") { ?>
-                        <a class="ff-chrome jump_menu" type="button" href="/job/rule-developer">
-                            Part-time job: Rule Editor 
+                    <?php if ($_SERVER['REQUEST_URI'] == "/de/" || $checkDefaultLang == "de") { ?>
+                        <a class="ff-chrome jump_menu" type="button" href="/job/regel-entwickler">
+                            Job: Regel-Entwickler/Redakteur (m/w/d) 
                         </a>
                     <?php } ?>
-                    -->
                     
                     <?php if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "Chrome/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
                         <a class="ff-chrome jump_menu" type="button" href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji" target="_blank">
