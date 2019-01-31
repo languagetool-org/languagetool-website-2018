@@ -7,6 +7,7 @@
 	                <ul class="glide__slides">
                         <?php
                         $clients = [
+                                'audibene GmbH' => 'audibene.png',
                                 'lokalise.co' => 'lokalise.png',
                                 'ABACUS Business Software' => 'abacus.png',
                                 'Dimelo' => 'dimelo.png',
