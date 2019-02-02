@@ -121,11 +121,82 @@
         piwikTrack('FastSpringError', code, string);
     }
 
+    function parse(price) {
+        myRe = new RegExp('([^0-9]+) ([0-9]+)[,.\']?([0-9]+)?', 'g');
+        var matches = myRe.exec(price);
+        var currency = "";
+        var amount = 0;
+        var currencyPosition = "";
+        if (matches == null) {
+            myRe = new RegExp('([0-9]+)[,.\']?([0-9]+)? ([^0-9]+)', 'g');
+            matches = myRe.exec(price);
+            if (matches) {
+                //console.log("#1", matches);
+                currency = matches[3];
+                amount = parseFloat(matches[1] + "." + matches[2]);
+                currencyPosition = "after";
+            }
+        } else {
+            //console.log("#2", matches);
+            currency = matches[1];
+            amount = parseFloat(matches[2] + "." + matches[3]);
+            currencyPosition = "before";
+        }
+        //console.log("price, currency, amount:" + price + " ==> " + currency + " -- " + amount);
+        var commaDelimitedAmount = price.match(/[0-9],/) != null;
+        return {amount: amount, currency: currency, currencyPosition: currencyPosition, commaDelimitedAmount: commaDelimitedAmount };
+    }
+    
+    function getMonthlyPrice(priceStr, divideBy) {
+        //priceStr = "USD 19.00";
+        //priceStr = "SFr. 79,00";
+        var result = parse(priceStr);
+        var pricePerMonth;
+        var amount = (result.amount/divideBy).toFixed(2);
+        if (result.commaDelimitedAmount) {
+            amount = amount.replace(/\./, ',');
+        }
+        if (result.currencyPosition == "before") {
+            pricePerMonth = result.currency + " " + amount;
+        } else {
+            pricePerMonth = amount + " " + result.currency;
+        }
+        return pricePerMonth;
+    }
+
+    function handlePlanChange() {
+        var val = $("#planSelect").val();
+        if (val == 1) {
+            $("#price-1-month").show();
+            $("#price-3-months").hide();
+            $("#price-12-months").hide();
+            $('#order-link').attr("data-fsc-item-path-value", "languagetool-plus-premium-monthly-subscription");
+            piwikTrack('PriceSwitch', '1month');
+        } else if (val == 3) {
+            $('#price-3-months-monthly').html(getMonthlyPrice($("#price-3-months-total").text(), 3));
+            $("#price-1-month").hide();
+            $("#price-3-months").show();
+            $("#price-12-months").hide();
+            $('#order-link').attr("data-fsc-item-path-value", "languagetool-plus-premium-3-month-subscription");
+            piwikTrack('PriceSwitch', '3months');
+        } else if (val == 12) {
+            $('#price-12-months-monthly').html(getMonthlyPrice($("#price-12-months-total").text(), 12));
+            $("#price-1-month").hide();
+            $("#price-3-months").hide();
+            $("#price-12-months").show();
+            $('#order-link').attr("data-fsc-item-path-value", "languagetool-plus-premium-1-year-subscription");
+            piwikTrack('PriceSwitch', '12months');
+        } else {
+            alert("Error, unknown selection: " + val);
+        }
+    }
+
     function piwikTrack(type1, type2, type3) {
         if (typeof(_paq) !== 'undefined') {  // Piwik tracking
             _paq.push(['trackEvent', type1, type2, type3]);
         }
     }
+
     function webhookCallback(orderObjOrNull) {
         console.log("orderObjOrNull: ", orderObjOrNull);
         if (typeof(_paq) !== 'undefined') {  // Piwik tracking
@@ -169,6 +240,7 @@ if (isset($_SERVER['QUERY_STRING']) && strpos($_SERVER['QUERY_STRING'], 'testmod
         type="text/javascript"
         data-storefront="<?=$fsStorefront?>"
         data-error-callback="errorCallback"
+        data-after-markup-callback="handlePlanChange"
         data-popup-webhook-received="webhookCallback"
 >
 </script>
@@ -218,40 +290,8 @@ $(document).ready(function() {
     $("#outer-order-link").click(function(e) {
         piwikTrack('PricingTable', 'Buy');
     });
-    $("#planSelect").change(function(e) {
-        var val = $("#planSelect").val();
-        if (val == 1) {
-            $('#plan-prices-save').html("<?=__('messages.details_1_month_euro')?>");
-            //$('#planPriceTotal').text("19€");
-            $("#price-1-month").show();
-            $("#price-3-months").hide();
-            $("#price-12-months").hide();
-            $('#order-link').attr("data-fsc-item-path-value", "languagetool-plus-premium-monthly-subscription");
-            piwikTrack('PriceSwitch', '1month');
-        } else if (val == 3) {
-            if ($("#price-3-months").text().indexOf("€") >= 0) {
-                $('#plan-prices-save').html("<?=__('messages.details_3_months_euro', ['percent' => 32])?>");
-            } else {
-                $('#plan-prices-save').html("<?=__('messages.details_3_months', ['percent' => 32])?>");
-            }
-            //$('#planPriceTotal').text("39€");
-            $("#price-1-month").hide();
-            $("#price-3-months").show();
-            $("#price-12-months").hide();
-            $('#order-link').attr("data-fsc-item-path-value", "languagetool-plus-premium-3-month-subscription");
-            piwikTrack('PriceSwitch', '3months');
-        } else if (val == 12) {
-            $('#plan-prices-save').html("<?=__('messages.billed_annually', ['currency' => '€', 'amount' => '5'])?>");
-            //$('#planPriceTotal').text("79€");
-            $("#price-1-month").hide();
-            $("#price-3-months").hide();
-            $("#price-12-months").show();
-            $('#order-link').attr("data-fsc-item-path-value", "languagetool-plus-premium-1-year-subscription");
-            piwikTrack('PriceSwitch', '12months');
-        } else {
-            alert("Error, unknown selection: " + val);
-        }
-    });
+    
+    $("#planSelect").change(handlePlanChange);
 });
 </script>
 <!-- Script Ends -->

@@ -1493,6 +1493,11 @@ body #footer span a:hover {
     margin-bottom: 24px;
 }
 
+.price-item {
+    margin-top: 9px;
+    color: white;
+}
+
 .plan-tall .plan-price {
     color: #ffffff;
 }
@@ -1609,6 +1614,15 @@ body #footer span a:hover {
     line-height: 1;
 }
 
+.quote-layer-currency {
+    font-size: 20px;
+    letter-spacing: 1.8px;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px 0 20px;
+    line-height: 1;
+}
+
 .p-save {
     display: inline-block;
     margin-top: 0px;
@@ -1673,7 +1687,7 @@ body #footer span a:hover {
     margin: 15px 0 20px;
 }
 
-#plan-prices-save {
+.price-explain {
     color: #fff;
     text-align: center;
     margin-top: -20px;

@@ -154,23 +154,30 @@ $additionalErrorsCount = 500;
                                         </select>
                                     </div>
 
-                                    <div id="price-1-month" style="display: none">
-                                        <h2 id="planPriceTotal" class="quote-layer"><span
+                                    <div id="price-1-month" class="price-item" style="display: none">
+                                        <span id="planPriceTotal" class="quote-layer"
                                                     data-fsc-item-path="languagetool-plus-premium-monthly-subscription"
-                                                    data-fsc-item-pricetotal></span></h2>
+                                                    data-fsc-item-pricetotal></span><!--<span class="quote-layer-currency">/{{__('messages.per_month')}}</span>-->
+                                        <div>
+                                            <span id="plan-prices-save" class="price-explain">{{ __('messages.details_1_month_euro') }}</span>
+                                        </div>
                                     </div>
-                                    <div id="price-3-months" style="display: none">
-                                        <h2 id="planPriceTotal" class="quote-layer"><span
-                                                    data-fsc-item-path="languagetool-plus-premium-3-month-subscription"
-                                                    data-fsc-item-pricetotal></span></h2>
+                                    <div id="price-3-months" class="price-item" style="display: none">
+                                        <span id="price-3-months-monthly" class="quote-layer"></span><span class="quote-layer-currency">/{{__('messages.per_month')}}</span>
+                                        <div>
+                                            <span id="price-3-months-total" class="price-explain"
+                                                  data-fsc-item-path="languagetool-plus-premium-3-month-subscription"
+                                                  data-fsc-item-pricetotal></span>/3 {{__('messages.per_months')}}
+                                        </div>
                                     </div>
-                                    <div id="price-12-months" style="display: block">
-                                        <h2 id="planPriceTotal" class="quote-layer"><span
-                                                    data-fsc-item-path="languagetool-plus-premium-1-year-subscription"
-                                                    data-fsc-item-pricetotal></span></h2>
+                                    <div id="price-12-months" class="price-item" style="display: block">
+                                        <span id="price-12-months-monthly" class="quote-layer"></span><span class="quote-layer-currency">/{{__('messages.per_month')}}</span>
+                                        <div>
+                                            <span id="price-12-months-total" class="price-explain"
+                                                  data-fsc-item-path="languagetool-plus-premium-1-year-subscription"
+                                                  data-fsc-item-pricetotal></span>/{{__('messages.per_year')}}
+                                        </div>
                                     </div>
-
-                                    <div id="plan-prices-save">{{ __('messages.billed_annually', ['currency' => '€', 'amount' => '5']) }}</div>
 
                                 </div>
 
