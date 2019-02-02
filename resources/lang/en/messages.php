@@ -90,8 +90,6 @@ return [
     'premium_6_months' => '6-month subscription',
     'premium_12_months' => 'Yearly subscription',
     'premium_action' => 'Buy Now',
-    'discount1' => 'Use discount code <b>2018END</b> to get an end-of-year discount of 20% for the yearly subscription.',
-    'discount2' => 'Valid only until 2019-01-01',
     'premium_for_whom' => 'For students, authors, freelancers',
     'enterprise_headline' => 'Enterprise',
     'enterprise_limit' => '40,000+ characters per check',
