@@ -122,13 +122,13 @@
     }
 
     function parse(price) {
-        myRe = new RegExp('([^0-9]+) ([0-9]+)[,.\']?([0-9]+)?', 'g');
+        myRe = new RegExp('([^0-9]+) ?([0-9]+)[,.\']?([0-9]+)?', 'g');
         var matches = myRe.exec(price);
         var currency = "";
         var amount = 0;
         var currencyPosition = "";
         if (matches == null) {
-            myRe = new RegExp('([0-9]+)[,.\']?([0-9]+)? ([^0-9]+)', 'g');
+            myRe = new RegExp('([0-9]+)[,.\']?([0-9]+)? ?([^0-9]+)', 'g');
             matches = myRe.exec(price);
             if (matches) {
                 //console.log("#1", matches);
@@ -148,8 +148,11 @@
     }
     
     function getMonthlyPrice(priceStr, divideBy) {
+        //priceStr = "£59.00";   // GB
+        //priceStr = "$59.00";
         //priceStr = "USD 19.00";
         //priceStr = "SFr. 79,00";
+        //priceStr = "€59,00";  // FR
         //priceStr = "xxx";
         var result = parse(priceStr);
         var pricePerMonth;
