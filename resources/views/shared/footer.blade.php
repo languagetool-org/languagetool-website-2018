@@ -121,55 +121,34 @@
         piwikTrack('FastSpringError', code, string);
     }
 
-    function parse(price) {
-        myRe = new RegExp('([^0-9]+) ?([0-9]+)[,.\']?([0-9]+)?', 'g');
-        var matches = myRe.exec(price);
-        var currency = "";
-        var amount = 0;
-        var currencyPosition = "";
-        if (matches == null) {
-            myRe = new RegExp('([0-9]+)[,.\']?([0-9]+)? ?([^0-9]+)', 'g');
-            matches = myRe.exec(price);
-            if (matches) {
-                //console.log("#1", matches);
-                currency = matches[3];
-                amount = parseFloat(matches[1] + "." + matches[2]);
-                currencyPosition = "after";
-            }
-        } else {
-            //console.log("#2", matches);
-            currency = matches[1];
-            amount = parseFloat(matches[2] + "." + matches[3]);
-            currencyPosition = "before";
+    // extract currency from "59€", "59 €", "€59.00" etc. 
+    function getCurrency(priceStr) {
+        var currency = priceStr.match(/^([^0-9]+)/);
+        var currencyAtStart = true;
+        if (currency == null) {
+            currency = priceStr.match(/([^0-9]+)$/);
+            currencyAtStart = false;
         }
-        //console.log("price, currency, amount:" + price + " ==> " + currency + " -- " + amount);
-        var commaDelimitedAmount = price.match(/[0-9],/) != null;
-        return {amount: amount, currency: currency, currencyPosition: currencyPosition, commaDelimitedAmount: commaDelimitedAmount };
+        if (currency) {
+            return { currency: currency[1], currencyAtStart: currencyAtStart };
+        } else {
+            return null;
+        }
     }
     
-    function getMonthlyPrice(priceStr, divideBy) {
-        //priceStr = "£59.00";   // GB
-        //priceStr = "$59.00";
-        //priceStr = "USD 19.00";
-        //priceStr = "SFr. 79,00";
-        //priceStr = "€59,00";  // FR
-        //priceStr = "xxx";
-        var result = parse(priceStr);
-        var pricePerMonth;
-        var amount = (result.amount/divideBy).toFixed(2);
-        if (result.commaDelimitedAmount) {
-            amount = amount.replace(/\./, ',');
-        }
-        if (result.currencyPosition == "before") {
-            pricePerMonth = result.currency + " " + amount;
-        } else {
-            pricePerMonth = amount + " " + result.currency;
-        }
-        return pricePerMonth;
-    }
-
     function handlePlanChange() {
         var val = $("#planSelect").val();
+        var priceAsNumber = $("#price-" + val + "-months-value").text();
+        var prettyPrice = $("#price-" + val + "-months-total").text();
+        // for testing:
+        //priceAsNumber = 39;
+        //prettyPrice = "SFr. 39";
+        var pricePerMonth = (priceAsNumber/val).toLocaleString(undefined, {maximumFractionDigits: 2});
+        var currency = getCurrency(prettyPrice);
+        var pricePerMonthStr = "";
+        if (currency) {
+            pricePerMonthStr = currency.currencyAtStart ? currency.currency + pricePerMonth : pricePerMonth + currency.currency;
+        }
         if (val == 1) {
             $("#price-1-month").show();
             $("#price-3-months").hide();
@@ -177,9 +156,8 @@
             $('#order-link').attr("data-fsc-item-path-value", "languagetool-plus-premium-monthly-subscription");
             piwikTrack('PriceSwitch', '1month');
         } else if (val == 3) {
-            var pricePerMonth = getMonthlyPrice($("#price-3-months-total").text(), 3);
-            if (pricePerMonth != 0) {
-                $('#price-3-months-monthly').html(pricePerMonth);
+            if (pricePerMonthStr != "") {
+                $('#price-3-months-monthly').html(pricePerMonthStr);
             }
             $("#price-1-month").hide();
             $("#price-3-months").show();
@@ -187,9 +165,8 @@
             $('#order-link').attr("data-fsc-item-path-value", "languagetool-plus-premium-3-month-subscription");
             piwikTrack('PriceSwitch', '3months');
         } else if (val == 12) {
-            var pricePerMonth = getMonthlyPrice($("#price-12-months-total").text(), 12);
-            if (pricePerMonth != 0) {
-                $('#price-12-months-monthly').html(pricePerMonth);
+            if (pricePerMonthStr != "") {
+                $('#price-12-months-monthly').html(pricePerMonthStr);
             }
             $("#price-1-month").hide();
             $("#price-3-months").hide();

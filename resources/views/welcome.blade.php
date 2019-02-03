@@ -155,6 +155,7 @@ $additionalErrorsCount = 500;
                                     </div>
 
                                     <div id="price-1-month" class="price-item" style="display: none">
+                                        <span id="price-1-months-value" style="display:none" data-fsc-item-path="languagetool-plus-premium-monthly-subscription" data-fsc-item-pricevalue></span>
                                         <span id="planPriceTotal" class="quote-layer"
                                                     data-fsc-item-path="languagetool-plus-premium-monthly-subscription"
                                                     data-fsc-item-pricetotal></span><!--<span class="quote-layer-currency">/{{__('messages.per_month')}}</span>-->
@@ -163,6 +164,7 @@ $additionalErrorsCount = 500;
                                         </div>
                                     </div>
                                     <div id="price-3-months" class="price-item" style="display: none">
+                                        <span id="price-3-months-value" style="display:none" data-fsc-item-path="languagetool-plus-premium-3-month-subscription" data-fsc-item-pricevalue></span>
                                         <span id="price-3-months-monthly" class="quote-layer"></span><span class="quote-layer-currency">/{{__('messages.per_month')}}</span>
                                         <div>
                                             <span id="price-3-months-total" class="price-explain"
@@ -171,6 +173,7 @@ $additionalErrorsCount = 500;
                                         </div>
                                     </div>
                                     <div id="price-12-months" class="price-item" style="display: block">
+                                        <span id="price-12-months-value" style="display:none" data-fsc-item-path="languagetool-plus-premium-1-year-subscription" data-fsc-item-pricevalue></span>
                                         <span id="price-12-months-monthly" class="quote-layer"></span><span class="quote-layer-currency">/{{__('messages.per_month')}}</span>
                                         <div>
                                             <span id="price-12-months-total" class="price-explain"
