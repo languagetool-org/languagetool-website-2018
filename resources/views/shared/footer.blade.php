@@ -193,8 +193,6 @@
             $("#price-12-months").show();
             $('#order-link').attr("data-fsc-item-path-value", "languagetool-plus-premium-1-year-subscription");
             piwikTrack('PriceSwitch', '12months');
-        } else {
-            alert("Error, unknown selection: " + val);
         }
     }
 
