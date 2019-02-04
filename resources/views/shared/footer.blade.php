@@ -147,6 +147,9 @@
         var currency = getCurrency(prettyPrice);
         var pricePerMonthStr = "";
         if (currency) {
+            if (prettyPrice.match(/\.[0-9][0-9]$/)) {
+                pricePerMonth = pricePerMonth.replace(/,/, ".");  // format like the original number
+            }
             pricePerMonthStr = currency.currencyAtStart ? currency.currency + pricePerMonth : pricePerMonth + currency.currency;
         }
         if (val == 1) {
