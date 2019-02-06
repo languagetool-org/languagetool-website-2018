@@ -18,6 +18,7 @@
                                 'IServ GmbH' => 'iserv.png',
                                 'brandwatch' => 'brandwatch.png',
                                 'INVARIS Informationssysteme GmbH' => 'invaris.png',
+                                'TechScribe' => 'techscribe.png',
                         ];
                         shuffle($clients);
                         foreach ($clients as $name => $image) {
