@@ -1,6 +1,6 @@
 @extends('layouts.app')
 <?php
-$LATEST_VERSION = "2.0.25";
+$LATEST_VERSION = "2.1.1";
 ?>
 
 @section('title', 'Uninstallation successful')
@@ -13,7 +13,7 @@ $LATEST_VERSION = "2.0.25";
 
             @if(Request::get('version') && strpos(Request::get('version'), '2') === 0)
             
-                @if(str_replace('.', '', Request::get('version')) < str_replace('.', '', $LATEST_VERSION))
+                @if(version_compare(Request::get('version'), $LATEST_VERSION) < 0)
                 
                     <div class="oldVersionWarning">
                         Oops, you've been using an old version. Chances are good your problem has already
