@@ -229,7 +229,7 @@
                         erkennen. Diese Muster beziehen sich auf eine Folge von bestimmten Wörtern und Wortarten. Beispielsweise
                         wird "ja schneller, desto" als Fehler erkannt, weil eine Regel existiert, die die Folge "ja",
                         gesteigertes Adjektiv, "desto" als wahrscheinlichen Fehler erkennt und statt "ja" das Wort "je" vorschlägt.</li>
-                    <li><b>Statistik:</b> Viele Wortpaare aus ähnlichen Wörtern werden daraufhin geprüft, ob nicht möglicherweise
+                    <li><b>Statistik:</b> Viele Wortpaare aus ähnlichen Wörtern werden darauf hin geprüft, ob nicht möglicherweise
                         das andere Wort gemeint sein könnte. Dazu wird geprüft, wie oft das Wort üblicherweise in welchem
                         Kontext wie häufig vorkommt. Kommt ein Wort im konkreten Kontext wesentlich häufiger vor als das andere,
                         wird es als korrekt angenommen und das weniger häufig vorkommende als falsch.
