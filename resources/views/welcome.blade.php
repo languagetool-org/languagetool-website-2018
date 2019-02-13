@@ -283,7 +283,11 @@ $additionalErrorsCount = 500;
                         <?=__('messages.msword_intro')?>
                         <?=__('messages.msword_intro_limit')?>
                     </p>
-                    <p><?=__('messages.msword_download_blocked')?></p>
+                    <ul class="inline-btn">
+                        <li class="btn_standalone">
+                            <a class="main-button" href="https://appsource.microsoft.com/de-de/product/office/WA104381727">{{__('messages.msword_download_blocked')}}</a>
+                        </li>
+                    </ul>
                 </div>
 
                 <div id="Glide" class="glide">
