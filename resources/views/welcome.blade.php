@@ -285,7 +285,7 @@ $additionalErrorsCount = 500;
                     </p>
                     <ul class="inline-btn">
                         <li class="btn_standalone">
-                            <a class="main-button" href="https://appsource.microsoft.com/de-de/product/office/WA104381727">{{__('messages.msword_download_blocked')}}</a>
+                            <a class="main-button" href="https://appsource.microsoft.com/de-de/product/office/WA104381727">{!!__('messages.msword_download_appsource')!!}</a>
                         </li>
                     </ul>
                 </div>
@@ -297,8 +297,8 @@ $additionalErrorsCount = 500;
                             <li class="glide__slide">
                                 <div class="features row">
                                     <div class="feature-image col-md-5">
-                                        <a data-lightbox="screenshots" href="/images/msword/en/1.png"><img
-                                                    class="img-responsive" src="/images/msword/en/1_small.jpg"></a>
+                                        <a data-lightbox="screenshots" href="/images/msword/en/new/1-toolbar.png"><img
+                                                    class="img-responsive" src="/images/msword/en/new/1-toolbar-small.jpg"></a>
                                     </div>
 
                                     <div class="col-md-offset-1 col-md-6">
@@ -311,8 +311,8 @@ $additionalErrorsCount = 500;
                                 <div class="features row">
 
                                     <div class="feature-image col-md-offset-1 col-md-5 col-md-push-6">
-                                        <a data-lightbox="screenshots" href="/images/msword/en/2.png"><img
-                                                    class="img-responsive" src="/images/msword/en/2_small.jpg"></a>
+                                        <a data-lightbox="screenshots" href="/images/msword/en/new/2-sidebar.png"><img
+                                                    class="img-responsive" src="/images/msword/en/new/2-sidebar-small.jpg"></a>
                                     </div>
 
                                     <div class="col-md-6 col-md-pull-6">
@@ -325,8 +325,8 @@ $additionalErrorsCount = 500;
                             <li class="glide__slide">
                                 <div class="features row">
                                     <div class="feature-image col-md-5">
-                                        <a data-lightbox="screenshots" href="/images/msword/en/3.png"><img
-                                                    class="img-responsive" src="/images/msword/en/3_small.jpg"></a>
+                                        <a data-lightbox="screenshots" href="/images/msword/en/new/3-logged-in.png"><img
+                                                    class="img-responsive" src="/images/msword/en/new/3-logged-in-small.jpg"></a>
                                     </div>
 
                                     <div class="col-md-offset-1 col-md-6">
@@ -338,8 +338,8 @@ $additionalErrorsCount = 500;
                             <li class="glide__slide">
                                 <div class="row features">
                                     <div class="feature-image col-md-offset-1 col-md-5 col-md-push-6">
-                                        <a data-lightbox="screenshots" href="/images/msword/en/4.png"><img
-                                                    class="img-responsive" src="/images/msword/en/4_small.jpg"></a>
+                                        <a data-lightbox="screenshots" href="/images/msword/en/new/4-results.png"><img
+                                                    class="img-responsive" src="/images/msword/en/new/4-results-small.jpg"></a>
                                     </div>
 
                                     <div class="col-md-6 col-md-pull-6">
@@ -347,18 +347,6 @@ $additionalErrorsCount = 500;
                                         <p>{{__('messages.msword_4')}}</p>
                                     </div>
 
-                                </div>
-                            </li>
-                            <li class="glide__slide">
-                                <div class="features row">
-                                    <div class="feature-image col-md-5">
-                                        <a data-lightbox="screenshots" href="/images/msword/en/5.png"><img
-                                                    class="img-responsive" src="/images/msword/en/5_small.jpg"></a>
-                                    </div>
-                                    <div class="col-md-offset-1 col-md-6">
-                                        <h2 class="steps-h">{{__('messages.step_5')}}</h2>
-                                        <p>{{__('messages.msword_5')}}</p>
-                                    </div>
                                 </div>
                             </li>
                         </ul>
