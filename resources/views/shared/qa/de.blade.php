@@ -145,7 +145,7 @@
                 Noch mehr Add-ons
             </h3>
             <div>
-                <p>Unsere Community hat weitere Add-ons entwickelt, u.&nbsp;a. für Eclipse, Sublime und MS Word. In unserem Wiki finden Sie
+                <p>Unsere Community hat weitere Add-ons entwickelt, u.&nbsp;a. für Eclipse, Sublime, SDL Trados Studio und Android. In unserem Wiki finden Sie
                     <a href="http://wiki.languagetool.org/software-that-supports-languagetool-as-a-plug-in-or-add-on">eine vollständige Liste</a>.</p>
             </div>
             
