@@ -281,7 +281,6 @@ $additionalErrorsCount = 500;
                     <h2 id="ludilo" class="contentHead">{{__('messages.msword_headline')}}</h2>
                     <p>
                         <?=__('messages.msword_intro')?>
-                        <?=__('messages.msword_intro_limit')?>
                     </p>
                     <ul class="inline-btn">
                         <li class="btn_standalone">
