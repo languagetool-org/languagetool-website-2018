@@ -117,7 +117,6 @@ return [
     'msword_headline' => 'Add-on voor Microsoft Word',
     'msword_intro' => 'We bieden een add-on aan (bètaversie) voor Microsoft Word 2013 - 2016 en Outlook 2013 - 2016, exclusief voor gebruikers van de premium-versie',
     'msword_intro_limit' => 'Geen beperking in aantal tekens - te gebruiken dus met grote documenten!',
-    'msword_download' => 'Download nu (ca. 2.4 MB)',
     'msword_download_blocked' => '(Download beschikbaar voor gebruiker van Premiumversie op <a href="https://languagetoolplus.com/">languagetoolplus.com</a>)',
     'msword_1' => 'Met de add-on voor Word kunt u languagetoolplus.com direct vanuit Word gebruiken. Na instalaltie van de add-on, beschikt u over een knop \'Check Page\' rechtsboven in uw document. Wanneer u uw tekst wilt controleren, klik dan gewoon op die knop.',
     'msword_2' => 'Nadat languagetoolplus.com de tekst nagekeken heeft, worden de gevonden mogelijke fouten aangegeven.',

@@ -117,7 +117,6 @@ return [
     'msword_headline' => 'Greffon pour Microsoft Word',
     'msword_intro' => 'Nous proposons un module complémentaire (version bêta) pour Microsoft Word 2013-2016 et Outlook 2013-2016 sous Windows, exclusivement pour les utilisateurs Premium.',
     'msword_intro_limit' => 'Aucune limite de caractères ici - à utiliser pour des documents de toutes les tailles !',
-    'msword_download' => 'Télécharger maintenant (environ 2,4 Mo)',
     'msword_download_blocked' => '(Téléchargement disponible pour les utilisateurs premium à <a href="https://languagetoolplus.com/"> languagetoolplus.com</a>)',
     'msword_1' => 'Avec l\'aide du mot \'add-on\', vous pouvez utiliser languagetoolplus.com directement dans Word. Après avoir installé le module complémentaire, vous aurez un bouton \'Vérifier la page\' dans le coin supérieur droit de votre document. Chaque fois que vous souhaitez vérifier votre texte, cliquez simplement sur ce bouton.',
     'msword_2' => 'Après avoir vérifié votre texte, les mots et expressions incorrects détectés seront affichés dans une liste.',

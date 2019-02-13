@@ -117,7 +117,6 @@ return [
     'msword_headline' => 'Add-on para Microsoft Word',
     'msword_intro' => 'Oferecemos um add-on (versão beta) para Microsoft Word 2013-2016 e Outlook 2013-2016 em Windows, exclusivo para utilizadores Premium.',
     'msword_intro_limit' => 'Sem limite de caracteres aqui - use com documentos de qualquer tamanho!',
-    'msword_download' => 'Transfira agora (~ 2.4MB)',
     'msword_download_blocked' => '(Transferência disponível para utilizadores Premium em <a href="https://languagetoolplus.com/">languagetoolplus.com</a>)',
     'msword_1' => 'Com a ajuda do add-on para Word, pode usar o languagetoolplus.com diretamente no Word. Após instalar o add-on, terá um botão "Verificar Página" no canto superior direito do seu documento. Quando quiser verificar o seu texto, simplesmente clique nesse botão.',
     'msword_2' => 'Após o languagetoolplus.com ter verificado o seu texto, as palavras e frases incorretas detetadas serão mostradas numa lista.',
