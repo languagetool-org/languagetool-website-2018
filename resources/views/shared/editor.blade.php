@@ -5,8 +5,8 @@
                 <nav class="nav editor-nav">
                     
                     <?php if ($_SERVER['REQUEST_URI'] == "/de/" || $checkDefaultLang == "de") { ?>
-                        <a class="ff-chrome jump_menu" type="button" href="/job/regel-entwickler">
-                            Job: Regel-Entwickler/Redakteur (m/w/d) 
+                        <a class="ff-chrome jump_menu" type="button" href="https://www.comlab-ulm.de/webinare-2019/">
+                            Webinar von ComLab: Mit Software messbar bessere Texte
                         </a>
                     <?php } ?>
                     
