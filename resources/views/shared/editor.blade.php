@@ -4,7 +4,7 @@
             <div class="col-xs-12">
                 <nav class="nav editor-nav">
                     
-                    <?php if ($_SERVER['REQUEST_URI'] == "/de/" || $checkDefaultLang == "de") { ?>
+                    <?php if ($_SERVER['REQUEST_URI'] == "/de/" || (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "de") !== false) || $checkDefaultLang == "de") { ?>
                         <a class="ff-chrome jump_menu" type="button" href="https://www.comlab-ulm.de/webinare-2019/">
                             Webinar von ComLab: Mit Software messbar bessere Texte
                         </a>
