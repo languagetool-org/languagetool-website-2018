@@ -284,7 +284,7 @@ $additionalErrorsCount = 500;
                     </p>
                     <ul class="inline-btn">
                         <li class="btn_standalone">
-                            <a class="main-button" href="https://appsource.microsoft.com/de-de/product/office/WA104381727">{!!__('messages.msword_download_appsource')!!}</a>
+                            <a class="main-button" href="https://appsource.microsoft.com/product/office/WA104381727">{!!__('messages.msword_download_appsource')!!}</a>
                         </li>
                     </ul>
                 </div>
