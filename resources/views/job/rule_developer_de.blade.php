@@ -11,10 +11,9 @@
             
             <h1>Regel-Entwickler / Redakteur (m/w/d)</h1>
 
-            <!--
             <p style="background-color: rgba(255,227,57,0.6); padding: 5px">
-                This position has been staffed.
-            </p> -->
+                Diese Position ist bereits vergeben
+            </p>
             
             <p>Die LanguageTooler GmbH ist die Firma hinter languagetool.org, languagetoolplus.com und
                 <a href="https://openthesaurus.de">openthesaurus.de</a>. Auf unseren Websites prüfen
