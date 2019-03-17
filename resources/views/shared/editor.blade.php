@@ -4,13 +4,11 @@
             <div class="col-xs-12">
                 <nav class="nav editor-nav">
                     
-                    <!--
                     <?php if ($_SERVER['REQUEST_URI'] == "/de/" || (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "de") !== false) || $checkDefaultLang == "de") { ?>
-                        <a class="ff-chrome jump_menu" type="button" href="https://www.comlab-ulm.de/webinare-2019/">
-                            Webinar von ComLab: Mit Software messbar bessere Texte
+                        <a class="ff-chrome jump_menu" type="button" href="https://mailchi.mp/a51efd61df69/sprachleitfaden_digital">
+                            Webinar von ComLab: Der digitale Sprachleitfaden
                         </a>
                     <?php } ?>
-                    -->
                     
                     <?php if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "Chrome/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
                         <a class="ff-chrome jump_menu" style="width:380px" type="button" href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji" target="_blank">
