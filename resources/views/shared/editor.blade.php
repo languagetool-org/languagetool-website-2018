@@ -5,7 +5,7 @@
                 <nav class="nav editor-nav">
                     
                     <?php if ($_SERVER['REQUEST_URI'] == "/de/" || (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "de") !== false) || $checkDefaultLang == "de") { ?>
-                        <a class="ff-chrome jump_menu" type="button" href="https://mailchi.mp/a51efd61df69/sprachleitfaden_digital">
+                        <a class="ff-chrome jump_menu" type="button" href="https://attendee.gotowebinar.com/register/3029360540499959820?source=LT">
                             Webinar von ComLab: Der digitale Sprachleitfaden
                         </a>
                     <?php } ?>
