@@ -3,8 +3,12 @@
         <div class="row">
             <div class="col-xs-12">
                 <nav class="nav editor-nav">
-                    
-                    <?php if ($_SERVER['REQUEST_URI'] == "/de/" || (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "de") !== false) || $checkDefaultLang == "de") { ?>
+
+                    <?php if ($_SERVER['REQUEST_URI'] == "/pt/"  || $_SERVER['REQUEST_URI'] == "/pt-BR/" || (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "pt") !== false) || $checkDefaultLang == "pt") { ?>
+                        <a class="ff-chrome jump_menu" type="button" href="https://forum.languagetool.org/t/looking-for-portuguese-translators/4074">
+                            Looking for Portuguese translators
+                        </a>
+                    <?php } else if ($_SERVER['REQUEST_URI'] == "/de/" || (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "de") !== false) || $checkDefaultLang == "de") { ?>
                         <a class="ff-chrome jump_menu" type="button" href="https://attendee.gotowebinar.com/register/3029360540499959820?source=LT">
                             Webinar von ComLab: Der digitale Sprachleitfaden
                         </a>
