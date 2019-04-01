@@ -4,11 +4,13 @@
             <div class="col-xs-12">
                 <nav class="nav editor-nav">
 
+                    <!--
                     <?php if ($_SERVER['REQUEST_URI'] == "/fr/" || (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "fr") !== false) || $checkDefaultLang == "fr") { ?>
                         <a class="ff-chrome jump_menu" type="button" href="https://forum.languagetool.org/t/part-time-job-rule-editor-for-french-8-20h-week/4077">
                             Job: French rule editor
                         </a>
                     <?php } ?>
+                    -->
                     
                     <?php if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "Chrome/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
                         <a class="ff-chrome jump_menu" style="width:380px" type="button" href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji" target="_blank">
