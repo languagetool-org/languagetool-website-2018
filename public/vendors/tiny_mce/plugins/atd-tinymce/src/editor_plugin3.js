@@ -1050,6 +1050,7 @@
          var pasteParam = "";
          if (pasteId != null) {
              pasteParam = "&textSessionId=" + encodeURI(pasteId);
+             url += "?instanceId=" + encodeURI(pasteId);
          }
 
          var altLangParam = "";
