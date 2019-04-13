@@ -1419,7 +1419,7 @@ AtDCore.prototype.isIE = function() {
          var t = this;
          // There's a bug somewhere in AtDCore.prototype.markMyWords which makes
          // multiple spaces vanish - thus disable that rule to avoid confusion:
-         var postData = "disabledRules=WHITESPACE_RULE&" +
+         var postData = "disabledRules=WHITESPACE_RULE,FRENCH_WHITESPACE&" +
              "allowIncompleteResults=true&" +
              "enableHiddenRules=true&" +
              "useragent=ltorg&" +
