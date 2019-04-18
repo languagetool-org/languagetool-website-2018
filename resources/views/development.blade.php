@@ -11,8 +11,10 @@
             <h2>API</h2>
 
             <ul>
-                <li><a href="http://wiki.languagetool.org/public-http-api">Using LanguageTool via HTTP/HTTPS</a></li>
-                <li><a href="http://wiki.languagetool.org/java-api">Using LanguageTool from a Java application</a> (<a href="/development/api/index.html?org/languagetool/JLanguageTool.html">Javadoc API documentation</a>)</li>
+                <li><a href="http://wiki.languagetool.org/http-server">How to run your own LanguageTool server</a></li>
+                <li><a href="https://languagetool.org/http-api/swagger-ui/#!/default/post_check">HTTP API documentation</a>
+                <li><a href="http://wiki.languagetool.org/public-http-api">How to use our public server via HTTP</a>
+                <li><a href="http://wiki.languagetool.org/java-api">How to use LanguageTool from Java</a> (<a href="https://languagetool.org/development/api/index.html?org/languagetool/JLanguageTool.html">Javadoc</a>)
             </ul>
 
 
