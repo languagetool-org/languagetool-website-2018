@@ -115,7 +115,7 @@ return [
     'msword_feature_details' => 'więcej...',
     'msword_feature_limit' => 'brak ograniczenia liczby znaków',
     'msword_headline' => 'Dodatek do Microsoft Word',
-    'msword_intro' => 'Wyłącznie dla użytkowników wersji Premium oferujemy dodatek (w wersji beta) do programów Microsoft Word 2013-2016 oraz Outlook 2013-2016 dla systemu Windows.',
+    'msword_intro' => 'Wyłącznie dla użytkowników wersji Premium oferujemy dodatek do programów Microsoft Word 2013-2016 oraz Outlook 2013-2016 dla systemu Windows.',
     'msword_intro_limit' => 'Brak ograniczenia liczby znaków. Możesz sprawdzać dokumenty dowolnej długości!',
     'msword_download_appsource' => 'Install from AppSource',
     'msword_1' => 'Dodatek umożliwia korzystanie z usługi languagetoolplus.com bezpośrednio w programie Word. Po zainstalowaniu dodatku w górnym prawym rogu dokumentu pojawi się przycisk „Check Page” (Sprawdź stronę). Aby sprawdzić swój tekst, wystarczy kliknąć ten przycisk.',

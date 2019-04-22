@@ -68,7 +68,7 @@ return [
     'pricing' => 'Preise',
     'billed_annually' => 'weniger als :amount:currency/Monat',
     'free_headline' => 'Kostenlos',
-    'free_limit' => 'bis :characters Zeichen pro Prüfung',
+    'free_limit' => 'bis 20.000 Zeichen pro Prüfung',
     'many_rules_1' => 'Über :number Muster zur Fehlererkennung (Englisch)',
     'many_rules_2' => 'Über :number Muster zur Fehlererkennung (Deutsch)',
     'improved_error_detection1' => 'Erkennung falscher IBAN- und ISBN-Prüfsummen',

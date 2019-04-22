@@ -115,7 +115,7 @@ return [
     'msword_feature_details' => 'Detalles',
     'msword_feature_limit' => 'Sin limitación de longitud del texto',
     'msword_headline' => 'Add-on para Microsoft Word',
-    'msword_intro' => 'Ofrecemos un add-on (versión beta) para Microsoft Word 2013-2016 y Outlook 2013-2016 en Windows, exclusivamente para usuarios Premium.',
+    'msword_intro' => 'Ofrecemos un add-on para Microsoft Word 2016.',
     'msword_intro_limit' => 'No hay restricción de longitud - compruebe documentos de cualquier longitud en MS Word!',
     'msword_download_appsource' => 'Install from AppSource',
     'msword_1' => 'A través del Word-Add-on es posible aprovechar languagetoolplus.com directamente en Word. Después de instalar el Add-on aparece "Comprobar página" en la parte superior derecha. Si le gustaría comprobar el texto, haga clíc en éste botón.',

@@ -68,7 +68,7 @@ return [
     'pricing' => 'Pricing',
     'billed_annually' => 'less than :currency:amount/month',
     'free_headline' => 'Free',
-    'free_limit' => ':characters characters per check',
+    'free_limit' => '20,000 characters per check',
     'many_rules_1' => 'More than :number patterns for finding errors (English)',
     'many_rules_2' => 'More than :number patterns for finding errors (German)',
     'improved_error_detection1' => 'Detection of incorrect checksums in ISBN and IBAN numbers',
