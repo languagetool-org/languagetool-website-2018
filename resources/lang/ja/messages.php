@@ -209,5 +209,7 @@ return [
         'label' => 'レビュー',
         'items' => ["このアプリケーションは私を本当に助けてくれました。 この素晴らしいツールをありがとう！(CosmonautRico)", "私はLanguageToolが大好きです！私はLibreOfficeで数年間使っています。 それは最高。(ScottHarpster)", "最後に、これは良い文法チェッカーであり、かなりの範囲の合意エラーとスタイルのエラーを捉えています。 私は今2ヶ月間有料のユーザーでした。私はとても満足しています。(Tim Richardson)"],
      ],
+    'header_title' => 'Grammar, Style and Spell Checker',
+    'header_subtitle' => 'LanguageTool checks your writing in more than 20 languages',
 ];
 ?>

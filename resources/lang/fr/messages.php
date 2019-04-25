@@ -68,7 +68,7 @@ return [
     'pricing' => 'Tarification',
     'billed_annually' => 'moins que :currency:amount/mois',
     'free_headline' => 'Gratuit',
-    'free_limit' => ':characters de caractères par vérification',
+    'free_limit' => '20,000 caractères par vérification',
     'many_rules_1' => 'Plus de :number de modèles pour trouver des erreurs (Anglais)',
     'many_rules_2' => 'Plus de :number de modèles pour trouver des erreurs (Allemand)',
     'improved_error_detection1' => 'Détection de sommes de contrôle incorrectes dans les numéros ISBN et IBAN',
@@ -209,5 +209,7 @@ return [
         'label' => 'Avis',
         'items' => ["Cette application m'a beaucoup aidé. Merci pour cet excellent outil ! (Cosmonaut Rico)", "J'aime LanguageTool! Je l'utilise dans LibreOffice depuis des années. C'est le meilleur. (Scott Harpster)", "Finalement, c'est un bon vérificateur de grammaire, qui corrige une gamme décente d'erreurs d'accord et de faiblesses de style. Je suis un utilisateur payant depuis deux mois maintenant et j'en suis très content. (Tim Richardson)"],
      ],
+    'header_title' => 'Grammar, Style and Spell Checker',
+    'header_subtitle' => 'LanguageTool checks your writing in more than 20 languages',
 ];
 ?>

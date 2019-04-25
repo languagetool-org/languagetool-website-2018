@@ -209,5 +209,7 @@ return [
         'label' => 'Comentaris',
         'items' => ["Aquesta aplicació m'ha ajudat moltíssim. Gràcies per aquesta bona eina! (Cosmonaut Rico)", "M'encanta LanguageTol! El faig servir de fa anys en LibreOffice. És el millor. (Scott Harpster)", "Finalment, és un bon corrector gramatical, que detecta un bon grapat d'errors de concordança i problemes d'estil. Fa dos mesos que en sóc usuari de pagament i n'estic molt satisfet. (Tim Richardson)"],
      ],
+    'header_title' => 'Grammar, Style and Spell Checker',
+    'header_subtitle' => 'LanguageTool checks your writing in more than 20 languages',
 ];
 ?>

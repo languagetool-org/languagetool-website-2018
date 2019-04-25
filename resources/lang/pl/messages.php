@@ -209,5 +209,7 @@ return [
         'label' => 'Recenzje',
         'items' => ["Ta aplikacja bardzo mi pomogła. Dzięki za fajne narzędzie! (Cosmonaut Rico)", "Bardzo lubię LanguageTool! Używam go w programie LibreOffice od lat. Jest najlepszy. (Scott Harpster)", "Wreszcie jest dobry korektor gramatyczny, który wykrywa całkiem przyzwoity zakres błędów związku zgody i stylistycznych. Jestem płatnym użytkownikiem od dwóch miesięcy i jestem bardzo zadowolony z usługi. (Tim Richardson)"],
      ],
+    'header_title' => 'Grammar, Style and Spell Checker',
+    'header_subtitle' => 'LanguageTool checks your writing in more than 20 languages',
 ];
 ?>
