@@ -12,3 +12,15 @@
     background-color: rgb(201,205,255);
     cursor: pointer;
 }
+
+.hiddenSpellError.selectedError {
+    background-color: rgba(255,0,0, 0.3);
+}
+
+.hiddenGrammarError.selectedError {
+    background-color: #e3c977;
+}
+
+.hiddenSuggestion.selectedError {
+    background-color: rgb(176, 180, 230);
+}

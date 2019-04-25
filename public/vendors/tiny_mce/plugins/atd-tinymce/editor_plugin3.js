@@ -18,6 +18,8 @@ var EXPORTED_SYMBOLS = ['AtDCore'];
 // 2. Ctrl-Z (undo) makes the error markers go away
 //
 
+var IS_TOUCH = "ontouchstart" in window;
+
 String.prototype.insert = function (index, string) {
   if (index > 0)
     return this.substring(0, index) + string + this.substring(index, this.length);
@@ -457,6 +459,7 @@ AtDCore.prototype.isIE = function() {
          this.url    = url;
          this.editor = ed;
          this.menuVisible = false;
+         this.selectedTarget = null;
          ed.core = core;
 
          /* add a command to request a document check and process the results. */
@@ -593,10 +596,32 @@ AtDCore.prototype.isIE = function() {
             {
                editor.dom.loadCSS(editor.getParam("languagetool_css_url", url + '/css/content.css?v4'));
             }
+
+             if (IS_TOUCH) {
+                 var currentTarget = null;
+                 var touchTimeout = null;
+                 editor.dom.events.bind(editor.getBody(), "touchstart", function(e) {
+                     currentTarget = e.target;
+                     clearTimeout(touchTimeout);
+                     touchTimeout = setTimeout(function() {
+                         currentTarget = null;
+                     }, 400);
+
+                 });
+                 editor.dom.events.bind(editor.getBody(), "touchend", function(e) {
+                     clearTimeout(touchTimeout);
+                     if (currentTarget && currentTarget === e.target) {
+                         plugin._showMenu(editor, e);
+                     }
+                     currentTarget = null;
+                 });
+             }
          });
 
          /* again showing a menu, I have no clue what */
-         editor.onClick.add(plugin._showMenu, plugin);
+          if (!IS_TOUCH) {
+              editor.onClick.add(plugin._showMenu, plugin);
+          }
          
          editor.onPaste.add(function(editor, ev) {
              t._trackEvent('PasteText');
@@ -782,10 +807,17 @@ AtDCore.prototype.isIE = function() {
 
             t._menu = m;
          }
-         
-         if (this.menuVisible) {
+
+         $(ed.getBody()).find(".selectedError").removeClass("selectedError");
+
+         if (this.menuVisible && IS_TOUCH) {
+             tinymce.dom.Event.cancel(e);
+         }
+
+         if (this.menuVisible && this.selectedTarget === e.target) {
              // second click: close popup again
              m.hideMenu();
+             this.selectedTarget = null;
              this.menuVisible = false;
              return;
          }
@@ -1036,7 +1068,16 @@ AtDCore.prototype.isIE = function() {
             }
 
            /* show the menu please */
-           ed.selection.select(e.target);
+           if (!IS_TOUCH) {
+               ed.selection.select(e.target);
+           }
+
+           if (IS_TOUCH) {
+               $(ed.getBody()).blur();
+           }
+
+           $(e.target).addClass("selectedError");
+
            p1 = dom.getPos(e.target);
            var xPos = p1.x;
 
@@ -1051,16 +1092,16 @@ AtDCore.prototype.isIE = function() {
            
            m.showMenu(xPos, p1.y + e.target.offsetHeight - vp.y + posWorkaround);
            this.menuVisible =  true;
+           this.selectedTarget = e.target;
            var menuDiv = $('#menu_checktext_spellcheckermenu_co');
            if (menuDiv) {
                var menuWidth = menuDiv.width();
                var textBoxWidth = $('#checktextpara').width();  // not sure why we cannot directly use the textarea's width
+               menuDiv.css({ left: '0px', 'max-width': "100vw" });
                if (xPos + menuWidth > textBoxWidth) {
                    // menu runs out of screen, move it to the left
                    var diff = xPos + menuWidth - textBoxWidth;
-                   menuDiv.css({ left: '-' + diff + 'px' });
-               } else {
-                   menuDiv.css({ left: '0px' });
+                   menuDiv.css({ left: '-' + Math.min(diff, menuDiv.offset().left) + 'px' });
                }
            }
 
@@ -1070,6 +1111,7 @@ AtDCore.prototype.isIE = function() {
          {
             m.hideMenu();
             this.menuVisible = false;
+            this.selectedTarget = null;
          }
       },
 
@@ -1329,6 +1371,7 @@ AtDCore.prototype.isIE = function() {
          var t = this, ed = t.editor, dom = ed.dom, o;
 
          this.menuVisible = false;
+         this.selectedTarget = null;
           
          each(dom.select('span'), function(n) 
          {
@@ -1355,6 +1398,7 @@ AtDCore.prototype.isIE = function() {
          {
             plugin._menu.hideMenu();
             this.menuVisible = false;
+            this.selectedTarget = null;
          }
 
          plugin.editor.nodeChanged();
