@@ -1,44 +1,28 @@
 <div id="stage" class="start">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <nav class="nav editor-nav">
-
-                    <a class="ff-chrome jump_menu" type="button" href="https://forum.languagetool.org/t/looking-for-tester-for-norwegian/4162">
-                        Help wanted: Norwegian native speaker
-                    </a>
-                    
-                    <?php if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "Chrome/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
-                        <a class="ff-chrome jump_menu" style="width:380px" type="button" href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji" target="_blank">
-                            <?=__('messages.chromeAddon')?>
-                        </a>
-                    <?php } else if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "Firefox/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
-                        <a class="ff-chrome jump_menu" style="width:380px" type="button" href="https://addons.mozilla.org/firefox/addon/languagetool/?src=external-lt-homepage" target="_blank">
-                            <?=__('messages.ffAddon')?>
-                        </a>
-                    <?php } ?>
-                    <script>
-                        /*$( document ).ready(function() {
-                            if (document.documentElement.hasAttribute("data-lt-installed")) {  // from v2.0.8
-                                console.log("#installed!");
-                            } else {
-                                console.log("#not installed");
-                            }
-                        });*/
-                    </script>
-                </nav>
-            </div>
-        </div>
-    </div>
 
     <div class="inner">
         <div id="editor">
             <div class="inner">
                 <noscript class="warning"><?=__('messages.javascript_needed')?></noscript>
                 <form id="checkform" class="" name="checkform" action="#" method="post">
-                    <div id="handle">
-                        <div id="feedbackMessage"></div>
+                    <div class="editorHeader">
+                        <div class="editorHeaderLeft">
+                            <h3>Grammar, Style and Spell Checker</h3>
+                            <p>LanguageTool checks your writing in more than 20 languages</p>
+                        </div>
+                        <div class="editorHeaderRight">
+                            <?php if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "Chrome/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
+                                <a class="ff-chrome chrome jump_menu" type="button" href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji" target="_blank">
+                                    <?=__('messages.chromeAddon')?>
+                                </a>
+                            <?php } else if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "Firefox/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
+                                <a class="ff-chrome firefox jump_menu" type="button" href="https://addons.mozilla.org/firefox/addon/languagetool/?src=external-lt-homepage" target="_blank">
+                                    <?=__('messages.ffAddon')?>
+                                </a>
+                            <?php } ?>
+                        </div>
                     </div>
+                    <div id="feedbackMessage"></div>
                     <div class="window">
                         <div class="fullscreen-toggle">
                             <a href="#" title="<?= $toggleFullscreenMode ?>"

@@ -519,7 +519,7 @@
     .editor-nav a {
         margin: 5px 0;
     }
-    body #stage .inner #editor #handle {
+    body #stage .inner #editor #feedbackMessage {
         border-top-left-radius: 0;
         border-top-right-radius: 0;
     }
