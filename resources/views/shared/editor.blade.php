@@ -7,8 +7,8 @@
                 <form id="checkform" class="" name="checkform" action="#" method="post">
                     <div class="editorHeader">
                         <div class="editorHeaderLeft">
-                            <h3>Grammar, Style and Spell Checker</h3>
-                            <p>LanguageTool checks your writing in more than 20 languages</p>
+                            <h3><?=__('messages.header_title')?></h3>
+                            <p><?=__('messages.header_subtitle')?></p>
                         </div>
                         <div class="editorHeaderRight">
                             <?php if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "Chrome/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
