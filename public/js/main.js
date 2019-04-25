@@ -137,7 +137,7 @@ function turnOnFullScreenView() {
     tinymce.EditorManager.execCommand('mceAddControl', true, 'checktext');
     $('body').addClass('fullscreen');
     $('form#checkform').addClass('fullscreen');
-    $('iframe#checktext_ifr').height( $(window).height() - $('#editor_controls').outerHeight() - $('#handle').outerHeight() );
+    $('iframe#checktext_ifr').height( $(window).height() - $('#editor_controls').outerHeight() - $('#feedbackMessage').outerHeight() - $('.editorHeader').outerHeight() );
     tinymce.execCommand('mceFocus', false, 'checktext');
 }
 
