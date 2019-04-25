@@ -671,7 +671,7 @@ body #editor_controls .submit button {
     display: inline-block;
 }
 body #editor_controls .submit button[name="_action_checkText"] {
-    background-color: #20e197;
+    background-color: #20d78d;
 }
 body #editor_controls .submit button:not([name="_action_checkText"]) {
     border: 1px solid #fff;
@@ -856,6 +856,10 @@ body #stage {
 body #stage .inner {
     max-width: 940px;
     margin: 35px auto 0;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 
 body #stage .inner #image {
@@ -908,22 +912,15 @@ body #stage .inner #editor form#checkform.fullscreen .fullscreen-toggle a {
     background-image: url(/images/fullscreen-toggle1.png);
 }
 
-body #stage .inner #editor #handle {
+body #stage .inner #editor #feedbackMessage {
     display: block;
-    height: 43px;
+    line-height: 43px;
     opacity: 1;
     width: 100%;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
     background: #cce9ff;
-}
-
-body #stage .inner #editor #handle #feedbackMessage {
-    padding-top: 2px;
     color: green;
-    text-align: center;
     font-weight: bold;
-    line-height: 38px;
+    text-align: center;
 }
 
 body #stage .inner #editor .window {
@@ -937,9 +934,9 @@ body #stage .inner #editor .inner {
 }
 
 body #stage .inner #editor .inner {
-    -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.15);
     padding: 0;
     margin: 0;
 }
@@ -2329,7 +2326,7 @@ body #footer span a:hover {
 .section-main {
     background-image: url(../images/background.svg);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: top;
     background-size: cover;
 }
 
@@ -2913,4 +2910,72 @@ body .fullscreen #premiumWarning {
 }
 
 .reinstallButton {
+}
+
+
+.editorHeader {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    padding: 26px 28px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background: #1B78EE;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.editorHeaderLeft {
+    margin-right: 20px;
+}
+
+.editorHeaderRight {
+}
+
+.editorHeader h3 {
+    margin: 0;
+    line-height: 32px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.editorHeader p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.editorHeader a {
+    background: #fff;
+    display: inline-block;
+    color: #448de0;
+    font-weight: bold;
+    line-height: 48px;
+    padding: 0 25px;
+    white-space: nowrap;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.editorHeader a:hover {
+    color: #3877bc;
+}
+
+.editorHeader a.firefox,
+.editorHeader a.chrome {
+    padding: 0 25px 0 46px;
+}
+
+
+.editorHeader a.chrome {
+    background: #fff url(../images/icon_chrome.svg) 20px center no-repeat;
+    background-size: 18px auto;
+}
+
+.editorHeader a.firefox {
+    background: #fff url(../images/icon_firefox.svg) 18px center no-repeat;
+    background-size: 22px auto;
 }
