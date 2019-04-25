@@ -285,6 +285,16 @@ body .contentHead {
     }
 }
 
+#firefox_chrome {
+    padding: 90px 0px;
+    background-color: #f2f6f9;
+}
+
+#more {
+    padding: 90px 0px;
+    background-color: #f2f6f9;
+}
+
 #add-on {
     padding: 90px 0px;
     background-color: #f2f6f9;
