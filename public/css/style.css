@@ -160,8 +160,8 @@ body .contentHead {
 }
 
 .main-button {
-    border-radius: 4px;
-    background-color: #20e197;
+    border-radius: 6px;
+    background-color: #20d78d;
     padding: 11px 40px;
     display: inline-block;
     color: white;
