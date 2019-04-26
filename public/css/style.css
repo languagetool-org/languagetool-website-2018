@@ -2975,6 +2975,7 @@ body .fullscreen #premiumWarning {
 }
 
 .editorHeader a.firefox,
+.editorHeader a.googleDocs,
 .editorHeader a.chrome {
     padding: 0 25px 0 46px;
 }
@@ -2987,5 +2988,10 @@ body .fullscreen #premiumWarning {
 
 .editorHeader a.firefox {
     background: #fff url(../images/icon_firefox.svg) 18px center no-repeat;
+    background-size: 22px auto;
+}
+
+.editorHeader a.googleDocs {
+    background: #fff url(../images/icon_google_docs.svg) 16px center no-repeat;
     background-size: 22px auto;
 }
