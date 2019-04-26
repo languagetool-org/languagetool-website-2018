@@ -45,6 +45,7 @@ return [
     'subscription' => 'Subscribe for the latest updates',
     'ffAddon' => 'Install the Firefox add-on',
     'chromeAddon' => 'Install the Chrome extension',
+    'googleDocsAddon' => 'Install Google Docs add-on',
     'menu' => 'Menu',
     'menu_overview' => 'Overview',
     'details_1_month_euro' => 'can be cancelled any month',
