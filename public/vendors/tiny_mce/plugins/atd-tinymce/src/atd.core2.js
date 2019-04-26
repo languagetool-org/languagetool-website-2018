@@ -18,6 +18,8 @@ var EXPORTED_SYMBOLS = ['AtDCore'];
 // 2. Ctrl-Z (undo) makes the error markers go away
 //
 
+var IS_TOUCH = "ontouchstart" in window;
+
 String.prototype.insert = function (index, string) {
   if (index > 0)
     return this.substring(0, index) + string + this.substring(index, this.length);
