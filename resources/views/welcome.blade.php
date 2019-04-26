@@ -273,6 +273,56 @@ $additionalErrorsCount = 900;
     <?php
     use Illuminate\Support\Facades\Auth;
     ?>
+
+    <section id="firefox_chrome" class="addon-section content-section">
+        <div class="container">
+    
+            <div class="row">
+                <div class="col-xs-12">
+                    <a name="browser"></a>
+                    <h2 class="contentHead">{{__('messages.browser_headline')}}</h2>
+                    <p>{{__('messages.browser_intro')}}</p>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-xs-12 buttons-row">
+                    <a class="main-button" href="https://addons.mozilla.org/firefox/addon/languagetool?src=external-ltp-homepage">
+                        {{__('messages.browser_firefox_download')}}
+                    </a>
+                    <a class="main-button" href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji">
+                        {{__('messages.browser_chrome_download')}}
+                    </a>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    
+    <section id="google_docs" class="addon-section content-section">
+        <div class="container">
+    
+            <div class="row">
+                <div class="col-xs-12">
+                    <a name="standalone"></a>
+                    <h2 class="contentHead">{{__('messages.googledocs_headline')}}</h2>
+                    <p>{{__('messages.googledocs_intro')}}</p>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-xs-12 buttons-row">
+                    <ul class="inline-btn">
+                        <li class="btn_standalone">
+                            <a class="main-button" href="https://chrome.google.com/webstore/detail/languagetool/kjcoklfhicmkbfifghaecedbohbmofkm">{{__('messages.googledocs_download')}}</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
     <section id="add-on">
         <div class="container">
             <div class="col-md-12">
@@ -384,55 +434,6 @@ $additionalErrorsCount = 900;
                     {{__('messages.libreoffice_help1')}} <a href="/issues">{{__('messages.libreoffice_help2')}}</a></p>
                     <p>{!! __('messages.libreoffice_instruction1') !!}
                         {{__('messages.libreoffice_instruction2')}}</p>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section id="firefox_chrome" class="addon-section content-section">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-xs-12">
-                    <a name="browser"></a>
-                    <h2 class="contentHead">{{__('messages.browser_headline')}}</h2>
-                    <p>{{__('messages.browser_intro')}}</p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xs-12 buttons-row">
-                    <a class="main-button" href="https://addons.mozilla.org/firefox/addon/languagetool?src=external-ltp-homepage">
-                        {{__('messages.browser_firefox_download')}}
-                    </a>
-                    <a class="main-button" href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji">
-                        {{__('messages.browser_chrome_download')}}
-                    </a>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section id="google_docs" class="addon-section content-section">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-xs-12">
-                    <a name="standalone"></a>
-                    <h2 class="contentHead">{{__('messages.googledocs_headline')}}</h2>
-                    <p>{{__('messages.googledocs_intro')}}</p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xs-12 buttons-row">
-                    <ul class="inline-btn">
-                        <li class="btn_standalone">
-                            <a class="main-button" href="https://chrome.google.com/webstore/detail/languagetool/kjcoklfhicmkbfifghaecedbohbmofkm">{{__('messages.googledocs_download')}}</a>
-                        </li>
-                    </ul>
                 </div>
             </div>
 

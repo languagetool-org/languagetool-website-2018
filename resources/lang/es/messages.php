@@ -209,5 +209,7 @@ return [
         'label' => 'Opiniones',
         'items' => ["Una corrección ortográfica es obligatoria para todos usando MS-Office. (netzwelt.de)", "¡Absolutamente genial! Identifica cosas que jamás harían llamado mi atención. (Mathias Bacher)", "Con el LanguageTool verificaciones de ortografía y gramática están realizados muy rápidos y fiables. (chip.de)"],
      ],
+    'header_title' => 'Grammar, Style and Spell Checker',
+    'header_subtitle' => 'LanguageTool checks your writing in more than 20 languages',
 ];
 ?>

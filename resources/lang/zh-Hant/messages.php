@@ -209,5 +209,7 @@ return [
         'label' => '評論',
         'items' => ["這應用程式對我幫助很大，非常感謝開發人員！（Cosmonaut Rico）", "我非常喜歡LanguageTool！我多年來一直在LibreOffice使用它，LanguageTool是最好的。（Scott Harpster）", "這是一款不錯的文法校正工具，可以偵測到許多格式和句子成分對應的問題。我在兩個月前付費使用LanguageTool，我非常滿意它的校正效果。（Tim Richardson）"],
      ],
+    'header_title' => 'Grammar, Style and Spell Checker',
+    'header_subtitle' => 'LanguageTool checks your writing in more than 20 languages',
 ];
 ?>

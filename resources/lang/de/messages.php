@@ -43,8 +43,8 @@ return [
     'privacy' => 'Datenschutz',
     'imprint' => 'Kontakt &amp; Impressum',
     'subscription' => 'Auf dem Laufenden bleiben',
-    'ffAddon' => 'Das Firefox-Add-on installieren',
-    'chromeAddon' => 'Die Chrome-Extension installieren',
+    'ffAddon' => 'Firefox-Add-on installieren',
+    'chromeAddon' => 'Chrome-Extension installieren',
     'menu' => 'Menü',
     'menu_overview' => 'Übersicht',
     'details_1_month_euro' => 'monatlich kündbar',
@@ -212,5 +212,7 @@ return [
         'label' => 'Meinungen',
         'items' => ["Eine Rechtschreibprüfung ist für jeden Office-Anwender Pflicht. Die Erweiterung ist für die wichtigsten Korrekturen sehr hilfreich. (netzwelt.de)", "Absolut genial, erkennt Dinge, die mir selbst nie aufgefallen wären! (Mathias Bacher)", "Rechtschreib- und Grammatik-Prüfungen sind mit dem LanguageTool schnell und zuverlässig erledigt. (chip.de)"],
      ],
+    'header_title' => 'Grammatik-, Stil- und Rechtschreibprüfung',
+    'header_subtitle' => 'LanguageTool prüft Ihre Texte in mehr als 20 Sprachen',
 ];
 ?>

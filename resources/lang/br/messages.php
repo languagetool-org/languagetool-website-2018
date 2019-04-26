@@ -68,7 +68,7 @@ return [
     'pricing' => 'Prizioù',
     'billed_annually' => 'Nebeutoc\'h evit :currency:amount/month',
     'free_headline' => 'Digoust',
-    'free_limit' => ':characters a arouezioù dre wiriadenn',
+    'free_limit' => '20.000 a arouezioù dre wiriadenn',
     'many_rules_1' => 'Muioc\'h evit :number a batromoù evit kavout fazioù (Saozneg)',
     'many_rules_2' => 'Muioc\'h evit :number a batromoù evit kavout fazioù (Alamaneg)',
     'improved_error_detection1' => 'Diguzhañ a ra sammadoù-kontroliñ direizh e-barzh an niveroù ISBN hag IBAN',
@@ -209,5 +209,7 @@ return [
         'label' => 'Evezhiadennoù',
         'items' => ["Skoazellet on bet kalz gant an arload-mañ. Trugarez vras evit an ostilh eus ar c'hentañ-mañ! (Cosmonaut Rico)", "LanguageTool a blij din kalz! Implijet e vez ganin e-barzh LibreOffice abaoe bloavezhioù. An hini gwellañ eo. (Scott Harpster)", "A-benn ar fin, un adweler yezhadur a zere eo, diskoachet e vez gantañ un niver mat a fazioù hag a wanadennoù stil. Un implijer a bae on abaoe daou viz ha laouen-kaer on gant an dra-se. (Tim Richardson)"],
      ],
+    'header_title' => 'Grammar, Style and Spell Checker',
+    'header_subtitle' => 'LanguageTool checks your writing in more than 20 languages',
 ];
 ?>

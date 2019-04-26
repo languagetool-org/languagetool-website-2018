@@ -209,5 +209,7 @@ return [
         'label' => 'Reviews',
         'items' => ["This application has helped me a lot. Thank you for this fine tool! (Cosmonaut Rico)", "I love LanguageTool! I have been using it in LibreOffice for years. It's the best. (Scott Harpster)", "Finally, it is a good grammar checker, catching a decent range of agreement errors and style weaknesses. I've been a paid user for two months now and I'm very pleased with it. (Tim Richardson)"],
      ],
+    'header_title' => 'Grammar, Style and Spell Checker',
+    'header_subtitle' => 'LanguageTool checks your writing in more than 20 languages',
 ];
 ?>
