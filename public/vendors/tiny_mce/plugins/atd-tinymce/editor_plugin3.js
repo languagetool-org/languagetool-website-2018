@@ -597,6 +597,8 @@ AtDCore.prototype.isIE = function() {
                editor.dom.loadCSS(editor.getParam("languagetool_css_url", url + '/css/content.css?v4'));
             }
             
+            editor.getBody().setAttribute("data-gramm", "false");
+            
              if (IS_TOUCH) {
                  var currentTarget = null;
                  var touchTimeout = null;
