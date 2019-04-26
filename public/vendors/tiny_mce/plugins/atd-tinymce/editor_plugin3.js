@@ -596,7 +596,7 @@ AtDCore.prototype.isIE = function() {
             {
                editor.dom.loadCSS(editor.getParam("languagetool_css_url", url + '/css/content.css?v4'));
             }
-
+            
              if (IS_TOUCH) {
                  var currentTarget = null;
                  var touchTimeout = null;
@@ -619,9 +619,9 @@ AtDCore.prototype.isIE = function() {
          });
 
          /* again showing a menu, I have no clue what */
-          if (!IS_TOUCH) {
-              editor.onClick.add(plugin._showMenu, plugin);
-          }
+         if (!IS_TOUCH) {
+             editor.onClick.add(plugin._showMenu, plugin);
+         }
          
          editor.onPaste.add(function(editor, ev) {
              t._trackEvent('PasteText');
@@ -807,9 +807,9 @@ AtDCore.prototype.isIE = function() {
 
             t._menu = m;
          }
-
+         
          $(ed.getBody()).find(".selectedError").removeClass("selectedError");
-
+ 
          if (this.menuVisible && IS_TOUCH) {
              tinymce.dom.Event.cancel(e);
          }
@@ -1071,13 +1071,10 @@ AtDCore.prototype.isIE = function() {
            if (!IS_TOUCH) {
                ed.selection.select(e.target);
            }
-
            if (IS_TOUCH) {
-               $(ed.getBody()).blur();
+              $(ed.getBody()).blur();
            }
-
            $(e.target).addClass("selectedError");
-
            p1 = dom.getPos(e.target);
            var xPos = p1.x;
 
