@@ -209,7 +209,7 @@ return [
         'label' => 'Evezhiadennoù',
         'items' => ["Skoazellet on bet kalz gant an arload-mañ. Trugarez vras evit an ostilh eus ar c'hentañ-mañ! (Cosmonaut Rico)", "LanguageTool a blij din kalz! Implijet e vez ganin e-barzh LibreOffice abaoe bloavezhioù. An hini gwellañ eo. (Scott Harpster)", "A-benn ar fin, un adweler yezhadur a zere eo, diskoachet e vez gantañ un niver mat a fazioù hag a wanadennoù stil. Un implijer a bae on abaoe daou viz ha laouen-kaer on gant an dra-se. (Tim Richardson)"],
      ],
-    'header_title' => 'Grammar, Style and Spell Checker',
-    'header_subtitle' => 'LanguageTool checks your writing in more than 20 languages',
+    'header_title' => 'Adlenner yezhadur ha reizhskritur',
+    'header_subtitle' => 'Gwiriet e vez gant LanguageTool ar pezh a skrivit e-barzh muioc\'h evit 20 yezh',
 ];
 ?>
