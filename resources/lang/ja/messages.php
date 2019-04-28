@@ -45,6 +45,7 @@ return [
     'subscription' => '最新のアップデートを購読する',
     'ffAddon' => 'Firefoxアドオンをインストールする',
     'chromeAddon' => 'Chrome拡張機能をインストールする',
+    'googleDocsAddon' => 'Install Google Docs add-on',
     'menu' => 'メニュー',
     'menu_overview' => '概要',
     'details_1_month_euro' => 'いつでもキャンセルすることができます',

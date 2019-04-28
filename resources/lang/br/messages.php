@@ -45,6 +45,7 @@ return [
     'subscription' => 'Koumanantit evit kaout an hizivadurioù diwezhañ',
     'ffAddon' => 'Staliañ al lugant evit Firefox',
     'chromeAddon' => 'Staliañ an astenn evit Chrome',
+    'googleDocsAddon' => 'Install Google Docs add-on',
     'menu' => 'Lañser',
     'menu_overview' => 'Alberz',
     'details_1_month_euro' => 'gellout a ra bezañ nullet forzh peseurt miz a vefe',

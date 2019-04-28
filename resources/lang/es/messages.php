@@ -45,6 +45,7 @@ return [
     'subscription' => 'Mantenerse bien informado',
     'ffAddon' => 'Instalar el Add-on de Firefox',
     'chromeAddon' => 'Instalar la extensión de Chrome',
+    'googleDocsAddon' => 'Install Google Docs add-on',
     'menu' => 'Menú',
     'menu_overview' => 'Resumen',
     'details_1_month_euro' => 'Revocable mensualmente',

@@ -45,6 +45,7 @@ return [
     'subscription' => 'Zapisz się, aby dowiadywać się o nowościach',
     'ffAddon' => 'Zainstaluj dodatek do przeglądarki Firefox',
     'chromeAddon' => 'Zainstaluj dodatek do przeglądarki Chrome',
+    'googleDocsAddon' => 'Install Google Docs add-on',
     'menu' => 'Menu',
     'menu_overview' => 'Podsumowanie',
     'details_1_month_euro' => 'Możesz zrezygnować w dowolnym miesiącu',

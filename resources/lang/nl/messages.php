@@ -45,6 +45,7 @@ return [
     'subscription' => 'Schrijf uzelf in voor het laatste nieuws',
     'ffAddon' => 'Installeer de add-on voor Firefox',
     'chromeAddon' => 'Installeer de add-on voor Chrome',
+    'googleDocsAddon' => 'Install Google Docs add-on',
     'menu' => 'Menu',
     'menu_overview' => 'Overzicht',
     'details_1_month_euro' => 'kan elke maand worden gestopt',

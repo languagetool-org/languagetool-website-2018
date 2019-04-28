@@ -45,6 +45,7 @@ return [
     'subscription' => 'Подписаться на последние обновления',
     'ffAddon' => 'Установить расширение для Firefox',
     'chromeAddon' => 'Установить расширение для Chrome',
+    'googleDocsAddon' => 'Install Google Docs add-on',
     'menu' => 'Меню',
     'menu_overview' => 'Обзор',
     'details_1_month_euro' => 'может быть отменён в любой месяц',

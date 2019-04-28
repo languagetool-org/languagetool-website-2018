@@ -45,6 +45,7 @@ return [
     'subscription' => 'Subscreva para as últimas novidades',
     'ffAddon' => 'Instalar o extra para Firefox',
     'chromeAddon' => 'Instalar o extra para o Chrome',
+    'googleDocsAddon' => 'Install Google Docs add-on',
     'menu' => 'Menu',
     'menu_overview' => 'Vista global',
     'details_1_month_euro' => 'pode ser cancelado em qualquer mês',

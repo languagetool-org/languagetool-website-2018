@@ -45,6 +45,7 @@ return [
     'subscription' => 'Auf dem Laufenden bleiben',
     'ffAddon' => 'Firefox-Add-on installieren',
     'chromeAddon' => 'Chrome-Extension installieren',
+    'googleDocsAddon' => 'Add-on für Google Docs installieren',
     'menu' => 'Menü',
     'menu_overview' => 'Übersicht',
     'details_1_month_euro' => 'monatlich kündbar',

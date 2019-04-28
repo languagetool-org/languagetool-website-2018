@@ -45,6 +45,7 @@ return [
     'subscription' => '订阅后，您可以得到最新消息',
     'ffAddon' => '安装Firefox附加组件',
     'chromeAddon' => '安装Chrome扩展程序',
+    'googleDocsAddon' => 'Install Google Docs add-on',
     'menu' => '菜单',
     'menu_overview' => '概况',
     'details_1_month_euro' => '可在任何月份取消订阅',

@@ -45,6 +45,7 @@ return [
     'subscription' => 'Subscriviu-vos per a rebre les últimes novetats',
     'ffAddon' => 'Instal·la el complement per a Firefox',
     'chromeAddon' => 'Instal·la l\'extensió de Chrome',
+    'googleDocsAddon' => 'Install Google Docs add-on',
     'menu' => 'Menú',
     'menu_overview' => 'Més informació',
     'details_1_month_euro' => 'es pot cancel·lar en qualsevol mes',
