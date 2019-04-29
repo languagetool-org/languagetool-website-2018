@@ -14,6 +14,7 @@
                             need to use the 32-bit version of Java (same for the 64-bit version).
                             Java versions which are not from Oracle may not work. If you're using an
                             old version of Java you'll see a confusing error message <a href="/images/issues/version-error.jpg">like this</a>.</li>
+                    <li>LanguageTool 4.5.1 seems to be incompatible with Debian's outdated, stable version LibreOffice 5.2.7.2 (<a href="https://forum.languagetool.org/t/languagetool-4-5-1-crashes-libreoffice/4174/6">source</a>)</li>
                     <li>If you get an error that says <strong>Invalid memory access</strong>, make sure LanguageTool is installed in a path
                             that has no special characters (use a-z, A-Z and 0-9 only).
                     <li>If installation of LanguageTool in LibreOffice/OpenOffice didn't throw an error but you are not sure if it
