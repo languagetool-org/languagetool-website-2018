@@ -29,27 +29,32 @@ if (!isset($_SERVER['HTTP_REFERER']) or strpos($_SERVER['HTTP_REFERER'], 'news.y
 ?>
     <div>
         <div style="text-align: center; margin: auto;">
-            &nbsp;
-            <!-- Yieldlove AdTag -->
-            <script type='text/javascript'>
-				googletag.cmd.push(function () {
-					if (window.innerWidth >= 768) {
-						googletag.defineSlot('/53015287/languagetool.org_d_728x90_<?=$adNumber?>', [728, 90], '<?=$adId?>').addService(googletag.pubads());
-					}
-					if (window.innerWidth < 768) {
-						googletag.defineSlot('/53015287/languagetool.org_m_300x250_<?=$adNumber?>', [300, 250], '<?=$adId?>').addService(googletag.pubads());
-					}
-					googletag.pubads().enableSingleRequest();
-					googletag.enableServices();
-				});
-            </script>
-            <div id='<?= $adId ?>'>
+            
+            @if (Request::get('ad') == 'test')&nbsp;
+                <!-- contextcue.com -->
+                <ins class="adsbycontextcue" data-cc-site="231f072b-fd5b-4cf2-a30b-2f835dfde3af" data-cc-slot="6ftVPxWDz" style="width: 728px; height: 90px;"></ins>
+            @else
+                <!-- Yieldlove AdTag -->
                 <script type='text/javascript'>
-					googletag.cmd.push(function () {
-						googletag.display('<?=$adId?>');
-					});
+                    googletag.cmd.push(function () {
+                        if (window.innerWidth >= 768) {
+                            googletag.defineSlot('/53015287/languagetool.org_d_728x90_<?=$adNumber?>', [728, 90], '<?=$adId?>').addService(googletag.pubads());
+                        }
+                        if (window.innerWidth < 768) {
+                            googletag.defineSlot('/53015287/languagetool.org_m_300x250_<?=$adNumber?>', [300, 250], '<?=$adId?>').addService(googletag.pubads());
+                        }
+                        googletag.pubads().enableSingleRequest();
+                        googletag.enableServices();
+                    });
                 </script>
-            </div>
+                <div id='<?= $adId ?>'>
+                    <script type='text/javascript'>
+                        googletag.cmd.push(function () {
+                            googletag.display('<?=$adId?>');
+                        });
+                    </script>
+                </div>
+            @endif
         </div>
     </div>
 <?php
