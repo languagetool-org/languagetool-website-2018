@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Request;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Jrean\UserVerification\Exceptions\UserNotFoundException;
 
+// TODO: clean comment and check login
 class Handler extends ExceptionHandler
 {
     /**
