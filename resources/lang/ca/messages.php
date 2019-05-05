@@ -4,7 +4,7 @@ return [
     'language_hint' => 'Sembla que esteu interessat en LanguageTool per a :lang?',
     'language_link' => 'Porta-m\'hi.',
     'title' => 'Revisió de gramàtica i estil',
-    'description' => 'LanguageTool is a free proofreading software for English, German, Spanish, Russian, and more than 20 other languages.',
+    'description' => 'LanguageTool is a free proofreading tool for English, German, Spanish, Russian, and more than 20 other languages.',
     'cookie_hint' => 'This website uses cookies for a better user experience and to show ads.',
     'cookie_more' => 'More / privacy policy',
     'cookie_ok' => 'Ok',

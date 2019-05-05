@@ -45,7 +45,7 @@ return [
     'subscription' => 'Abonnez-vous pour les dernières mises à jour',
     'ffAddon' => 'Installez le greffon Firefox',
     'chromeAddon' => 'Installez l\'extension pour Chrome',
-    'googleDocsAddon' => 'Install Google Docs add-on',
+    'googleDocsAddon' => 'Installer le greffon Google Docs',
     'menu' => 'Menu',
     'menu_overview' => 'Aperçu',
     'details_1_month_euro' => 'peut-être annulé n’importe quel mois',

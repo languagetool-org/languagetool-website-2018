@@ -45,7 +45,7 @@ return [
     'subscription' => 'Schrijf uzelf in voor het laatste nieuws',
     'ffAddon' => 'Installeer de add-on voor Firefox',
     'chromeAddon' => 'Installeer de add-on voor Chrome',
-    'googleDocsAddon' => 'Install Google Docs add-on',
+    'googleDocsAddon' => 'Installeer de add-on voor Google Docs',
     'menu' => 'Menu',
     'menu_overview' => 'Overzicht',
     'details_1_month_euro' => 'kan elke maand worden gestopt',
@@ -210,7 +210,7 @@ return [
         'label' => 'Recensies',
         'items' => ["This application has helped me a lot. Thank you for this fine tool! (Cosmonaut Rico)", "I love LanguageTool! I have been using it in LibreOffice for years. It's the best. (Scott Harpster)", "Finally, it is a good grammar checker, catching a decent range of agreement errors and style weaknesses. I've been a paid user for two months now and I'm very pleased with it. (Tim Richardson)"],
      ],
-    'header_title' => 'Grammar, Style and Spell Checker',
-    'header_subtitle' => 'LanguageTool checks your writing in more than 20 languages',
+    'header_title' => 'Grammatica-, stijl- en spellingcontrole',
+    'header_subtitle' => 'LanguageTool controleert uw schrijfwerk in meer dan 20 talen.',
 ];
 ?>

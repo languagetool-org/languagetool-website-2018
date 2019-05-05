@@ -45,7 +45,7 @@ return [
     'subscription' => 'Mantenerse bien informado',
     'ffAddon' => 'Instalar el Add-on de Firefox',
     'chromeAddon' => 'Instalar la extensión de Chrome',
-    'googleDocsAddon' => 'Install Google Docs add-on',
+    'googleDocsAddon' => 'Instalación del complemento Google Docs',
     'menu' => 'Menú',
     'menu_overview' => 'Resumen',
     'details_1_month_euro' => 'Revocable mensualmente',
@@ -210,7 +210,7 @@ return [
         'label' => 'Opiniones',
         'items' => ["Una corrección ortográfica es obligatoria para todos usando MS-Office. (netzwelt.de)", "¡Absolutamente genial! Identifica cosas que jamás harían llamado mi atención. (Mathias Bacher)", "Con el LanguageTool verificaciones de ortografía y gramática están realizados muy rápidos y fiables. (chip.de)"],
      ],
-    'header_title' => 'Grammar, Style and Spell Checker',
-    'header_subtitle' => 'LanguageTool checks your writing in more than 20 languages',
+    'header_title' => 'Gramática, estilo y corrector ortográfico',
+    'header_subtitle' => 'LanguageTool comprueba su escritura en más de 20 idiomas.',
 ];
 ?>

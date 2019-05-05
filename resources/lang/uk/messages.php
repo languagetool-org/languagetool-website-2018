@@ -45,7 +45,7 @@ return [
     'subscription' => 'Підписатися на останні оновлення',
     'ffAddon' => 'Встановити додаток для Firefox',
     'chromeAddon' => 'Встановити розширення для Chrome',
-    'googleDocsAddon' => 'Install Google Docs add-on',
+    'googleDocsAddon' => 'Встановити додаток Google Docs',
     'menu' => 'Меню',
     'menu_overview' => 'Огляд',
     'details_1_month_euro' => 'можна скасувати будь-якого місяця',
@@ -210,7 +210,7 @@ return [
         'label' => 'Огляди',
         'items' => ["Ця програма мені дуже допомогла. Дуже дякую за цей чудовий засіб. (Космонавт Ріко)", "Я в захопленні від LanguageTool! Я використовую його в LibreOffice вже багато років. Він — найкращий. (Скот Гарпер)", "Нарешті, це добрий засіб перевірки граматики, що виловлює непогану кількість помилок узгодження та похибок стилю. Я користуюся платною версією два місяці й дуже задоволений. (Тім Річардсон)"],
      ],
-    'header_title' => 'Grammar, Style and Spell Checker',
-    'header_subtitle' => 'LanguageTool checks your writing in more than 20 languages',
+    'header_title' => 'Програма перевірки граматики, стилю та орфографії',
+    'header_subtitle' => 'LanguageTool перевіряє ваші тексти більш, ніж 20 мовами',
 ];
 ?>

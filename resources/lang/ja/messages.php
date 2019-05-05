@@ -4,7 +4,7 @@ return [
     'language_hint' => ':langLangToolに興味があるようですか？',
     'language_link' => '見てみよう。',
     'title' => 'スタイルと文法チェッカー',
-    'description' => 'LanguageTool is a free proofreading software for English, German, Spanish, Russian, and more than 20 other languages.',
+    'description' => 'LanguageTool is a free proofreading tool for English, German, Spanish, Russian, and more than 20 other languages.',
     'cookie_hint' => 'This website uses cookies for a better user experience and to show ads.',
     'cookie_more' => 'More / privacy policy',
     'cookie_ok' => 'Ok',
