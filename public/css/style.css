@@ -4,6 +4,10 @@ html, body {
     padding: 0;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     overflow-x: hidden;
     color: #372747;
