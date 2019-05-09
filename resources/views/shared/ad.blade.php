@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_URI'] == "/de/") {
     $adId = "div-gpt-ad-1407836141970-0";
 }
 
-if (!isset($_SERVER['HTTP_REFERER']) or strpos($_SERVER['HTTP_REFERER'], 'news.ycombinator') === false) {
+if (!isset($_SERVER['HTTP_REFERER']) or strpos($_SERVER['HTTP_REFERER'], 'producthunt') === false) {
 ?>
     <div>
         <div style="text-align: center; margin: auto;">
