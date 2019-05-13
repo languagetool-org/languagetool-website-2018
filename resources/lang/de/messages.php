@@ -79,7 +79,7 @@ return [
         </ul>',
     'improved_error_detection2' => 'Erkennung von falschem Geschlecht bei einer Anrede',
     'improved_error_detection3' => 'Zusätzliche Wortpaare in der statistischen Tippfehler-Erkennung für Deutsch und Englisch',
-    'improved_error_detection4' => 'Erkennung über :number weiterer Fehler für Englisch und Deutsch',
+    'improved_error_detection4' => 'Erkennung über :number weiterer Fehler für Deutsch, Englisch und Französisch',
     'improved_error_detection4_example' => 'Einige Beispiele:',
     'api_access' => 'API-Zugang',
     'api_access_detail' => 'Eingabe: Text, Ausgabe: JSON mit erkannten Fehlern',

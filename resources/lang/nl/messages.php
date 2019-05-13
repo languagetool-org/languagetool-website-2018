@@ -4,7 +4,7 @@ return [
     'language_hint' => 'Mogelijk heeft u interesse in LanguageTool voor :lang?',
     'language_link' => 'Ga daarheen.',
     'title' => 'Controle van grammatica en stijl.',
-    'description' => 'LanguageTool is proefleessoftware voor Engels, Duits, Spaans, Russisch en nog 20 talen.',
+    'description' => 'LanguageTool is gratis proefleessoftware voor Engels, Duits, Spaans, Russisch en nog 20 talen.',
     'cookie_hint' => 'Deze website gebruikt cookies voor correcte werking en het tonen van advertenties.',
     'cookie_more' => 'Meer / privacybeleid',
     'cookie_ok' => 'OK',
