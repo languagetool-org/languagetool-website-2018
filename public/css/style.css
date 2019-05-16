@@ -713,8 +713,8 @@ body #editor_controls .submit button:active {
 
 body #editor_controls .submit button.editor_controls_premium,
 body #editor_controls .submit button.editor_controls_premium {
-    background-color: #f6ac38;
-    border-color: #f6ac38;
+    background-color: #f0a638;
+    border-color: #efa538;
 }
 
 body #editor_controls .submit button.editor_controls_premium:hover,
@@ -2889,21 +2889,22 @@ table.tablesorter thead tr .tablesorter-headerAsc, table.tablesorter thead tr .t
     font-weight: bold;
 }
 
+body #premiumWarning2,
 body #premiumWarning1 {
-    color: #666666;
-    padding: 10px;
-    background-color: white;
+    color: #fff;
+    background: #f0a638;
+    padding: 12px 28px;
     border-color: #ff4e24;
-    margin: 5px;
+    position: relative;
 }
 
-body #premiumWarning2 {
-    color: #222222;
-    padding: 10px;
-    background-color: white;
-    border-color: #ff4e24;
-    margin: 5px;
+body #premiumWarning2 a,
+body #premiumWarning1 a {
+    color: inherit;
+    font-weight: 600;
+    text-decoration: underline;
 }
+
 
 body .fullscreen #premiumWarning {
     display: none;
@@ -2978,12 +2979,20 @@ body .fullscreen #premiumWarning {
     color: #3877bc;
 }
 
+html[data-lt-installed=true] a.firefox,
+html[data-lt-installed=true] a.chrome {
+    display: none;
+}
+
+html[data-lt-installed=true] a.googleDocs {
+    display: block !important;
+}
+
 .editorHeader a.firefox,
 .editorHeader a.googleDocs,
 .editorHeader a.chrome {
     padding: 0 25px 0 46px;
 }
-
 
 .editorHeader a.chrome {
     background: #fff url(../images/icon_chrome.svg) 20px center no-repeat;
@@ -2998,4 +3007,8 @@ body .fullscreen #premiumWarning {
 .editorHeader a.googleDocs {
     background: #fff url(../images/icon_google_docs.svg) 16px center no-repeat;
     background-size: 22px auto;
+}
+
+.googleDocs--hidden {
+    display: none !important;
 }
