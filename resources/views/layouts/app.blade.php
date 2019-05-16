@@ -28,7 +28,7 @@
     <link href="{{ asset('css/jquery-ui/jquery-ui.theme.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/vex.css') }}" rel="stylesheet">
     <link href="{{ asset('css/vex-theme-default.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/style.css') }}?20190426" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}?20190516" rel="stylesheet">
     <link href="{{ asset('css/media.css') }}?20190426" rel="stylesheet">
     <link href="{{ asset('css/tooltip.css') }}?20180419" rel="stylesheet">
     <link rel="search" type="application/opensearchdescription+xml" title="LanguageTool" href="/opensearch.xml" />

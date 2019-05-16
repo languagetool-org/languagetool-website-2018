@@ -741,7 +741,9 @@
            } else {
              posWorkaround = 2;
            }
-           
+
+           posWorkaround += $("#feedbackMessage").outerHeight();
+
            m.showMenu(xPos, p1.y + e.target.offsetHeight - vp.y + posWorkaround);
            this.menuVisible =  true;
            this.selectedTarget = e.target;
