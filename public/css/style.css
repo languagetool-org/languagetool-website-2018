@@ -713,8 +713,8 @@ body #editor_controls .submit button:active {
 
 body #editor_controls .submit button.editor_controls_premium,
 body #editor_controls .submit button.editor_controls_premium {
-    background-color: #f6ac38;
-    border-color: #f6ac38;
+    background-color: #f0a638;
+    border-color: #efa538;
 }
 
 body #editor_controls .submit button.editor_controls_premium:hover,
@@ -2889,21 +2889,22 @@ table.tablesorter thead tr .tablesorter-headerAsc, table.tablesorter thead tr .t
     font-weight: bold;
 }
 
+body #premiumWarning2,
 body #premiumWarning1 {
-    color: #666666;
-    padding: 10px;
-    background-color: white;
+    color: #fff;
+    background: #f0a638;
+    padding: 12px 28px;
     border-color: #ff4e24;
-    margin: 5px;
+    position: relative;
 }
 
-body #premiumWarning2 {
-    color: #222222;
-    padding: 10px;
-    background-color: white;
-    border-color: #ff4e24;
-    margin: 5px;
+body #premiumWarning2 a,
+body #premiumWarning1 a {
+    color: inherit;
+    font-weight: 600;
+    text-decoration: underline;
 }
+
 
 body .fullscreen #premiumWarning {
     display: none;
