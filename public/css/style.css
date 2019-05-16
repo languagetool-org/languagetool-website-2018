@@ -2978,12 +2978,20 @@ body .fullscreen #premiumWarning {
     color: #3877bc;
 }
 
+html[data-lt-installed=true] a.firefox,
+html[data-lt-installed=true] a.chrome {
+    display: none;
+}
+
+html[data-lt-installed=true] a.googleDocs {
+    display: block !important;
+}
+
 .editorHeader a.firefox,
 .editorHeader a.googleDocs,
 .editorHeader a.chrome {
     padding: 0 25px 0 46px;
 }
-
 
 .editorHeader a.chrome {
     background: #fff url(../images/icon_chrome.svg) 20px center no-repeat;
@@ -2998,4 +3006,8 @@ body .fullscreen #premiumWarning {
 .editorHeader a.googleDocs {
     background: #fff url(../images/icon_google_docs.svg) 16px center no-repeat;
     background-size: 22px auto;
+}
+
+.googleDocs--hidden {
+    display: none !important;
 }

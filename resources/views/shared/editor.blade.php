@@ -15,9 +15,15 @@
                                 <a class="ff-chrome chrome jump_menu" type="button" href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji" target="_blank">
                                     <?=__('messages.chromeAddon')?>
                                 </a>
+                                <a class="ff-chrome googleDocs jump_menu googleDocs--hidden" type="button" href="https://chrome.google.com/webstore/detail/grammar-and-spell-checker/kjcoklfhicmkbfifghaecedbohbmofkm" target="_blank">
+                                    <?=__('messages.googleDocsAddon')?>
+                                </a>
                             <?php } else if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "Firefox/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
                                 <a class="ff-chrome firefox jump_menu" type="button" href="https://addons.mozilla.org/firefox/addon/languagetool/?src=external-lt-homepage" target="_blank">
                                     <?=__('messages.ffAddon')?>
+                                </a>
+                                <a class="ff-chrome googleDocs jump_menu googleDocs--hidden" type="button" href="https://chrome.google.com/webstore/detail/grammar-and-spell-checker/kjcoklfhicmkbfifghaecedbohbmofkm" target="_blank">
+                                    <?=__('messages.googleDocsAddon')?>
                                 </a>
                             <?php } else if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false && strpos($_SERVER['HTTP_USER_AGENT'], "Mobi") === false) { ?>
                                 <a class="ff-chrome googleDocs jump_menu" type="button" href="https://chrome.google.com/webstore/detail/grammar-and-spell-checker/kjcoklfhicmkbfifghaecedbohbmofkm" target="_blank">
