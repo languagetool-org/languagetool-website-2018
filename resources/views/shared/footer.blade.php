@@ -284,7 +284,7 @@ $(document).ready(function() {
 </script>
 <!-- Script Ends -->
 
-<!-- Piwik -->
+<!-- Piwik 
 <script type="text/javascript">
     var _paq = _paq || [];
     _paq.push(['trackPageView']);
@@ -304,7 +304,7 @@ $(document).ready(function() {
     }, 2000);
 </script>
 <noscript><p><img src="https://openthesaurus.stats.mysnip-hosting.de/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
+ End Piwik Code -->
 
 
 <!-- Matomo -->
