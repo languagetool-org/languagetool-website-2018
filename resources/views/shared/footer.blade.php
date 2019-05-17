@@ -284,7 +284,7 @@ $(document).ready(function() {
 </script>
 <!-- Script Ends -->
 
-<!-- Piwik 
+<!-- Piwik -->
 <script type="text/javascript">
     var _paq = _paq || [];
     _paq.push(['trackPageView']);
@@ -304,10 +304,10 @@ $(document).ready(function() {
     }, 2000);
 </script>
 <noscript><p><img src="https://openthesaurus.stats.mysnip-hosting.de/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
- End Piwik Code -->
+<!-- End Piwik Code -->
 
 
-<!-- Matomo -->
+<!-- Matomo 
 <script type="text/javascript">
   var _paq = _paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
@@ -321,4 +321,4 @@ $(document).ready(function() {
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<!-- End Matomo Code -->
+End Matomo Code -->
