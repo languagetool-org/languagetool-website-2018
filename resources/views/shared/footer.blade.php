@@ -307,7 +307,7 @@ $(document).ready(function() {
 <!-- End Piwik Code -->
 
 
-<!-- Matomo -->
+<!-- Matomo 
 <script type="text/javascript">
   var _paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
@@ -321,4 +321,4 @@ $(document).ready(function() {
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<!-- End Matomo Code -->
+ End Matomo Code -->
