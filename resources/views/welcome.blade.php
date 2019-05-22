@@ -13,7 +13,7 @@
 <?php
 $englishRuleCount = 1700;
 $germanRuleCount = 2400;
-$additionalErrorsCount = 900;
+$additionalErrorsCount = 1000;
 ?>
 
 @section('content')
