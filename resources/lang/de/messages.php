@@ -70,8 +70,7 @@ return [
     'billed_annually' => 'weniger als :amount:currency/Monat',
     'free_headline' => 'Kostenlos',
     'free_limit' => 'bis 20.000 Zeichen pro Prüfung',
-    'many_rules_1' => 'Über :number Muster zur Fehlererkennung (Englisch)',
-    'many_rules_2' => 'Über :number Muster zur Fehlererkennung (Deutsch)',
+    'many_rules' => 'Tausende Muster zur Fehlererkennung in Deutsch, Englisch, Französisch, ...',
     'improved_error_detection1' => 'Erkennung falscher IBAN- und ISBN-Prüfsummen',
     'improved_error_detection1_example' => '<ul>
             <li>Findet einen Fehler in \'IBAN DE63370205000005123307\' (richtig wäre DE63370205000005<b>0</b>23307)</li>
