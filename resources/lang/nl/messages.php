@@ -76,7 +76,7 @@ return [
     'improved_error_detection1_example' => 'Ontdekt bijvoorbeeld de typefout in \'ISBN 978-1784713936\'',
     'improved_error_detection2' => 'Herkenning van verkeerd geslacht in aanhef (Duits)',
     'improved_error_detection3' => 'Meer woordgroepen voor het statistisch herkennen van typefouten in Engels en Duits',
-    'improved_error_detection4' => 'Detectie van meer dan 75 andere fouten',
+    'improved_error_detection4' => 'Detectie van meer dan :number andere gebreken in Engels, Duits en Frans',
     'improved_error_detection4_example' => 'Een paar voorbeelden:',
     'api_access' => 'Toegang tot de API',
     'api_access_detail' => 'invoer: text, uitvoer: JSON met de gedetecteerde fouten',

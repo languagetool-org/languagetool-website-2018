@@ -76,7 +76,7 @@ return [
     'improved_error_detection1_example' => 'Par exemple, détecte la faute de frappe dans \'ISBN 978-1784713936\'',
     'improved_error_detection2' => 'Détection du mauvais genre dans la salutation (allemand seulement)',
     'improved_error_detection3' => 'Paires de mots supplémentaires pour la détection statistique des fautes de frappe pour l’Anglais et l’Allemand',
-    'improved_error_detection4' => 'Détection de plus de :number fautes pour l\'Allemand et l\'Anglais',
+    'improved_error_detection4' => 'Détection de plus de :number autre fautes pour l\'Anglais, l\'Allemand, et le Français',
     'improved_error_detection4_example' => 'Quelques exemples:',
     'api_access' => 'Accès à l\'API',
     'api_access_detail' => 'input: texte, sortie: JSON avec l\'erreur détectée',
