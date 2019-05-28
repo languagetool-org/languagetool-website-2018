@@ -1,5 +1,15 @@
 <div id="stage" class="start">
 
+    <?php if ($_SERVER['REQUEST_URI'] == "/de/" || (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "de") !== false) || $checkDefaultLang == "de") { ?>
+    <div style="margin: 0 auto; text-align:center; font-size: 16px">
+        <div style="width: 310px; background-color: white; margin: 0 auto; text-align:center; border-radius: 4px; padding: 5px">
+            <a style="text-align:middle;color:black" class="ff-chrome jump_menu" href="/job/regel-entwickler">
+                Job: Regel-Entwickler / Redakteur (m/w/d)
+            </a>
+        </div>
+    </div>
+    <?php } ?>
+
     <div class="inner">
         <div id="editor">
             <div class="inner">

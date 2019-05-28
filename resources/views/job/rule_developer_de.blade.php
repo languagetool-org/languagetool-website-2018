@@ -17,7 +17,8 @@
             </p>
             -->
             
-            <p>Die LanguageTooler GmbH ist die Firma hinter languagetool.org, languagetoolplus.com und
+            <p>Die LanguageTooler GmbH ist die Firma hinter <a href="https://languagetool.org/">languagetool.org</a>,
+                <a href="https://languagetoolplus.com">languagetoolplus.com</a> und
                 <a href="https://openthesaurus.de">openthesaurus.de</a>. Auf unseren Websites prüfen
                 wir jeden Tag mehr als 500.000 Texte vollautomatisch. Wir suchen einen</p>
 
@@ -30,12 +31,17 @@
 
             <ul>
                 <li>Du planst und priorisierst Erweiterungen von LanguageTool, um sie dann selbst umzusetzen</li>
-                <li>Du schreibst Regeln, die unseren Nutzern stilistische Verbesserungen im Text vorschlagen</li>
-                <li>Du schreibst Regeln, die Fehler erkennen</li>
-                <li>Du schreibst Regeln, die Nicht-Muttersprachlern helfen, besser Deutsch zu schreiben</li>
+                <li>Du schreibst Regeln, die
+                    <ul>
+                        <li>unseren Nutzern stilistische Verbesserungen im Text vorschlagen</li>
+                        <li>Fehler erkennen</li>
+                        <li>Nicht-Muttersprachlern helfen, besser Deutsch zu schreiben</li>
+                    </ul>
+                </li>
                 <li>Du testest und verbesserst Deine neuen und die bestehenden Regeln</li>
                 <li>Du schreibst Fehlermeldungen und Hinweise, die unseren Nutzern Fehler erklären, sprachliche Regeln nahebringen,
                     und Tipps für besseren Stil geben</li>
+                <li>Du sammelst Feedback von unseren Nutzern</li>
                 <li>Du betreust unsere anderen Regel-Entwickler</li>
             </ul>
 
@@ -65,7 +71,7 @@
                     <!--
                     var firstPart = "daniel.naber";
                     var lastPart = "languagetool.org";
-                    document.write("<a href='mail" + "to:" + firstPart + "@" + lastPart + "'>E-Mail an Daniel Naber<" + "/a>");
+                    document.write("<a href='mail" + "to:" + firstPart + "@" + lastPart + "?subject=Job Regel-Entwickler/Redakteur (m/w/d)'>E-Mail an Daniel Naber<" + "/a>");
                     // -->
                 </script>.<noscript>(bitte Javascript aktivieren, um die E-Mail-Adresse zu sehen)</noscript>
 
