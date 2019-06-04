@@ -61,8 +61,8 @@
             <ul>
                 <!--<li>Startgehalt von €../h</li>-->
                 <li>Du arbeitest in einem kleinen, flexiblen Team</li>
-                <li>Du kannst regelmäßig von zu Hause arbeiten oder in unserem Büro in Potsdam-Babelsberg (in der Nähe der S-Bahn,
-                    gut zu erreichen aus Berlin)</li>
+                <!--<li>Du kannst regelmäßig von zu Hause arbeiten oder in unserem Büro in Potsdam-Babelsberg (in der Nähe der S-Bahn,
+                    gut zu erreichen aus Berlin)</li>-->
                 <li>Du arbeitest mit an einer Software, die jeden Tag von hunderttausenden Menschen benutzt wird</li>
                 <li>Deine Ideen kannst Du direkt umsetzen und sie sind spätestens am nächsten Tag schon online</li>
             </ul>
