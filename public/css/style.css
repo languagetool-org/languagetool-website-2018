@@ -2994,8 +2994,8 @@ html[data-lt-installed=true] a.googleDocs {
     padding: 0 25px 0 46px;
     animation-name: header5;
     animation-duration: 6s;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    animation-iteration-count: 2;
 }
 
 .editorHeader a.chrome {
