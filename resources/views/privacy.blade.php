@@ -80,7 +80,7 @@
                             <a href="https://www.discoursehosting.com/privacy-policy/">Datenschutzerklärung von discoursehosting.com</a>.
                         </li>
                         <li>
-                            <p>Unserer Website verwendet Piwik/Matomo. Dabei handelt es sich um einen sogenannten Webanalysedienst.
+                            <p>Unsere Website verwendet Piwik/Matomo. Dabei handelt es sich um einen sogenannten Webanalysedienst.
                                 Piwik verwendet sog. “Cookies”, das sind Textdateien, die auf Ihrem Computer gespeichert werden und die unsererseits eine
                                 Analyse der Benutzung der Webseite ermöglichen. Zu diesem Zweck werden die durch den Cookie erzeugten Nutzungsinformationen
                                 (einschließlich Ihrer gekürzten IP-Adresse) an unseren Server übertragen und zu Nutzungsanalysezwecken gespeichert, was
