@@ -284,30 +284,7 @@ $(document).ready(function() {
 </script>
 <!-- Script Ends -->
 
-<!-- Piwik -->
-<script type="text/javascript">
-    var _paq = _paq || [];
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://openthesaurus.stats.mysnip-hosting.de/";
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
-        _paq.push(['setSiteId', 2]);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
-        g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-    })();
-
-    setTimeout(function() {
-      if ($("html[class*='gr__']").length) {
-        _paq.push(['trackEvent', 'grammarly-user', '1']);
-      }
-    }, 2000);
-</script>
-<noscript><p><img src="https://openthesaurus.stats.mysnip-hosting.de/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
-
-
-<!-- Matomo 
+<!-- Matomo -->
 <script type="text/javascript">
   var _paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
@@ -321,4 +298,4 @@ $(document).ready(function() {
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
- End Matomo Code -->
+<!-- End Matomo Code -->
