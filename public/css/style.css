@@ -2992,6 +2992,10 @@ html[data-lt-installed=true] a.googleDocs {
 .editorHeader a.googleDocs,
 .editorHeader a.chrome {
     padding: 0 25px 0 46px;
+    animation-name: header5;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
 }
 
 .editorHeader a.chrome {
@@ -3011,4 +3015,9 @@ html[data-lt-installed=true] a.googleDocs {
 
 .googleDocs--hidden {
     display: none !important;
+}
+
+@keyframes header5 {
+    0%   {box-shadow: 0 0 0 0px rgba(0,0,0,0.3)}
+    25%  {box-shadow: 0 0 0 24px rgba(0,0,0,0)}
 }
