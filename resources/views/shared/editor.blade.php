@@ -21,7 +21,21 @@
                             <p><?=__('messages.header_subtitle')?></p>
                         </div>
                         <div class="editorHeaderRight">
-                            <?php if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "Chrome/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
+                            <?php if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "YaBrowser/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
+                                <a class="ff-chrome yandex jump_menu" type="button" href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji" target="_blank">
+                                    <?=__('messages.yandexAddon')?>
+                                </a>
+                                <a class="ff-chrome googleDocs jump_menu googleDocs--hidden" type="button" href="https://chrome.google.com/webstore/detail/grammar-and-spell-checker/kjcoklfhicmkbfifghaecedbohbmofkm" target="_blank">
+                                    <?=__('messages.googleDocsAddon')?>
+                                </a>
+                            <?php } else if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "OPR/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
+                                <a class="ff-chrome opera jump_menu" type="button" href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji" target="_blank">
+                                    <?=__('messages.operaAddon')?>
+                                </a>
+                                <a class="ff-chrome googleDocs jump_menu googleDocs--hidden" type="button" href="https://chrome.google.com/webstore/detail/grammar-and-spell-checker/kjcoklfhicmkbfifghaecedbohbmofkm" target="_blank">
+                                    <?=__('messages.googleDocsAddon')?>
+                                </a>
+                            <?php } else if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "Chrome/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
                                 <a class="ff-chrome chrome jump_menu" type="button" href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji" target="_blank">
                                     <?=__('messages.chromeAddon')?>
                                 </a>

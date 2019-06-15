@@ -2980,6 +2980,8 @@ body .fullscreen #premiumWarning {
 }
 
 html[data-lt-installed=true] a.firefox,
+html[data-lt-installed=true] a.opera,
+html[data-lt-installed=true] a.yandex,
 html[data-lt-installed=true] a.chrome {
     display: none;
 }
@@ -2989,6 +2991,8 @@ html[data-lt-installed=true] a.googleDocs {
 }
 
 .editorHeader a.firefox,
+.editorHeader a.yandex,
+.editorHeader a.opera,
 .editorHeader a.googleDocs,
 .editorHeader a.chrome {
     padding: 0 25px 0 46px;
@@ -2997,6 +3001,16 @@ html[data-lt-installed=true] a.googleDocs {
 .editorHeader a.chrome {
     background: #fff url(../images/icon_chrome.svg) 20px center no-repeat;
     background-size: 18px auto;
+}
+
+.editorHeader a.opera {
+    background: #fff url(../images/icon_opera.svg) 20px center no-repeat;
+    background-size: 18px auto;
+}
+
+.editorHeader a.yandex {
+    background: #fff url(../images/icon_yandex.svg) 16px center no-repeat;
+    background-size: 24px auto;
 }
 
 .editorHeader a.firefox {
