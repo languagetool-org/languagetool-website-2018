@@ -45,6 +45,8 @@ return [
     'subscription' => 'Subscribe for the latest updates',
     'ffAddon' => 'Install the Firefox add-on',
     'chromeAddon' => 'Install the Chrome extension',
+    'operaAddon' => 'Install the Opera add-on',
+    'yandexAddon' => 'Install the Yandex add-on',
     'googleDocsAddon' => 'Install Google Docs add-on',
     'menu' => 'Menu',
     'menu_overview' => 'Overview',
