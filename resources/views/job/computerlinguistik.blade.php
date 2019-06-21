@@ -66,7 +66,7 @@
                     <!--
                     var firstPart = "daniel.naber";
                     var lastPart = "languagetool.org";
-                    document.write("<a href='mail" + "to:" + firstPart + "@" + lastPart + "?subject=Job Regel-Entwickler/Redakteur (m/w/d)'>E-Mail an Daniel Naber<" + "/a>");
+                    document.write("<a href='mail" + "to:" + firstPart + "@" + lastPart + "?subject=Job Computerlinguist (m/w/d)'>E-Mail an Daniel Naber<" + "/a>");
                     // -->
                 </script>.<noscript>(bitte Javascript aktivieren, um die E-Mail-Adresse zu sehen)</noscript>
 
