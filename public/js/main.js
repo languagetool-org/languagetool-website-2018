@@ -272,7 +272,7 @@ $(function(){
                 'en-CA': 'https://community.languagetool.org/suggestion?word={word}&lang=en&email=off',
                 'en-AU': 'https://community.languagetool.org/suggestion?word={word}&lang=en&email=off',
                 'en-NZ': 'https://community.languagetool.org/suggestion?word={word}&lang=en&email=off',
-                'fr': 'https://community.languagetool.org/suggestion?word={word}&lang=fr',
+                'fr': 'https://community.languagetool.org/suggestion?word={word}&lang=fr&email=off',
                 'fake': 'last entry so all previous items can end with a comma'
             },
 
