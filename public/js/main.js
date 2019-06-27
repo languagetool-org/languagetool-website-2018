@@ -266,6 +266,13 @@ $(function(){
                 'pl': 'http://www.sjp.pl',
                 'pt': 'https://community.languagetool.org/suggestion?word={word}&lang=pt',
                 'ru': 'http://myooo.ru/index.php?option=com_addtodictsuggest&Itemid=135&word={word}',
+                'en-US': 'https://community.languagetool.org/suggestion?word={word}&lang=en&email=off',
+                'en-GB': 'https://community.languagetool.org/suggestion?word={word}&lang=en&email=off',
+                'en-ZA': 'https://community.languagetool.org/suggestion?word={word}&lang=en&email=off',
+                'en-CA': 'https://community.languagetool.org/suggestion?word={word}&lang=en&email=off',
+                'en-AU': 'https://community.languagetool.org/suggestion?word={word}&lang=en&email=off',
+                'en-NZ': 'https://community.languagetool.org/suggestion?word={word}&lang=en&email=off',
+                'fr': 'https://community.languagetool.org/suggestion?word={word}&lang=fr',
                 'fake': 'last entry so all previous items can end with a comma'
             },
 

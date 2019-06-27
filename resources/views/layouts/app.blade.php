@@ -44,7 +44,7 @@
     <script src="{{ asset('vendors/tooltipster/tooltipster.bundle.min.js') }}"></script>
     <script src="{{ asset('js/jquery-ui.min.js') }}"></script>
     <script src="{{ asset('js/jquery.tablesorter.min.js') }}"></script>
-    <script src="{{ asset('js/main.js') }}?20190117"></script>
+    <script src="{{ asset('js/main.js') }}?20190627"></script>
     <script src="{{ asset('js/touchHover.js') }}"></script>
 
     <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
