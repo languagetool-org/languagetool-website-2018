@@ -26,11 +26,11 @@
                     E-Mail: <span style="color:#555555">daniel.naber <span>a&#116;</span> languagetool<span>.</span>org</span>
                 </p>
 
-                <h2>EU-Förderung</h2>
+                <h2>Förderung durch die Europäische Union</h2>
 
                 <p>Die Europäische Union und der Europäische Fonds für regionale Entwicklung (EFRE) unterstützen
                     dieses Projekt finanziell. Konkret gefördert wird die Entwicklung von Verfahren zur
-                    Fehlererkennung in multilingualen Texten, unsere Browser Add-ons und unsere Website.
+                    Fehlererkennung in multilingualen Texten, die Entwicklung unserer Browser Add-ons und unserer Website.
                 </p>
                 <img src="/images/Emblem-WEB-1.16189762.jpg" style="width:300px">
                 
@@ -84,10 +84,11 @@
                     email: <span style="color:#555555">daniel.naber <span>a&#116;</span> languagetool<span>.</span>org</span>
                 </p>
 
-                <h2>EU Funding</h2>
+                <h2>Funding by the European Union</h2>
 
                 <p>The European Union and the European Regional Development Fund (ERDF) support this project by providing funding.
-                They support the development of error detection algorithms in multilingual texts, our browser add-ons, and our website.</p>
+                They support the development of error detection algorithms in multilingual texts, and the development of 
+                our browser add-ons and website.</p>
                 <img src="/images/Emblem-WEB-1.16189762.jpg" style="width:300px">
 
                 <h2>Availability</h2>
