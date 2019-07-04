@@ -7,7 +7,7 @@
 
         <div class="container">
 
-            <p style="text-align: right">Datum: 21.06.2019</p>
+            <p style="text-align: right">Datum: 04.07.2019</p>
             
             <h1>Stellenanzeige: Computerlinguist (m/w/d)</h1>
 
