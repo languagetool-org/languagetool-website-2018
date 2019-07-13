@@ -97,12 +97,9 @@
             <h2>Known Limitations</h2>
 
             <ul>
-                    <li>Some errors are not detected: LanguageTool uses rules to detect errors, i.e. it will only complain about errors for which there
-                            is a rule that detects it. Please consider learning <b><a href="http://wiki.languagetool.org/development-overview#toc0">how to write rules</a></b> and
+                    <li>Some errors are not detected: LanguageTool will only complain about errors for which there
+                            is a rule or statistical data that detects it. Please consider learning <b><a href="http://wiki.languagetool.org/development-overview#toc0">how to write rules</a></b> and
                             <b><a href="http://wiki.languagetool.org/make-languagetool-better">help make LanguageTool better</a></b> by contributing your rules.</li>
-                    <!--<li>Some rules that work across sentences don't work in LibreOffice/OpenOffice.org. This also affects the rule that checks whether
-                        three sentences start with the same word.</li>-->
-                    <!--<li>For some rules there are a lot of false alarms, i.e., LanguageTool complains about text which is actually correct</li>-->
                     <li>LanguageTool doesn't work correctly with documents that contain revisions
                             (<a href="https://bugs.freedesktop.org/show_bug.cgi?id=36540">LibreOffice #36540</a>, <a href="https://issues.apache.org/ooo/show_bug.cgi?id=92013">OO #92013</a>)
                     </li>
