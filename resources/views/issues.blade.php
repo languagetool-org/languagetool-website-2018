@@ -47,6 +47,7 @@
                             (under <em>Tools -&gt; Extension Manager</em>).</li>
             </ul>
 
+            <a name="office"></a>
             <h2>Common Problems with LibreOffice/OpenOffice.org Integration</h2>
 
             <ul>
@@ -92,6 +93,7 @@
 
             </ul>
 
+            <a name="limitations"></a>
             <h2>Known Limitations</h2>
 
             <ul>
