@@ -32,8 +32,15 @@
                     dieses Projekt finanziell. Konkret gefördert wird die Entwicklung von Verfahren zur
                     Fehlererkennung in multilingualen Texten, die Entwicklung unserer Browser Add-ons und unserer Website.
                 </p>
-                <img src="/images/Emblem-WEB-1.16189762.jpg" style="width:300px">
-                
+                <img src="/images/Emblem-WEB-1.16189762.jpg" style="width:620px">
+
+                <p style="margin-top:30px">Gefördert durch das Ministerium für Arbeit, Soziales, Gesundheit, Frauen und Familie aus Mitteln
+                des Europäischen Sozialfonds und des Landes Brandenburg. Gefördert wird die Entwicklung der Stilprüfung.
+                Informationen zum ESF finden Sie unter <a href="https://esf.brandenburg.de">esf.brandenburg.de</a>.
+                </p>
+                <img src="/images/eu-esf-de.png" style="width:180px">
+                <img src="/images/MASGF.png" style="width:135px;margin-left:40px">
+            
                 <h2>Verfügbarkeit</h2>
 
                 <p>languagetool.org ist eine kostenlose Website zur Prüfung von Texten. Wir geben keine Garantien
@@ -89,7 +96,14 @@
                 <p>The European Union and the European Regional Development Fund (ERDF) support this project by providing funding.
                 They support the development of error detection algorithms in multilingual texts, and the development of 
                 our browser add-ons and website.</p>
-                <img src="/images/Emblem-WEB-1.16189762.jpg" style="width:300px">
+                <img src="/images/Emblem-WEB-1.16189762.jpg" style="width:620px">
+
+                <p style="margin-top:30px">Supported by the Ministry of Labour, Social Affairs, Health, Women and Family
+                    from funds of the European Social Fund and the Land of Brandenburg, who support the development of 
+                    our style checker. You can find information about the ESF at <a href="https://esf.brandenburg.de">esf.brandenburg.de</a>.
+                </p>
+                <img src="/images/eu-esf-en.png" style="width:180px">
+                <img src="/images/MASGF.png" style="width:135px;margin-left:40px">
 
                 <h2>Availability</h2>
 
