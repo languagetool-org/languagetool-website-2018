@@ -37,8 +37,9 @@
                                 <li>Wenn Sie explizit Feedback geben, z.&nbsp;B. über Fehlalarme oder nicht erkannte Fehler, speichern wir dieses Feedback.</li>
                                 <li>Wenn Sie Korrekturvorschläge für einen Tippfehler akzeptieren, speichern wir das ursprüngliche Wort und
                                     die von Ihnen gewählte Korrektur.</li>
-                                <li>Wenn Sie Korrekturvorschläge akzeptieren oder Regeln abstellen, speichern wir die interne ID dieser Regel
-                                    (z.&nbsp;B. <tt>EIN_PAAR</tt> für die Regel, die Verwechslungen zwischen Paar/paar findet).
+                                <li>Wenn Sie Korrekturvorschläge akzeptieren oder Regeln abstellen/ignorieren, speichern wir die interne ID dieser Regel
+                                    (z.&nbsp;B. <tt>EIN_PAAR</tt> für die Regel, die Verwechslungen zwischen Paar/paar findet) und das
+                                    als fehlerhaft markierte Textfragment (also den kleinen Teil des Satzes, der als Fehler unterstrichen wurde).
                                 </li>
                                 <li>Im sehr seltenen Fall eines internen Softwarefehlers speichern wir den Satz, der den Fehler ausgelöst hat, um so die
                                     Ursache zu finden und den Fehler zu beheben.</li>
@@ -387,8 +388,10 @@
                         <li>We don't store the text that you submit for style and grammar checking on languagetool.org, with the following exceptions:
                             <ul>
                                 <li>If you explicitly submit feedback, for example about false alarms or undetected errors, we store that feedback.</li>
-                                <li>If you accept or explicitly ignore corrections or open examples for an error, we log the internal rule id of that error
-                                    (this is something like <tt>ENGLISH_WORD_REPEAT_RULE</tt> for word repetition errors).</li>
+                                <li>If you accept correction suggestions or disable/ignore rules, we save the internal ID of this rule </li>
+                                <li>If you accept or explicitly ignore corrections, we log the internal rule id of that error
+                                    (this is something like <tt>ENGLISH_WORD_REPEAT_RULE</tt> for word repetition errors)  and
+                                    the text fragment marked as incorrect (i.e. the small part of the sentence that was underlined as an error).</li>
                                 <li>If you accept a correction of a spelling error, we log the original word and the correction you selected.</li>
                                 <li>In case of an internal software error (which is extremely rare), we log the sentence that caused the error so
                                     we can reproduce and fix the error.</li>
