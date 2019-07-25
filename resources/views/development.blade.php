@@ -8,6 +8,15 @@
 
             <h1>Development</h1>
 
+            <p>Jump to: <a href="#api">API</a> &middot;
+            <a href="#funding">Funding</a> &middot;
+            <a href="#improving">Improving LanguageTool</a> &middot;
+            <a href="#embedding">Embedding LanguageTool on a Web Page</a> &middot;
+            <a href="#thanks">Thanks</a>
+            </p>
+
+
+            <a name="api"></a>
             <h2>API</h2>
 
             <ul>
@@ -18,6 +27,45 @@
             </ul>
 
 
+            <a name="funding"></a>
+            <?php if (app()->getLocale() == "de") { ?>
+
+                <h2>Förderung durch die Europäische Union</h2>
+    
+                <p>Die Europäische Union und der Europäische Fonds für regionale Entwicklung (EFRE) unterstützen
+                    dieses Projekt finanziell. Konkret gefördert wird die Entwicklung von Verfahren zur
+                    Fehlererkennung in multilingualen Texten, die Entwicklung unserer Browser Add-ons und unserer Website.
+                </p>
+                <img src="/images/Emblem-WEB-1.16189762.jpg" style="width:620px">
+    
+                <p style="margin-top:30px">Gefördert durch das Ministerium für Arbeit, Soziales, Gesundheit, Frauen und Familie aus Mitteln
+                    des Europäischen Sozialfonds und des Landes Brandenburg. Gefördert wird die Entwicklung der Stilprüfung.
+                    Informationen zum ESF finden Sie unter <a href="https://esf.brandenburg.de">esf.brandenburg.de</a>.
+                </p>
+                <img src="/images/eu-esf-de.png" style="width:180px">
+                <img src="/images/MASGF.png" style="width:135px;margin-left:40px">
+
+
+            <?php } else { ?>
+
+                <h2>Funding by the European Union</h2>
+
+                <p>The European Union and the European Regional Development Fund (ERDF) support this project by providing funding.
+                    They support the development of error detection algorithms in multilingual texts, and the development of
+                    our browser add-ons and website.</p>
+                <img src="/images/Emblem-WEB-1.16189762.jpg" style="width:620px">
+    
+                <p style="margin-top:30px">Supported by the Ministry of Labour, Social Affairs, Health, Women and Family
+                    from funds of the European Social Fund and the Land of Brandenburg, who support the development of
+                    our style checker. You can find information about the ESF at <a href="https://esf.brandenburg.de">esf.brandenburg.de</a>.
+                </p>
+                <img src="/images/eu-esf-en.png" style="width:180px">
+                <img src="/images/MASGF.png" style="width:135px;margin-left:40px">
+    
+            <?php } ?>
+
+
+            <a name="improving"></a>
             <h2>Improving LanguageTool</h2>
 
             <p>LanguageTool is an Open Source project and we're looking forward to your contributions.</p>
@@ -49,12 +97,15 @@
             </ul>
 
 
+            <a name="embedding"></a>
             <h2>Embedding LanguageTool on a Web Page</h2>
 
             <ul>
                 <li><a href="http://wiki.languagetool.org/integration-on-websites">Integration on Websites</a></li>
             </ul>
 
+            
+            <a name="thanks"></a>
             <h2>Thanks to</h2>
 
             <ul>
