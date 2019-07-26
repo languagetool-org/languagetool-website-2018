@@ -61,6 +61,8 @@
                             Keine dieser Informationen kann genutzt werden, um Sie zu identifizieren.
                         </li>
                         <!--<li>Wenn Sie ein Kontaktformular ausfüllen, werden Ihre Daten per E-Mail an uns übertragen und gespeichert.</li>-->
+                        <li>Um das Tracking im Browser-Addon zu deaktivieren, können Sie <a 
+                            href="https://www.webnots.com/how-to-enable-do-not-track-in-chrome-firefox-safari-and-edge/">Do Not Track aktivieren</a>.</li>
                         <li>In unseren Logdateien wird Ihre IP-Adresse in gekürzter Form (wie <tt>192.168.xxx.xxx</tt>) gespeichert,
                             so dass sie nicht benutzt werden kann, um Sie zu identifizieren. Fehlermeldungen wie bei der Überschreitung des
                             Anfragelimits werden bis zu 48 Stunden lang mit der vollständigen IP-Adresse gespeichert, damit wir gegen Missbrauch
@@ -410,6 +412,8 @@
                             </ul>
                             None of this information can be used to identify you.
                         </li>
+                        <li>To turn off tracking in the browser add-on, <a
+                                href="https://www.webnots.com/how-to-enable-do-not-track-in-chrome-firefox-safari-and-edge/">activate "Do Not Track"</a>.</li>
                         <!--<li>If you enter data in a contact form, this data will be transferred via email and it will be stored.</li>-->
                         <li>In our web server log files, your IP address is stored in an abbreviated form (like <tt>192.168.xxx.xxx</tt>)
                             so it cannot be used to identify you. Error messages like for exceeding the query limit are stored with the
