@@ -7,19 +7,22 @@
 
         <div class="container">
 
-            <p style="text-align: right">Date: 2018-09-17</p>
+            <p style="text-align: right">Date: 2019-07-27</p>
             
             <h1>Rule editor</h1>
 
+            <!--
             <p style="background-color: rgba(255,227,57,0.6); padding: 5px">
                 This position has been staffed.
             </p>
+            -->
             
-            <p>LanguageTooler is the company behind languagetool.org, a popular style and grammar checker. We run
-                more than 500,000 proofreadings each day.
+            <p>LanguageTooler is the company behind languagetool.org and <a href="https://languagetoolplus.com">languagetoolplus.com</a>,
+                a popular style and grammar checker.
+                We run more than 500,000 proofreadings each day.
                 We're looking for a</p>
 
-            <h2 style="text-align: center">Rule Editor,<br>8 to 20 hours/week</h2>
+            <h2 style="text-align: center">Rule Editor,<br>20 to 30 hours/week</h2>
 
             <p><b>Your tasks</b></p>
 
@@ -38,10 +41,9 @@
             <p><b>Why should you apply?</b></p>
 
             <ul>
-                <li>a salary of €12/h</li>
-                <li>work from home</li>
                 <li>work whenever you want</li>
-                <li>help improve software that's used by hundreds of thousands of people a month</li>
+                <li>work from home</li>
+                <li>help improve software that's used by hundreds of thousands of people</li>
             </ul>
 
             <p>Interested? Please send your questions or your application to
@@ -49,7 +51,7 @@
                     <!--
                     var firstPart = "daniel.naber";
                     var lastPart = "languagetool.org";
-                    document.write("<a href='mail" + "to:" + firstPart + "@" + lastPart + "'>E-Mail an Daniel Naber<" + "/a>");
+                    document.write("<a href='mail" + "to:" + firstPart + "@" + lastPart + "?subject=rule editor application'>Daniel Naber<" + "/a>");
                     // -->
                 </script>.<noscript>(bitte Javascript aktivieren, um die E-Mail-Adresse zu sehen)</noscript>
 
