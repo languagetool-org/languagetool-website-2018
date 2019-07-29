@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Part-time job: rule editor')
+@section('title', 'Part-time job: Rule editor for English')
 
 @section('content')
     <div id="textContent" class="content-section" style="text-align: left">
@@ -9,7 +9,7 @@
 
             <p style="text-align: right">Date: 2019-07-27</p>
             
-            <h1>Rule editor</h1>
+            <h1>Rule Editor for English</h1>
 
             <!--
             <p style="background-color: rgba(255,227,57,0.6); padding: 5px">
@@ -17,12 +17,12 @@
             </p>
             -->
             
-            <p>LanguageTooler is the company behind languagetool.org and <a href="https://languagetoolplus.com">languagetoolplus.com</a>,
-                a popular style and grammar checker.
+            <p>LanguageTooler is the company behind <a href="https://languagetool.org">languagetool.org</a> and <a href="https://languagetoolplus.com">languagetoolplus.com</a>,
+                popular style and grammar checkers.
                 We run more than 500,000 proofreadings each day.
                 We're looking for a</p>
 
-            <h2 style="text-align: center">Rule Editor,<br>20 to 30 hours/week</h2>
+            <h2 style="text-align: center">Rule Editor for English,<br>20 to 30 hours/week</h2>
 
             <p><b>Your tasks</b></p>
 
@@ -57,7 +57,7 @@
 
             <p>LanguageTooler GmbH<br>
                 Karl-Liebknecht-Str. 21/22<br>
-                14482 Potsdam
+                14482 Potsdam, Germany
             
         </div>
 
