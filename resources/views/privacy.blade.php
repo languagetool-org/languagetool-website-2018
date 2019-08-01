@@ -39,13 +39,17 @@
                                     die von Ihnen gewählte Korrektur.</li>
                                 <li>Wenn Sie Korrekturvorschläge akzeptieren oder Regeln abstellen/ignorieren, speichern wir die interne ID dieser Regel
                                     (z.&nbsp;B. <tt>EIN_PAAR</tt> für die Regel, die Verwechslungen zwischen Paar/paar findet) und das
-                                    als fehlerhaft markierte Textfragment (also den kleinen Teil des Satzes, der als Fehler unterstrichen wurde).
+                                    als fehlerhaft markierte Textfragment (also den kleinen Teil des Satzes, der als Fehler unterstrichen wurde)
+                                    und 7 Zeichen rechts und links davon. Dies ermöglicht es uns, Fehlalarme zu erkennen und zu vermeiden.
                                 </li>
                                 <li>Im sehr seltenen Fall eines internen Softwarefehlers speichern wir den Satz, der den Fehler ausgelöst hat, um so die
                                     Ursache zu finden und den Fehler zu beheben.</li>
                             </ul>
                             In all diesen Fällen speichern wir weder Ihre IP-Adresse, noch sonstige Informationen,
-                            die es uns erlauben würden, Sie zu identifizieren. Da wir Ihnen Ihre Daten nicht mehr zuordnen können,
+                            die es uns erlauben würden, Sie zu identifizieren.
+                            Um dieses Tracking in Ihrem Browser-Add-on trotzdem zu deaktivieren, können Sie in Ihrem Browser <a
+                                    href="https://www.webnots.com/how-to-enable-do-not-track-in-chrome-firefox-safari-and-edge/">Do Not Track aktivieren</a>.
+                            Da wir Ihnen Ihre Daten nicht mehr zuordnen können,
                             ist es auch nicht möglich, Ihre Daten gezielt wieder zu löschen.
                         </li>
                         <li>Um unser Angebot zu verbessern, speichern wir folgende Informationen:
@@ -61,8 +65,6 @@
                             Keine dieser Informationen kann genutzt werden, um Sie zu identifizieren.
                         </li>
                         <!--<li>Wenn Sie ein Kontaktformular ausfüllen, werden Ihre Daten per E-Mail an uns übertragen und gespeichert.</li>-->
-                        <li>Um das Tracking im Browser-Addon zu deaktivieren, können Sie <a 
-                            href="https://www.webnots.com/how-to-enable-do-not-track-in-chrome-firefox-safari-and-edge/">Do Not Track aktivieren</a>.</li>
                         <li>In unseren Logdateien wird Ihre IP-Adresse in gekürzter Form (wie <tt>192.168.xxx.xxx</tt>) gespeichert,
                             so dass sie nicht benutzt werden kann, um Sie zu identifizieren. Fehlermeldungen wie bei der Überschreitung des
                             Anfragelimits werden bis zu 48 Stunden lang mit der vollständigen IP-Adresse gespeichert, damit wir gegen Missbrauch
@@ -393,13 +395,17 @@
                                 <li>If you accept correction suggestions or disable/ignore rules, we save the internal ID of this rule </li>
                                 <li>If you accept or explicitly ignore corrections, we log the internal rule id of that error
                                     (this is something like <tt>ENGLISH_WORD_REPEAT_RULE</tt> for word repetition errors)  and
-                                    the text fragment marked as incorrect (i.e. the small part of the sentence that was underlined as an error).</li>
+                                    the text fragment marked as incorrect (i.e. the small part of the sentence that was underlined as an error)
+                                    and 7 characters to the left and to the right. This enables us to analyze and avoid false alarms.</li>
                                 <li>If you accept a correction of a spelling error, we log the original word and the correction you selected.</li>
                                 <li>In case of an internal software error (which is extremely rare), we log the sentence that caused the error so
                                     we can reproduce and fix the error.</li>
                             </ul>
                             In any case, we don't store the data with your IP address or any other meta information
-                            that would allow us to identify you. Thus it's also not possible to delete your data.
+                            that would allow us to identify you.
+                            To turn off tracking in the browser add-on, <a
+                                    href="https://www.webnots.com/how-to-enable-do-not-track-in-chrome-firefox-safari-and-edge/">activate "Do Not Track"</a> in your browser.
+                            As your data is stored anonymously, it's not possible to delete this part of your data.
                         </li>
                         <li>To improve our proofreading service, we keep a log of the following information:
                             <ul>
@@ -412,8 +418,6 @@
                             </ul>
                             None of this information can be used to identify you.
                         </li>
-                        <li>To turn off tracking in the browser add-on, <a
-                                href="https://www.webnots.com/how-to-enable-do-not-track-in-chrome-firefox-safari-and-edge/">activate "Do Not Track"</a>.</li>
                         <!--<li>If you enter data in a contact form, this data will be transferred via email and it will be stored.</li>-->
                         <li>In our web server log files, your IP address is stored in an abbreviated form (like <tt>192.168.xxx.xxx</tt>)
                             so it cannot be used to identify you. Error messages like for exceeding the query limit are stored with the
