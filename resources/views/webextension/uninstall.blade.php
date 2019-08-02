@@ -1,5 +1,10 @@
 @extends('layouts.app')
 <?php
+
+//
+// PAGE IS OUTDATED, see same page on languagetoolplus.com instead
+//
+
 $LATEST_VERSION = "2.1.9";
 ?>
 
