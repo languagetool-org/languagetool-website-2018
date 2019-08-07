@@ -52,6 +52,7 @@
                             Da wir Ihnen Ihre Daten nicht mehr zuordnen können,
                             ist es auch nicht möglich, Ihre Daten gezielt wieder zu löschen.
                         </li>
+                        <li>Alle unsere Server werden bei der Hetzner Online GmbH in Deutschland betrieben.</li>
                         <li>Um unser Angebot zu verbessern, speichern wir folgende Informationen:
                             <ul>
                                 <li>Datum und Zeit, Länge des Textes, Sprache des Textes, Dauer der Verarbeitung, Anzahl
@@ -407,6 +408,7 @@
                                     href="https://www.webnots.com/how-to-enable-do-not-track-in-chrome-firefox-safari-and-edge/">activate "Do Not Track"</a> in your browser.
                             As your data is stored anonymously, it's not possible to delete this part of your data.
                         </li>
+                        <li>All of our servers are hosted at Hetzner Online GmbH in Germany.</li>
                         <li>To improve our proofreading service, we keep a log of the following information:
                             <ul>
                                 <li>date and time, length of submitted text, text language, processing time on server, number of detected errors (but not the actual errors unless you have agreed to that),</li>
