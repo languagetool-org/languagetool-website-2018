@@ -302,7 +302,7 @@ $additionalErrorsCount = 1000;
                 <div class="col-xs-12 buttons-row">
                     <ul class="inline-btn">
                         <li class="btn_standalone">
-                            <a class="main-button" href="https://chrome.google.com/webstore/detail/languagetool/kjcoklfhicmkbfifghaecedbohbmofkm">{{__('messages.googledocs_download')}}</a>
+                            <a class="main-button" href="https://gsuite.google.com/marketplace/app/languagetool/805250893316">{{__('messages.googledocs_download')}}</a>
                         </li>
                     </ul>
                 </div>
