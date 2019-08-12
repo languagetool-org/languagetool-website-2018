@@ -1,5 +1,6 @@
 <div id="stage" class="start">
 
+    <!--
     <?php if ($_SERVER['REQUEST_URI'] == "/" || (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "en") !== false) || $checkDefaultLang == "en") { ?>
     <div style="margin: 0 auto; text-align:center; font-size: 16px">
         <div style="width: 310px; background-color: white; margin: 0 auto; text-align:center; border-radius: 4px; padding: 5px">
@@ -9,7 +10,8 @@
         </div>
     </div>
     <?php } ?>
-
+    -->
+    
     <div class="inner">
         <div id="editor">
             <div class="inner">
