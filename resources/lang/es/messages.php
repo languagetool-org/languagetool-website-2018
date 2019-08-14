@@ -45,6 +45,8 @@ return [
     'subscription' => 'Mantenerse bien informado',
     'ffAddon' => 'Instalar el Add-on de Firefox',
     'chromeAddon' => 'Instalar la extensión de Chrome',
+    'operaAddon' => 'Install the Opera add-on',
+    'yandexAddon' => 'Install the Yandex add-on',
     'googleDocsAddon' => 'Instalación del complemento Google Docs',
     'menu' => 'Menú',
     'menu_overview' => 'Resumen',

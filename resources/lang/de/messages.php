@@ -45,6 +45,8 @@ return [
     'subscription' => 'Auf dem Laufenden bleiben',
     'ffAddon' => 'Firefox-Add-on installieren',
     'chromeAddon' => 'Chrome-Extension installieren',
+    'operaAddon' => 'Opera-Add-on installieren',
+    'yandexAddon' => 'Yandex-Add-on installieren',
     'googleDocsAddon' => 'Add-on für Google Docs installieren',
     'menu' => 'Menü',
     'menu_overview' => 'Übersicht',

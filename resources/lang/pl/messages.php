@@ -45,6 +45,8 @@ return [
     'subscription' => 'Zapisz się, aby dowiadywać się o nowościach',
     'ffAddon' => 'Zainstaluj dodatek do przeglądarki Firefox',
     'chromeAddon' => 'Zainstaluj dodatek do przeglądarki Chrome',
+    'operaAddon' => 'Install the Opera add-on',
+    'yandexAddon' => 'Install the Yandex add-on',
     'googleDocsAddon' => 'Install Google Docs add-on',
     'menu' => 'Menu',
     'menu_overview' => 'Podsumowanie',

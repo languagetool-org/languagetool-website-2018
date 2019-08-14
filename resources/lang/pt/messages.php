@@ -45,6 +45,8 @@ return [
     'subscription' => 'Subscreva para as últimas novidades',
     'ffAddon' => 'Instalar o extra para Firefox',
     'chromeAddon' => 'Instalar o extra para o Chrome',
+    'operaAddon' => 'Install the Opera add-on',
+    'yandexAddon' => 'Install the Yandex add-on',
     'googleDocsAddon' => 'Install Google Docs add-on',
     'menu' => 'Menu',
     'menu_overview' => 'Vista global',

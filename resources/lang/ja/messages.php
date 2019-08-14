@@ -45,6 +45,8 @@ return [
     'subscription' => '最新のアップデートを購読する',
     'ffAddon' => 'Firefoxアドオンをインストールする',
     'chromeAddon' => 'Chrome拡張機能をインストールする',
+    'operaAddon' => 'Install the Opera add-on',
+    'yandexAddon' => 'Install the Yandex add-on',
     'googleDocsAddon' => 'Install Google Docs add-on',
     'menu' => 'メニュー',
     'menu_overview' => '概要',

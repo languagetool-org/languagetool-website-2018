@@ -45,6 +45,8 @@ return [
     'subscription' => 'Subscriviu-vos per a rebre les últimes novetats',
     'ffAddon' => 'Instal·la el complement per a Firefox',
     'chromeAddon' => 'Instal·la l\'extensió de Chrome',
+    'operaAddon' => 'Install the Opera add-on',
+    'yandexAddon' => 'Install the Yandex add-on',
     'googleDocsAddon' => 'Install Google Docs add-on',
     'menu' => 'Menú',
     'menu_overview' => 'Més informació',
