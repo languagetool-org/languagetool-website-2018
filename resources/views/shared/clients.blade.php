@@ -14,7 +14,7 @@
                                 'Dimelo' => 'dimelo.png',
                                 'translate5.net' => 'translate5.png',
                                 'korrekturen.de' => 'korrekturen_de.png',
-                                'Papyrus Autor' => 'papyrus.png',
+                                'maxcluster GmbH' => 'maxcluster.png',
                                 'rechtschreibpruefung24.de' => 'rsp24.png',
                                 'IServ GmbH' => 'iserv.png',
                                 'brandwatch' => 'brandwatch.png',
