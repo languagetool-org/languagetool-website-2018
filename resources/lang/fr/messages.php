@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'language_hint' => 'On dirait que vous pourriez être intéressé par LanguageTool en :lang?',
+    'language_hint' => 'Peut-être seriez-vous intéressé par LanguageTool en :lang?',
     'language_link' => 'Redirigez-moi.',
     'title' => 'Correcteur d\'orthographe et de grammaire',
     'description' => 'LanguageTool est un service de relecture libre pour l\'Anglais, l\'Allemand, l\'Espagnol, le Russe, et plus de 20 langues encore.',
@@ -135,13 +135,13 @@ return [
     'libreoffice_instruction1' => 'Utilisez <em>Outils → Extension Manager → Ajouter…</em> dans LibreOffice ou OpenOffice pour installer ce fichier.',
     'libreoffice_instruction2' => 'Puis redémarrez LibreOffice ou OpenOffice (y compris quickstarter).',
     'libreoffice_help1' => 'Un problème ?',
-    'libreoffice_help2' => 'Regardez ici pour de l\'aide',
+    'libreoffice_help2' => 'Cliquez ici pour de l\'aide',
     'browser_headline' => 'Extension pour Firefox et Chrome',
     'browser_intro' => 'LanguageTool fonctionne également dans votre navigateur – vérifiez le texte que vous entrez dans les champs de texte ou sélectionnez sur les sites Web.',
     'browser_firefox_download' => 'Installer pour Firefox',
     'browser_chrome_download' => 'Installer pour Chrome',
     'standalone_headline' => 'Version de bureau pour une utilisation hors ligne',
-    'standalone_intro' => 'LanguageTool peut être téléchargé pour une utilisation hors ligne.  <b>Remarque: <a href="https://java.com/download">Java 8 ou ultérieur</a> doit être installé et, sauf si vous installez des données supplémentaires, ce sera moins puissant que la version sur ce site web. Voir  <a href="/compare">ce tableau de comparaison-ci</a></b>.',
+    'standalone_intro' => 'LanguageTool peut être téléchargé pour une utilisation hors ligne.  <b>Remarque: <a href="https://java.com/download">Java 8 ou ultérieur</a> doit être installé et, sauf si vous installez des données supplémentaires, ce sera moins puissant que la version sur ce site web. Voir  <a href="/compare">ce tableau de comparaison</a></b>.',
     'standalone_download' => 'Télécharger la version de bureau',
     'after_download' => 'Après le téléchargement, décompressez le fichier et lancez le fichier languagetool.jar en double-cliquant dessus.',
     'standalone_builds' => 'Autres téléchargements:',
