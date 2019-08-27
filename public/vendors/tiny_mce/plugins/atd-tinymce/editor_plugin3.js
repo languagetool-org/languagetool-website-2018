@@ -795,20 +795,21 @@ AtDCore.prototype.isIE = function() {
          var t = this, ed = t.editor, m = t._menu, p1, dom = ed.dom, vp = dom.getViewPort(ed.getWin());
          var plugin = this;
 
-         if (!m) 
-         {
-            p1 = DOM.getPos(ed.getContentAreaContainer());
-            //p2 = DOM.getPos(ed.getContainer());
-
-            m = ed.controlManager.createDropMenu('spellcheckermenu', 
-            {
-               offset_x : p1.x,
-               offset_y : p1.y,
-               'class' : 'mceNoIcons'
-            });
-
-            t._menu = m;
+         if (m) {
+             m.destroy();
          }
+
+         p1 = DOM.getPos(ed.getContentAreaContainer());
+         //p2 = DOM.getPos(ed.getContainer());
+
+         m = ed.controlManager.createDropMenu('spellcheckermenu', 
+         {
+            offset_x : p1.x,
+            offset_y : p1.y,
+            'class' : 'mceNoIcons'
+         });
+
+         t._menu = m;
          
          $(ed.getBody()).find(".selectedError").removeClass("selectedError");
  
@@ -1078,6 +1079,7 @@ AtDCore.prototype.isIE = function() {
            }
            $(e.target).addClass("selectedError");
            p1 = dom.getPos(e.target);
+
            var xPos = p1.x;
 
            // moves popup a bit down to not overlap text:
@@ -1088,8 +1090,6 @@ AtDCore.prototype.isIE = function() {
            } else {
              posWorkaround = 2;
            }
-
-           posWorkaround += $("#feedbackMessage").outerHeight();
 
            m.showMenu(xPos, p1.y + e.target.offsetHeight - vp.y + posWorkaround);
            this.menuVisible =  true;
