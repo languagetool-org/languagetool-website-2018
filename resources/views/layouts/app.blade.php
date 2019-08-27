@@ -38,7 +38,7 @@
     <script src="{{ asset('js/lightbox2/js/lightbox.js') }}"></script>
     <script src="{{ asset('js/vex.combined.min.js') }}"></script>
     <script src="{{ asset('vendors/tiny_mce/tiny_mce.js') }}"></script>
-    <script src="{{ asset('vendors/tiny_mce/plugins/atd-tinymce/editor_plugin3.js?20190413') }}"></script>
+    <script src="{{ asset('vendors/tiny_mce/plugins/atd-tinymce/editor_plugin3.js?20190827') }}"></script>
     <script src="{{ asset('vendors/tiny_mce/plugins/atd-tinymce/src/synonyms.js') }}"></script>
     <script src="{{ asset('vendors/dropkick/jquery.dropkick.js') }}"></script>
     <script src="{{ asset('vendors/tooltipster/tooltipster.bundle.min.js') }}"></script>
