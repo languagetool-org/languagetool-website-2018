@@ -216,6 +216,10 @@
                 <li>Ich kann ein Häuschen mit Garten mein <span class="error-marker">eigen</span> nennen. &rarr;&nbsp;Eigen</li>
             </ul>
 
+            <p>Français:</p>
+            <ul>
+                <li><span class="error-marker">plus c'est meilleur</span> &rarr;&nbsp;meilleur c'est</li>
+            </ul>
     </span>
         <span id="api_access_detail">
         <?=__('messages.api_access_detail')?>
