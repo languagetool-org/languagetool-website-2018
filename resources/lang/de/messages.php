@@ -79,7 +79,7 @@ return [
             <li>Findet einen Fehler in \'ISBN 978-3570552798\' (richtig wäre 978-3570552<b>6</b>98)</li>
         </ul>',
     'improved_error_detection2' => 'Erkennung von falschem Geschlecht bei einer Anrede',
-    'improved_error_detection3' => 'Zusätzliche Wortpaare in der statistischen Tippfehler-Erkennung für Deutsch und Englisch',
+    'improved_error_detection3' => 'Zusätzliche Wortpaare in der statistischen Tippfehler-Erkennung für Deutsch, Englisch und Französisch',
     'improved_error_detection4' => 'Erkennung über :number weiterer Fehler für Deutsch, Englisch und Französisch',
     'improved_error_detection4_example' => 'Einige Beispiele:',
     'api_access' => 'API-Zugang',
