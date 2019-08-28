@@ -251,7 +251,52 @@
             }
             
             editor.getBody().setAttribute("data-gramm", "false");
-            
+            editor.dom.events.bind(editor.getBody(), "input", function(e) {
+                var doc = editor.getBody().ownerDocument;
+                var win = doc.defaultView;
+                var selection = win.getSelection();
+
+                if (!selection) {
+                    return;
+                }
+                var range = selection.getRangeAt(0);
+                if (!range) {
+                    return;
+                }
+                var error = range.startContainer.parentNode;
+                var oldOffset = range.startOffset;
+                var container = range.startContainer;
+                if (error) {
+                    oldOffset = range.endOffset;
+                    container = range.endContainer;
+                    error = range.endContainer.parentNode;
+                }
+
+                if (!error) {
+                    return;
+                }
+
+                // Chrome seems to create elements with inline styles that look like ".error" elements
+                var hasBackgroundColor = error.nodeName === "SPAN" && error.getAttribute("style");
+                if (!hasBackgroundColor && !error.className.match(/hidden/)) {
+                    return;
+                }
+
+                while (error.firstChild) {
+                    error.parentNode.insertBefore(error.firstChild, error);
+                }
+
+                error.parentNode.removeChild(error);
+                range = doc.createRange();
+                try {
+                    range.setStart(container, oldOffset);
+                    range.setEnd(container, oldOffset);
+                    var selection = win.getSelection();
+                    selection.removeAllRanges();
+                    selection.addRange(range);
+                } catch(e) {}
+            });
+
              if (IS_TOUCH) {
                  var currentTarget = null;
                  var touchTimeout = null;
