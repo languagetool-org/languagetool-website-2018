@@ -187,7 +187,14 @@ $additionalErrorsCount = 1000;
                             </div>
                             <span class="text-span-bott"><?=__('messages.prices_incl_vat')?></span>
 
-                            <h5 class="plan-for-who">{{__('messages.premium_for_whom')}}</h5>
+                            <h5 class="plan-for-who">{{__('messages.premium_for_whom')}}
+                                <br><br>
+                                <script type="text/javascript">
+                                    var firstPart = "support";
+                                    var lastPart = "languagetoolplus" + "." + "com";
+                                    document.write("<a href='mail" + "to:" + firstPart + "@" + lastPart + "?subject=<?=__('messages.premium_contact_mail_subject')?>'><?=__('messages.premium_for_whom2')?><" + "/a>");
+                                </script>
+                            </h5>
                         </div>
 
                         <div class="plan-wrapper enterprise">

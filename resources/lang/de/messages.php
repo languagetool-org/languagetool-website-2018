@@ -96,6 +96,8 @@ return [
     'premium_12_months' => 'Jahresabo',
     'premium_action' => 'Bestellen',
     'premium_for_whom' => 'Für Studierende, Autoren, Selbständige, Agenturen, Unternehmen',
+    'premium_for_whom2' => 'Kontaktieren Sie uns, wenn Sie mehr als eine Lizenz benötigen',
+    'premium_contact_mail_subject' => 'Angebot für mehrere LanguageTool-Lizenzen',
     'enterprise_headline' => 'Enterprise',
     'enterprise_limit' => '40.000+ Zeichen pro Prüfung',
     'enterprise_action' => 'Auf Anfrage',
