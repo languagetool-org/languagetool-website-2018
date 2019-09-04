@@ -93,6 +93,8 @@ return [
     'premium_12_months' => '订阅一年',
     'premium_action' => '现在购买',
     'premium_for_whom' => '适合学生、作家和自由工作者',
+    'premium_for_whom2' => 'Contact us if you have more than one user',
+    'premium_contact_mail_subject' => 'Quote for more than one LanguageTool license',
     'enterprise_headline' => '企业订阅',
     'enterprise_limit' => '每次检查多于4万个字元',
     'enterprise_action' => '向我们查询',

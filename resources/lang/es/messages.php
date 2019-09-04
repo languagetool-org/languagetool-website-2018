@@ -93,6 +93,8 @@ return [
     'premium_12_months' => 'Yearly subscription',
     'premium_action' => 'Buy Now',
     'premium_for_whom' => 'For students, authors, freelancers',
+    'premium_for_whom2' => 'Contact us if you have more than one user',
+    'premium_contact_mail_subject' => 'Quote for more than one LanguageTool license',
     'enterprise_headline' => 'Enterprise',
     'enterprise_limit' => '40,000+ characters per check',
     'enterprise_action' => 'On Request',

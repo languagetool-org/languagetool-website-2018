@@ -93,6 +93,8 @@ return [
     'premium_12_months' => 'Subscripció anual',
     'premium_action' => 'Compra-ho ara',
     'premium_for_whom' => 'Per a estudiants, autors i professionals',
+    'premium_for_whom2' => 'Contact us if you have more than one user',
+    'premium_contact_mail_subject' => 'Quote for more than one LanguageTool license',
     'enterprise_headline' => 'Empresa',
     'enterprise_limit' => '+40.000 caràcters per revisió',
     'enterprise_action' => 'A demanda',

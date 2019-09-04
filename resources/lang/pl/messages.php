@@ -93,6 +93,8 @@ return [
     'premium_12_months' => 'Subskrypcja roczna',
     'premium_action' => 'Kup teraz',
     'premium_for_whom' => 'Dla studentów, redaktorów i freelancerów',
+    'premium_for_whom2' => 'Contact us if you have more than one user',
+    'premium_contact_mail_subject' => 'Quote for more than one LanguageTool license',
     'enterprise_headline' => 'Enterprise',
     'enterprise_limit' => 'Możesz sprawdzić ponad 40 000 znaków za jednym razem.',
     'enterprise_action' => 'Na żądanie',

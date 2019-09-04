@@ -93,6 +93,8 @@ return [
     'premium_12_months' => 'Subscrição anual',
     'premium_action' => 'Comprar Agora',
     'premium_for_whom' => 'Para estudantes, autores, freelancers',
+    'premium_for_whom2' => 'Contacte-nos se tiver mais que um utilizador',
+    'premium_contact_mail_subject' => 'Cotação para mais de uma licença do LanguageTool',
     'enterprise_headline' => 'Empresarial',
     'enterprise_limit' => '40.000+ caracteres por verificação',
     'enterprise_action' => 'Por Pedido',

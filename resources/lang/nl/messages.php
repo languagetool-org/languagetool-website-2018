@@ -93,6 +93,8 @@ return [
     'premium_12_months' => 'Abonnement voor een jaar',
     'premium_action' => 'Koop nu',
     'premium_for_whom' => 'Voor studenten, schrijvers, freelancers',
+    'premium_for_whom2' => 'Neem contact op als u meerdere gebruikers hebt',
+    'premium_contact_mail_subject' => 'Offerte voor meerdere LanguageTool-licenties',
     'enterprise_headline' => 'Enterprise',
     'enterprise_limit' => '40,000+ tekens per controle',
     'enterprise_action' => 'Op verzoek',

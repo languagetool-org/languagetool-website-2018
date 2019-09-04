@@ -93,6 +93,8 @@ return [
     'premium_12_months' => '訂閱一年',
     'premium_action' => '現在購買',
     'premium_for_whom' => '適合學生、作家和自由工作者',
+    'premium_for_whom2' => 'Contact us if you have more than one user',
+    'premium_contact_mail_subject' => 'Quote for more than one LanguageTool license',
     'enterprise_headline' => '企業計畫',
     'enterprise_limit' => '每次檢查多於4萬個字元',
     'enterprise_action' => '向我們查詢',

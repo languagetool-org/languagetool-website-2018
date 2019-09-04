@@ -93,6 +93,8 @@ return [
     'premium_12_months' => '年間登録',
     'premium_action' => '今すぐ購入する',
     'premium_for_whom' => '学生、作家、フリーランサー',
+    'premium_for_whom2' => 'Contact us if you have more than one user',
+    'premium_contact_mail_subject' => 'Quote for more than one LanguageTool license',
     'enterprise_headline' => '企業',
     'enterprise_limit' => '毎回40,000以上 charactersをチェックする',
     'enterprise_action' => '申し込み',
