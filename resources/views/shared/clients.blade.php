@@ -7,16 +7,15 @@
 	                <ul class="glide__slides">
                         <?php
                         $clients = [
+                                'Blinkist - Blinks Labs GmbH' => 'blinkist.png',
                                 'audibene GmbH' => 'audibene.png',
                                 'lokalise.co' => 'lokalise.png',
                                 'H&H Communication Lab GmbH' => 'comlab.png',
-                                'ABACUS Business Software' => 'abacus.png',
                                 'Dimelo' => 'dimelo.png',
                                 'translate5.net' => 'translate5.png',
                                 'korrekturen.de' => 'korrekturen_de.png',
                                 'maxcluster GmbH' => 'maxcluster.png',
                                 'rechtschreibpruefung24.de' => 'rsp24.png',
-                                'IServ GmbH' => 'iserv.png',
                                 'brandwatch' => 'brandwatch.png',
                                 'INVARIS Informationssysteme GmbH' => 'invaris.png',
                                 'TechScribe' => 'techscribe.png',
