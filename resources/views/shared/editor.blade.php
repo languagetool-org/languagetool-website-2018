@@ -199,6 +199,8 @@
         <b>English example:</b> Man returns wallet he <span class="error-marker">fount</span>. &rarr;&nbsp;found
         <br>
         <b>Deutsches Beispiel:</b> Der nächste <span class="error-marker">Schrott</span> zum Klassenerhalt ist getan. &rarr;&nbsp;Schritt
+        <br>
+        <b>Exemple français:</b> Son <span class="error-marker">champ</span> nuptial &rarr;&nbsp;chant
     </span>
         <span id="improved_error_detection4_example">
         <?=__('messages.improved_error_detection4_example')?>
