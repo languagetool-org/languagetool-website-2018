@@ -95,7 +95,7 @@ return [
     'premium_for_whom' => 'For students, authors, freelancers, agencies, companies',
     'premium_for_whom2' => 'Contact us if you have more than one user',
     'premium_contact_mail_subject' => 'Quote for more than one LanguageTool license',
-    'enterprise_headline' => 'Enterprise',
+    'enterprise_headline' => 'Developer API',
     'enterprise_limit' => '40,000+ characters per check',
     'enterprise_action' => 'On Request',
     'enterprise_for_whom' => 'A good fit for software companies and publishing houses',
