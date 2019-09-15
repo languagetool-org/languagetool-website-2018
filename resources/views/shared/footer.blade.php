@@ -156,6 +156,7 @@
             $("#price-1-month").show();
             $("#price-3-months").hide();
             $("#price-12-months").hide();
+            $("#price-24-months").hide();
             $('#order-link').attr("data-fsc-item-path-value", "languagetool-plus-premium-monthly-subscription");
             piwikTrack('PriceSwitch', '1month');
         } else if (val == 3) {
@@ -165,6 +166,7 @@
             $("#price-1-month").hide();
             $("#price-3-months").show();
             $("#price-12-months").hide();
+            $("#price-24-months").hide();
             $('#order-link').attr("data-fsc-item-path-value", "languagetool-plus-premium-3-month-subscription");
             piwikTrack('PriceSwitch', '3months');
         } else if (val == 12) {
@@ -174,8 +176,19 @@
             $("#price-1-month").hide();
             $("#price-3-months").hide();
             $("#price-12-months").show();
+            $("#price-24-months").hide();
             $('#order-link').attr("data-fsc-item-path-value", "languagetool-plus-premium-1-year-subscription");
             piwikTrack('PriceSwitch', '12months');
+        } else if (val == 24) {
+            if (pricePerMonthStr != "") {
+                $('#price-24-months-monthly').html(pricePerMonthStr);
+            }
+            $("#price-1-month").hide();
+            $("#price-3-months").hide();
+            $("#price-12-months").hide();
+            $("#price-24-months").show();
+            $('#order-link').attr("data-fsc-item-path-value", "languagetool-plus-premium-2-year-subscription");
+            piwikTrack('PriceSwitch', '24months');
         }
     }
 

@@ -143,6 +143,7 @@ $additionalErrorsCount = 1000;
                                             <option value="1">{{__('messages.premium_1_month')}}</option>
                                             <option value="3">{{__('messages.premium_3_months')}}</option>
                                             <option value="12" selected>{{__('messages.premium_12_months')}}</option>
+                                            <!--<option value="24" selected>{{__('messages.premium_24_months')}}</option>-->
                                         </select>
                                     </div>
 
@@ -171,6 +172,15 @@ $additionalErrorsCount = 1000;
                                             <span id="price-12-months-total" class="price-explain"
                                                   data-fsc-item-path="languagetool-plus-premium-1-year-subscription"
                                                   data-fsc-item-pricetotal></span>/{{__('messages.per_year')}}
+                                        </div>
+                                    </div>
+                                    <div id="price-24-months" class="price-item" style="display: none">
+                                        <span id="price-24-months-value" style="display:none" data-fsc-item-path="languagetool-plus-premium-2-year-subscription" data-fsc-item-pricevalue></span>
+                                        <span id="price-24-months-monthly" class="quote-layer"></span><span class="quote-layer-currency">/{{__('messages.per_month')}}</span>
+                                        <div>
+                                            <span id="price-24-months-total" class="price-explain"
+                                                  data-fsc-item-path="languagetool-plus-premium-2-year-subscription"
+                                                  data-fsc-item-pricetotal></span>/{{__('messages.per_2years')}}
                                         </div>
                                     </div>
 
