@@ -21,6 +21,7 @@
 
             <ul class="multicol">
                 <li>Andriy Rysin
+                <li>Christopher Blum
                 <li><a href="http://www.danielnaber.de">Daniel Naber</a>
                 <li><a href="http://dominiko.livejournal.com/tag/lingvoilo">Dominique Pellé</a>
                 <li><a href="http://github.com/ebraminio">Ebrahim Byagowi</a>
@@ -38,11 +39,9 @@
                 <li>Mike Unwalla
                 <li>Panagiotis Minos
                 <li><a href="http://it.linkedin.com/in/paolobianchini/">Paolo Bianchini</a>
-                <li>Peter Lawrence
                 <li><a href="https://robinvandervliet.com">Robin van der Vliet</a>
                 <li>Ruud Baars
                 <li>Stefan Lotties
-                <li>Tiago F. Santos
                 <li>Xavi Ivars
                 <li><a href="http://myooo.ru/content/view/83/43/">Yakov Reztsov</a>
             </ul>
@@ -132,6 +131,7 @@
                 <li>paolobenve
                 <li>Andreas "PAX" Lück
                 <li>Pere Farrando
+                <li>Peter Lawrence
                 <li>Petra Galuscakova
                 <li>Petr Mladek
                 <li>Philipp Wiesemann
@@ -160,6 +160,7 @@
                 <li>Takahiro Shinkai
                 <li>Tao Lin
                 <li>Thai
+                <li>Tiago F. Santos
                 <li>thatkookooguy
                 <li>Thierry Vignaud
                 <li>Thomas Menari
