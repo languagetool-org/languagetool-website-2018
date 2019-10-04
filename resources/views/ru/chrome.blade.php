@@ -58,11 +58,7 @@
                 причиной этого является отсутствие правила для обнаружения этой конкретной ошибки. Пожалуйста, присылайте
                 <a href="../../contribute/">предложения</a>.
 
-            <h2>Исходный код</h2>
-
-            <p>Исходный код этого расширения доступен <a href="https://github.com/languagetool-org/languagetool-browser-addon/tree/master/chrome">на Github</a>.
-                Он опубликован на условиях лицензии <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1">LGPL 2.1</a>.</p>
-
+           
             <h2>Firefox</h2>
 
             <p>Для пользователей Firefox мы предлагаем <a href="../firefox/">LanguageTool</a>,
