@@ -9,11 +9,11 @@
             <h1>Checklist in Case of Problems</h1>
 
             <ul>
-                    <li>Make sure <a href="http://www.java.com/en/download/manual.jsp">Java 8 or later from Oracle</a>
+                    <li>Make sure <a href="http://www.java.com/en/download/manual.jsp">Java 8 or later</a>
                             is installed on your system. If you use the 32-bit version of LibreOffice/OpenOffice.org, you will also
                             need to use the 32-bit version of Java (same for the 64-bit version).
-                            Java versions which are not from Oracle may not work. If you're using an
-                            old version of Java you'll see a confusing error message <a href="/images/issues/version-error.jpg">like this</a>.</li>
+                            Java versions which are not from Oracle may not work, however contemporary version of <a href="https://jdk.java.net/">OpenJDK</a> will also work. If you're using an
+                            old version of Java or Ubuntu hasn't installed <tt>libreoffice-java-common</tt> you'll see a confusing error message <a href="/images/issues/version-error.jpg">like this</a>.</li>
                     <li>LanguageTool 4.5.1 seems to be incompatible with Debian's outdated, stable version LibreOffice 5.2.7.2 (<a href="https://forum.languagetool.org/t/languagetool-4-5-1-crashes-libreoffice/4174/6">source</a>)</li>
                     <li>If you get an error that says <strong>Invalid memory access</strong>, make sure LanguageTool is installed in a path
                             that has no special characters (use a-z, A-Z and 0-9 only).
@@ -40,8 +40,6 @@
                             you are working with to make LanguageTool work.</li>
                     <li>Make sure Java 8 or later from Oracle is selected in LibreOffice (<em>Tools -> Options -> Advanced</em>) or
                             OpenOffice.org (<em>Tools -> Options -> Java</em>). For Mac users: LibreOffice (<em>Preferences -> LibreOffice -> Advanced</em>).</li>
-                    <li>Did you restart LibreOffice/OpenOffice.org - including the QuickStarter - after installation of LanguageTool? This is required,
-                            even though there is no dialog saying so. (<a href="https://bugs.freedesktop.org/show_bug.cgi?id=46279">#46279</a><!--, <a href="http://issues.apache.org/ooo/show_bug.cgi?id=88692">#88692</a>-->)</li>
                     <li>If LanguageTool doesn't start and you see no error message, please
                             check if the extension is enabled in the Extension manager
                             (under <em>Tools -&gt; Extension Manager</em>).</li>
