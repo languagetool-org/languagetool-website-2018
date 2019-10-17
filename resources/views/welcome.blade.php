@@ -11,9 +11,7 @@
 
 
 <?php
-$englishRuleCount = 1700;
-$germanRuleCount = 2400;
-$additionalErrorsCount = 1000;
+$additionalErrorsCount = 2500;
 ?>
 
 @section('content')
