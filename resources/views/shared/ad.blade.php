@@ -34,7 +34,7 @@ if (!isset($_SERVER['HTTP_REFERER']) or strpos($_SERVER['HTTP_REFERER'], 'produc
                 <!-- contextcue.com -->
                 <ins class="adsbycontextcue" data-cc-site="231f072b-fd5b-4cf2-a30b-2f835dfde3af" data-cc-slot="6ftVPxWDz" style="width: 728px; height: 90px;"></ins>
             @else
-                <!-- Yieldlove AdTag -->
+                <!-- Yieldlove AdTag
                 <script type='text/javascript'>
                     googletag.cmd.push(function () {
                         if (window.innerWidth >= 768) {
@@ -54,6 +54,7 @@ if (!isset($_SERVER['HTTP_REFERER']) or strpos($_SERVER['HTTP_REFERER'], 'produc
                         });
                     </script>
                 </div>
+                -->
             @endif
         </div>
     </div>
