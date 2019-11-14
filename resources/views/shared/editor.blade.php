@@ -31,7 +31,7 @@
                                     <?=__('messages.googleDocsAddon')?>
                                 </a>
                             <?php } else if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "OPR/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
-                                <a class="ff-chrome opera jump_menu" type="button" href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji" target="_blank">
+                                <a class="ff-chrome opera jump_menu" type="button" href="https://addons.opera.com/extensions/details/grammar-and-spell-checker-languagetool/" target="_blank">
                                     <?=__('messages.operaAddon')?>
                                 </a>
                                 <a class="ff-chrome googleDocs jump_menu googleDocs--hidden" type="button" href="https://gsuite.google.com/marketplace/app/languagetool/805250893316" target="_blank">
