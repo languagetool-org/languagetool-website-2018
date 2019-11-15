@@ -26,6 +26,7 @@ class LegacyController extends Controller
     public function job_vertrieb() { return view('job/vertrieb'); }
     public function job_rule_dev() { return view('job/rule_developer'); }
     public function job_rule_dev_de() { return view('job/rule_developer_de'); }
+    public function job_sea() { return view('job/sea_de'); }
     public function job_computerlinguistik() { return view('job/computerlinguistik'); }
     public function webextension_uninstall() { return view('webextension/uninstall'); }
     public function webextension_feedback(Request $req) {
