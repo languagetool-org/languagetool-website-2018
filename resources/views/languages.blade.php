@@ -67,6 +67,9 @@
                 <!-- End Output of RuleOverview.java -->
 
                 <p>* ✓ = spell check &nbsp;&nbsp; (✓) = spell check but no suggestions for misspellings</p>
+                
+                <p>Also supported <a href="/#firefox_chrome">in the browser add-on</a> and with
+                spell checking only (no grammar checks): Arabic, Norwegian</p>
 
                 <p>The number of Java rules listed is only the number of rules specific
                         to that language. There are some rules that deal with punctuation
