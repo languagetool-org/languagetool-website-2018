@@ -29,7 +29,7 @@
             <ul>
                 <li>Definition von Zielgruppen</li>
                 <li>Planung und Umsetzung von Online-Marketing-Kampagnen (z. B. Google Ads) für die verschiedenen Zielgruppen</li>
-                <li>Selbständige Erstellung von Landing Pages für deine Kampagnen</li>
+                <li>Selbständige Erstellung von Landing Pages für deine Kampagnen (nach Vorgaben unseres Designers)</li>
                 <li>Kontinuierliche Performanceüberwachung bzw. Reporting aller Maßnahmen</li>
             </ul>
 
