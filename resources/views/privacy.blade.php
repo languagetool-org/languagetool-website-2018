@@ -66,6 +66,7 @@
                             Keine dieser Informationen kann genutzt werden, um Sie zu identifizieren.
                         </li>
                         <li>
+                            <a name="feedback"></a>
                             Wenn Sie uns Feedback direkt über die im Browser-Add-on integrierte Feedback-Funktion schicken, übertragen
                             wir folgende Informationen, um das Problem besser analysieren zu können:
                             Kundenstatus (Premium oder Basic), Premium-Account (falls gesetzt), Add-on-Version,
@@ -432,6 +433,7 @@
                             None of this information can be used to identify you.
                         </li>
                         <li>
+                            <a name="feedback"></a>
                             If you send feedback directly via the "feedback" function integrated in the browser add-on, the
                             following information will be transferred so we can better analyze the problem:
                             customer status (Premium or Basic), premium account (if set), Add-on version,
