@@ -65,6 +65,17 @@
                             </ul>
                             Keine dieser Informationen kann genutzt werden, um Sie zu identifizieren.
                         </li>
+                        <li>
+                            Wenn Sie uns Feedback direkt über die im Browser-Add-on integrierte Feedback-Funktion schicken, übertragen
+                            wir folgende Informationen, um das Problem besser analysieren zu können:
+                            Kundenstatus (Premium oder Basic), Premium-Account (falls gesetzt), Add-on-Version,
+                            vom Browser akzeptierte Sprachen und Sprache der Browser-Oberfläche,
+                            Land des Nutzers ermittelt anhand der IP-Adresse, aktuell besuchte Website,
+                            HTML des aktuellen Textfeldes <b>ohne dessen Textinhalt</b>, Anzahl CPU-Kerne, Datum der ersten Nutzung,
+                            Bewertung des Add-ons (Daumen rauf/runter), Aktivierungsstatus des Synonym-Features, Dauer der Add-on-Nutzung,
+                            Adresse des genutzten LanguageTool-API-Server (z.B. api.languagetool.org), Status "Do not track"-Einstellung,
+                            Geschwindigkeit der Internet-Verbindung, vom Nutzer ausgestellte Regeln
+                        </li>
                         <!--<li>Wenn Sie ein Kontaktformular ausfüllen, werden Ihre Daten per E-Mail an uns übertragen und gespeichert.</li>-->
                         <li>In unseren Logdateien wird Ihre IP-Adresse in gekürzter Form (wie <tt>192.168.xxx.xxx</tt>) gespeichert,
                             so dass sie nicht benutzt werden kann, um Sie zu identifizieren. Fehlermeldungen wie bei der Überschreitung des
@@ -419,6 +430,22 @@
                                     and the URL of the page where the add-on was last used</li>
                             </ul>
                             None of this information can be used to identify you.
+                        </li>
+                        <li>
+                            If you send feedback directly via the "feedback" function integrated in the browser add-on, the
+                            following information will be transferred so we can better analyze the problem:
+                            customer status (Premium or Basic), premium account (if set), Add-on version,
+                            languages accepted by the browser and language of the browser interface,
+                            the user's country as determined by the IP address, 
+                            the currently visited website,
+                            HTML of the current text field <b>without its text content</b>,
+                            number of CPU cores,
+                            date of first use, rating of the add-on (thumbs up/down),
+                            activation status of the synonym feature,
+                            duration of add-on usage,
+                            address of the LanguageTool API server used (e.g. api.languagetool.org),
+                            status of the "Do not track" setting,
+                            internet connection speed, rules deactivated by the user
                         </li>
                         <!--<li>If you enter data in a contact form, this data will be transferred via email and it will be stored.</li>-->
                         <li>In our web server log files, your IP address is stored in an abbreviated form (like <tt>192.168.xxx.xxx</tt>)
