@@ -177,6 +177,10 @@
                 </form>
             </div>
         </div>
+
+        <?php if ($_SERVER['REQUEST_URI'] == "/fr/" || (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "fr") !== false) || $checkDefaultLang == "fr") { ?>
+            <a style="color:#ccc" href="mailto:french.errors@languagetool.org?subject=Erreur non détectée&body=Veuillez nous envoyer la phrase incorrecte complète et sa correction.">Erreur non trouvée ? Envoyez-nous un e-mail.</a>
+        <?php } ?>
         
         <div class="start-ad-wrapper">
             <div class="start-ad">
