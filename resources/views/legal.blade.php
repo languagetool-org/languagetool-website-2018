@@ -40,7 +40,7 @@
 
                 <h2>Streitbeilegungsverfahren</h2>
 
-                <p>Wir nehmen nicht an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teil.
+                <p>Wir nehmen nicht an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle (auch "Universalschlichtungsstelle") teil.
                     Gemäß der EU-Verordnung Nr. 524/2013 sind wir jedoch verpflichtet, darauf hinzuweisen, dass die
                     Europäische Kommission unter <a href="http://ec.europa.eu/consumers/odr/">http://ec.europa.eu/consumers/odr/</a>
                     eine Plattform zur außergerichtlichen Online-Streitbeilegung (sog. OS-Plattform) betreibt.</p>
