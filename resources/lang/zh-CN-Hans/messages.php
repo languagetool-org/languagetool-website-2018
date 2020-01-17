@@ -46,6 +46,7 @@ return [
     'ffAddon' => '安装Firefox附加组件',
     'chromeAddon' => '安装Chrome扩展程序',
     'operaAddon' => '安装Opera插件',
+    'edgeAddon' => 'Install the Edge add-on',
     'yandexAddon' => '安装Yandex插件',
     'googleDocsAddon' => '安装Google文档插件',
     'menu' => '菜单',

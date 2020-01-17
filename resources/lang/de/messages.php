@@ -46,6 +46,7 @@ return [
     'ffAddon' => 'Firefox-Add-on installieren',
     'chromeAddon' => 'Chrome-Extension installieren',
     'operaAddon' => 'Opera-Add-on installieren',
+    'edgeAddon' => 'Edge-Add-on installieren',
     'yandexAddon' => 'Yandex-Add-on installieren',
     'googleDocsAddon' => 'Add-on für Google Docs installieren',
     'menu' => 'Menü',

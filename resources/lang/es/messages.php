@@ -46,6 +46,7 @@ return [
     'ffAddon' => 'Instalar el Add-on de Firefox',
     'chromeAddon' => 'Instalar la extensión de Chrome',
     'operaAddon' => 'Install the Opera add-on',
+    'edgeAddon' => 'Install the Edge add-on',
     'yandexAddon' => 'Install the Yandex add-on',
     'googleDocsAddon' => 'Instalación del complemento Google Docs',
     'menu' => 'Menú',

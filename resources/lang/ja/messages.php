@@ -46,6 +46,7 @@ return [
     'ffAddon' => 'Firefoxアドオンをインストールする',
     'chromeAddon' => 'Chrome拡張機能をインストールする',
     'operaAddon' => 'Install the Opera add-on',
+    'edgeAddon' => 'Install the Edge add-on',
     'yandexAddon' => 'Install the Yandex add-on',
     'googleDocsAddon' => 'Install Google Docs add-on',
     'menu' => 'メニュー',

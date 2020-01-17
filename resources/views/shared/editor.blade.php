@@ -37,6 +37,13 @@
                                 <a class="ff-chrome googleDocs jump_menu googleDocs--hidden" type="button" href="https://gsuite.google.com/marketplace/app/languagetool/805250893316" target="_blank">
                                     <?=__('messages.googleDocsAddon')?>
                                 </a>
+                            <?php } else if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "Edg/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
+                                <a class="ff-chrome edge jump_menu" type="button" href="https://microsoftedge.microsoft.com/addons/detail/hfjadhjooeceemgojogkhlppanjkbobc" target="_blank">
+                                    <?=__('messages.edgeAddon')?>
+                                </a>
+                                <a class="ff-chrome googleDocs jump_menu googleDocs--hidden" type="button" href="https://gsuite.google.com/marketplace/app/languagetool/805250893316" target="_blank">
+                                    <?=__('messages.googleDocsAddon')?>
+                                </a>
                             <?php } else if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "Chrome/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
                                 <a class="ff-chrome chrome jump_menu" type="button" href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji" target="_blank">
                                     <?=__('messages.chromeAddon')?>

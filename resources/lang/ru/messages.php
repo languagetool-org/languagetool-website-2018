@@ -46,6 +46,7 @@ return [
     'ffAddon' => 'Установить расширение для Firefox',
     'chromeAddon' => 'Установить расширение для Chrome',
     'operaAddon' => 'Установить расширение для Opera',
+    'edgeAddon' => 'Install the Edge add-on',
     'yandexAddon' => 'Установить расширение для Yandex',
     'googleDocsAddon' => 'Установить расширение для Google Docs',
     'menu' => 'Меню',

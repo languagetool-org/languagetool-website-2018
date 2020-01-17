@@ -1,4 +1,5 @@
 *.iml
+.wti
 .mailjet.password
 /node_modules
 /public/hot
