@@ -186,10 +186,10 @@
         </div>
 
         <?php if ($_SERVER['REQUEST_URI'] == "/fr/" || (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "fr") !== false) || $checkDefaultLang == "fr") { ?>
-            <a style="color:#ccc" href="mailto:french.errors@languagetool.org?subject=Erreur non détectée&body=Veuillez nous envoyer la phrase incorrecte complète et sa correction.">Erreur non trouvée ? Envoyez-nous un e-mail.</a>
+            <a style="color:#fff;font-weight:bold" href="mailto:french.errors@languagetool.org?subject=Erreur non détectée&body=Veuillez nous envoyer la phrase incorrecte complète et sa correction.">Erreur non trouvée ? Envoyez-nous un e-mail.</a>
         <?php } ?>
         <?php if ($_SERVER['REQUEST_URI'] == "/nl/" || (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "nl") !== false) || $checkDefaultLang == "nl") { ?>
-            <a style="color:#ccc" target="_blank" href="https://datkanbeter.taaltik.nl/">Meld gemiste fout</a>
+            <a style="color:#fff;font-weight:bold" target="_blank" href="https://datkanbeter.taaltik.nl/">Meld gemiste fout</a>
         <?php } ?>
         
         <div class="start-ad-wrapper">
