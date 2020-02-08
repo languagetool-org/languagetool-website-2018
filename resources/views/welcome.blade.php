@@ -436,7 +436,9 @@ $additionalErrorsCount = 2500;
                     &middot;
                     {{__('messages.libreoffice_help1')}} <a href="/issues">{{__('messages.libreoffice_help2')}}</a></p>
                     <p>{!! __('messages.libreoffice_instruction1') !!}
-                        {{__('messages.libreoffice_instruction2')}}</p>
+                        {{__('messages.libreoffice_instruction2')}}
+                        <b>{{__('messages.libreoffice_instruction3')}}</b>
+                    </p>
                 </div>
             </div>
 
