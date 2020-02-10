@@ -57,11 +57,17 @@
                             <ul>
                                 <li>Datum und Zeit, Länge des Textes, Sprache des Textes, Dauer der Verarbeitung, Anzahl
                                     der erkannten Fehler (aber nicht den fehlerhaften Text, außer Sie haben dem zugestimmt),</li>
-                                <li>die Seite, von der die Anfrage abgeschickt wurde (z.B. languagetool.org),</li>
-                                <li>interne Fehler (wenn z.&nbsp;B. das Browser Add-on auf den zu prüfenden Text nicht zugreifen kann),</li>
-                                <li>nur beim Browser Add-on: Add-on-Version; Datum der Installation; zufällige ID des Textfeldes, dessen Text geprüft wird
-                                <li>nur bei einer Browser-Add-on-Deinstallation wird übertragen: die Anzahl der Nutzungen des Add-ons
+                                <li>Die Seite, von der die Anfrage abgeschickt wurde (z.B. languagetool.org),</li>
+                                <li>Interne Fehler (wenn z.&nbsp;B. das Browser Add-on auf den zu prüfenden Text nicht zugreifen kann),</li>
+                                <li>Nur beim Browser Add-on: Add-on-Version; Datum der Installation; zufällige ID des Textfeldes, dessen Text geprüft wird
+                                <li>Nur bei einer Browser-Add-on-Deinstallation wird übertragen: die Anzahl der Nutzungen des Add-ons
                                     und die URL der Seite, auf der das Add-on zuletzt benutzt wurde</li>
+                                <li>Nur, wenn Sie ein Konto auf languagetoolplus.com haben und wenn Sie mit diesem Konto im Add-On
+                                    angemeldet sind: Das Add-On kontaktiert regelmäßig (etwa einmal täglich) unsere Server, um
+                                    uns mitzuteilen, dass Sie ein aktiver Benutzer sind. Dazu gehört Ihr Browser (Firefox/Chrome/...)
+                                    und Ihre E-Mail-Adresse (die
+                                    wir bereits kennen, weil Sie bereits ein Konto auf unserem System haben), aber nicht
+                                    der Text, den Sie geschrieben haben.</li>
                             </ul>
                             Keine dieser Informationen kann genutzt werden, um Sie zu identifizieren.
                         </li>
@@ -413,6 +419,10 @@
                                 <li>If you accept a correction of a spelling error, we log the original word and the correction you selected.</li>
                                 <li>In case of an internal software error (which is extremely rare), we log the sentence that caused the error so
                                     we can reproduce and fix the error.</li>
+                                <li>Only transferred when you have an account on languagetoolplus.com and when you're logged in with that
+                                    account in the add-on: the add-on regularly (about once a day) contacts our servers to let us know
+                                    that you're an active user. This includes your browser (Firefox/Chrome/...) and your email address (which we already know because you
+                                    already have an account on our system), but not any text you have written.</li>
                             </ul>
                             In any case, we don't store the data with your IP address or any other meta information
                             that would allow us to identify you.
