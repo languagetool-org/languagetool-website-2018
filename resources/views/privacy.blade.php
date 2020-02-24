@@ -174,218 +174,664 @@
 
                             <p>Was für Cookies verwendet yieldlove?
 
-                            <p><b>Analyse-Cookies</b><br>
-                                yieldlove verwendet Analyse-Cookies, um das Nutzungsverhalten (z. B. geklickte Werbebanner, besuchte Unterseiten, gestellte
-                                Suchanfragen) ihrer Nutzer aufzeichnen und in statistischer Form auswerten zu können.
+                             <!-- yieldlove -->
 
-                            <p><b>Werbe-Cookies</b><br>
-                                yieldlove verwendet auch Cookies zu werblichen Zwecken. Die mit Hilfe dieser Cookies erstellten Profile zum Nutzungsverhalten
-                                (z. B. geklickte Werbebanner, besuchte Unterseiten, gestellte Suchanfragen) werden von yieldlove verwendet, um Ihnen
-                                Werbung bzw. Angebote anzuzeigen, die auf Ihre Interessen zugeschnitten sind ("interessenbasierte Werbung").
+                                <h1 class="P26"><span
+                                        class="T1">WERBE-COOKIES DRITTER</span></p>
+                                <p class="Standard"><span class="T1">Yieldlove ermöglicht es</span><span class="T1"> anderen Unternehmen, Daten seiner Nutzer mithilfe von Werbe-Cookies zu erheben. Dies ermöglicht es Dritten, den Nutzern seines Online-Angebots interessenbasierte Werbung anzuzeigen, die auf einer Analyse ihres Nutzungsverhaltens (z. B. geklickte Werbebanner, besuchte Unterseiten, gestellte Suchanfragen) insgesamt und nicht beschränkt auf sein Online-Angebot, basiert.</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T1">Yieldlove liefert im Auftrag seiner Kunden Werbebanner aus. Alle Yieldlove Banner verwenden Cookies. Yieldlove platziert diese Banner mit Hilfe von Drittanbietern auf Websites Dritter, wie zum Beispiel einer Nachrichtenseite.</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T1">Für die Cookies, die Yieldloves Drittanbieter zu Werbezwecken platzieren, verweist Yieldlove auf den Disclaimer, den sie zu dem Thema auf ihren eigenen Websites zur Verfügung gestellt haben. Beachten Sie, dass Yieldlove sich nur auf diese Haftungsausschlüsse beziehen kann, da sie sich regelmäßig ändern und Yieldlove keinen Einfluss darauf hat.</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="P2"></p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T1">DRITTANBIETER UND OPT-OUT</span></p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T1">Eine zentrale Widerspruchsmöglichkeit für verschiedene Drittanbieter insbesondere US-amerikanischer Anbieter ist auch unter folgendem Link erreichbar: optout.networkadvertising.org</span>
+                                </p>
+                                <p class="Standard"><span class="T1">Sie können aber auch einen separaten Opt-out für jedes einzelne Unternehmen vornehmen mit dem Yieldlove zusammenarbeitet. </span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T1">Für die Datenerhebung zur Auslieferung von nutzungsbasierter Online-Werbung zuständig sind folgende Unternehmen im Auftrag der Yieldlove GmbH:</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="P5"></p>
+                                <p class="Standard"><span class="T12">4w Marketplace</span></p>
+                                <p class="P5"></p>
+                                <p class="Standard"><span class="T1">4w Marketplace (www.4wmarketplace.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von 4w Marketplace ist 4w 4w Marketplace mit Sitz in Fisciano (Salerno) – 84084 in Via Giovanni Paolo II n.100. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von 4w Marketplace gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-</span><span
+                                        class="T1">Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen. </span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="P1"><a
+                                        id="a__Datenschutzbestimmungen__http___www_4wmarketplace_com_privacy_"><span/></a><span
+                                        class="T14">Datenschutzbestimmungen: </span><a href="http://www.4wmarketplace.com/privacy/"
+                                                                                       class="ListLabel_20_1"><span class="T3">http://www.4wmarketplace.com/privacy/</span></a>
+                                </p>
+                                <p class="P5"></p>
+                                <p class="P1"><a id="a__Opt-out__http___www_youronlinechoices_com_it_le-tue-scelte"><span/></a><span
+                                        class="T1">Opt-out: </span><a href="http://www.youronlinechoices.com/it/le-tue-scelte"
+                                                                      class="ListLabel_20_2"><span class="T21">http://www.youronlinechoices.com/it/le-tue-scelte</span></a>
+                                </p>
+                                <p class="Standard"><a href="https://www.neustar.biz/privacy/opt-out" class="ListLabel_20_2"><span
+                                        class="T21">https://www.neustar.biz/privacy/opt-out</span></a></p>
+                                <p class="P5"></p>
+                                <p class="P5"></p>
+                                <p class="Standard"><span class="T12">Active Agent </span></p>
+                                <p class="P5"></p>
+                                <p class="Standard"><span class="T14">Active Agent (</span><a href="http://www.active-agent.com/de/"
+                                                                                              class="ListLabel_20_3"><span
+                                        class="Internet_20_link"><span class="T3">http://www.active-agent.com/de/</span></span></a><span
+                                        class="T14">) </span><span class="T1">setzt Technologien ein, um</span><span
+                                        class="T14"> </span><span class="T1">Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Active Agent ist die Active Agent AG, Ellen-Gottlieb-Straße 16, 79106 Freiburg i.Br., Deutschland. Active Agent ist eine Plattform für einfaches und transparentes Handling von Werbekampagnen im Real Time &amp; Data Driven Advertising Umfeld.</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T1">Datenschutzbestimmungen: </span><a
+                                        href="http://www.active-agent.com/de/unternehmen/datenschutzerklaerung/" class="ListLabel_20_4"><span
+                                        class="Internet_20_link"><span class="T1">http://www.active-agent.com/de/unternehmen/datenschutzerklaerung/</span></span></a>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T1">Opt-out: <a href="http://www.active-agent.com/de/unternehmen/opt-out/">http://www.active-agent.com/de/unternehmen/opt-out/</a></span>
+                                </p>
+                                <p class="P5"></p>
+                                <p class="P5"></p>
+                                <p class="P1"><a id="a__Amazon"><span/></a><span class="T12">Amazon</span></p>
+                                <p class="P5"></p>
+                                <p class="Standard"><span class="T1">Amazon (https://aps.amazon.com/aps/index.html) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Amazon publisher services ist Amazon publisher services mit Sitz in Washington – 410 Terry Ave. North, Seattle, WA 98109-5210. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Amazon publisher services gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T14">Datenschutzbestimmungen:</span><span class="T18"> </span><a
+                                        href="https://www.amazon.com/gp/help/customer/display.html/ref=hp_left_sib?ie=UTF8&amp;nodeId=468496"
+                                        class="ListLabel_20_5"><span class="Internet_20_link"><span class="T10">https://www.amazon.com/gp/help/customer/display.html/ref=hp_left_sib?ie=UTF8&amp;nodeId=468496</span></span></a>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="P1"><a id="a__Opt-out__https___www_amazon_com_adprefs_ref=hp_468496_advertisingpref2"><span/></a><span
+                                        class="T14">Opt-out: </span><a
+                                        href="https://www.amazon.com/adprefs/ref=hp_468496_advertisingpref2"
+                                        class="ListLabel_20_1"><span class="T3">https://www.amazon.com/adprefs/ref=hp_468496_advertisingpref2</span></a>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="P2"></p>
+                                <p class="P1"><a id="a__Adform"><span/></a><span class="T2">Adform</span></p>
+                                <p class="P2"/>
+                                <p class="Standard"><span class="T1">Adform (https://www.adform.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Adform ist Adform mit Sitz in Wildersgade 10B, 1, 1408 Copenhagen, Dänemark. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten Adform gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P5"></p>
+                                <p class="P1"><a
+                                        id="a__Datenschutzbestimmungen__https___site_adform_com_privacy-policy-opt-out_"><span/></a><span
+                                        class="T14">Datenschutzbestimmungen:</span><span class="T18"> </span><a
+                                        href="https://site.adform.com/privacy-policy-opt-out/" class="ListLabel_20_5"><span
+                                        class="Internet_20_link"><span
+                                        class="T10">https://site.adform.com/privacy-policy-opt-out/</span></span></a></p>
+                                <p class="P2"></p>
+                                <p class="P1"><a id="a__Opt-out__https___site_adform_com_privacy-policy-opt-out_"><span/></a><span
+                                        class="T14">Opt-out: </span><a href="https://site.adform.com/privacy-policy-opt-out/"
+                                                                       class="ListLabel_20_4"><span class="Internet_20_link"><span
+                                        class="T1">https://site.adform.com/privacy-policy-opt-out/</span></span></a></p>
+                                <p class="P2"></p>
+                                <p class="P2"></p>
+                                <p class="P1"><a id="a__AppNexus"><span/></a><span class="T12">AppNexus</span></p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T1">AppNexus (https://www.appnexus.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von AppNexus ist die AppNexus Group mit Sitz in New York – 28 W. 23rd  Street, New York, New York, 10010. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Appnexus gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T14">Datenschutzbestimmungen:</span><span class="T22"> </span><a
+                                        href="https://www.appnexus.com/en/company/privacy-policy" class="ListLabel_20_6"><span
+                                        class="Internet_20_link"><span
+                                        class="T4">https://www.appnexus.com/en/company/privacy-policy</span></span></a></p>
+                                <p class="P17"></p>
+                                <p class="Standard"><span class="T15">Opt-out: <a href="https://www.appnexus.com/en/company/platform-privacy-policy#choices">https://www.appnexus.com/en/company/platform-privacy-policy#choices</a></span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="P2"></p>
+                                <p class="P1"><a id="a__Conversant"><span/></a><span class="T12">Conversant</span></p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T1">Conversant (https://www.conversantmedia.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Conversant ist Conversant inc. mit Sitz in Chicago (IL) – 101 North Wacker, 23rd  Floor Chicago, IL 60606. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Conversant gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="P1"><a id="a__Datenschutzbestimmungen__http___www_conversantmedia_com_legal_privacy"><span/></a><span
+                                        class="T14">Datenschutzbestimmungen: </span><a
+                                        href="http://www.conversantmedia.com/legal/privacy" class="ListLabel_20_7"><span class="T14">http://www.conversantmedia.com/legal/privacy</span></a>
+                                </p>
+                                <p class="P2"/>
+                                <p class="P1"><a id="a__Opt-out__http___optout_conversantmedia_com_"><span/></a><span class="T14">Opt-out: </span><a
+                                        href="http://optout.conversantmedia.com/" class="ListLabel_20_3"><span class="Internet_20_link"><span
+                                        class="T3">http://optout.conversantmedia.com/</span></span></a></p>
+                                <p class="P5"></p>
+                                <p class="P2"></p>
+                                <p class="P1"><a id="a__Criteo"><span/></a><span class="T12">Criteo</span></p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T1">Criteo (https://www.criteo.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Criteo ist Criteo mit Sitz in Paris – 32 Rue Blanche – 75009 Paris - France. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Criteo gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P5"></p>
+                                <p class="P1"><a id="a__Datenschutzbestimmungen__http___www_criteo_com_privacy_"><span/></a><span
+                                        class="T1">Datenschutzbestimmungen:</span><span class="T22"> </span><a
+                                        href="http://www.criteo.com/privacy/" class="ListLabel_20_8"><span
+                                        class="Internet_20_link"><span class="T5">http://www.criteo.com/privacy/</span></span></a></p>
+                                <p class="P1"><a id="a__Opt-out__https___www_criteo_com_privacy_"><span/></a><span class="T15">Opt-out: <a href="https://www.criteo.com/privacy/">https://www.criteo.com/privacy/</a></span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="P2"></p>
+                                <p class="P1"><a id="a__District_M"><span/></a><span class="T12">District M</span></p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T1">District M (https://districtm.net) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von District M ist District M mit Sitz in Montreal – 5455 Gaspe Ave #730, Montreal, QC H2T 3B3, Canada. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von District M gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses Opt-Out-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T15">Datenschutzbestimmungen: </span><a
+                                        href="https://districtm.net/en/page/platforms-data-and-privacy-policy/"
+                                        class="ListLabel_20_9"><span class="T22">https://districtm.net/en/page/platforms-data-and-privacy-policy/</span></a>
+                                </p>
+                                <p class="P17"></p>
+                                <p class="P1"><a id="a__Opt-out__https___cdn_districtm_ca_optout_html"><span/></a><span class="T15">Opt-out:</span><span
+                                        class="T1"> </span><a href="https://cdn.districtm.ca/optout.html" class="ListLabel_20_10"><span
+                                        class="T15">https://cdn.districtm.ca/optout.html</span></a></p>
+                                <p class="P14"></p>
+                                <p class="P14"></p>
+                                <p class="P1"><a id="a__Doublecklick"><span/></a><span class="T12">Doublecklick</span></p>
+                                <p class="P14"></p>
+                                <p class="Standard"><span class="T1">Doubleclick (https://marketingplatform.google.com/about/enterprise/) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Doubleclick ist Doubleclick ist Google Ireland Limited, Gordon House, Barrow St Dublin 4 Ireland. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Doubleclick gesammelt werden, klicken Sie bitte unten auf den Opt-out </span><span
+                                        class="T1">Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P14"></p>
+                                <p class="P1"><a
+                                        id="a__Datenschutzbestimmungen___http___www_google_com_intl_en_policies_privacy_"><span/></a><span
+                                        class="T15">Datenschutzbestimmungen</span><span class="T22"> : </span><a
+                                        href="http://www.google.com/intl/en/policies/privacy/" class="ListLabel_20_6"><span
+                                        class="Internet_20_link"><span class="T4">http://www.google.com/intl/en/policies/privacy/</span></span></a>
+                                </p>
+                                <p class="P17"></p>
+                                <p class="P1"><a id="a__Opt-out__https___adssettings_google_com_authenticated?hl=en"><span/></a><span
+                                        class="T15">Opt-out:</span><span class="T1"> </span><a
+                                        href="https://adssettings.google.com/authenticated?hl=en" class="ListLabel_20_10"><span
+                                        class="T15">https://adssettings.google.com/authenticated?hl=en</span></a></p>
+                                <p class="P14"></p>
+                                <p class="P14"></p>
+                                <p class="P1"><a id="a__Facebook"><span/></a><span class="T12">Facebook</span></p>
+                                <p class="P14"></p>
+                                <p class="Standard"><span class="T1">Facebook (www.facebook.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Facebook ist Facebook Inc., located in 1601 S. California Ave, Palo Alto, CA 94304, USA. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Facebook gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P14"></p>
+                                <p class="P1"><a
+                                        id="a__Datenschutzbestimmungen___https___www_facebook_com_about_privacy_update"><span/></a><span
+                                        class="T15">Datenschutzbestimmungen</span><span class="T22"> : </span><span
+                                        class="Internet_20_link"><span
+                                        class="T3"><a href="https://www.facebook.com/about/privacy/update">https://www.facebook.com/about/privacy/update</a></span></span></p>
+                                <p class="P17"></p>
+                                <p class="P1"><a id="a__Opt-out__www_facebook_com_ads_preferences"><span/></a><span class="T15">Opt-out:</span><span
+                                        class="T1"> </span><a href="http://www.facebook.com/ads/preferences"
+                                                              class="ListLabel_20_3"><span class="Internet_20_link"><span class="T3">www.facebook.com/ads/preferences</span></span></a>
+                                </p>
+                                <p class="P14"></p>
+                                <p class="P14"></p>
+                                <p class="P1"><a id="a__Freewheel"><span/></a><span class="T12">Freewheel</span></p>
+                                <p class="P14"></p>
+                                <p class="Standard"><span class="T1">Freewheel (http://freewheel.tv) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Freewheel ist FreeWheel Media, Inc., mit Sitz in 301 Howard Street19th Floor San Francisco, California 94105, USA. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Freewheel gesammelt werden, schreiben Sie bitte eine E-Mail an die unten stehende E-Mail Adresse. </span>
+                                </p>
+                                <p class="P14"></p>
+                                <p class="P1"><a
+                                        id="a__Datenschutzbestimmungen__http___freewheel_tv_privacy-policy_?noredirect"><span/></a><span
+                                        class="T1">Datenschutzbestimmungen:</span><span class="T22"> </span><span
+                                        class="Internet_20_link"><span class="T3"><a href="http://freewheel.tv/privacy-policy/?noredirect">http://freewheel.tv/privacy-policy/?noredirect</a></span></span>
+                                </p>
+                                <p class="P17"></p>
+                                <p class="P1"><a id="a__Opt-out__legalnotices@freewheel_tv_"><span/></a><span
+                                        class="T15">Opt-out:</span><span class="T1"> </span><span class="Internet_20_link"><span
+                                        class="T3">legalnotices@freewheel.tv.</span></span></p>
+                                <p class="P14"></p>
+                                <p class="P14"></p>
+                                <p class="P14"></p>
+                                <p class="P1"><a id="a__Gumgum"><span/></a><span class="T12">Gumgum</span></p>
+                                <p class="P14"></p>
+                                <p class="Standard"><span class="T1">Gumgum (https://gumgum.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Gumgum ist Gumgum, Inc.Wenn Sie </span><span
+                                        class="T1">nicht wollen, dass weiterhin anonymisierte Daten von Gumgum gesammelt werden, schreiben Sie bitte eine E-Mail an die unten stehende E-Mail Adresse. </span>
+                                </p>
+                                <p class="P14"></p>
+                                <p class="P1"><a id="a__Datenschutzbestimmungen__https___gumgum_com_cookies-policy"><span/></a><span
+                                        class="T15">Datenschutzbestimmungen</span><span class="T22">: </span><span
+                                        class="Internet_20_link"><span class="T3"><a href="https://gumgum.com/cookies-policy">https://gumgum.com/cookies-policy</a></span></span></p>
+                                <p class="P17"></p>
+                                <p class="P1"><a id="a__Opt-out__https___gumgum_com_opt-out"><span/></a><span
+                                        class="T15">Opt-out:</span><span class="T1"> </span><span class="Internet_20_link"><span
+                                        class="T3"><a href="https://gumgum.com/opt-out">https://gumgum.com/opt-out</a></span></span></p>
+                                <p class="P14"></p>
+                                <p class="P14"></p>
+                                <p class="P14"></p>
+                                <p class="P14"></p>
+                                <p class="P1"><a id="a__Improve_Digital"><span/></a><span class="T12">Improve Digital</span></p>
+                                <p class="P14"></p>
+                                <p class="Standard"><span class="T1">Improve Digital (www.indexexchange.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Improve Digital ist die Improve Digital GmbH mit Sitz in Nußbaumstraße 10, 80336 München. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Improve Digital gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P14"></p>
+                                <p class="P1"><a
+                                        id="a__Datenschutzbestimmungen__https___www_improvedigital_com_platform-privacy-policy_"><span/></a><span
+                                        class="T15">Datenschutzbestimmungen</span><span class="T22">: <a href="https://www.improvedigital.com/platform-privacy-policy/">https://www.improvedigital.com/platform-privacy-policy/</a></span>
+                                </p>
+                                <p class="P17"></p>
+                                <p class="P1"><a id="a__Opt-out__https___www_improvedigital_com_opt-out-page_"><span/></a><span
+                                        class="T15">Opt-out:</span><span class="T1"> </span><span class="T15"><a href="https://www.improvedigital.com/opt-out-page/">https://www.improvedigital.com/opt-out-page/</a></span>
+                                </p>
+                                <p class="P14"></p>
+                                <p class="P14"></p>
+                                <p class="P14"></p>
+                                <p class="P16"></p>
+                                <p class="P1"><a id="a__Indexexchange"><span/></a><span class="T12">Indexexchange</span></p>
+                                <p class="P14"></p>
+                                <p class="Standard"><span class="T1">Indexexchange (www.indexexchange.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Indexexchange ist Indexexchange mit Sitz in New York – 20 W 22nd  St. Suite 1101, New York, NY 10010. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Indexexchange gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P14"></p>
+                                <p class="P1"><a
+                                        id="a__Datenschutzbestimmungen__http___www_indexexchange_com_privacy_"><span/></a><span
+                                        class="T15">Datenschutzbestimmungen</span><span class="T22">: </span><a
+                                        href="http://www.indexexchange.com/privacy/" class="ListLabel_20_9"><span class="T22">http://www.indexexchange.com/privacy/</span></a>
+                                </p>
+                                <p class="P17"></p>
+                                <p class="P1"><a id="a__Opt-out__http___optout_networkadvertising_org_?c=1#!_"><span/></a><span
+                                        class="T15">Opt-out:</span><span class="T1"> </span><span class="T15"><a href="http://optout.networkadvertising.org/?c=1#!/">http://optout.networkadvertising.org/?c=1#!/</a></span>
+                                </p>
+                                <p class="P17"/>
+                                <p class="P17"></p>
+                                <p class="P1"><a id="a__LKQD"><span/></a><span class="T12">LKQD</span></p>
+                                <p class="P14"></p>
+                                <p class="Standard"><span class="T1">LKQD (https://www.lkqd.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von LKQD ist Nexstar Digital Digital LLC mit Sitz in 27422 Portola Parkway, Suite 100, Foothill Ranch, CA 92610, USA. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von LKQD gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P14"></p>
+                                <p class="P1"><a id="a__Datenschutzbestimmungen__http___www_lkqd_com_privacy-policy_"><span/></a><span
+                                        class="T15">Datenschutzbestimmungen</span><span class="T22">: <a href="http://www.lkqd.com/privacy-policy/">http://www.lkqd.com/privacy-policy/</a></span>
+                                </p>
+                                <p class="P17"></p>
+                                <p class="Standard"><span class="T15">Opt-out:</span><span class="T1"> </span><span class="T26"><a href="http://www.networkadvertising.org/choices/">http://www.networkadvertising.org/choices/</a></span>
+                                </p>
+                                <p class="P17"></p>
+                                <p class="P1"><a id="a__Loopme"><span/></a><span class="T12">Loopme</span></p>
+                                <p class="P14"></p>
+                                <p class="Standard"><span class="T1">Loopme (https://loopme.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Loopme ist LoopMe Ltd. mit Sitz in Ground Floor, 32-38 Saffron Hill, London EC1N 8FH, Großbrittanien. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Loopme gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P14"></p>
+                                <p class="P1"><a id="a__Datenschutzbestimmungen__https___loopme_com_privacy_"><span/></a><span
+                                        class="T15">Datenschutzbestimmungen</span><span class="T22">: <a href="https://loopme.com/privacy/">https://loopme.com/privacy/</a></span>
+                                </p>
+                                <p class="P17"></p>
+                                <p class="Standard"><span class="T15">Opt-out:</span><span class="T1"> </span><span class="T26"><a href="https://gdpr.loopme.com/opt-out.html">https://gdpr.loopme.com/opt-out.html</a></span>
+                                </p>
+                                <p class="P17"></p>
+                                <p class="P17"></p>
+                                <p class="P1"><a id="a__Media_net"><span/></a><span class="T12">Media.net</span></p>
+                                <p class="P14"></p>
+                                <p class="Standard"><span class="T1">Media.net (http://www.media.net/privacy-policy) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Media.net ist Media.net Advertising Ltd. mit Sitz in Dubai – 107/108, DIC Building 5, Dubai Internet City, Dubai, 215028, United Arab Emirates. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Media.net gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="P2"></p>
+                                <p class="P1"><a id="a__Datenschutzbestimmungen__http___www_media_net_privacy-policy"><span/></a><span
+                                        class="T15">Datenschutzbestimmungen</span><span class="T22">: </span><a
+                                        href="http://www.media.net/privacy-policy" class="ListLabel_20_11"><span class="T25">http://www.media.net/privacy-policy</span></a>
+                                </p>
+                                <p class="P17"></p>
+                                <p class="P1"><a id="a__Opt-out__http___www_networkadvertising_org_choices_"><span/></a><span
+                                        class="T15">Opt-out:</span><span class="T1"> </span><a
+                                        href="http://www.networkadvertising.org/choices/" class="ListLabel_20_9"><span class="T22">http://www.networkadvertising.org/choices/</span></a>
+                                </p>
+                                <p class="P1"><a id="a__MediaMath"><span/></a><span class="T13">MediaMath</span></p>
+                                <p class="Standard"><span class="T1">Mediamath (</span><a href="http://www.mediamath.com"
+                                                                                          class="ListLabel_20_12"><span class="T1">http://www.mediamath.com</span></a><span
+                                        class="T1">) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren.  Anbieter von MediaMath ist die MediaMath Inc., 4 World Trade Center, 150 Greenwich Street, 45th Floor, New York, NY 10007, United States. MediaMath setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen auszuliefern.</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T15">Datenschutzbestimmungen:</span><span class="T27"> </span><a
+                                        href="http://www.mediamath.com/de/datenschutzrichtlinie/" class="ListLabel_20_13"><span
+                                        class="T23">http://www.mediamath.com/de/datenschutzrichtlinie/</span></a></p>
+                                <p class="P24"></p>
+                                <p class="Standard"><span class="T15">Opt-Out:</span><span class="T28"> </span><a
+                                        href="http://www.mediamath.com/de/ad-choices-opt-out/" class="ListLabel_20_13"><span
+                                        class="T23">http://www.mediamath.com/de/ad-choices-opt-out/</span></a></p>
+                                <p class="P24"></p>
+                                <p class="P1"><a id="a__Nano_Interactive"><span/></a><span class="T13">Nano Interactive</span></p>
+                                <p class="P17"></p>
+                                <p class="Standard"><span class="T1">Nano Interactive (https://www.nanointeractive.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren.  Anbieter von Nano Interactive ist die Nano Interactive GmbH Moosstr. 7, 82319 Starnberg. Nano Interactive setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen auszuliefern.</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T15">Datenschutzbestimmungen:</span><span class="T27"> </span><span
+                                        class="T23"><a href="https://www.nanointeractive.com/privacy-policy/">https://www.nanointeractive.com/privacy-policy/</a></span><span class="T27"> </span></p>
+                                <p class="P24"></p>
+                                <p class="Standard"><span class="T15">Opt-Out:</span><span class="T28"> </span><span class="T23"><a href="https://audiencemanager.de/public/opt-out">https://audiencemanager.de/public/opt-out</a></span>
+                                </p>
+                                <p class="P17"></p>
+                                <p class="P17"></p>
+                                <p class="P1"><a id="a__Oath"><span/></a><span class="T12">Oath</span></p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T1">Oath (https://www.oath.com/) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Oath ist Oath (EMEA) Limited mit Sitz in Dublin - 5-7 Point Square, North Wall Quay. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Oath gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P5"></p>
+                                <p class="P1"><a id="a__Datenschutzbestimmungen__http___privacy_aol_com_"><span/></a><span class="T15">Datenschutzbestimmungen:</span><span
+                                        class="T1"> </span><a href="http://privacy.aol.com/" class="ListLabel_20_8"><span
+                                        class="Internet_20_link"><span class="T5">http://privacy.aol.com/</span></span></a></p>
+                                <p class="P17"/>
+                                <p class="P1"><a id="a__Opt-out__https___aim_yahoo_com_aim_ie_en_optout_"><span/></a><span class="T15">Opt-out: </span><span
+                                        class="Internet_20_link"><span class="T32"><a href="https://aim.yahoo.com/aim/ie/en/optout">https://aim.yahoo.com/aim/ie/en/optout/</a></span></span>
+                                </p>
+                                <p class="P17"></p>
+                                <p class="P17"></p>
+                                <p class="P1"><a id="a__OpenX"><span/></a><span class="T12">OpenX</span></p>
+                                <p class="P23"></p>
+                                <p class="Standard"><span class="T1">OpenX (https://www.OpenX.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von OpenX ist OpenX mit Sitz in Pasadena – 888 E Walnut St, 2nd Floor, Pasadena CA, 91101, USA. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von OpenX gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P14"></p>
+                                <p class="P1"><a
+                                        id="a__Datenschutzbestimmungen__https___www_openx_com_legal_privacy-policy_"><span/></a><span
+                                        class="T15">Datenschutzbestimmungen</span><span class="T22">:</span> <span class="T22"><a href="https://www.openx.com/legal/privacy-policy/">https://www.openx.com/legal/privacy-policy/</a></span>
+                                </p>
+                                <p class="P17"></p>
+                                <p class="P1"><a
+                                        id="a__Opt-out__https___www_openx_com_legal_interest-based-advertising_"><span/></a><span
+                                        class="T15">Opt-out:</span><span class="T1"> </span><span class="T15"><a href="https://www.openx.com/legal/interest-based-advertising/">https://www.openx.com/legal/interest-based-advertising/</a></span>
+                                </p>
+                                <p class="P11"></p>
+                                <p class="P11"></p>
+                                <p class="P1"><a id="a__Otto"><span/></a><span class="T13">Otto </span></p>
+                                <p class="Standard"><span class="T27">Otto (</span><a href="https://www.otto.de/"
+                                                                                      class="ListLabel_20_12"><span class="T1">https://www.otto.de/</span></a><span
+                                        class="T1">)</span> <span class="T1">setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. </span><span
+                                        class="T29">Anbieter von Otto ist die Otto (GmbH &amp; Co KG), Werner-Otto-Straße 1-7, 22179 Hamburg, Deutschland. Otto Group Media setzt Technologien ein, um die Einblendung von Werbemitteln für den User auszusteuern und zu optimieren.</span>
+                                </p>
+                                <p class="P11"></p>
+                                <p class="P1"><a id="a__Datenschutzbestimmungen__https___ottogroup_media_kontakt_datenschutz_"><span/></a><span
+                                        class="T15">Datenschutzbestimmungen</span><span class="T22">:</span> <span class="T22"><a href="https://ottogroup.media/kontakt/datenschutz/">https://ottogroup.media/kontakt/datenschutz/</a></span>
+                                </p>
+                                <p class="P11"></p>
+                                <p class="Standard"><span class="T16">Opt-out: </span><span class="T22"><a href="https://ottogroup.media/kontakt/datenschutz/">https://ottogroup.media/kontakt/datenschutz/</a></span>
+                                </p>
+                                <p class="P12"></p>
+                                <p class="P12"></p>
+                                <p class="P1"><a id="a__Pubmatic"><span/></a><span class="T17">Pubmatic</span></p>
+                                <p class="P11"></p>
+                                <p class="Standard"><span class="T1">Pubmatic (https://www.pubmatic.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Pubmatic ist Pubmatic, Inc. mit Sitz in Redwood City – 305 Main Street, First Floor, Redwood City, California 94063, USA. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Pubmatic gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P11"></p>
+                                <p class="P1"><a
+                                        id="a__Datenschutzbestimmungen__https___pubmatic_com_legal_privacy-policy_"><span/></a><span
+                                        class="T15">Datenschutzbestimmungen</span><span class="T22">: </span><span
+                                        class="Internet_20_link"><span
+                                        class="T6"><a href="https://pubmatic.com/legal/privacy-policy/">https://pubmatic.com/legal/privacy-policy/</a></span></span></p>
+                                <p class="P22"></p>
+                                <p class="P1"><a id="a__Opt-out__https___pubmatic_com_legal_opt-out_"><span/></a><span class="T15">Opt-out:</span><span
+                                        class="T1"> </span><a href="https://pubmatic.com/legal/opt-out/" class="ListLabel_20_14"><span
+                                        class="Internet_20_link"><span class="T7">https://pubmatic.com/legal/opt-out/</span></span></a>
+                                </p>
+                                <p class="P11"></p>
+                                <p class="P11"></p>
+                                <p class="P1"><a id="a__Pulsepoint"><span/></a><span class="T17">Pulsepoint</span></p>
+                                <p class="P11"></p>
+                                <p class="Standard"><span class="T1">Pulsepoint (https://www.pulsepoint.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Pulsepoint ist Pulsepoint, Inc. mit Sitz in New York – 360 Madison Avenue, 14th Floor, New York, NY 10017. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Template gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P11"></p>
+                                <p class="P1"><a id="a__Datenschutzbestimmungen__https___www_pulsepoint_com_privacy-policy"><span/></a><span
+                                        class="T15">Datenschutzbestimmungen</span><span class="T22">: </span><a
+                                        href="https://www.pulsepoint.com/privacy-policy" class="ListLabel_20_15"><span class="T24">https://www.pulsepoint.com/privacy-policy</span></a>
+                                </p>
+                                <p class="P22"></p>
+                                <p class="P1"><a id="a__Opt-out__http___optout_networkadvertising_org_?c=1#!_"><span/></a><span
+                                        class="T15">Opt-out:</span><span class="T1"> </span><a
+                                        href="http://optout.networkadvertising.org/?c=1#!/" class="ListLabel_20_14"><span
+                                        class="Internet_20_link"><span
+                                        class="T7">http://optout.networkadvertising.org/?c=1#!/</span></span></a></p>
+                                <p class="P22"></p>
+                                <p class="P22"></p>
+                                <p class="P1"><a id="a__Reachnet"><span/></a><span class="T17">Reachnet</span></p>
+                                <p class="P11"></p>
+                                <p class="Standard"><span class="T1">Reachnet (https://www.reachnet.de) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Reachnet ist Reachnet DE Ltd. mit Sitz in Hamburg – Grindelallee 41, D-20146 Hamburg. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Reachnet gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P11"></p>
+                                <p class="Standard"><span class="T15">Datenschutzbestimmungen</span><span class="T22">: </span><span
+                                        class="Internet_20_link"><span
+                                        class="T6"><a href="https://www.reachnet.de/unternehmen/datenschutz.html">https://www.reachnet.de/unternehmen/datenschutz.html</a></span></span></p>
+                                <p class="P22"></p>
+                                <p class="P1"><a id="a__Opt-out__https___imagesrv_adition_com_1x1_gif"><span/></a><span class="T15">Opt-out:</span><span
+                                        class="T1"> </span><span class="Internet_20_link"><span class="T7"><a href="https://imagesrv.adition.com/1x1.gif">https://imagesrv.adition.com/1x1.gif</a></span></span>
+                                </p>
+                                <p class="P22"></p>
+                                <p class="P11"></p>
+                                <p class="P1"><a id="a__Rubicon_Project"><span/></a><span class="T17">Rubicon Project</span></p>
+                                <p class="P11"></p>
+                                <p class="Standard"><span class="T1">Rubicon Project (https://www.rubiconproject.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Rubicon Project ist Rubicon Project, inc. mit Sitz in Playa Vista – 12181 Bluff Creek Drive, 4th Floor, Playa Vista, CA 90094, USA. Wenn Sie nicht wollen, dass weiterhin anonymisierte </span><span
+                                        class="T1">Daten von Rubicon Project gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P11"></p>
+                                <p class="P1"><a id="a__Datenschutzbestimmungen__http___www_rubiconproject_com_privacy-policy_"><span/></a><span
+                                        class="T15">Datenschutzbestimmungen</span><span class="T22">: </span><a
+                                        href="http://www.rubiconproject.com/privacy-policy/" class="ListLabel_20_6"><span
+                                        class="Internet_20_link"><span
+                                        class="T4">http://www.rubiconproject.com/privacy-policy/</span></span></a></p>
+                                <p class="P17"></p>
+                                <p class="Standard"><span class="T15">Opt-out:</span><span class="T1"> </span><a
+                                        href="https://rubiconproject.com/privacy/consumer-online-profile-and-opt-out/"
+                                        class="ListLabel_20_8"><span class="Internet_20_link"><span class="T5">https://rubiconproject.com/privacy/consumer-online-profile-and-opt-out/</span></span></a>
+                                </p>
+                                <p class="P14"></p>
+                                <p class="P16"></p>
+                                <p class="P1"><a id="a__Primis"><span/></a><span class="T17">Primis</span></p>
+                                <p class="P14"></p>
+                                <p class="Standard"><span class="T1">Primis (https://www.primis.tech) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Primis ist Primis LTD mit Sitz in 622 Third avenue, McCann New York House</span>
+                                </p>
+                                <p class="Standard"><span class="T1">10017 New York City, USA. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Primis gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T15">Datenschutzbestimmungen</span><span class="T22">: </span><a
+                                        href="https://www.primis.tech/wp-content/uploads/2018/02/primisPrivacyPolicy2018.pdf"
+                                        class="ListLabel_20_6"><span class="Internet_20_link"><span class="T4">https://www.primis.tech/wp-content/uploads/2018/02/primisPrivacyPolicy2018.pdf</span></span></a>
+                                </p>
+                                <p class="P17"></p>
+                                <p class="Standard"><span class="T15">Opt-out: </span><a
+                                        href="https://web.archive.org/web/20180116234711/http:/live.sekindo.com/utils/cookieOptOut.php"
+                                        class="ListLabel_20_8"><span class="Internet_20_link"><span class="T5">https://web.archive.org/web/20180116234711/http:/live.sekindo.com/utils/cookieOptOut.php</span></span></a>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="P2"></p>
+                                <p class="P1"><a id="a__Smaato"><span/></a><span class="T12">Smaato</span></p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T1">Smaato (https://www.smaato.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Smaato ist Smaato Ad Services mit Sitz in Hamburg – Valentinskamp 70, Emporio, 20355 Hamburg, Germany. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Smaato gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="P1"><a id="a__Datenschutzbestimmungen__https___www_smaato_com_privacy_"><span/></a><span
+                                        class="T15">Datenschutzbestimmungen</span><span class="T22">: </span><a
+                                        href="https://www.smaato.com/privacy/" class="ListLabel_20_9"><span class="T22">https://www.smaato.com/privacy/</span></a>
+                                </p>
+                                <p class="P17"></p>
+                                <p class="P1"><a id="a__Opt-out__http___www_youronlinechoices_eu"><span/></a><span
+                                        class="T15">Opt-out: </span><a href="https://www.youronlinechoices.eu/" class="ListLabel_20_16"><span
+                                        class="T33">http://www.youronlinechoices.eu</span></a></p>
+                                <p class="P14"/>
+                                <p class="P14"></p>
+                                <p class="P1"><a id="a__SmartAdserver"><span/></a><span class="T12">SmartAdserver</span></p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T14">SmartAdserver (https://www.smartadserver.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von SmartAdserver ist SmartAdserver mit Sitz in Paris – 66 Rue de la Chaussée d´Antin, 75009 Paris, France. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von SmartAdserver gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P5"></p>
+                                <p class="P1"><a
+                                        id="a__Datenschutzbestimmungen__http___smartadserver_com_company_privacy-policy_"><span/></a><span
+                                        class="T15">Datenschutzbestimmungen</span><span class="T22">: </span><a
+                                        href="http://smartadserver.com/company/privacy-policy/" class="ListLabel_20_6"><span
+                                        class="Internet_20_link"><span
+                                        class="T4">http://smartadserver.com/company/privacy-policy/</span></span></a></p>
+                                <p class="P19"></p>
+                                <p class="P1"><a
+                                        id="a__Opt-out__http___www_smartadserver_com_diffx_optout_IABOptout_aspx"><span/></a><span
+                                        class="T15">Opt-out: </span><span class="T22"><a href="http://www.smartadserver.com/diffx/optout/IABOptout.aspx">http://www.smartadserver.com/diffx/optout/IABOptout.aspx</a></span>
+                                </p>
+                                <p class="P5"></p>
+                                <p class="P5"></p>
+                                <p class="P5"></p>
+                                <p class="P1"><a id="a__Smartclip"><span/></a><span class="T12">Smartclip</span></p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T1">Smartclip (http://www.smartclip.com/) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Smartclip ist die Smartclip Holding AG mit Sitz Kleiner Burstah 12, 20457 Hamburg, Deutschland. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Smartclip gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="P1"><a id="a__Datenschutzbestimmungen__http___privacy-portal_smartclip_net_"><span/></a><span
+                                        class="T15">Datenschutzbestimmungen</span><span class="T22">: <a href="http://privacy-portal.smartclip.net/">http://privacy-portal.smartclip.net/</a></span>
+                                </p>
+                                <p class="P17"></p>
+                                <p class="P1"><a id="a__Opt-out__https___privacy-portal_smartclip_net_de_opt-out"><span/></a><span
+                                        class="T15">Opt-out: </span><span
+                                        class="T33"><a href="https://privacy-portal.smartclip.net/de/opt-out">https://privacy-portal.smartclip.net/de/opt-out</span></a></p>
+                                <p class="P5"></p>
+                                <p class="P5"></p>
+                                <p class="P1"><a id="a__Sovrn"><span/></a><span class="T12">Sovrn</span></p>
+                                <p class="P5"></p>
+                                <p class="Standard"><span class="T1">Sovrn (https://www.sovrn.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Sovrn ist Sovrn Holdings, Inc. mit Sitz in Boulder – 5541 Central Avenue, Boulder, CO 80301. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Sovrn gesammelt werden, klicken Sie bitte unten </span><span
+                                        class="T1">auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P5"></p>
+                                <p class="P1"><a
+                                        id="a__Datenschutzbestimmungen__https___www_sovrn_com_privacy-policy-eu_"><span/></a><span
+                                        class="T15">Datenschutzbestimmungen</span><span class="T22">: </span><a
+                                        href="https://www.sovrn.com/privacy-policy-eu/" class="ListLabel_20_9"><span class="T22">https://www.sovrn.com/privacy-policy-eu/</span></a>
+                                </p>
+                                <p class="P19"></p>
+                                <p class="P1"><a
+                                        id="a__Opt-out__https___info_evidon_com_pub_info_15620?v=1_nt=0_nw=false"><span/></a><span
+                                        class="T15">Opt-out: </span><span class="T22"><a href="https://info.evidon.com/pub_info/15620?v=1&nt=0&nw=false">https://info.evidon.com/pub_info/15620?v=1&amp;nt=0&amp;nw=false</a></span>
+                                </p>
+                                <p class="P5"></p>
+                                <p class="P7"></p>
+                                <p class="Standard"><span class="T12">Spotxchange</span></p>
+                                <p class="P5"></p>
+                                <p class="Standard"><span class="T1">Spotxchange (https://</span> <span class="T1">www.spotx.tv) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Spotxchange ist </span><span
+                                        class="T34">SpotX</span></p>
+                                <p class="Standard"><span class="T1">Mit Sitz in 8181 Arista Place Broomfield, CO 80021, USA. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Spotxchange gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P5"></p>
+                                <p class="P1"><a id="a__Datenschutzbestimmungen__https___www_spotx_tv_privacy-policy_"><span/></a><span
+                                        class="T15">Datenschutzbestimmungen</span><span class="T22">: <a href="https://www.spotx.tv/privacy-policy/">https://www.spotx.tv/privacy-policy/</a></span>
+                                </p>
+                                <p class="P19"></p>
+                                <p class="Standard"><span class="T15">Opt-out: </span><span class="T14"><a href="https://www.spotx.tv/privacy-policy/gdpr/">https://www.spotx.tv/privacy-policy/gdpr/</a></span>
+                                </p>
+                                <p class="P5"></p>
+                                <p class="P5"></p>
+                                <p class="P1"><a id="a__Ströer_SSP"><span/></a><span class="T8">Ströer SSP</span></p>
+                                <p class="P4"></p>
+                                <p class="Standard"><span class="T1">Ströer SSP (https://www.adscale.de) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Ströer SSP ist die Ströer media Deutschland GmbH mit Sitz in Köln – 50999 Köln, Ströer-Allee 1. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Adscale gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="P1"><a id="a__Datenschutzbestimmungen__http___www_adscale_de_datenschutz"><span/></a><span
+                                        class="T14">Datenschutzbestimmungen: </span><a href="http://www.adscale.de/datenschutz"
+                                                                                       class="ListLabel_20_9"><span class="T22">http://www.adscale.de/datenschutz</span></a>
+                                </p>
+                                <p class="P17"></p>
+                                <p class="P1"><a id="a__Opt-out__ih_adscale_de_adscale-ih_oo"><span/></a><span
+                                        class="T14">Opt-out: </span><span class="T15">ih.adscale.de/adscale-ih/oo</span></p>
+                                <p class="P5"></p>
+                                <p class="P5"></p>
+                                <p class="Standard"><span class="T9">The Tradedesk</span><span class="Strong"><span class="T30"> </span></span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="P27"><span class="T29">Thetradedesk (</span><a href="https://www.thetradedesk.com/"
+                                                                                         class="ListLabel_20_17"><span class="T31">https://www.thetradedesk.com/</span></a><span
+                                        class="T1">)</span><span class="T29"> </span><span class="T1">setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren.</span><span
+                                        class="T29"> Anbieter von The Tradedesk ist The Trade Desk, Inc, Große Theaterstraße 31, 1st Floor, 20354 Hamburg, Deutschland. </span><span
+                                        class="T29">The Tradedesk ist eine Plattform für einfaches und transparentes Handling von Werbekampagnen im Real Time &amp; Data Driven Advertising Umfeld.</span>
+                                </p>
+                                <p class="Standard"><span class="T14">Datenschutzbestimmungen: <a href="https://www.thetradedesk.com/general/privacy">https://www.thetradedesk.com/general/privacy</a></span>
+                                </p>
+                                <p class="P5"></p>
+                                <p class="Standard"><span class="T14">Opt-out: </span><a href="https://www.adsrvr.org/"
+                                                                                         class="ListLabel_20_7"><span class="T14">https://www.adsrvr.org/</span></a>
+                                </p>
+                                <p class="P5"></p>
+                                <p class="P5"></p>
+                                <p class="P1"><a id="a__Twiago"><span/></a><span class="T12">Twiago</span></p>
+                                <p class="P5"></p>
+                                <p class="Standard"><span class="T1">Twiago (https://www.twiago.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Twiago ist Twiago mit Sitz in Köln – Gustav-Heinemann-Ufer 72b, 50968 Köln. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Twiago gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P5"></p>
+                                <p class="P1"><a id="a__Datenschutzbestimmungen__http___www_twiago_com_datenschutz_"><span/></a><span
+                                        class="T15">Datenschutzbestimmungen</span><span class="T22">: </span><a
+                                        href="http://www.twiago.com/datenschutz/" class="ListLabel_20_6"><span class="Internet_20_link"><span
+                                        class="T4">http://www.twiago.com/datenschutz/</span></span></a></p>
+                                <p class="P19"></p>
+                                <p class="P1"><a id="a__Opt-out__http___control_twiago_com_privacy_php?lang=0"><span/></a><span
+                                        class="T15">Opt-out: </span><a href="http://control.twiago.com/privacy.php?lang=0"
+                                                                       class="ListLabel_20_8"><span class="Internet_20_link"><span
+                                        class="T5">http://control.twiago.com/privacy.php?lang=0</span></span></a></p>
+                                <p class="P19"></p>
+                                <p class="P5"></p>
+                                <p class="P1"><a id="a__Mopub"><span/></a><span class="T12">Mopub</span></p>
+                                <p class="P5"></p>
+                                <p class="Standard"><span class="T1">Mopub (https://www.mopub.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Mopub ist Twitter, Inc. mit Sitz in San Francisco – 1355 Market Street, Suite 900, San Francisco, Ca 94103. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Moppub gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P5"></p>
+                                <p class="P1"><a id="a__Datenschutzbestimmungen__https___www_mopub_com_legal_privacy_"><span/></a><span
+                                        class="T15">Datenschutzbestimmungen</span><span class="T22">: </span><a
+                                        href="https://www.mopub.com/legal/privacy/" class="ListLabel_20_6"><span
+                                        class="Internet_20_link"><span class="T4">https://www.mopub.com/legal/privacy/</span></span></a>
+                                </p>
+                                <p class="P13"></p>
+                                <p class="P1"><a id="a__Opt-out__https___www_mopub_com_legal_privacy_"><span/></a><span class="T15">Opt-out: </span><a
+                                        href="https://www.mopub.com/legal/privacy/" class="ListLabel_20_8"><span
+                                        class="Internet_20_link"><span class="T5">https://www.mopub.com/legal/privacy/</span></span></a>
+                                </p>
+                                <p class="P5"></p>
+                                <p class="P9"></p>
+                                <p class="P1"><a id="a__Inmobi"><span/></a><span class="T12">Inmobi</span></p>
+                                <p class="P5"></p>
+                                <p class="Standard"><span class="T1">Inmobi (https://www.inmobi.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Inmobi ist Inmobi Pte Ltd mit Sitz in Bangalore – Embassy Tech Square, Kadubeesanahalli Village Outer Ring Roard, </span><span
+                                        class="T1">Varthur Hobli, Bangalore 560103. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Inmobi gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.</span>
+                                </p>
+                                <p class="P25"></p>
+                                <p class="P1"><a
+                                        id="a__Datenschutzbestimmungen__https___www_inmobi_com_privacy-policy"><span/></a><span
+                                        class="T15">Datenschutzbestimmungen</span><span class="T23">: </span><a
+                                        href="https://www.inmobi.com/privacy-policy" class="ListLabel_20_4"><span
+                                        class="Internet_20_link"><span
+                                        class="T1">https://www.inmobi.com/privacy-policy</span></span></a></p>
+                                <p class="P14"></p>
+                                <p class="P1"><a id="a__Opt-out__https___www_inmobi_com_page_opt-out_"><span/></a><span class="T15">Opt-out: </span><a
+                                        href="https://www.inmobi.com/page/opt-out/" class="ListLabel_20_18"><span
+                                        class="Internet_20_link"><span
+                                        class="T11">https://www.inmobi.com/page/opt-out/</span></span></a></p>
+                                <p class="P2"></p>
+                                <p class="P2"></p>
+                                <p class="P1"><a id="a__SONSTIGE___UNVORHERSEHBARE_COOKIES"><span/></a><span class="T1">SONSTIGE / UNVORHERSEHBARE COOKIES</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T1">Aufgrund der Funktionsweise von Internet und Websites ist es möglich, dass Yieldlove nicht immer auf die Cookies achtet, die durch seine Banner von Drittanbietern platziert werden. Dies ist insbesondere dann der Fall, wenn seine Banner eingebettete Elemente wie Texte, Dokumente, Bilder oder Filmclips enthalten, die von einer anderen Partei gespeichert, aber auf oder in seinen Banner angezeigt werden.</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T1">Sollten Sie auf dieser Website Cookies finden, die in diese Kategorie fallen, die Yieldlove oben nicht erwähnt hat, teilen Sie uns dies bitte umgehend mit oder kontaktieren Sie direkt diesen Drittanbieter und fragen Sie, welche Cookies platziert wurden, was der Grund dafür war, wie lange der Cookie bestehen bleibt und auf welche Weise Ihre Privatsphäre geschützt wird.</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="P2"></p>
+                                <p class="P2"></p>
+                                <p class="P1"><a id="a__IHRE_RECHTE_IN_BEZUG_AUF_IHRE_DATEN"><span/></a><span class="T1">IHRE RECHTE IN BEZUG AUF IHRE DATEN</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T1">Yieldlove betrachtet die Daten der Werbebanner nicht als personenbezogene Daten gemäß geltendem Recht. Ebenso sammelt oder verarbeitet Yieldlove keine sensiblen persönlichen Daten wie Daten über Rasse oder ethnische Herkunft, politische Meinungen, religiöse oder philosophische Überzeugungen, Gewerkschaftsmitgliedschaft, Gesundheit oder Sexualleben. Darüber hinaus sammelt Yieldlove wissentlich auch keine Daten von Kindern unter 12 Jahren.</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T1">Yieldlove nimmt an den Selbstregulierungs-Programmen der European Digital Advertising Alliance (EDAA) teil und hält sich an die EDAA-Prinzipien für Online Behavioral Advertising. Die EDAA fungiert hauptsächlich als zentrale Lizenzierungsstelle für das OBA-Symbol und bietet den Verbrauchern technische Möglichkeiten, Transparenz und Kontrolle über OBA über die Online-Plattform für </span><span
+                                        class="T1">Verbraucherwahl von youronlinechoices.eu auszuüben. Die EDAA wird von Organisationen auf EU-Ebene geregelt, die die Wertschöpfungskette der OBA in Europa bilden und die europäische Konsistenz in der Vorgehensweise sicherstellen. Klicken Sie </span><a
+                                        href="http://www.edaa.eu/" class="ListLabel_20_4"><span class="Internet_20_link"><span
+                                        class="T1">hier</span></span></a><span class="T1">, um mehr über die EDAA zu erfahren.</span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="P2"></p>
+                                <p class="P2"></p>
+                                <p class="P1"><a id="a__ANPASSUNGEN_UND_KONTAKT"><span/></a><span
+                                        class="T1">ANPASSUNGEN UND KONTAKT</span></p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T1">Gelegentlich muss Yieldlove Passagen dieser Datenschutzbestimmungen anpassen. Zum Beispiel, wenn Yieldlove seine Webseite ändert oder wenn sich die Gesetze für Cookies oder Datenschutz ändern. Yieldlove und seine Partner können den Inhalt der Aussagen und der Cookies, die ohne vorherige Warnung angegeben werden, jederzeit ändern. </span>
+                                </p>
+                                <p class="P2"></p>
+                                <p class="Standard"><span class="T1">Wenn Sie Fragen und / oder Kommentare haben oder eine Beschwerde einreichen möchten, kontaktieren Sie bitte den Datenschutzbeauftragten von Yieldlove per E-Mail unter </span><a
+                                        href="mailto:datenschutzbeauftragter@stroeer.de" class="ListLabel_20_4"><span
+                                        class="Internet_20_link"><span class="T1">datenschutzbeauftragter@stroeer.de</span></span></a>
+                                </p>
+                                <p class="P2"></p>
 
-                            <p><b>Werbe-Cookies Dritter</b><br>
-                                yieldlove erlaubt auch anderen Unternehmen, Daten unserer Nutzer mithilfe von Werbe-Cookies zu erheben. Dies
-                                ermöglicht yieldlove und Dritten, den Nutzern unseres Online-Angebots interessenbasierte Werbung anzuzeigen,
-                                die auf einer Analyse ihres Nutzungsverhaltens (z. B. geklickte Werbebanner, besuchte Unterseiten, gestellte
-                                Suchanfragen) insgesamt und nicht beschränkt auf unser Online-Angebot, basiert.
+                            <!-- /yieldlove -->
 
-                            <p>Yieldlove liefert im Auftrag seiner Kunden Werbebanner aus. Alle yieldlive-Banner verwenden Cookies. yieldlove platziert
-                                diese Banner mit Hilfe von Drittanbietern auf Websites Dritter, wie zum Beispiel einer Nachrichtenseite oder languagetool.org.
-
-                            <p>Zu Diagnosezwecken, Fehlersuche und Aufdeckung von betrügerischem Verhalten sammelt yieldlove in einigen Anzeigeneinheiten
-                                Benutzerinformationen mittels Cookies, die eine Lebensdauer von 6 Monaten haben. Die erfassten Benutzerinformationen
-                                umfassen Benutzeragent, Gerät, HTTP-Referrer und die IP. Diese Daten werden nicht länger als 7 Tage aufbewahrt.
-
-                            <p>Yieldlove unternimmt angemessene Schritte, um alle Informationen, die yieldlove verarbeitet, vor Missbrauch, Verlust,
-                                unberechtigtem Zugriff, Änderung oder Benachrichtigung zu schützen. yieldlove ergreift physische, elektronische und
-                                verfahrenstechnische Sicherheitsmaßnahmen, um die von yieldlove verarbeiteten Daten zu schützen. Dadurch beschränkt
-                                yieldlove den Zugriff auf diese Informationen auf autorisierte Mitarbeiter.
-
-                            <p>Für die Cookies, die yieldloves Drittanbieter zu Werbezwecken platzieren, verweist yieldlove auf die Disclaimer, die sie
-                                zu dem Thema auf ihren eigenen Websites zur Verfügung gestellt haben. Beachten Sie, dass yieldlove sich nur auf diese
-                                Haftungsausschlüsse beziehen kann, da sie sich regelmäßig ändern und Yieldlove keinen Einfluss darauf hat.
-
-
-                            <h3>DRITTANBIETER UND OPT-OUT</h3>
-
-                            <p>Eine zentrale Widerspruchsmöglichkeit für verschiedene Drittanbieter insbesondere US-amerikanischer Anbieter
-                                ist auch unter folgendem Link erreichbar: <a href="https://optout.networkadvertising.org">optout.networkadvertising.org</a>
-                                Sie können aber auch einen separaten Opt-out für jedes einzelne Unternehmen vornehmen mit dem yieldlove zusammenarbeiten.
-
-                            <p>Für die Datenerhebung zur Auslieferung von nutzungsbasierter Online-Werbung zuständig sind folgende
-                                Unternehmen im Auftrag der Yieldlove GmbH:
-
-
-                            <p><b>4w Marketplace</b>
-
-                            <p>4w Marketplace (www.4wmarketplace.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu
-                                präsentieren. Anbieter von 4w Marketplace ist 4w Marketplace mit Sitz in Fisciano (Salerno) – 84084 in
-                                Via Giovanni Paolo II n.100. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von 4w Marketplace
-                                gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher
-                                gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-
-                                Datenschutzbestimmungen: <a href="http://www.4wmarketplace.com/privacy/">http://www.4wmarketplace.com/privacy/</a><br>
-                                Opt-out: <a href="http://www.youronlinechoices.com/it/le-tue-scelte">http://www.youronlinechoices.com/it/le-tue-scelte</a><br>
-                                <a href="https://www.neustar.biz/privacy/opt-out">https://www.neustar.biz/privacy/opt-out</a>
-
-                            <p><b>Amazon</b>
-                            <p>Amazon (https://www.aps.amazon.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Amazon publisher services ist Amazon publisher services mit Sitz in Washington – 410 Terry Ave. North, Seattle, WA 98109-5210. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Amazon publisher services gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="https://www.amazon.com/gp/help/customer/display.html/ref=hp_left_sib?ie=UTF8&nodeId=468496">https://www.amazon.com/gp/help/customer/display.html/ref=hp_left_sib?ie=UTF8&nodeId=468496</a>
-                                <br>Opt-out: <a href="https://www.amazon.com/adprefs/ref=hp_468496_advertisingpref2">https://www.amazon.com/adprefs/ref=hp_468496_advertisingpref2</a>
-
-                            <p><b>Adform</b>
-                            <p>Adform (https://www.adform.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Adform ist Adform mit Sitz in Wildersgade 10B, 1, 1408 Copenhagen, Dänemark. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten Adform gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="https://site.adform.com/privacy-policy-opt-out/">https://site.adform.com/privacy-policy-opt-out/</a>
-                                <br>Opt-out: <a href="https://site.adform.com/privacy-policy-opt-out/">https://site.adform.com/privacy-policy-opt-out/</a>
-
-                            <p><b>AppNexus</b>
-                            <p>AppNexus (https://www.appnexus.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von AppNexus ist die AppNexus Group mit Sitz in New York – 28 W. 23rd  Street, New York, New York, 10010. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Appnexus gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="https://www.appnexus.com/en/company/privacy-policy">https://www.appnexus.com/en/company/privacy-policy</a>
-                                <br>Opt-out: <a href="https://www.appnexus.com/en/company/platform-privacy-policy#choices">https://www.appnexus.com/en/company/platform-privacy-policy#choices</a>
-
-                            <p><b>Conversant</b>
-                            <p>Conversant (https://www.conversantmedia.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Conversant ist Conversant inc. mit Sitz in Chicago (IL) – 101 North Wacker, 23rd  Floor Chicago, IL 60606. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Conversant gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="http://www.conversantmedia.com/legal/privacy">http://www.conversantmedia.com/legal/privacy</a>
-                                <br>Opt-out: <a href="http://optout.conversantmedia.com/">http://optout.conversantmedia.com/</a>
-
-                            <p><b>Criteo</b>
-                            <p>Criteo (https://www.criteo.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Criteo ist Criteo mit Sitz in Paris – 32 Rue Blanche – 75009 Paris - France. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Criteo gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="http://www.criteo.com/privacy/">http://www.criteo.com/privacy/</a>
-                                <br>Opt-out: <a href="https://www.criteo.com/privacy/">https://www.criteo.com/privacy/</a>
-
-                            <p><b>District M</b>
-                            <p>District M (https://districtm.net) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von District M ist District M mit Sitz in Montreal – 5455 Gaspe Ave #730, Montreal, QC H2T 3B3, Canada. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von District M gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="https://districtm.net/en/page/platforms-data-and-privacy-policy/">https://districtm.net/en/page/platforms-data-and-privacy-policy/</a>
-                                <br>Opt-out: <a href="https://cdn.districtm.ca/optout.html">https://cdn.districtm.ca/optout.html</a>
-
-                            <p><b>Doublecklick</b>
-                            <p>Doubleclick (www.doubleclickbygoogle.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Doubleclick ist Doubleclick ist Google Ireland Limited, Gordon House, Barrow St Dublin 4 Ireland. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Doubleclick gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="http://www.google.com/intl/en/policies/privacy/">http://www.google.com/intl/en/policies/privacy/</a>
-                                <br>Opt-out: <a href="https://adssettings.google.com/authenticated?hl=en">https://adssettings.google.com/authenticated?hl=en</a>
-
-                            <p><b>Facebook</b>
-                            <p>Facebook (www.facebook.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Facebook ist Facebook Inc., located in 1601 S. California Ave, Palo Alto, CA 94304, USA. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Facebook gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="http://www.facebook.com/full_data_use_policy">http://www.facebook.com/full_data_use_policy</a>
-                                <br>Opt-out: <a href="http://www.facebook.com/ads/preferences">http://www.facebook.com/ads/preferences</a>
-
-                            <p><b>Indexexchange</b>
-                            <p>Indexexchange (www.indexexchange.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Indexexchange ist Indexexchange mit Sitz in New York – 20 W 22nd  St. Suite 1101, New York, NY 10010. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Indexexchange gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="http://www.indexexchange.com/privacy/">http://www.indexexchange.com/privacy/</a>
-                                <br>Opt-out: <a href="http://optout.networkadvertising.org/?c=1#!/">http://optout.networkadvertising.org/?c=1#!/</a>
-
-
-                            <p><b>Media.net</b>
-                            <p>Media.net (http://www.media.net/privacy-policy) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Media.net ist Media.net Advertising Ltd. mit Sitz in Dubai – 107/108, DIC Building 5, Dubai Internet City, Dubai, 215028, United Arab Emirates. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Media.net gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="http://www.media.net/privacy-policy">http://www.media.net/privacy-policy</a>
-                                <br>Opt-out: <a href="http://www.networkadvertising.org/choices/">http://www.networkadvertising.org/choices/</a>
-
-                            <p><b>Oath</b>
-                            <p>Oath (https://www.oath.com/) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Oath ist Oath (EMEA) Limited mit Sitz in Dublin - 5-7 Point Square, North Wall Quay. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Oath gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="http://privacy.aol.com/">http://privacy.aol.com/</a>
-                                <br>Opt-out: <a href="https://aim.yahoo.com/aim/ie/en/optout/">https://aim.yahoo.com/aim/ie/en/optout/</a>
-
-                            <p><b>OpenX</b>
-                            <p>OpenX (https://www.OpenX.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von OpenX ist OpenX mit Sitz in Pasadena – 888 E Walnut St, 2nd Floor, Pasadena CA, 91101, USA. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von OpenX gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="https://www.openx.com/de_de/privacy-policy/">https://www.openx.com/de_de/privacy-policy/</a>
-                                <br>Opt-out: <a href="https://www.openx.com/legal/interest-based-advertising/">https://www.openx.com/legal/interest-based-advertising/</a>
-
-                            <p><b>Pubmatic</b>
-                            <p>Pubmatic (https://www.pubmatic.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Pubmatic ist Pubmatic, Inc. mit Sitz in Redwood City – 305 Main Street, First Floor, Redwood City, California 94063, USA. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Pubmatic gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="https://www.openx.com/de_de/privacy-policy/">https://www.openx.com/de_de/privacy-policy/</a>
-                                <br>Opt-out: <a href="https://pubmatic.com/legal/opt-out/">https://pubmatic.com/legal/opt-out/</a>
-
-                            <p><b>Pulsepoint</b>
-                            <p>Pulsepoint (https://www.pulsepoint.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Pulsepoint ist Pulsepoint, Inc. mit Sitz in New York – 360 Madison Avenue, 14th Floor, New York, NY 10017. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Template gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="https://www.pulsepoint.com/privacy-policy">https://www.pulsepoint.com/privacy-policy</a>
-                                <br>Opt-out: <a href="http://optout.networkadvertising.org/?c=1#!/">http://optout.networkadvertising.org/?c=1#!/</a>
-
-                            <p><b>Reachnet</b>
-                            <p>Reachnet (https://www.reachnet.de) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Reachnet ist Reachnet DE Ltd. mit Sitz in Hamburg – Grindelallee 41, D-20146 Hamburg. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Reachnet gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="http://www.reachnet.de/unternehmen/agb.html">http://www.reachnet.de/unternehmen/agb.html</a>
-                                <br>Opt-out: <a href="https://adfarm1.adition.com/opt?m=optout&n=73">https://adfarm1.adition.com/opt?m=optout&n=73</a>
-
-                            <p><b>Rubicon Project</b>
-                            <p>Rubicon Project (https://www.rubiconproject.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Rubicon Project ist Rubicon Project, inc. mit Sitz in Playa Vista – 12181 Bluff Creek Drive, 4th Floor, Playa Vista, CA 90094, USA. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Rubicon Project gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="http://www.rubiconproject.com/privacy-policy/">http://www.rubiconproject.com/privacy-policy/</a>
-                                <br>Opt-out: <a href="https://rubiconproject.com/privacy/consumer-online-profile-and-opt-out/">https://rubiconproject.com/privacy/consumer-online-profile-and-opt-out/</a>
-
-                            <p><b>Primis</b>
-                            <p>Primis (https://www.primis.tech) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Primis ist Primis LTD mit Sitz in 622 Third avenue, McCann New York House
-                                10017 New York City, USA. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Primis gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="https://www.primis.tech/wp-content/uploads/2018/02/primisPrivacyPolicy2018.pdf">https://www.primis.tech/wp-content/uploads/2018/02/primisPrivacyPolicy2018.pdf</a>
-                                <br>Opt-out: <a href="http://live.sekindo.com/utils/cookieOptOut.php">http://live.sekindo.com/utils/cookieOptOut.php</a>
-
-                            <p><b>Smaato</b>
-                            <p>Smaato (https://www.smaato.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Smaato ist Smaato Ad Services mit Sitz in Hamburg – Valentinskamp 70, Emporio, 20355 Hamburg, Germany. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Smaato gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="https://www.smaato.com/privacy/">https://www.smaato.com/privacy/</a>
-                                <br>Opt-out: <a href="http://www.youronlinechoices.eu">http://www.youronlinechoices.eu</a>
-
-                            <p><b>SmartAdserver</b>
-                            <p>SmartAdserver (https://www.smartadserver.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von SmartAdserver ist SmartAdserver mit Sitz in Paris – 66 Rue de la Chaussée d´Antin, 75009 Paris, France. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von SmartAdserver gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="http://smartadserver.com/company/privacy-policy/">http://smartadserver.com/company/privacy-policy/</a>
-                                <br>Opt-out: <a href="http://www.smartadserver.com/diffx/optout/IABOptout.aspx">http://www.smartadserver.com/diffx/optout/IABOptout.aspx</a>
-
-                            <p><b>Sovrn</b>
-                            <p>Sovrn (https://www.sovrn.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Sovrn ist Sovrn Holdings, Inc. mit Sitz in Boulder – 5541 Central Avenue, Boulder, CO 80301. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Sovrn gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="https://www.sovrn.com/privacy-policy-eu/">https://www.sovrn.com/privacy-policy-eu/</a>
-                                <br>Opt-out: <a href="https://info.evidon.com/pub_info/15620?v=1&nt=0&nw=false">https://info.evidon.com/pub_info/15620?v=1&nt=0&nw=false</a>
-
-                            <p><b>Ströer SSP</b>
-                            <p>Ströer SSP (https://www.adscale.de) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Ströer SSP ist die Ströer media Deutschland GmbH mit Sitz in Köln – 50999 Köln, Ströer-Allee 1. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Adscale gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="http://www.adscale.de/datenschutz">http://www.adscale.de/datenschutz</a>
-                                <br>Opt-out: <a href="http://ih.adscale.de/adscale-ih/oo">http://ih.adscale.de/adscale-ih/oo</a>
-
-                            <p><b>Twiago</b>
-                            <p>Twiago (https://www.twiago.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Twiago ist Twiago mit Sitz in Köln – Gustav-Heinemann-Ufer 72b, 50968 Köln. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Twiago gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="http://www.twiago.com/datenschutz/">http://www.twiago.com/datenschutz/</a>
-                                <br>Opt-out: <a href="http://control.twiago.com/privacy.php?lang=0">http://control.twiago.com/privacy.php?lang=0</a>
-
-                            <p><b>Mopub</b>
-                            <p>Mopub (https://www.mopub.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Mopub ist Twitter, Inc. mit Sitz in San Francisco – 1355 Market Street, Suite 900, San Francisco, Ca 94103. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Moppub gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="https://www.mopub.com/legal/privacy/">https://www.mopub.com/legal/privacy/</a>
-                                <br>Opt-out: <a href="https://www.mopub.com/legal/privacy/">https://www.mopub.com/legal/privacy/</a>
-
-                            <p><b>Inmobi</b>
-                            <p>Inmobi (https://www.inmobi.com) setzt Technologien ein, um Ihnen für Sie relevante Werbeanzeigen zu präsentieren. Anbieter von Inmobi ist Inmobi Pte Ltd mit Sitz in Bangalore – Embassy Tech Square, Kadubeesanahalli Village Outer Ring Roard, Varthur Hobli, Bangalore 560103. Wenn Sie nicht wollen, dass weiterhin anonymisierte Daten von Inmobi gesammelt werden, klicken Sie bitte unten auf den Opt-out Link. Dieses OptOut-Cookie löscht die bisher gespeicherten Informationen und verhindert ein weiteres Erfassen von Informationen.
-                                <br>Datenschutzbestimmungen: <a href="https://www.inmobi.com/privacy-policy">https://www.inmobi.com/privacy-policy</a>
-                                <br>Opt-out: <a href="https://www.inmobi.com/page/opt-out/">https://www.inmobi.com/page/opt-out/</a>
-
-                            <h3>SONSTIGE / UNVORHERSEHBARE COOKIES</h3>
-
-                            <p>Aufgrund der Funktionsweise von Internet und Websites ist es möglich, dass yieldlove nicht immer auf die Cookies achtet, die
-                                durch yieldloves Banner von Drittanbietern platziert werden. Dies ist insbesondere dann der Fall, wenn yieldloves Banner
-                                eingebettete Elemente wie Texte, Dokumente, Bilder oder Filmclips enthalten, die von einer anderen Partei gespeichert,
-                                aber auf oder in yieldloves Banner angezeigt werden.
-
-                            <p>Sollten Sie auf dieser Website Cookies finden, die in diese Kategorie fallen, die oben nicht erwähnt sind,
-                                teilen Sie uns oder yieldlove dies bitte umgehend mit oder kontaktieren Sie direkt diesen Drittanbieter und fragen Sie, welche Cookies
-                                platziert wurden, was der Grund dafür war, wie lange der Cookie bestehen bleibt und auf welche Weise Ihre Privatsphäre
-                                geschützt wird.
-
-
-                            <h3>IHRE RECHTE IN BEZUG AUF IHRE DATEN</h3>
-
-                            <p>Yieldlove betrachtet die Daten der Werbebanner nicht als personenbezogene Daten gemäß geltendem Recht. Ebenso
-                                sammelt oder verarbeitet yieldlove keine sensiblen persönlichen Daten wie Daten über Rasse oder ethnische Herkunft,
-                                politische Meinungen, religiöse oder philosophische Überzeugungen, Gewerkschaftsmitgliedschaft, Gesundheit oder
-                                Sexualleben. Darüber hinaus sammelt yieldlove wissentlich auch keine Daten von Kindern unter 12 Jahren.
-
-                            <p>Wenn Sie die von yieldlove zur Verfügung gestellten Werbebannerdaten korrigieren, aktualisieren oder löschen
-                                möchten oder wenn Sie die personenbezogenen Daten, die Sie yieldlove über das Kontaktformular auf yieldloves Homepage
-                                zur Verfügung gestellt haben, korrigieren, aktualisieren oder löschen möchten, können Sie yieldlove kontaktieren per
-                                E-Mail an datenschutzbeauftragter@stroeer.de.
-
-                            <p>Yieldlove nimmt an den Selbstregulierungs-Programmen der European Digital Advertising Alliance (EDAA) teil und hält sich
-                                an die EDAA-Prinzipien für Online Behavioral Advertising. Die EDAA fungiert hauptsächlich als zentrale Lizenzierungsstelle
-                                für das OBA-Symbol und bietet den Verbrauchern technische Möglichkeiten, Transparenz und Kontrolle über OBA über die
-                                Online-Plattform für Verbraucherwahl von youronlinechoices.eu auszuüben. Die EDAA wird von Organisationen auf EU-Ebene
-                                geregelt, die die Wertschöpfungskette der OBA in Europa bilden und die europäische Konsistenz in der Vorgehensweise sicherstellen.
-                                <a href="http://www.edaa.eu/">Klicken Sie hier</a>, um mehr über die EDAA zu erfahren.
-
-                            <p>Wenn Sie Fragen und / oder Kommentare haben oder eine Beschwerde im Bereich Werbung einreichen möchten,
-                                kontaktieren Sie uns oder yieldlove per E-Mail unter datenschutzbeauftragter@stroeer.de.
-
-                        </li>
                     </ul>
 
                 <?php } else { ?>
@@ -535,230 +981,1266 @@
 
                             <p>What cookies does yieldlove use?
 
-                            <p><b>Analysis cookies</b><br>
-                                yieldlove uses analysis cookies in order to be able to record the usage behavior (eg clicked advertising banners,
-                                visited sub-pages, made search queries) of our users and to evaluate them in statistical form.
-
-                            <p><b>Advertising cookies</b><br>
-                                yieldlove also uses cookies for promotional purposes. Usage profiles created using these cookies (eg, clicked 
-                                banner ads, visited subpages, requested search queries) are used by us to show you advertisements or offers 
-                                that are tailored to your interests ("interest-based advertising").
-
-                            <p><b>Advertising cookies of third parties</b><br>
-                                yieldlove also allows other companies to collect our users' data through advertising cookies.
-                                This allows yieldlove and third parties to provide users of our online service with interest-based 
-                                advertising based on an analysis of their usage behavior (eg, clicked banner ads, visited 
-                                subpages, requested search queries), and not limited to our online offerings.
-
-
-                            <p>Yieldlove delivers advertising banners on behalf of its customers. All our banners use cookies. yieldlove places
-                                these banners on third-party websites, such as a news page or languagetool.org, with the help of third-party providers.
-
-                            <p>For diagnostic purposes, troubleshooting, and detecting fraudulent behavior, yieldlove collects user information 
-                                in cookies using yieldlove's 6-month lifecycle. The captured user information includes user agent, 
-                                device, HTTP referrer and the IP. This data is not retained for more than 7 days.
-
-                            <p>Yieldlove takes reasonable steps to protect any information yieldlove processs from misuse, loss,
-                                unauthorized access, modification or notification. yieldlove takes physical, electronic and procedural 
-                                security measures to protect the data yieldlove processes. By doing so, yieldlove restricts access to this 
-                                information to authorized employees.
-
-                            <p>For the cookies that our third-party advertisers place for advertising purposes, yieldlove refers to 
-                                the disclaimers that they have provided on the topic on their own websites. Note that
-                                yieldlove can only refer to these disclaimers, as they change regularly and Yieldlove has no control over them.
-
-
-
-                            <p><b>THIRD PARTIES AND OPT-OUT</b>
-
-                            <p>A central contradiction possibility for different third-party suppliers in particular US-companies is also
-                                attainable under the following link: <a href="http://optout.networkadvertising.org">optout.networkadvertising.org</a> But you can also opt-out separately 
-                                for each company we work with. Responsible for the data collection and for the delivery of interest 
-                                based-based online advertising are the following companies on behalf of Yieldlove GmbH:
-
-
-
-                            <p><b>4w Marketplace</b><br>
-                                4w Marketplace (www.4wmarketplace.com) uses technologies, to show interest-based advertising to you. Provider of 4w Marketplace is 4w Marketplace srl located in Fisciano (Salerno) – 84084 in Via Giovanni Paolo II n.100. In case you would like to prevent 4w Marketplace from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://www.4wmarketplace.com/privacy/">www.4wmarketplace.com/privacy/</a>
-                                <br>Opt-out: <a href="http://www.youronlinechoices.com/it/le-tue-scelte">www.youronlinechoices.com/it/le-tue-scelte</a>
-
-
-                            <p><b>Adform</b><br>
-                                Adform (www.adform.com) uses technologies, to show interest-based advertising to you. Provider of Adform is Adform located in Wildersgade 10B, 1, 1408 Copenhagen, Denmark. In case you would like to prevent Adform from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://site.adform.com/privacy-policy-opt-out/">site.adform.com/privacy-policy-opt-out/</a>
-                                <br>Opt-out: <a href="http://site.adform.com/privacy-policy-opt-out/">site.adform.com/privacy-policy-opt-out/</a>
-
-
-                            <p><b>Amazon</b><br>
-                                Amazon (https://www.aps.amazon.com) uses technologies, to show interest-based advertising to you. Provider of Amazon publisher services is Amazon publisher services located in Washington – 410 Terry Ave. North, Seattle, WA 98109-5210. In case you would like to prevent Amazon publisher services from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="https://www.amazon.com/gp/help/customer/display.html/ref=hp_left_sib?ie=UTF8&nodeId=468496">www.amazon.com/gp/help/customer/display.html/ref=hp_left_sib?ie=UTF8&nodeId=468496</a>
-                                <br>Opt-out: <a href="https://www.amazon.com/adprefs/ref</a>=hp_468496_advertisingpref2">www.amazon.com/adprefs/ref=hp_468496_advertisingpref2</a>
-
-
-                            <p><b>AppNexus</b><br>
-                                AppNexus (https://www.appnexus.com) uses technologies, to show interest-based advertising to you. Provider of AppNexus is AppNexus Group located in in New York – 28 W. 23rd  Street, New York, New York, 10010. In case you would like to prevent Appnexus from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://www.appnexus.com/en/company/privacy-policy">www.appnexus.com/en/company/privacy-policy</a>
-                                <br>Opt-out: <a href="http://www.appnexus.com/en/company/platform-privacy-policy#choices">www.appnexus.com/en/company/platform-privacy-policy#choices</a>
-
-
-                            <p><b>Conversant</b><br>
-                                Conversant (https://www.conversantmedia.com) uses technologies, to show interest-based advertising to you. Provider of Conversant is Conversant inc. located in in Chicago (IL) – 101 North Wacker, 23rd  Floor Chicago, IL 60606. In case you would like to prevent Conversant from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://www.conversantmedia.com/legal/privacy">www.conversantmedia.com/legal/privacy</a>
-                                <br>Opt-out: <a href="http://optout.conversantmedia.com/">optout.conversantmedia.com/</a>
-
-
-                            <p><b>Criteo</b><br>
-                                Criteo (https://www.criteo.com) uses technologies, to show interest-based advertising to you. Provider of Criteo is Criteo located in Paris – 32 Rue Blanche – 75009 Paris - France. In case you would like to prevent Criteo from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://www.criteo.com/privacy/">www.criteo.com/privacy/</a>
-                                <br>Opt-out: <a href="http://www.criteo.com/privacy/">www.criteo.com/privacy/</a>
-
-
-                            <p><b>District M</b><br>
-                                District M (https://districtm.net) uses technologies, to show interest-based advertising to you. Provider of District M is District M located in Montreal – 5455 Gaspe Ave #730, Montreal, QC H2T 3B3, Canada. In case you would like to prevent District M from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://districtm.net/en/page/platforms-data-and-privacy-policy/">districtm.net/en/page/platforms-data-and-privacy-policy/</a>
-                                <br>Opt-out: <a href="http://cdn.districtm.ca/optout.html">cdn.districtm.ca/optout.html</a>
-
-
-                            <p><b>Doubleclick</b><br>
-                                Doubleclick (www.doubleclickbygoogle.com) uses technologies, to show interest-based advertising to you. Provider of Doubleclick is Google located in Ireland Limited, Gordon House, Barrow St Dublin 4 Ireland. In case you would like to prevent Doubleclick from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://www.google.com/intl/en/policies/privacy/">www.google.com/intl/en/policies/privacy/</a>
-                                <br>Opt-out: <a href="http://adssettings.google.com/authenticated?hl=en">adssettings.google.com/authenticated?hl=en</a>
-
-                            
-                            <p><b>Facebook</b><br>
-                                Facebook (www.facebook.com) uses technologies, to show interest-based advertising to you. Provider of Facebook is Facebook Inc., located in 1601 S. California Ave, Palo Alto, CA 94304, USA. In case you would like to prevent Facebook from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://www.facebook.com/full_data_use_policy">www.facebook.com/full_data_use_policy</a>
-                                <br>Opt-out: <a href="http://www.facebook.com/ads/preferences">www.facebook.com/ads/preferences</a>
-
-
-                            <p><b>Indexexchange</b><br>
-                                Indexexchange (www.indexexchange.com) uses technologies, to show interest-based advertising to you. Provider of Indexexchange is Indexexchange located in New York – 20 W 22nd  St. Suite 1101, New York, NY 10010. In case you would like to prevent Indexexchange from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://www.indexexchange.com/privacy/">www.indexexchange.com/privacy/</a>
-                                <br>Opt-out: <a href="http://optout.networkadvertising.org/">optout.networkadvertising.org/</a>?c=1#!/
-
-
-                            <p><b>Media.net</b><br>
-                                Media.net (http://www.media.net/privacy-policy) uses technologies, to show interest-based advertising to you. Provider of Media.net is Media.net Advertising Ltd. located in Dubai – 107/108, DIC Building 5, Dubai Internet City, Dubai, 215028, United Arab Emirates. In case you would like to prevent Media.net from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://www.media.net/privacy-policy">www.media.net/privacy-policy</a>
-                                <br>Opt-out: <a href="http://www.networkadvertising.org/choices/">www.networkadvertising.org/choices/</a>
-
-
-                            <p><b>Oath</b><br>
-                                Oath (https://www.oath.com/) uses technologies, to show interest-based advertising to you. Provider of Oath is Oath (EMEA) Limited located in Dublin - 5-7 Point Square, North Wall Quay. In case you would like to prevent Oath from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://privacy.aol.com/">privacy.aol.com/</a>
-                                <br>Opt-out: <a href="http://aim.yahoo.com/aim/ie/en/optout/">aim.yahoo.com/aim/ie/en/optout/</a>
-
-
-                            <p><b>OpenX</b><br>
-                                OpenX (https://www.OpenX.com) uses technologies, to show interest-based advertising to you. Provider of OpenX is OpenX located in Pasadena – 888 E Walnut St, 2nd Floor, Pasadena CA, 91101, USA. In case you would like to prevent OpenX from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://www.openx.com/de_de/privacy-policy/">www.openx.com/de_de/privacy-policy/</a>
-                                <br>Opt-out: <a href="http://www.openx.com/legal/interest-based-advertising/">www.openx.com/legal/interest-based-advertising/</a>
-
-
-                            <p><b>Pubmatic</b><br>
-                                Pubmatic (https://www.pubmatic.com) uses technologies, to show interest-based advertising to you. Provider of Pubmatic is Pubmatic, Inc. located in Redwood City – 305 Main Street, First Floor, Redwood City, California 94063, USA. In case you would like to prevent Pubmatic from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://www.openx.com/de_de/privacy-policy/">www.openx.com/de_de/privacy-policy/</a>
-                                <br>Opt-out: <a href="http://pubmatic.com/legal/opt-out/">pubmatic.com/legal/opt-out/</a>
-
-
-                            <p><b>Pulsepoint</b><br>
-                                Pulsepoint (https://www.pulsepoint.com) uses technologies, to show interest-based advertising to you. Provider of Pulsepoint is Pulsepoint, Inc. located in New York – 360 Madison Avenue, 14th Floor, New York, NY 10017. In case you would like to prevent Pulsepoint from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://www.pulsepoint.com/privacy-policy">www.pulsepoint.com/privacy-policy</a>
-                                <br>Opt-out: <a href="http://optout.networkadvertising.org/">optout.networkadvertising.org/</a>?c=1#!/
-
-
-                            <p><b>Reachnet</b><br>
-                                Reachnet (https://www.reachnet.de) uses technologies, to show interest-based advertising to you. Provider of Reachnet is Reachnet DE Ltd. located in Hamburg – Grindelallee 41, D-20146 Hamburg. In case you would like to prevent Reachnet from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://www.reachnet.de/unternehmen/agb.html">www.reachnet.de/unternehmen/agb.html</a>
-                                <br>Opt-out: <a href="http://adfarm1.adition.com/opt">adfarm1.adition.com/opt</a>?m=optout&n=73
-
-
-                            <p><b>Rubicon Project</b><br>
-                                Rubicon Project (https://www.rubiconproject.com) uses technologies, to show interest-based advertising to you. Provider of Rubicon Project is Rubicon Project, inc. located in Playa Vista – 12181 Bluff Creek Drive, 4th Floor, Playa Vista, CA 90094, USA. In case you would like to prevent Rubicon Project from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://www.rubiconproject.com/privacy-policy/">www.rubiconproject.com/privacy-policy/</a>
-                                <br>Opt-out: <a href="http://rubiconproject.com/privacy/consumer-online-profile-and-opt-out/">rubiconproject.com/privacy/consumer-online-profile-and-opt-out/</a>
-
-
-                            <p><b>Primis</b><br>
-                                Primis (https://www.primis.tech) uses technologies, to show interest-based advertising to you. Provider of Primis is Primis LTD located in 622 Third avenue, McCann New York House 10017 New York City, USA. In case you would like to prevent Primis from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://www.primis.tech/wp-content/uploads/2018/02/primisPrivacyPolicy2018.pdf">www.primis.tech/wp-content/uploads/2018/02/primisPrivacyPolicy2018.pdf</a>
-                                <br>Opt-out: <a href="http://live.sekindo.com/utils/cookieOptOut.php">live.sekindo.com/utils/cookieOptOut.php</a>
-
-
-                            <p><b>Smaato</b><br>
-                                Smaato (https://www.smaato.com) uses technologies, to show interest-based advertising to you. Provider of Smaato is Smaato Ad Services located in Hamburg – Valentinskamp 70, Emporio, 20355 Hamburg, Germany. In case you would like to prevent Smaato from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://www.smaato.com/privacy/">www.smaato.com/privacy/</a>
-                                <br>Opt-out: <a href="http://www.youronlinechoices.eu">www.youronlinechoices.eu</a>
-
-
-                            <p><b>SmartAdserver</b><br>
-                                SmartAdserver (https://www.smartadserver.com) uses technologies, to show interest-based advertising to you. Provider of SmartAdserver is SmartAdserver located in Paris – 66 Rue de la Chaussée d´Antin, 75009 Paris, France. In case you would like to prevent SmartAdserver from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://smartadserver.com/company/privacy-policy/">smartadserver.com/company/privacy-policy/</a>
-                                <br>Opt-out: <a href="http://www.smartadserver.com/diffx/optout/IABOptout.aspx">www.smartadserver.com/diffx/optout/IABOptout.aspx</a>
-
-                            
-                            <p><b>Sovrn</b><br>
-                                Sovrn (https://www.sovrn.com) uses technologies, to show interest-based advertising to you. Provider of Sovrn is Sovrn Holdings, Inc. located in Boulder – 5541 Central Avenue, Boulder, CO 80301. In case you would like to prevent Sovrn from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://www.sovrn.com/privacy-policy-eu/">www.sovrn.com/privacy-policy-eu/</a>
-                                <br>Opt-out: <a href="http://info.evidon.com/pub_info/15620?v=1&nt=0&nw=false">info.evidon.com/pub_info/15620?v=1&nt=0&nw=false</a>
-
-
-                            <p><b>Ströer SSP</b><br>
-                                Ströer SSP (https://www.adscale.de) uses technologies, to show interest-based advertising to you. Provider of Ströer SSP is Ströer media Deutschland GmbH located in Köln – 50999 Köln, Ströer-Allee 1. In case you would like to prevent Adscale from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://www.adscale.de/datenschutz">www.adscale.de/datenschutz</a>
-                                <br>Opt-out: <a href="http://ih.adscale.de/adscale-ih/oo">ih.adscale.de/adscale-ih/oo</a>
-
-
-                            <p><b>Twiago</b><br>
-                                Twiago (https://www.twiago.com) uses technologies, to show interest-based advertising to you. Provider of Twiago is Twiago located in Köln – Gustav-Heinemann-Ufer 72b, 50968 Köln. In case you would like to prevent Twiago from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://www.twiago.com/datenschutz/">www.twiago.com/datenschutz/</a>
-                                <br>Opt-out: <a href="http://control.twiago.com/privacy.php?lang=0">control.twiago.com/privacy.php?lang=0</a>
-
-
-                            <p><b>Mopub</b><br>
-                                Mopub (https://www.mopub.com) uses technologies, to show interest-based advertising to you. Provider of Mopub is Twitter, Inc. located in San Francisco – 1355 Market Street, Suite 900, San Francisco, Ca 94103. In case you would like to prevent Moppub from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://www.mopub.com/legal/privacy/">www.mopub.com/legal/privacy/</a>
-                                <br>Opt-out: <a href="http://www.mopub.com/legal/privacy/">www.mopub.com/legal/privacy/</a>
-
-
-                            <p><b>Inmobi</b><br>
-                                Inmobi (https://www.inmobi.com) uses technologies, to show interest-based advertising to you. Provider of Inmobi is Inmobi Pte Ltd located in Bangalore – Embassy Tech Square, Kadubeesanahalli Village Outer Ring Road, Varthur Hobli, Bangalore 560103. In case you would like to prevent Inmobi from gathering anonymised data you can do so by using the opt-out link below. This Opt-out cookie deletes all gathered information until now and prevents it from collecting any information in the future.
-                                <br>Privacy Policy: <a href="http://www.inmobi.com/privacy-policy/">www.inmobi.com/privacy-policy/</a>
-                                <br>Opt-out: <a href="http://www.inmobi.com/page/opt-out/">www.inmobi.com/page/opt-out/</a>
-
-
-                            <h3>OTHER / UNFORESEEN COOKIES</h3>
-
-                            <p>Due to the way in which Internet and websites work, it is possible that yieldlove does not always have
-                                oversight into the cookies that are placed through our banners by third parties. This is 
-                                particularly the case when our banners contain embedded elements such as texts, documents,
-                                images or film clips that are stored by another party, but that are shown on, in or 
-                                through our banners.
-                                Should you encounter cookies on this website that fall into this category which yieldlove 
-                                have not mentioned above, please let us or yieldlove know or contact the third party directly and 
-                                ask which cookies they have placed, what the reason for this is, what the lifetime 
-                                of the cookie is and in what way they have safeguarded your privacy.
-
-                            <h3>YOUR RIGHTS WITH REGARDS TO YOUR DATA</h3>
-                                Yieldlove does not view the banner advertising data it uses as personal data under the
-                                applicable law. Likewise, yieldlove does not collect or process sensitive personal data such as data 
-                                on racial or ethnic origin, political opinions, religious or philosophical beliefs, 
-                                trade union membership, health, or sex life. yieldlove also does not knowingly collect 
-                                data from children under the age of 12.
-                                However, if you want to correct, update or delete the banner advertising data yieldlove has,
-                                or if you would like to correct, update or delete the personal data that you have provided 
-                                to yieldlove via the contact form on our homepage, you can contact us or yieldlove by e-mail at datenschutzbeauftragter@stroeer.de.
-
-                            <h3>EDAA</h3>
-
-                                yieldlove participates in the European Digital Advertising Alliance (EDAA) self-regulatory 
-                                programs and adhere to the EDAA Principles for Online Behavioral Advertising. 
-                                EDAA principally acts as the central licensing body for the OBA Icon and provides 
-                                technical means for consumers to exercise transparency and control over OBA through 
-                                the youronlinechoices.eu online consumer choice platform. EDAA is governed by 
-                                EU-level organisations which make up the value chain of OBA within Europe and 
-                                acts to ensure European consistency in approach. <a href="http://www.edaa.eu/">Click here</a> to learn more about the EDAA.
+                            <!-- yieldlove -->
+
+                            <p>THIRD-PARTY
+                            ADVERTISING COOKIES</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Yieldlove also
+                            allows other companies to collect information from its users using
+                            advertising cookies. This enables third parties to display
+                            interest-based advertising to the users of their online offer, which
+                            is based on an analysis of their usage behaviour (e.g. clicked
+                            advertising banners, visited subpages, search queries made) in total
+                            and not limited to their online offer.</p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Yieldlove delivers
+                            advertising banners on behalf of its customers. All Yieldlove banners
+                            use cookies. Yieldlove places these banners on third party websites,
+                            such as a news site, with the help of third party providers.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>For the cookies that
+                            Yieldlove's third party providers place for advertising purposes,
+                            Yieldlove refers to the disclaimer that they have provided on their
+                            own websites on the subject. Please note that Yieldlove can only
+                            refer to these disclaimers, as they change regularly and Yieldlove
+                            has no influence on them.</p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><a name="_GoBack"></a>
+                            THIRD PARTIES AND OPT-OUT</p>
+                            <p><br/>
+
+                            </p>
+                            <p>A central
+                            contradiction possibility for various third party providers,
+                            especially US providers, can also be reached under the following
+                            link: optout.networkadvertising.org</p>
+                            <p>You can also opt out
+                            separately for each individual company with whom Yieldlove works.
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>The following
+                            companies are responsible for data collection for the delivery of
+                            usage-based online advertising on behalf of Yieldlove GmbH:</p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>4w Marketplace</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>4w Marketplace
+                            (www.4wmarketplace.com) uses technology to present you with
+                            advertisements that are relevant to you. The provider of 4w
+                            Marketplace is 4w 4w Marketplace with its registered office in
+                            Fisciano (Salerno) - 84084 in Via Giovanni Paolo II n.100. If you do
+                            not want 4w Marketplace to continue collecting anonymous data, please
+                            click on the opt-out link below. This opt-out cookie will delete the
+                            previously stored information and prevent further collection of
+                            information.
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="http://www.4wmarketplace.com/privacy/">http://www.4wmarketplace.com/privacy/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            http://www.youronlinechoices.com/it/le-tue-scelte</p>
+                            <p><a href="https://www.neustar.biz/privacy/opt-out">https://www.neustar.biz/privacy/opt-out</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Active Agent </b>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Active Agent
+                            (http://www.active-agent.com/de/) uses technology to bring you
+                            advertisements that are relevant to you. The provider of Active Agent
+                            is Active Agent AG, Ellen-Gottlieb-Straße 16, 79106 Freiburg i.Br.,
+                            Germany. Active Agent is a platform for simple and transparent
+                            handling of advertising campaigns in the Real Time &amp; Data Driven
+                            Advertising environment.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="http://www.active-agent.com/de/unternehmen/datenschutzerklaerung/">http://www.active-agent.com/de/unternehmen/datenschutzerklaerung/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="http://www.active-agent.com/de/unternehmen/opt-out/">http://www.active-agent.com/de/unternehmen/opt-out/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Amazon</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Amazon
+                            (https://aps.amazon.com/aps/index.html) uses technology to bring you
+                            advertisements that are relevant to you. The provider of Amazon
+                            publisher services is Amazon publisher services, based in Washington
+                            - 410 Terry Ave. North, Seattle, WA 98109-5210. If you do not want
+                            Amazon publisher services to continue to collect anonymous
+                            information, please click the opt-out link below. This opt-out cookie
+                            deletes the information previously stored and prevents further
+                            collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy Policy:
+                            <a href="https://www.amazon.com/gp/help/customer/display.html/ref=hp_left_sib?ie=UTF8&amp;nodeId=468496">https://www.amazon.com/gp/help/customer/display.html/ref=hp_left_sib?ie=UTF8&amp;nodeId=468496</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://www.amazon.com/adprefs/ref=hp_468496_advertisingpref2">https://www.amazon.com/adprefs/ref=hp_468496_advertisingpref2</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Adform</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Adform
+                            (https://www.adform.com) uses technologies to present you with
+                            advertisements that are relevant to you. The provider of Adform is
+                            Adform, with headquarters at Wildersgade 10B, 1, 1408 Copenhagen,
+                            Denmark. If you do not want Adform to continue collecting anonymous
+                            data, please click on the opt-out link below. This opt-out cookie
+                            deletes the information previously stored and prevents further
+                            collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="https://site.adform.com/privacy-policy-opt-out/">https://site.adform.com/privacy-policy-opt-out/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://site.adform.com/privacy-policy-opt-out/">https://site.adform.com/privacy-policy-opt-out/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>AppNexus</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>AppNexus
+                            (https://www.appnexus.com) uses technology to bring you
+                            advertisements that are relevant to you. AppNexus is provided by the
+                            AppNexus Group, based in New York - 28 W. 23rd Street, New York, New
+                            York, 10010. If you do not want AppNexus to continue to collect
+                            anonymous information, please click on the opt-out link below. This
+                            opt-out cookie deletes the information previously stored and prevents
+                            further collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy Policy:
+                            <a href="https://www.appnexus.com/en/company/privacy-policy">https://www.appnexus.com/en/company/privacy-policy</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://www.appnexus.com/en/company/platform-privacy-policy#choices">https://www.appnexus.com/en/company/platform-privacy-policy#choices</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Conversant</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Conversant
+                            (https://www.conversantmedia.com) uses technologies to present you
+                            with advertisements that are relevant to you. The provider of
+                            Conversant is Conversant inc. with headquarters in Chicago (IL) - 101
+                            North Wacker, 23rd Floor Chicago, IL 60606.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="http://www.conversantmedia.com/legal/privacy">http://www.conversantmedia.com/legal/privacy</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="http://optout.conversantmedia.com/">http://optout.conversantmedia.com/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Criteo</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Criteo
+                            (https://www.criteo.com) uses technology to deliver ads that are
+                            relevant to you. The provider of Criteo is Criteo, based in Paris -
+                            32 Rue Blanche - 75009 Paris - France. If you do not want Criteo to
+                            continue to collect anonymous information, please click on the
+                            opt-out link below. This opt-out cookie deletes the information
+                            previously stored and prevents further collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy Policy:
+                            <a href="http://www.criteo.com/privacy/">http://www.criteo.com/privacy/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://www.criteo.com/privacy/">https://www.criteo.com/privacy/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>District M</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>District M
+                            (https://districtm.net) uses technology to bring you advertisements
+                            that are relevant to you. The provider of District M is District M,
+                            based in Montreal - 5455 Gaspe Ave #730, Montreal, QC H2T 3B3,
+                            Canada. If you do not want District M to continue collecting
+                            anonymous information, please click on the opt-out link below. This
+                            opt-out cookie deletes the information previously stored and prevents
+                            further collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy Policy:
+                            <a href="https://districtm.net/en/page/platforms-data-and-privacy-policy/">https://districtm.net/en/page/platforms-data-and-privacy-policy/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://cdn.districtm.ca/optout.html">https://cdn.districtm.ca/optout.html</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Doublecklick</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Doubleclick
+                            (https://marketingplatform.google.com/about/enterprise/) uses
+                            technology to present you with advertisements that are relevant to
+                            you. The provider of Doubleclick is Doubleclick is Google Ireland
+                            Limited, Gordon House, Barrow St Dublin 4 Ireland If you do not want
+                            Doubleclick to continue to collect anonymous information, please
+                            click on the opt-out link below. This opt-out cookie deletes the
+                            information previously stored and prevents further collection of
+                            information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy Policy :
+                            <a href="http://www.google.com/intl/en/policies/privacy/">http://www.google.com/intl/en/policies/privacy/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://adssettings.google.com/authenticated?hl=en">https://adssettings.google.com/authenticated?hl=en</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Facebook</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Facebook
+                            (www.facebook.com) uses technology to bring you advertisements that
+                            are relevant to you. The provider of Facebook is Facebook Inc,
+                            located at 1601 S. California Ave, Palo Alto, CA 94304, USA. If you
+                            do not want Facebook to continue to collect anonymous information,
+                            please click on the opt-out link below. This opt-out cookie deletes
+                            the information previously stored and prevents further collection of
+                            information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy :
+                            <a href="https://www.facebook.com/about/privacy/update">https://www.facebook.com/about/privacy/update</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="http://www.facebook.com/ads/preferences">www.facebook.com/ads/preferences</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Freewheel</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Freewheel
+                            (http://freewheel.tv) uses technology to bring you advertisements
+                            that are relevant to you. The provider of Freewheel is FreeWheel
+                            Media, Inc. with headquarters at 301 Howard Street19th Floor San
+                            Francisco, California 94105, USA. If you do not want Freewheel to
+                            continue to collect anonymous data, please send an email to the email
+                            address below.
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="http://freewheel.tv/privacy-policy/?noredirect">http://freewheel.tv/privacy-policy/?noredirect</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="mailto:legalnotices@freewheel.tv">legalnotices@freewheel.tv</a>.
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Gumgum</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Gumgum
+                            (https://gumgum.com) uses technologies to present you with
+                            advertisements that are relevant for you. If you do not want Gumgum,
+                            Inc. to continue collecting anonymous data, please send an e-mail to
+                            the e-mail address below.
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="https://gumgum.com/cookies-policy">https://gumgum.com/cookies-policy</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://gumgum.com/opt-out">https://gumgum.com/opt-out</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Improve Digital</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Improve Digital
+                            (www.indexexchange.com) uses technology to bring you advertisements
+                            that are relevant to you. The provider of Improve Digital is Improve
+                            Digital GmbH with its registered office at Nußbaumstraße 10, 80336
+                            Munich, Germany. If you do not want Improve Digital to continue to
+                            collect anonymous information, please click on the opt-out link
+                            below. This opt-out cookie deletes the information previously stored
+                            and prevents further collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy Policy:
+                            <a href="https://www.improvedigital.com/platform-privacy-policy/">https://www.improvedigital.com/platform-privacy-policy/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://www.improvedigital.com/opt-out-page/">https://www.improvedigital.com/opt-out-page/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Index Exchange</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Indexexchange
+                            (www.indexexchange.com) uses technology to bring you advertisements
+                            that are relevant to you. The provider of Indexexchange is
+                            Indexexchange, based in New York - 20 W 22nd St. Suite 1101, New
+                            York, NY 10010. If you do not want Indexexchange to continue to
+                            collect anonymous data, please click on the opt-out link below. This
+                            opt-out cookie deletes the information previously stored and prevents
+                            further collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="http://www.indexexchange.com/privacy/">http://www.indexexchange.com/privacy/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="http://optout.networkadvertising.org/?c=1#!/">http://optout.networkadvertising.org/?c=1#!/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>LKQD</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>LKQD
+                            (https://www.lkqd.com) uses technologies to present you with
+                            advertisements that are relevant to you. The provider of LKQD is
+                            Nexstar Digital Digital LLC with headquarters at 27422 Portola
+                            Parkway, Suite 100, Foothill Ranch, CA 92610, USA. If you do not want
+                            LKQD to continue to collect anonymous information, please click on
+                            the opt-out link below. This opt-out cookie deletes the information
+                            previously stored and prevents further collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="http://www.lkqd.com/privacy-policy/">http://www.lkqd.com/privacy-policy/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="http://www.networkadvertising.org/choices/">http://www.networkadvertising.org/choices/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Loopme</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Loopme
+                            (https://loopme.com) uses technologies to present you with
+                            advertisements that are relevant to you. Loopme's provider is LoopMe
+                            Ltd. with headquarters at Ground Floor, 32-38 Saffron Hill, London
+                            EC1N 8FH, United Kingdom. If you do not want Loopme to continue to
+                            collect anonymous data, please click on the opt-out link below. This
+                            opt-out cookie deletes the information previously stored and prevents
+                            further collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="https://loopme.com/privacy/">https://loopme.com/privacy/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://gdpr.loopme.com/opt-out.html">https://gdpr.loopme.com/opt-out.html</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Media.net</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Media.net
+                            (http://www.media.net/privacy-policy) uses technology to present you
+                            with advertisements that are relevant to you. The provider of
+                            Media.net is Media.net Advertising Ltd. with headquarters in Dubai -
+                            107/108, DIC Building 5, Dubai Internet City, Dubai, 215028, United
+                            Arab Emirates. If you do not want Media.net to continue collecting
+                            anonymous data, please click on the opt-out link below. This opt-out
+                            cookie deletes the information previously stored and prevents further
+                            collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="http://www.media.net/privacy-policy">http://www.media.net/privacy-policy</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="http://www.networkadvertising.org/choices/">http://www.networkadvertising.org/choices/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>MediaMath</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Mediamath
+                            (http://www.mediamath.com) uses technologies to present you with
+                            advertisements that are relevant to you.  The provider of MediaMath
+                            is MediaMath Inc, 4 World Trade Center, 150 Greenwich Street, 45th
+                            Floor, New York, NY 10007, United States. MediaMath uses technology
+                            to deliver ads that are relevant to you.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy Policy:
+                            <a href="http://www.mediamath.com/de/datenschutzrichtlinie/">http://www.mediamath.com/de/datenschutzrichtlinie/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="http://www.mediamath.com/de/ad-choices-opt-out/">http://www.mediamath.com/de/ad-choices-opt-out/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Nano Interactive</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Nano Interactive
+                            (https://www.nanointeractive.com) uses technologies to present you
+                            with advertisements that are relevant to you.  The provider of Nano
+                            Interactive is Nano Interactive GmbH Moosstr. 7, 82319 Starnberg,
+                            Germany. Nano Interactive uses technologies to deliver advertisements
+                            relevant to you.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="https://www.nanointeractive.com/privacy-policy/">https://www.nanointeractive.com/privacy-policy/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://audiencemanager.de/public/opt-out">https://audiencemanager.de/public/opt-out</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Oath</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Oath
+                            (https://www.oath.com/) uses technologies to present you with
+                            advertisements that are relevant to you. The provider of Oath is Oath
+                            (EMEA) Limited, based in Dublin - 5-7 Point Square, North Wall Quay.
+                            If you do not want Oath to continue to collect anonymous data, please
+                            click on the opt-out link below. This opt-out cookie deletes the
+                            information previously stored and prevents further collection of
+                            information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="http://privacy.aol.com/">http://privacy.aol.com/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://aim.yahoo.com/aim/ie/en/optout/">https://aim.yahoo.com/aim/ie/en/optout/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>OpenX</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>OpenX
+                            (https://www.OpenX.com) uses technologies to present you with
+                            advertisements that are relevant to you. The provider of OpenX is
+                            OpenX with headquarters in Pasadena - 888 E Walnut St, 2nd Floor,
+                            Pasadena CA, 91101, USA. If you do not want OpenX to continue
+                            collecting anonymous data, please click on the opt-out link below.
+                            This opt-out cookie deletes the information previously stored and
+                            prevents further collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="https://www.openx.com/legal/privacy-policy/">https://www.openx.com/legal/privacy-policy/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://www.openx.com/legal/interest-based-advertising/">https://www.openx.com/legal/interest-based-advertising/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Otto </b>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Otto
+                            (https://www.otto.de/) uses technologies to present you with
+                            advertisements that are relevant to you. Otto's provider is Otto
+                            (GmbH &amp; Co KG), Werner-Otto-Straße 1-7, 22179 Hamburg, Germany.
+                            Otto Group Media uses technologies to control and optimise the
+                            display of advertising material for the user.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="https://ottogroup.media/kontakt/datenschutz/">https://ottogroup.media/kontakt/datenschutz/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://ottogroup.media/kontakt/datenschutz/">https://ottogroup.media/kontakt/datenschutz/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Pubmatic</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Pubmatic
+                            (https://www.pubmatic.com) uses technology to bring you
+                            advertisements that are relevant to you. The provider of Pubmatic is
+                            Pubmatic, Inc. with headquarters in Redwood City - 305 Main Street,
+                            First Floor, Redwood City, California 94063, USA. If you do not wish
+                            to continue to receive anonymous information from Pubmatic, please
+                            click on the opt-out link below. This opt-out cookie deletes the
+                            information previously stored and prevents further collection of
+                            information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="https://pubmatic.com/legal/privacy-policy/">https://pubmatic.com/legal/privacy-policy/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://pubmatic.com/legal/opt-out/">https://pubmatic.com/legal/opt-out/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Pulsepoint</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Pulsepoint
+                            (https://www.pulsepoint.com) uses technology to bring you
+                            advertisements that are relevant to you. The provider of Pulsepoint
+                            is Pulsepoint, Inc. with headquarters in New York - 360 Madison
+                            Avenue, 14th Floor, New York, NY 10017. If you do not want Template
+                            to continue to collect anonymous information, please click on the
+                            opt-out link below. This opt-out cookie deletes the information
+                            previously stored and prevents further collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy Policy:
+                            <a href="https://www.pulsepoint.com/privacy-policy">https://www.pulsepoint.com/privacy-policy</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="http://optout.networkadvertising.org/?c=1#!/">http://optout.networkadvertising.org/?c=1#!/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Reachnet</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Reachnet
+                            (https://www.reachnet.de) uses technologies to present you with
+                            advertisements that are relevant to you. The provider of Reachnet is
+                            Reachnet DE Ltd. based in Hamburg - Grindelallee 41, D-20146 Hamburg.
+                            If you do not want that Reachnet continues to collect anonymous data,
+                            please click on the opt-out link below. This opt-out cookie deletes
+                            the previously stored information and prevents further collection of
+                            information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="https://www.reachnet.de/unternehmen/datenschutz.html">https://www.reachnet.de/unternehmen/datenschutz.html</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://imagesrv.adition.com/1x1.gif">https://imagesrv.adition.com/1x1.gif</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Rubicon Project</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Rubicon Project
+                            (https://www.rubiconproject.com) uses technology to present you with
+                            advertisements that are relevant to you. The provider of Rubicon
+                            Project is Rubicon Project, inc. with headquarters in Playa Vista -
+                            12181 Bluff Creek Drive, 4th Floor, Playa Vista, CA 90094, USA. If
+                            you do not want Rubicon Project to continue to collect anonymous
+                            information, please click on the opt-out link below. This opt-out
+                            cookie deletes the information previously stored and prevents further
+                            collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy Policy:
+                            <a href="http://www.rubiconproject.com/privacy-policy/">http://www.rubiconproject.com/privacy-policy/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://rubiconproject.com/privacy/consumer-online-profile-and-opt-out/">https://rubiconproject.com/privacy/consumer-online-profile-and-opt-out/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Primis</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Primis
+                            (https://www.primis.tech) uses technologies to present you with
+                            advertisements that are relevant to you. The provider of Primis is
+                            Primis LTD with headquarters at 622 Third avenue, McCann New York
+                            House</p>
+                            <p>10017 New York City,
+                            USA. If you do not want Primis to continue to collect anonymous
+                            information, please click on the opt-out link below. This opt-out
+                            cookie deletes the information previously stored and prevents further
+                            collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="https://www.primis.tech/wp-content/uploads/2018/02/primisPrivacyPolicy2018.pdf">https://www.primis.tech/wp-content/uploads/2018/02/primisPrivacyPolicy2018.pdf</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://web.archive.org/web/20180116234711/http:/live.sekindo.com/utils/cookieOptOut.php">https://web.archive.org/web/20180116234711/http:/live.sekindo.com/utils/cookieOptOut.php</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Smaato</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Smaato
+                            (https://www.smaato.com) uses technology to deliver advertisements
+                            that are relevant to you. The provider of Smaato is Smaato Ad
+                            Services with headquarters in Hamburg - Valentinskamp 70, Emporio,
+                            20355 Hamburg, Germany. If you do not want Smaato to continue
+                            collecting anonymous information, please click on the opt-out link
+                            below. This opt-out cookie deletes the information previously stored
+                            and prevents further collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy Policy:
+                            <a href="https://www.smaato.com/privacy/">https://www.smaato.com/privacy/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="http://www.youronlinechoices.eu/">http://www.youronlinechoices.eu</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>SmartAdserver</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>SmartAdserver
+                            (https://www.smartadserver.com) uses technology to present you with
+                            advertisements that are relevant to you. The provider of
+                            SmartAdserver is SmartAdserver, based in Paris - 66 Rue de la
+                            Chaussée d'Antin, 75009 Paris, France. If you do not want
+                            SmartAdserver to continue collecting anonymous data, please click on
+                            the opt-out link below. This opt-out cookie deletes the information
+                            previously stored and prevents further collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="http://smartadserver.com/company/privacy-policy/">http://smartadserver.com/company/privacy-policy/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <font color="#0563c1"><u><a href="http://www.smartadserver.com/diffx/optout/IABOptout.aspx">http://www.smartadserver.com/diffx/optout/IABOptout.aspx</a></u></font></p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Smartclip</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Smartclip
+                            (http://www.smartclip.com/) uses technology to present you with
+                            advertisements that are relevant to you. The provider of Smartclip is
+                            the Smartclip Holding AG with headquarters at Kleiner Burstah 12,
+                            20457 Hamburg, Germany. If you do not want Smartclip to continue
+                            collecting anonymous data, please click on the opt-out link below.
+                            This opt-out cookie deletes the previously stored information and
+                            prevents further collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="http://privacy-portal.smartclip.net/">http://privacy-portal.smartclip.net/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://privacy-portal.smartclip.net/de/opt-out">https://privacy-portal.smartclip.net/de/opt-out</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Sovrn</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Sovrn
+                            (https://www.sovrn.com) uses technologies to present you with
+                            advertisements that are relevant to you. Sovrn's provider is Sovrn
+                            Holdings, Inc. with headquarters at 5541 Central Avenue, Boulder, CO
+                            80301. If you do not want Sovrn to continue to collect anonymous
+                            information from you, please click on the opt-out link below. This
+                            opt-out cookie deletes the information previously stored and prevents
+                            further collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="https://www.sovrn.com/privacy-policy-eu/">https://www.sovrn.com/privacy-policy-eu/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://info.evidon.com/pub_info/15620?v=1&amp;nt=0&amp;nw=false">https://info.evidon.com/pub_info/15620?v=1&amp;nt=0&amp;nw=false</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Spotxchange</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Spotxchange
+                            (https:// www.spotx.tv) uses technology to bring you advertisements
+                            that are relevant to you. The provider of Spotxchange is SpotX</p>
+                            <p>Based at 8181 Arista
+                            Place Broomfield, CO 80021, USA. If you do not want Spotxchange to
+                            continue to collect anonymous data, please click on the opt-out link
+                            below. This opt-out cookie deletes the information previously stored
+                            and prevents further collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="https://www.spotx.tv/privacy-policy/">https://www.spotx.tv/privacy-policy/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://www.spotx.tv/privacy-policy/gdpr/">https://www.spotx.tv/privacy-policy/gdpr/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Ströer SSP</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Ströer SSP
+                            (https://www.adscale.de) uses technology to present you with
+                            advertisements that are relevant to you. The provider of Ströer SSP
+                            is Ströer media Deutschland GmbH, located in Cologne - 50999
+                            Cologne, Ströer-Allee 1. If you do not want Adscale to continue to
+                            collect anonymous data, please click on the opt-out link below. This
+                            opt-out cookie deletes the previously stored information and prevents
+                            further collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="http://www.adscale.de/datenschutz">http://www.adscale.de/datenschutz</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="http://ih.adscale.de/adscale-ih/oo">http://ih.adscale.de/adscale-ih/oo</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>The Tradedesk </b>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Thetradedesk
+                            (https://www.thetradedesk.com/) uses technology to bring you
+                            advertisements that are relevant to you. The provider of The
+                            Tradedesk is The Trade Desk, Inc, Große Theaterstraße 31, 1st
+                            Floor, 20354 Hamburg, Germany. The Tradedesk is a platform for easy
+                            and transparent handling of advertising campaigns in the Real Time &amp;
+                            Data Driven Advertising environment.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="https://www.thetradedesk.com/general/privacy">https://www.thetradedesk.com/general/privacy</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://www.adsrvr.org/">https://www.adsrvr.org/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Twiago</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Twiago
+                            (https://www.twiago.com) uses technology to present you with
+                            advertisements that are relevant to you. The provider of Twiago is
+                            Twiago with headquarters in Cologne - Gustav-Heinemann-Ufer 72b,
+                            50968 Cologne. If you do not want Twiago to continue to collect
+                            anonymous data, please click on the opt-out link below. This opt-out
+                            cookie deletes the previously stored information and prevents further
+                            collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy Policy:
+                            <a href="http://www.twiago.com/datenschutz/">http://www.twiago.com/datenschutz/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="http://control.twiago.com/privacy.php?lang=0">http://control.twiago.com/privacy.php?lang=0</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Mopub</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Mopub
+                            (https://www.mopub.com) uses technology to bring you advertisements
+                            that are relevant to you. The provider of Mopub is Twitter, Inc. with
+                            headquarters in San Francisco - 1355 Market Street, Suite 900, San
+                            Francisco, Ca 94103. If you do not wish to continue to have anonymous
+                            information collected by Mopub, please click on the opt-out link
+                            below. This opt-out cookie deletes the information previously stored
+                            and prevents further collection of information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy policy:
+                            <a href="https://www.mopub.com/legal/privacy/">https://www.mopub.com/legal/privacy/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <a href="https://www.mopub.com/legal/privacy/">https://www.mopub.com/legal/privacy/</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><b>Inmobi</b></p>
+                            <p><br/>
+
+                            </p>
+                            <p>Inmobi
+                            (https://www.inmobi.com) uses technology to present you with
+                            advertisements that are relevant to you. Inmobi's provider is Inmobi
+                            Pte Ltd, located in Bangalore - Embassy Tech Square, Kadubeesanahalli
+                            Village Outer Ring Roard, Varthur Hobli, Bangalore 560103. If you do
+                            not want Inmobi to continue to collect anonymous information, please
+                            click on the opt-out link below. This opt-out cookie deletes the
+                            information previously stored and prevents further collection of
+                            information.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Privacy Policy:
+                            <a href="https://www.inmobi.com/privacy-policy">https://www.inmobi.com/privacy-policy</a>
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>Opt-out:
+                            <font color="#0563c1"><u><a href="https://www.inmobi.com/page/opt-out/">https://www.inmobi.com/page/opt-out/</a></u></font></p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>OTHER /
+                            UNFORESEEABLE COOKIES</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Due to the way the
+                            Internet and websites work, Yieldlove may not always be aware of the
+                            cookies placed by its third-party banners. This is especially the
+                            case if its banners contain embedded elements such as text,
+                            documents, images or film clips that are stored by another party but
+                            are displayed on or in its banners.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>If you find cookies
+                            on this website that fall into this category, which Yieldlove did not
+                            mention above, please let us know immediately or contact this third
+                            party directly and ask which cookies were placed, what the reason
+                            was, how long the cookie lasts and how your privacy is protected.</p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>YOUR RIGHTS WITH
+                            REGARD TO YOUR DATA</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Yieldlove does not
+                            consider the data of the advertising banners as personal data
+                            according to applicable law. Likewise, Yieldlove does not collect or
+                            process sensitive personal data such as data about race or ethnic
+                            origin, political opinions, religious or philosophical beliefs, union
+                            membership, health or sex life. Furthermore, Yieldlove does not
+                            knowingly collect data from children under the age of 12.</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Yieldlove
+                            participates in the self-regulatory programs of the European Digital
+                            Advertising Alliance (EDAA) and adheres to the EDAA Principles for
+                            Online Behavioral Advertising. The EDAA acts primarily as the central
+                            licensing entity for the OBA symbol and provides technical means for
+                            consumers to exercise transparency and control over OBA through the
+                            online consumer choice platform of youronlinechoices.eu. The EDAA is
+                            regulated by organisations at EU level, which form the value chain of
+                            OBA in Europe and ensure European consistency of approach. Click here
+                            to learn more about the EDAA.</p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>ADAPTATIONS AND
+                            CONTACT</p>
+                            <p><br/>
+
+                            </p>
+                            <p>Occasionally
+                            Yieldlove must adapt passages of this privacy policy. For example,
+                            when Yieldlove changes its website or when the laws for cookies or
+                            privacy change. Yieldlove and its partners may change the content of
+                            the statements and cookies provided without prior warning at any
+                            time.
+                            </p>
+                            <p><br/>
+
+                            </p>
+                            <p>If you have any
+                            questions and/or comments or wish to make a complaint, please contact
+                            Yieldlove's Privacy Officer by email at
+                            datenschutzbeauftragter@stroeer.de.</p>
+
+                            <!-- /yieldlove -->
 
                         </li>
                     </ul>
