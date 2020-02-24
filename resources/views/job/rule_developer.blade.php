@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
-@section('title', 'Part-time job: Rule editor for English')
+@section('title', 'Job: Rule editor for English')
 
 @section('content')
     <div id="textContent" class="content-section" style="text-align: left">
 
         <div class="container">
 
-            <p style="text-align: right">Date: 2019-07-27</p>
+            <p style="text-align: right">Date: 2020-02-24</p>
             
             <h1>Rule Editor for English</h1>
 
@@ -22,7 +22,7 @@
                 We run more than 500,000 proofreadings each day.
                 We're looking for a</p>
 
-            <h2 style="text-align: center">Rule Editor for English,<br>20 to 30 hours/week</h2>
+            <h2 style="text-align: center">Rule Editor for English,<br>25 to 40 hours/week</h2>
 
             <p><b>Your tasks</b></p>
 
@@ -43,7 +43,7 @@
             <ul>
                 <li>work whenever you want</li>
                 <li>work from home</li>
-                <li>help improve software that's used by hundreds of thousands of people</li>
+                <li>help improve software that's used by hundreds of thousands of people each day</li>
             </ul>
 
             <p>Interested? Please send your questions or your application to

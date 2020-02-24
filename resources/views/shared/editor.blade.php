@@ -1,17 +1,15 @@
 <div id="stage" class="start">
 
-    <!--
-    <?php if ($_SERVER['REQUEST_URI'] == "/" || (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "de") !== false) || $checkDefaultLang == "de") { ?>
+    <?php if ($_SERVER['REQUEST_URI'] == "/" || (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "en") !== false) || $checkDefaultLang == "en") { ?>
     <div style="margin: 0 auto; text-align:center; font-size: 16px">
         <div style="width: 360px; background-color: white; margin: 0 auto; text-align:center; border-radius: 4px; padding: 5px">
-            <a style="text-align:middle;color:black" class="ff-chrome jump_menu" href="/job/sea">
-                Job: Online Marketing und SEA-Manager (m/w/d)
+            <a style="text-align:middle;color:black" class="ff-chrome jump_menu" href="/job/rule-developer">
+                Job: Rule Editor for English (25-40 hours/weeks)
             </a>
         </div>
     </div>
     <?php } ?>
-    -->
-    
+
     <div class="inner">
         <div id="editor">
             <div class="inner">
