@@ -19,7 +19,7 @@
             
             <p>LanguageTooler is the company behind <a href="https://languagetool.org">languagetool.org</a> and <a href="https://languagetoolplus.com">languagetoolplus.com</a>,
                 popular style and grammar checkers.
-                We run more than 500,000 proofreadings each day.
+                We proofread more than 500,000 texts a day.
                 We're looking for a</p>
 
             <h2 style="text-align: center">Rule Editor for English,<br>25 to 40 hours/week</h2>
