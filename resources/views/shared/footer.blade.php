@@ -201,16 +201,16 @@
     }
 
     function webhookCallback(orderObjOrNull) {
-        console.log("orderObjOrNull: ", orderObjOrNull);
         if (typeof(_paq) !== 'undefined') {  // Piwik tracking
             if (orderObjOrNull === null) {
                 _paq.push(['trackEvent', "FastSpring", "OrderPopupClosed"]);
             } else {
                 _paq.push(['trackEvent', "FastSpring", "OrderFinished"]);
+                var product = (orderObjOrNull && orderObjOrNull.items && orderObjOrNull.items[0] && orderObjOrNull.items[0].product) || "";
                 if (document.cookie.indexOf("premiumHint=true") !== -1) {
-                    window.location.replace("https://languagetoolplus.com/subscribe/?source=lt&premiumHint=true&orderId=" + orderObjOrNull.id);
+                    window.location.replace("https://languagetoolplus.com/subscribe/?source=lt&premiumHint=true&orderId=" + orderObjOrNull.id + "&product=" + encodeURIComponent(product));
                 } else {
-                    window.location.replace("https://languagetoolplus.com/subscribe/?source=lt&orderId=" + orderObjOrNull.id);
+                    window.location.replace("https://languagetoolplus.com/subscribe/?source=lt&orderId=" + orderObjOrNull.id + "&product=" + encodeURIComponent(product));
                 }
                 try {
                     fastspring.builder.reset();
