@@ -207,12 +207,14 @@
                 _paq.push(['trackEvent', "FastSpring", "OrderPopupClosed"]);
             } else {
                 _paq.push(['trackEvent', "FastSpring", "OrderFinished"]);
-                fastspring.builder.reset();
                 if (document.cookie.indexOf("premiumHint=true") !== -1) {
                     window.location.replace("https://languagetoolplus.com/subscribe/?source=lt&premiumHint=true&orderId=" + orderObjOrNull.id);
                 } else {
                     window.location.replace("https://languagetoolplus.com/subscribe/?source=lt&orderId=" + orderObjOrNull.id);
                 }
+                try {
+                    fastspring.builder.reset();
+                } catch(e) {}
             }
         }
     }
