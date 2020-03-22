@@ -11,12 +11,10 @@
             
             <h1>Rule Editor for English</h1>
 
-            <!--
             <p style="background-color: rgba(255,227,57,0.6); padding: 5px">
                 This position has been staffed.
             </p>
-            -->
-            
+
             <p>LanguageTooler is the company behind <a href="https://languagetool.org">languagetool.org</a> and <a href="https://languagetoolplus.com">languagetoolplus.com</a>,
                 popular style and grammar checkers.
                 We proofread more than 500,000 texts a day.
