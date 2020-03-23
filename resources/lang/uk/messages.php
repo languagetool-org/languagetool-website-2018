@@ -46,7 +46,7 @@ return [
     'ffAddon' => 'Встановити додаток для Firefox',
     'chromeAddon' => 'Встановити розширення для Chrome',
     'operaAddon' => 'Встановити додаток для Opera',
-    'edgeAddon' => 'Install the Edge add-on',
+    'edgeAddon' => 'Встановити додаток до Edge',
     'yandexAddon' => 'Встановити додаток для Яндекса',
     'googleDocsAddon' => 'Встановити додаток Google Docs',
     'menu' => 'Меню',

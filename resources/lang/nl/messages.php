@@ -137,7 +137,7 @@ return [
     'libreoffice_headline' => 'Add-on voor LibreOffice',
     'libreoffice_download' => 'Download',
     'libreoffice_requirements' => 'Vereist Java :version of hoger',
-    'libreoffice_instruction1' => 'Kies <em>Extra → Extensiebeheer → Toeveogen…</em> in LibreOffice/OpenOffice om te  installeren.',
+    'libreoffice_instruction1' => 'Kies <em>Extra → Extensiebeheer → Toevoegen…</em> in LibreOffice/OpenOffice om te  installeren.',
     'libreoffice_instruction2' => 'Herstart daarna LibreOffice/OpenOffice (ook de snelstarter).',
     'libreoffice_help1' => 'Problemen?',
     'libreoffice_help2' => 'Zoek hier hulp',

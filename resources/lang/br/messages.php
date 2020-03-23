@@ -46,7 +46,7 @@ return [
     'ffAddon' => 'Staliañ al lugant evit Firefox',
     'chromeAddon' => 'Staliañ an astenn evit Chrome',
     'operaAddon' => 'Staliañ al lugant evit Opera',
-    'edgeAddon' => 'Install the Edge add-on',
+    'edgeAddon' => 'Staliañ an astenn evit Edge',
     'yandexAddon' => 'Staliañ al lugant evit Yandex',
     'googleDocsAddon' => 'Staliañ al lugant evit Google Docs',
     'menu' => 'Lañser',
