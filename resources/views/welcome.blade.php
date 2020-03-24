@@ -484,7 +484,7 @@ $additionalErrorsCount = 2500;
                 <div class="col-xs-12 buttons-row">
                     <ul class="inline-btn">
                         <li class="btn_standalone">
-                            <a class="main-button" href="/download/LanguageTool-4.8.zip">{{__('messages.standalone_download')}} (v4.8, 159MB)</a>
+                            <a class="main-button" href="/download/LanguageTool-4.9.zip">{{__('messages.standalone_download')}} (v4.9, 208MB)</a>
                         </li>
                     </ul>
                 </div>
