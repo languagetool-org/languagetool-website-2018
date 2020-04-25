@@ -2,7 +2,7 @@
     <div class="container">
 
         <h2 class="contentHead">Есть вопросы? Посмотрите здесь!</h2>
-        <p class="section-subheading">LanguageTool &mdash; это <a href="http://ru.wikipedia.org/wiki/Свободное_программное_обеспечение" target="_blank">свободное программное обеспечение</a> для проверки грамматики, пунктуации и стиля.</p>
+        <p class="section-subheading">LanguageTool &mdash; это <a href="http://ru.wikipedia.org/wiki/Свободное_программное_обеспечение" target="_blank">свободное программное обеспечение</a> для проверки грамматики, стиля, орфографии и пунктуации.</p>
         
         <div id="qa">
             
@@ -30,10 +30,10 @@
                         <ul>
                         </ul>
                     </li>
-                    <li>пунктуация;
+                    <li>логические ошибки;
                         <ul>
                         </ul>
-                    </li>
+                    </li>                    
                     <li>заглавные/строчные буквы;
                         <ul>
                         </ul>
@@ -42,7 +42,7 @@
                         <ul>
                         </ul>
                     </li>
-                    <li>логические ошибки;
+                    <li>пунктуация;
                         <ul>
                         </ul>
                     </li>
@@ -64,7 +64,7 @@
                 </p>
                 <p>В независимую версию программы дополнительно включена проверка орфографии с коррекцией ошибок.
                 </p>
-                <p>Доступны расширения для проверки грамматики и стиля в браузерах <a href="/ru/chrome/">Google Chrome</a> и <a href="/ru/firefox/">FireFox</a>. Эти расширения для браузера являются самостоятельными программами.
+                <p>Доступны расширения для проверки грамматики, орфографии и стиля в браузерах <a href="/ru/chrome/">Google Chrome</a> и <a href="/ru/firefox/">FireFox</a>. Эти расширения для браузера являются самостоятельными программами.
                 </p>
             </div>
             
@@ -77,7 +77,7 @@
             </h3>
             <div>
                 На этой странице доступна форма для онлайн проверки орфографии и грамматики.
-                <p>А <a href="http://community.languagetool.org/?lang=ru">здесь</a> можно протестировать расширенные возможности LanguageTool непосредственно в браузере.
+                <p>А <a href="http://community.languagetool.org/?lang=ru">здесь</a> можно протестировать расширенные возможности LanguageTool: посмотреть каким способом LanguageTool обрабатывает текст для анализа, почему правила срабатывают или не срабатывают. 
                 </p>
             </div>
             
@@ -89,7 +89,7 @@
                 Скачать
             </h3>
             <div>
-                <p>LanguageTool можно скачать и <a href="../">с главной страницы</a> сайта.</p>
+                <p>LanguageTool можно скачать <a href="../">с главной страницы</a> сайта.</p>
 
                 <p>Доступны
                     <a href="/download/snapshots/">ежедневные сборки</a>
@@ -113,7 +113,7 @@
                     <li>Нажать «ОК».</li>
                     <li>Обязательно перезапустить LibreOffice/OpenOffice.Org (включая и быстрый запуск).</li>
                 </ul>
-                <p>Системные требования: как минимум <a href="http://ru.libreoffice.org/">LibreOffice 3.5.4</a> или Apache OpenOffice 3.4.1+, <a href="http://www.java.com/ru/download/manual.jsp">Java 8 от Oracle </a> или IcedTea.
+                <p>Системные требования: как минимум <a href="http://ru.libreoffice.org/">LibreOffice 3.5.4</a> или Apache OpenOffice 3.4.1+, <a href="http://www.java.com/ru/download/manual.jsp">Java 8 от Oracle </a>, <a href="https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html">Amazon Corretto 8+ </a> (только для LibreOffice 6.3+)  или IcedTea.
                 </p>
                 <p>Для 32-битной версии Apache OpenOffice или LibreOffice требуется 32-битная версия <a href="http://www.java.com/ru/download/manual.jsp">Java 8+</a>.
                 </p>
@@ -133,7 +133,7 @@
                 Использование в качестве независимого приложения
             </h3>
             <div>
-                Системные требования:   <a href="http://www.java.com/ru/download/manual.jsp">Java 8+</a> от Oracle, Amazon Corretto 8 или IcedTea.
+                Системные требования:   <a href="http://www.java.com/ru/download/manual.jsp">Java 8+</a> от Oracle, <a href="https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html">Amazon Corretto 8+ </a> или IcedTea.
                 <a title="LanguageTool 2.5-SNAPSHOT работает как независимое графическое приложение" class="fancyboxImage"
                    href="/images/screenshots/ru/LT-GUI-ru-2.5.png"><img style="margin-left: 15px" width="200" height="208" align="right"
                                                                  src="/images/screenshots/ru/LT-GUI-ru-2.5-very_small.png" alt="Screenshot of LanguageToolGUI"/></a>
@@ -159,7 +159,7 @@
                 Использование в качестве консольного приложения
             </h3>
             <div>
-                Системные требования:  <a href="http://www.java.com/ru/download/manual.jsp">Java 8+</a> от Oracle, Amazon Corretto 8 или IcedTea.
+                Системные требования:  <a href="http://www.java.com/ru/download/manual.jsp">Java 8+</a> от Oracle, <a href="https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html">Amazon Corretto 8+ </a> или IcedTea.
                 <br>
                 Использование:
                 <ul>
