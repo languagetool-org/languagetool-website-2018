@@ -10,7 +10,7 @@
             <h1><a name="commonproblems">Контрольный список при возникновении проблем</a></h1>
             <ul>
                 <li>Если установка LanguageTool в LibreOffice/OpenOffice не вызвала ошибки, но необходимо проверить его работоспособность,
-                    загрузите <strong><a href="/issues//languagetool-test.odt">тестовый документ</a></strong> и следуйте инструкциям, изложенным в нём.</li>
+                    загрузите <strong><a href="https://www.languagetool.org/files/languagetool-test.odt">тестовый документ</a></strong> и следуйте инструкциям, изложенным в нём.</li>
                 <li><strong>Для пользователей Mac:</strong> Для  LanguageTool необходима Java 8 или новее, которая доступна для Mac только в качестве 64-битной версии.
                     В связи с этим, необходимо использовать <strong>64-битную версию LibreOffice 4.2 или новее</strong> для работы LanguageTool на Mac.
                     <strong><em>Так же</em> необходимо установить '<a href="http://support.apple.com/kb/DL1572">Java для OS X</a>'</strong>,
