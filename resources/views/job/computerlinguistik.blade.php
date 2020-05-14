@@ -11,12 +11,10 @@
             
             <h1>Stellenanzeige: Computerlinguist (m/w/d)</h1>
 
-            <!--
             <p style="background-color: rgba(255,227,57,0.6); padding: 5px">
                 Diese Position ist bereits vergeben
             </p>
-            -->
-            
+
             <p>Die LanguageTooler GmbH ist die Firma hinter <a href="https://languagetool.org/">languagetool.org</a>,
                 <a href="https://languagetoolplus.com">languagetoolplus.com</a> und
                 <a href="https://openthesaurus.de">openthesaurus.de</a>. Auf unseren Websites prüfen
