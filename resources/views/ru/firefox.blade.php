@@ -8,6 +8,11 @@
         <div class="container">
 
             <h1>Проверка грамматики и стиля для Firefox</h1>
+            
+            <div style="background-color: yellow; padding: 15px; margin-bottom: 20px">
+                Эта страница перемещена в архив – её содержимое больше не обновляется.
+            </div>       
+            <br>
 
             <p>Mozilla Firefox содержит проверку правописания, но эта проверка не сможет найти
                 ошибки в употреблении похожих слов ("Children resemble <u>there</u> parents") или обнаружить опечатку, которая
