@@ -9,6 +9,11 @@
 
             <h1>Проверка грамматики и стиля для Chrome</h1>
 
+            <div style="background-color: yellow; padding: 15px; margin-bottom: 20px">
+                Эта страница перемещена в архив – её содержимое больше не обновляется.
+            </div>       
+            <br>
+
             <p>Google Chrome содержит проверку правописания, но эта проверка не сможет найти
                 ошибки в употреблении похожих слов ("Children resemble <u>there</u> parents") или обнаружить опечатку, которая
                 приводит к грамматической ошибке ("I talk<u>s</u> to him yesterday"). LanguageTool –
