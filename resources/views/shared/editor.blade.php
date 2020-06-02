@@ -192,12 +192,6 @@
             <a style="color:#fff;font-weight:bold" target="_blank" href="https://datkanbeter.taaltik.nl/">Meld gemiste fout</a>
         <?php } ?>
         
-        <div class="start-ad-wrapper">
-            <div class="start-ad">
-                @include('shared/ad')
-            </div>
-        </div>
-        
     </div>
 </div>
 
