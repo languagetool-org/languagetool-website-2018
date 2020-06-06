@@ -113,7 +113,7 @@
                     <li>Нажать «ОК».</li>
                     <li>Обязательно перезапустить LibreOffice/OpenOffice.Org (включая и быстрый запуск).</li>
                 </ul>
-                <p>Системные требования: как минимум <a href="http://ru.libreoffice.org/">LibreOffice 3.5.4</a> или Apache OpenOffice 3.4.1+, <a href="http://www.java.com/ru/download/manual.jsp">Java 8 от Oracle </a>, <a href="https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html">Amazon Corretto 8+ </a> (только для LibreOffice 6.3+)  или IcedTea.
+                <p>Системные требования: как минимум <a href="http://ru.libreoffice.org/">LibreOffice 3.5.4</a> или Apache OpenOffice 3.4.1+, <a href="http://www.java.com/ru/download/manual.jsp">Java 8 от Oracle</a>, <a href="https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html">Amazon Corretto 8+ </a> (только для LibreOffice 6.3+)  или IcedTea.
                 </p>
                 <p>Для 32-битной версии Apache OpenOffice или LibreOffice требуется 32-битная версия <a href="http://www.java.com/ru/download/manual.jsp">Java 8+</a>.
                 </p>
@@ -317,7 +317,7 @@
                 <ul>
                     <li>Обновлены модули проверки для русского, английского, португальского, польского, немецкого, украинского,  каталанского,  французского, галисийского и нидерландского языков.</li>
                     <li>Добавлены правила поиска <a href="https://ru.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B6%D0%BD%D1%8B%D0%B5_%D0%B4%D1%80%D1%83%D0%B7%D1%8C%D1%8F_%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D1%87%D0%B8%D0%BA%D0%B0">«ложных друзей переводчика»</a> для переводов между русским и английским языками.</li>
-                    <li>Для английского, немецкого и португальского языков реализована новая модель нейросети — word2vec. <a href="https://fscs.hhu.de/languagetool/summary.pdf">Описание релизации (англ. в формате pdf)</a>.  Для работы этой нейросети необходим файл данных <a href="https://fscs.hhu.de/languagetool/word2vec.tar.gz">word2vec.tar.gz</a>.</li>
+                    <li>Для английского, немецкого и португальского языков реализована новая модель нейросети — word2vec. <a href="https://fscs.hhu.de/languagetool/summary.pdf">Описание реализации (англ. в формате pdf)</a>.  Для работы этой нейросети необходим файл данных <a href="https://fscs.hhu.de/languagetool/word2vec.tar.gz">word2vec.tar.gz</a>.</li>
                     <li>Полный <a href="http://languagetool.org/download/CHANGES.md">список изменений</a>.</li>
                     Изменения для русскоязычного модуля включают:
                     <li>Созданы новые и улучшены существующие правила для проверки пунктуации и грамматики.</li>
