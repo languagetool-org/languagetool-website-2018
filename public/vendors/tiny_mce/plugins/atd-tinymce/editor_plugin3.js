@@ -910,7 +910,7 @@ AtDCore.prototype.isIE = function() {
                          onclick : function() 
                          {
                             ed.core.applySuggestion(e.target, sugg);
-                            t._maybeSendErrorExample(e, errorDescription, isSpellingRule, userHasPastedText, lang, ruleId, sugg, iTmp);
+                            t._maybeSendErrorExample(e, errorDescription, isSpellingRule, userHasPastedText, lang, ruleId, sugg, iTmp, errorDescription["suggestions"]);
                             t._trackEvent('AcceptCorrection', lang, ruleId, iTmp+1);  // numeric value, so increase by one to make sure 0 isn't ignored
                             t._checkDone();
                          }
@@ -1162,7 +1162,7 @@ AtDCore.prototype.isIE = function() {
       },
 
        /* send error example to our database */
-       _showContributionDialog : function(sentence, correctedSentence, covered, replacement, errorDescription, lang, ruleId, suggestionPos, isSpellingRule) {
+       _showContributionDialog : function(sentence, correctedSentence, covered, replacement, errorDescription, lang, ruleId, suggestionPos, isSpellingRule, allSuggestions) {
            // source: https://github.com/HubSpot/vex/blob/master/docs/intro.md
            var escapedSentence = $("<div>").text(errorDescription["sentence"]).html();
            var t = this;
@@ -1191,7 +1191,7 @@ AtDCore.prototype.isIE = function() {
                        }
                        t._trackEvent('AllowSentenceStorage', "yes");
                        // now send text like the error collection add-on:
-                       t._sendErrorExample(sentence, correctedSentence, covered, replacement, lang, ruleId, suggestionPos);
+                       t._sendErrorExample(sentence, correctedSentence, covered, replacement, lang, ruleId, suggestionPos, allSuggestions);
                    } else {
                        var remember = $('#rememberCheckbox').is(':checked');
                        console.log("Don't store sentence. Remember setting?", remember);
@@ -1204,7 +1204,7 @@ AtDCore.prototype.isIE = function() {
                        // A single word does not contain personal data, so it's okay to send
                        // that word, but without the sentence:
                        if (isSpellingRule) {
-                           t._sendErrorExample("", "", covered, replacement, lang, ruleId, suggestionPos);
+                           t._sendErrorExample("", "", covered, replacement, lang, ruleId, suggestionPos, allSuggestions);
                        }
                    }
                }
@@ -1284,7 +1284,7 @@ AtDCore.prototype.isIE = function() {
            return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
        },
 
-      _maybeSendErrorExample : function(evt, errorDescription, isSpellingRule, userHasPastedText, lang, ruleId, suggestion, suggestionPos) {
+      _maybeSendErrorExample : function(evt, errorDescription, isSpellingRule, userHasPastedText, lang, ruleId, suggestion, suggestionPos, allSuggestions) {
           if ((window.location.pathname === "/" ||
                   window.location.pathname === "/de/" ||
                   window.location.pathname === "/ru/" ||
@@ -1305,16 +1305,16 @@ AtDCore.prototype.isIE = function() {
               if (replCount === 1) {  // otherwise the correction is ambiguous
                   var correctedSentence = sentence.replace(evt.target.innerText, suggestion);
                   if (document.cookie && document.cookie.indexOf("sentenceTracking=store") !== -1) {
-                      this._sendErrorExample(sentence, correctedSentence, covered, suggestion, lang, ruleId, suggestionPos, isSpellingRule);
+                      this._sendErrorExample(sentence, correctedSentence, covered, suggestion, lang, ruleId, suggestionPos, isSpellingRule, allSuggestions);
                   } else if (document.cookie && document.cookie.indexOf("sentenceTracking=do-not-store") !== -1) {
                       if (isSpellingRule) {
                           console.log("no sentence tracking, tracking only typo word");
-                          this._sendErrorExample("", "", covered, suggestion, lang, ruleId, suggestionPos, isSpellingRule);
+                          this._sendErrorExample("", "", covered, suggestion, lang, ruleId, suggestionPos, isSpellingRule, allSuggestions);
                       } else {
                           console.log("no sentence tracking");
                       }
                   } else {
-                      this._showContributionDialog(sentence, correctedSentence, covered, suggestion, errorDescription, lang, ruleId, suggestionPos, isSpellingRule);
+                      this._showContributionDialog(sentence, correctedSentence, covered, suggestion, errorDescription, lang, ruleId, suggestionPos, isSpellingRule, allSuggestions);
                   }
                   this._updateSentenceTrackingArea(lang);
               }
@@ -1322,11 +1322,11 @@ AtDCore.prototype.isIE = function() {
       },
        
       /* send error example to our database */
-      _sendErrorExample : function(sentence, correctedSentence, covered, replacement, lang, ruleId, suggestionPos) {
+      _sendErrorExample : function(sentence, correctedSentence, covered, replacement, lang, ruleId, suggestionPos, allSuggestions) {
           var req = new XMLHttpRequest();
           req.open('POST', "https://languagetoolplus.com/submitErrorExample", true);
           req.timeout = 60 * 1000; // milliseconds
-        //   req.open('POST', "http://localhost:8000/submitErrorExample", true);
+        //req.open('POST', "http://localhost:8001/submitErrorExample", true);
           req.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
           req.onload = function() {
               if (req.status !== 200) {
@@ -1340,6 +1340,7 @@ AtDCore.prototype.isIE = function() {
               console.warn("Error submitting sentence (ontimeout).");
           };
           console.log("sending sentence + correction, pos: ", sentence, suggestionPos);
+          var allSugg = allSuggestions != null ? "&allReplacements=" + encodeURIComponent(allSuggestions.join("|")) : "";
           req.send(
               "sentence=" + encodeURIComponent(sentence) +
               "&correction=" + encodeURIComponent(correctedSentence) +
@@ -1349,6 +1350,7 @@ AtDCore.prototype.isIE = function() {
               "&suggestionPos=" + suggestionPos +
               "&covered=" + encodeURIComponent(covered) +
               "&replacement=" + encodeURIComponent(replacement) +
+              allSugg +
               "&username=website" +
               "&client=ltorg" + 
               (pasteId != null ? "&textSessionId=" + encodeURIComponent(pasteId) : "")
