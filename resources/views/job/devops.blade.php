@@ -29,7 +29,7 @@
 
             <ul>
                 <li>Du erweiterst das Monitoring unserer Server (Grafana, Prometheus)</li>
-                <li>Du administrierst unsere Server (Ansible)</li>
+                <li>Du administrierst unsere über 50 Server und unsere Load Balancer (via Ansible)</li>
                 <li>Du baust neue Features in den Core von LanguageTool ein und optimierst die Performance (Java)</li>
                 <li>Du baust neue Features in das Backend der Website ein (PHP)</li>
                 <li>Du kannst selbstständig arbeiten und denkst über Verbesserungen nach, auch wenn es noch keine dringenden Probleme gibt</li>

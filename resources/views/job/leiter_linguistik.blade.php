@@ -36,7 +36,7 @@
                     Dabei geht es darum, automatisch
                     <ul>
                         <li>unseren Nutzern stilistische Textverbesserungen vorzuschlagen</li>
-                        <li>Nichtmuttersprachlern zu helfen, besseres Deutsch zu schreiben</li>
+                        <li>Nichtmuttersprachlern zu helfen, besseres Deutsch und Englisch zu schreiben</li>
                         <li>sprachliche Fehler zu erkennen</li>
                     </ul>
                 </li>
