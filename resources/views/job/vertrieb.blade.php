@@ -11,9 +11,8 @@
             
             <h1>Praktikum oder Nebenjob Marketing/Vertrieb</h1>
 
-            <p style="background-color: rgba(255,227,57,0.6); padding: 5px">Diese Stelle ist inzwischen besetzt. Wenn Du
-                die Arbeit an LanguageTool aber spannend findest, kontaktiere uns trotzdem - vielleicht
-                haben wir bald weitere offene Stellen!
+            <p style="background-color: rgba(255,227,57,0.6); padding: 5px">Diese Stelle ist inzwischen besetzt.
+                <a href="/job">Hier sind unsere aktuellen Stellenanzeigen</a>
             </p>
 
             <p>Die LanguageTooler GmbH betreibt auf languagetool.org eine beliebte Stil- und Grammatikprüfung. Jeden Tag prüfen

@@ -12,7 +12,7 @@
             <h1>Online Marketing und SEA-Manager (m/w/d)</h1>
 
             <p style="background-color: rgba(255,227,57,0.6); padding: 5px">
-                Diese Position ist bereits vergeben. <!--<a href="/job/computerlinguistik">Wir haben aber eine offene Stelle für Computerlinguisten (m/w/d)</a>-->
+                Diese Position ist bereits vergeben. <a href="/job">Hier sind unsere aktuellen Stellenanzeigen</a>
             </p>
             
             <p>Die LanguageTooler GmbH ist die Firma hinter <a href="https://languagetool.org/">languagetool.org</a>,

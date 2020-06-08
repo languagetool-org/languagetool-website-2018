@@ -13,6 +13,7 @@
 
             <p style="background-color: rgba(255,227,57,0.6); padding: 5px">
                 This position has been staffed.
+                <a href="/job">Click here to see our latest job ads</a>
             </p>
 
             <p>LanguageTooler is the company behind <a href="https://languagetool.org">languagetool.org</a> and <a href="https://languagetoolplus.com">languagetoolplus.com</a>,
