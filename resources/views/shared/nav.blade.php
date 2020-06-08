@@ -96,6 +96,13 @@
                         <?=__('messages.nav_development')?>
                     </span>
                 </a>
+                <?php if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "de-DE") !== false) { ?>
+                    <a class="development jump_menu header-nav-menu-item" href="/job">
+                        <span class="header-nav-menu-item-label">
+                            Jobs
+                        </span>
+                    </a>
+                <?php } ?>
             </nav>
             @isset ($isLandingPage)
             <nav class="header-nav-menu langs">

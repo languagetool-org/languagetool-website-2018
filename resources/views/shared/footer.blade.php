@@ -84,13 +84,24 @@
             </div>
             <div class="footer-links-items">
                 <?php
-                $footer_pages = array(
-                    array( 'name' => __('messages.footer_development'), 'url' => '/dev'),
-                    array( 'name' => __('messages.footer_team'), 'url' => '/team'),
-                    array( 'name' => __('messages.privacy'), 'url' => '/legal/privacy'),
-                    //array( 'name' => __('messages.terms'), 'url' => '/legal/terms'),
-                    array( 'name' => __('messages.imprint'), 'url' => '/legal/' )
-                );
+                if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "de-DE") !== false) {
+                    $footer_pages = array(
+                        array( 'name' => __('messages.footer_development'), 'url' => '/dev'),
+                        array( 'name' => "Jobs", 'url' => '/job'),
+                        array( 'name' => __('messages.footer_team'), 'url' => '/team'),
+                        array( 'name' => __('messages.privacy'), 'url' => '/legal/privacy'),
+                        //array( 'name' => __('messages.terms'), 'url' => '/legal/terms'),
+                        array( 'name' => __('messages.imprint'), 'url' => '/legal/' )
+                    );
+                } else {
+                    $footer_pages = array(
+                        array( 'name' => __('messages.footer_development'), 'url' => '/dev'),
+                        array( 'name' => __('messages.footer_team'), 'url' => '/team'),
+                        array( 'name' => __('messages.privacy'), 'url' => '/legal/privacy'),
+                        //array( 'name' => __('messages.terms'), 'url' => '/legal/terms'),
+                        array( 'name' => __('messages.imprint'), 'url' => '/legal/' )
+                    );
+                }
                 foreach ($footer_pages as $page) {
                     print '<a class="footer-links-item" href="'.$page['url'].'">'.$page['name'].'</a>';
                 }

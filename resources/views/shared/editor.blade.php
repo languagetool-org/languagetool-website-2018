@@ -1,16 +1,19 @@
 <div id="stage" class="start">
 
-    <!--
-    <?php if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "en-US") !== false) { ?>
+    <?php if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "de-DE") !== false) { ?>
     <div style="margin: 0 auto; text-align:center; font-size: 16px">
-        <div style="width: 360px; background-color: white; margin: 0 auto; text-align:center; border-radius: 4px; padding: 5px">
-            <a style="text-align:middle;color:black" class="ff-chrome jump_menu" href="/job/rule-developer">
-                Job: Rule Editor for English (25-40 hours/week)
+        <div style="width: 480px; background-color: white; margin: 0 auto; text-align:center; border-radius: 4px; padding: 5px">
+            Jobs:&nbsp;&nbsp;
+            <a style="text-align:middle;color:black" class="ff-chrome jump_menu" href="/job/leiter-linguistik">
+                • Leiter/in der Linguistik (m/w/d)
+            </a>
+            &nbsp;&nbsp;
+            <a style="text-align:middle;color:black" class="ff-chrome jump_menu" href="/job/devops">
+                • DevOps Engineer (m/w/d)
             </a>
         </div>
     </div>
     <?php } ?>
-    -->
 
     <div class="inner">
         <div id="editor">
