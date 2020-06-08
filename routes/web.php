@@ -58,6 +58,7 @@ Route::name('language.')->group(function() {
 	Route::get('/job/regel-entwickler', 'LegacyController@job_rule_dev_de');
 	Route::get('/job/computerlinguistik', 'LegacyController@job_computerlinguistik');
 	Route::view('/job/leiter-linguistik', 'job/leiter_linguistik');
+	Route::view('/job/devops', 'job/devops');
 	Route::get('/webextension/uninstall.php', 'LegacyController@webextension_uninstall');
 	Route::get('/webextension/submit-feedback.php', 'LegacyController@webextension_feedback');   // TODO: should be POST, but doesn't work
 	Route::get('/usage', 'LegacyController@usage');
