@@ -59,6 +59,7 @@ Route::name('language.')->group(function() {
 	Route::get('/job/computerlinguistik', 'LegacyController@job_computerlinguistik');
 	Route::view('/job/leiter-linguistik', 'job/leiter_linguistik');
 	Route::view('/job/devops', 'job/devops');
+	Route::view('/job/java-dev', 'job/java_dev');
 	Route::view('/job', 'job/index');
 	Route::get('/jobs', function() { return redirect('/job'); });
 	Route::get('/webextension/uninstall.php', 'LegacyController@webextension_uninstall');
