@@ -11,6 +11,10 @@
             <a style="text-align:middle;color:black" class="ff-chrome jump_menu" href="/job/devops">
                 • DevOps Engineer (m/w/d)
             </a>
+            &nbsp;&nbsp;
+            <a style="text-align:middle;color:black" class="ff-chrome jump_menu" href="/job/java-dev">
+                • Java-Entwickler (m/w/d)
+            </a>
         </div>
     </div>
     <?php } ?>
