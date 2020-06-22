@@ -2,12 +2,8 @@
 
     <?php if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "de-DE") !== false) { ?>
     <div style="margin: 0 auto; text-align:center; font-size: 16px">
-        <div style="max-width: 680px; background-color: white; margin: 0 auto; text-align:center; border-radius: 4px; padding: 5px">
+        <div style="max-width: 480px; background-color: white; margin: 0 auto; text-align:center; border-radius: 4px; padding: 5px">
             Jobs:&nbsp;&nbsp;
-            <a style="text-align:middle;color:black" class="ff-chrome jump_menu" href="/job/leiter-linguistik">
-                • Leiter/in der Linguistik (m/w/d)
-            </a>
-            &nbsp;&nbsp;
             <a style="text-align:middle;color:black" class="ff-chrome jump_menu" href="/job/devops">
                 • DevOps Engineer (m/w/d)
             </a>
