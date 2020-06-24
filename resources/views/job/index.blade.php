@@ -10,7 +10,6 @@
             <h1>Aktuelle Jobs bei LanguageTool</h1>
 
             <ul>
-                <li><a href="/job/leiter-linguistik">Leiter/in der Linguistik (m/w/d)</a></li>
                 <li><a href="/job/devops">DevOps Engineer (m/w/d)</a></li>
                 <li><a href="/job/java-dev">Java-Entwickler (m/w/d)</a></li>
                 <!--<li><a href=""></a></li>-->
