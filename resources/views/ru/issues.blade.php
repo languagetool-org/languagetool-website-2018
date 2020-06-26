@@ -21,7 +21,7 @@
     или для Java 6. LanguageTool 2.2 не требует обязательного наличия Java 7, но зато хорошо работает с Java 6.</span></li>
                 <li>LibreOffice 3.5 и новее поставляется со встроенной программой для проверки грамматики (LightProof), которая отключает LanguageTool для
                     английского и русского языков.
-                    Используйте Options -> Language Settings -> Writing aids -> Edit... для отключения LightProof и включения LanguageTool для того языка,
+                    Используйте Options → Language Settings → Writing aids → Edit... для отключения LightProof и включения LanguageTool для того языка,
                     с которым LanguageTool будет использоваться.</li>
                 <li>Убедитесь, что <a href="http://www.java.com/en/download/manual.jsp">Java 8 или новее от Oracle</a>  или IcedTea
                     установлена в вашей системе. Используйте 32-битную версию Java, если используете LanguageTool
@@ -30,7 +30,7 @@
                     старых версий Java может появиться сообщение  <a href="../../../images/version-error.jpg">типа этого</a>.</li>
                 <li>Убедитесь, что корректная версия Java выбрана в LibreOffice (<em>Tools -&gt; Options -&gt; Advanced</em>) или OpenOffice.org
                     (<em>Tools -&gt; Options -&gt; Java</em>).</li>
-                <li>Необходимо перезапустить LibreOffice/OpenOffice.org, включая быстрый запуск,  после установки LanguageTool. Это требуется,
+                <li>Необходимо перезапустить LibreOffice/OpenOffice.org, включая быстрый запуск, после установки LanguageTool. Это требуется,
                     даже если не появляется сообщений об этом. (<a href="https://bugs.freedesktop.org/show_bug.cgi?id=46279">#46279</a>, <a href="http://issues.apache.org/ooo/show_bug.cgi?id=88692">#88692</a>)</li>
                 <li>Если LanguageTool не запускается и не появляется сообщение об ошибке,
                     проверьте, включено ли расширение в менеджере расширений
