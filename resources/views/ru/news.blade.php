@@ -208,7 +208,7 @@
             <p><strong>10.03.2016:</strong> Появилась бета-версия LanguageTool для Android &mdash; LanguageTool proofreader!</p>
 
             Установить <a href="https://play.google.com/store/apps/details?id=org.softcatala.corrector">LanguageTool proofreader (Корректор LanguageTool) для Android</a>.</li>
-            ОЧЕНЬ ВАЖНО: После установки программы зайдите в настройки Android: Settings -> Language Input -> Spell Checker (Настройки -> Языки ввода -> Проверка орфографии) и выберите "LanguageTool proofreader" (корректор LanguageTool).
+            ОЧЕНЬ ВАЖНО: После установки программы зайдите в настройки Android: Settings → Language Input → Spell Checker (Настройки → Языки ввода → Проверка орфографии) и выберите "LanguageTool proofreader" (корректор LanguageTool).
 
             <br>
             <p><strong>29.12.2015:</strong> Вышла версия 3.2 LanguageTool!</p>
@@ -331,7 +331,7 @@
                 <li>Улучшена обработка многопоточности.</li>
                 <li>Повышена производительность.</li>
             </ul>
-            <p>Ещё вышла версия 0.5 <a href="https://addons.mozilla.org/ru/firefox/addon/languagetoolfx/">LanguageToolFX</a> - расширения Mozilla FireFox для проверки грамматики с помощью LanguageTool.</p>
+            <p>Ещё вышла версия 0.5 <a href="https://addons.mozilla.org/ru/firefox/addon/languagetoolfx/">LanguageToolFX</a> — расширения Mozilla FireFox для проверки грамматики с помощью LanguageTool.</p>
             <p><strong>1.10.2013:</strong> Вышла версия LanguageTool 2.3. Изменения включают:</p>
             <ul>
                 <li>Теперь программа работает только с Java 7.</li>
@@ -339,7 +339,7 @@
                 <li>Внесены изменения в правила для английского, украинского, французского, каталонского, португальского, немецкого и бретонского языков.</li>
                 <li>В независимую версию была добавлена проверка текста "на лету" (аналогично интеграции с LibreOffice).</li>
             </ul>
-            <p>Ещё вышла версия 0.4 <a href="https://addons.mozilla.org/ru/firefox/addon/languagetoolfx/">LanguageToolFX</a> - расширения Mozilla FireFox для проверки грамматики с помощью LanguageTool.</p>
+            <p>Ещё вышла версия 0.4 <a href="https://addons.mozilla.org/ru/firefox/addon/languagetoolfx/">LanguageToolFX</a> — расширения Mozilla FireFox для проверки грамматики с помощью LanguageTool.</p>
             <p><strong>30.06.2013:</strong> Вышла версия LanguageTool 2.2. Для русского языка изменения включают:</p>
             <ul>
                 <li>Созданы новые правила для проверки стиля.</li>
@@ -355,7 +355,7 @@
                 <li>Основные <a href="http://languagetool.org/changes/languagetool-2.1_to_languagetool-2.2/">изменения в xml-правилах.</a></li>
                 <li>Полный <a href="http://languagetool.org/download/CHANGES.md">список изменений</a>.</li>
             </ul>
-            <p>Ещё вышла версия 0.3 <a href="https://addons.mozilla.org/ru/firefox/addon/languagetoolfx/">LanguageToolFX</a> - расширения Mozilla FireFox для проверки грамматики с помощью LanguageTool 2.2.</p>
+            <p>Ещё вышла версия 0.3 <a href="https://addons.mozilla.org/ru/firefox/addon/languagetoolfx/">LanguageToolFX</a> — расширения Mozilla FireFox для проверки грамматики с помощью LanguageTool 2.2.</p>
             <p><strong>31.03.2013:</strong> Вышла версия LanguageTool 2.1. Для русского языка изменения включают:</p>
             <ul>
                 <li>Добавлено несколько новых грамматических правил.</li>
