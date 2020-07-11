@@ -54,7 +54,7 @@
                         <ul>
                         </ul>
                     </li>
-                    <li>проверка орфографии (не входит в состав расширения LibreOffice/OpenOffice).
+                    <li>проверка орфографии (не входит в состав расширения LibreOffice/Apache OpenOffice).
                         <ul>
                         </ul>
                     </li>
@@ -102,16 +102,16 @@
                     <i class="fa fa-angle-down"></i>
                     <i class="fa fa-angle-right"></i>
                 </span>-->
-                Установка для LibreOffice/OpenOffice
+                Установка для LibreOffice/Apache OpenOffice
             </h3>
             <div>
                 Установка:
                 <ul>
-                    <li>Открыть LibreOffice/OpenOffice. </li>
+                    <li>Открыть LibreOffice/Apache OpenOffice. </li>
                     <li>Выбрать Сервис → Управление расширениями → Добавить. </li>
                     <li>Выбрать файл «LanguageTool-5.x.oxt».</li>
                     <li>Нажать «ОК».</li>
-                    <li>Обязательно перезапустить LibreOffice/OpenOffice.Org (включая и быстрый запуск).</li>
+                    <li>Обязательно перезапустить LibreOffice/Apache Open Office (включая и быстрый запуск).</li>
                 </ul>
                 <p>Системные требования: как минимум <a href="http://ru.libreoffice.org/">LibreOffice 3.5.4</a> или Apache OpenOffice 3.4.1+, <a href="http://www.java.com/ru/download/manual.jsp">Java 8 от Oracle</a>, <a href="https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html">Amazon Corretto 8+ </a> (только для LibreOffice 6.3+)  или IcedTea.
                 </p>
@@ -149,7 +149,7 @@
                 LanguageTool можно использовать для проверки грамматики в любом тексте, который предварительно скопирован в буфер обмена.
                 Вызывается проверка командой меню: «Файл → Проверить текст в буфере обмена».
                 Для удобства использования LanguageTool можно свернуть в трей (Команда меню: «Файл → Спрятать в трей»).
-                Щелчок мышкой по значку  LanguageTool в трее открывает меню. Проверка текста вызывается командой «Проверить текст в буфере обмена».
+                Щелчок мышкой по значку LanguageTool в трее открывает меню. Проверка текста вызывается командой «Проверить текст в буфере обмена».
             </div>
             
             <h3>
@@ -223,6 +223,11 @@
                 Новости
             </h3>
             <div>
+            
+                <p><strong>06.07.2020: </strong>Вышла версия 5.0.1 LanguageTool!</p>
+                <ul>
+                    <li>Эта версия выпущена только как расширение LibreOffice/Apache OpenOffice. Багфикс-релиз. Исправлен баг, проявляющийся в появлении окна с сообщением об ошибке при проверке текста.</li>
+                </ul>
             
                 <p><strong>27.06.2020: </strong>Вышла версия 5.0 LanguageTool!</p>
                 <ul>
@@ -365,7 +370,7 @@
                 <p><a href="/ru/issues">Список известных проблем</a></p>
 
                 <p>Задать вопросы и обсудить LaguageTool можно на <a href="http://forumooo.ru/index.php/topic,231.0.html">форуме forumooo.ru</a>,
-                    посвящённом работе в офисных пакетах LibreOffice и OpenOffice.</p>
+                    посвящённом работе в офисных пакетах LibreOffice, OpenOffice.org и Apache OpenOffice.</p>
             </div>
             
             <h3>
