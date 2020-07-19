@@ -8,7 +8,7 @@
         <div class="container">
 
             <p><a href="/job">Alle Stellenanzeigen</a></p>
-            <p style="text-align: right">Datum: 12.06.2020</p>
+            <p style="text-align: right">Datum: 19.07.2020</p>
             
             <h1>Stellenanzeige: Java-Entwickler (m/w/d)</h1>
 
