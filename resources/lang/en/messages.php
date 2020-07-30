@@ -79,7 +79,7 @@ return [
     'improved_error_detection1_example' => 'For example, detects the typo in \'ISBN 978-1784713936\'',
     'improved_error_detection2' => 'Detection of wrong gender in salutation (German only)',
     'improved_error_detection3' => 'Additional word pairs for statistical detection of typos for English, German, and French',
-    'improved_error_detection4' => 'Detection of more than :number additional errors for English, German, French, and Dutch',
+    'improved_error_detection4' => 'Detection of more than :number additional errors for English, German, Spanish, French, and Dutch',
     'improved_error_detection4_example' => 'Some examples:',
     'api_access' => 'API access',
     'api_access_detail' => 'input: text, output: JSON with the detected error',

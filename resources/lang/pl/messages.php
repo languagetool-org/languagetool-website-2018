@@ -139,6 +139,7 @@ return [
     'libreoffice_requirements' => 'Wymaga wersji Java :version lub nowszej',
     'libreoffice_instruction1' => 'Aby zainstalować ten plik w programie LibreOffice/OpenOffice, wybierz kolejno: <em>Narzędzia → Menedżer rozszerzeń → Dodaj…</em>.',
     'libreoffice_instruction2' => 'Następnie uruchom ponownie program LibreOffice/OpenOffice (w tym quickstarter).',
+    'libreoffice_instruction3' => 'Note: the LanguageTool Premium version is not available for LibreOffice/OpenOffice.',
     'libreoffice_help1' => 'Problemy?',
     'libreoffice_help2' => 'Tutaj znajdziesz pomoc',
     'browser_headline' => 'Dodatek do Firefox i Chrome',

@@ -139,6 +139,7 @@ return [
     'libreoffice_requirements' => 'Requereix Java :version o posterior',
     'libreoffice_instruction1' => 'Feu servir <em>Eines → Gestió d\'extensions → Afegeix…</em> en LibreOffice/OpenOffice per a instal·lar aquest fitxer.',
     'libreoffice_instruction2' => 'Llavors reinicieu LibreOffice/OpenOffice (incloent-hi l\'inici ràpid).',
+    'libreoffice_instruction3' => 'Note: the LanguageTool Premium version is not available for LibreOffice/OpenOffice.',
     'libreoffice_help1' => 'Problemes?',
     'libreoffice_help2' => 'Mireu ací per a cercar ajuda',
     'browser_headline' => 'Complement per a Firefox i Chrome',

@@ -139,6 +139,7 @@ return [
     'libreoffice_requirements' => '需要Java :version或更新版本',
     'libreoffice_instruction1' => '在LibreOffice或OpenOffice中，您要移至<em>工具 → 扩展管理器 → 添加</em>安装此文件，',
     'libreoffice_instruction2' => '然后重新启动软件（包括启动中心）。',
+    'libreoffice_instruction3' => 'Note: the LanguageTool Premium version is not available for LibreOffice/OpenOffice.',
     'libreoffice_help1' => '有疑问？',
     'libreoffice_help2' => '在这里寻求帮助',
     'browser_headline' => 'Firefox和Chrome的扩展',

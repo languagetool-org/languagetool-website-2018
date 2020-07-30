@@ -11,7 +11,7 @@
 
 
 <?php
-$additionalErrorsCount = 2500;
+$additionalErrorsCount = 4500;
 ?>
 
 @section('content')
