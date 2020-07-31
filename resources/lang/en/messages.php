@@ -115,7 +115,7 @@ return [
     'nav_more' => 'More',
     'login_success_title' => 'You\'re now logged in!',
     'login_success_text' => 'It\'s great to see you again',
-    'register_success_title' => 'Congratulation!',
+    'register_success_title' => 'Congratulations!',
     'register_success_text' => 'You\'re now logged in',
     'verify_success_title' => 'Welcome!',
     'msword_feature' => 'Add-on for Microsoft Word',
