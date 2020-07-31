@@ -64,7 +64,7 @@ return [
     'delete_text' => 'Esborra el text',
     'synonyms_count' => 'Recompte de sinònims',
     'synonyms' => 'Sinònims',
-    'premium_upgrade' => 'Actualitzeu a Premium',
+    'premium_upgrade' => 'Actualitza a Premium',
     'premium_warning1' => 'S\'ha trobat un suggeriment més',
     'premium_warning1_plural' => 'S\'han trobat més suggeriments',
     'premium_warning2' => '&mdash; <a href="#premium">passeu a la versió Premium</a> per a veure tots els suggeriments',
