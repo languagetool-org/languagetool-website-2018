@@ -1,6 +1,7 @@
 <div id="stage" class="start">
 
     <?php if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "de-DE") !== false) { ?>
+    <!--
     <div style="margin: 0 auto; text-align:center; font-size: 16px">
         <div style="max-width: 480px; background-color: white; margin: 0 auto; text-align:center; border-radius: 4px; padding: 5px">
             Jobs:&nbsp;&nbsp;
@@ -13,6 +14,7 @@
             </a>
         </div>
     </div>
+    -->
     <?php } ?>
 
     <div class="inner">
