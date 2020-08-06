@@ -200,7 +200,7 @@ $additionalErrorsCount = 4500;
                                 <script type="text/javascript">
                                     var firstPart = "support";
                                     var lastPart = "languagetoolplus" + "." + "com";
-                                    document.write("<a href='mail" + "to:" + firstPart + "@" + lastPart + "?subject=<?=__('messages.premium_contact_mail_subject')?>'><?=__('messages.premium_for_whom2')?><" + "/a>");
+                                    document.write("<a href='mail" + "to:" + firstPart + "@" + lastPart + "?subject=<?=str_replace("'", "&apos;", __('messages.premium_contact_mail_subject'))?>'><?=__('messages.premium_for_whom2')?><" + "/a>");
                                 </script>
                             </h5>
                         </div>
