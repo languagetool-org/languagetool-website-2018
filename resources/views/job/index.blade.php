@@ -11,7 +11,7 @@
 
             <ul>
                 <li><a href="/job/devops">DevOps Engineer (m/w/d)</a></li>
-                <li><a href="/job/java-dev">Java-Entwickler (m/w/d)</a></li>
+                <!--<li><a href="/job/java-dev">Java-Entwickler (m/w/d)</a></li>-->
                 <!--<li><a href=""></a></li>-->
             </ul>
 
