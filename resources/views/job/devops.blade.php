@@ -29,10 +29,10 @@
             <p>Du arbeitest daran, LanguageTool zu erweitern und unsere HTTP-API stabil und performant zu betreiben:</p>
 
             <ul>
-                <li>Du administrierst unsere über 50 Server und unsere Load Balancer (via Ansible)</li>
-                <li>Du erweiterst das Monitoring unserer Server (Grafana, Prometheus)</li>
-                <li>Du baust neue Features in den Core von LanguageTool ein und optimierst die Performance (Java)</li>
-                <li>Du baust neue Features in das Backend der Website ein (Java, PHP)</li>
+                <li>Du administrierst unsere über 50 Server und unsere Load Balancer</li>
+                <li>Du erweiterst das Monitoring unserer Server</li>
+                <li>Du baust neue Features in den Core von LanguageTool ein und optimierst die Performance</li>
+                <li>Du baust neue Features in das Backend der Website ein</li>
                 <li>Du kannst selbstständig arbeiten und denkst über Verbesserungen nach, auch wenn es noch keine dringenden Probleme gibt</li>
             </ul>
 
@@ -40,7 +40,7 @@
 
             <ul>
                 <li>Begeisterung für Entwicklung und Betrieb von Software</li>
-                <li>Mindestens drei Jahre Berufserfahrung</li>
+                <li>Mindestens zwei Jahre Berufserfahrung</li>
                 <li>Kenntnisse im Betrieb virtueller Server und/oder Cloud-Umgebungen unter Linux</li>
                 <li>Programmierkenntnisse in Java</li>
                 <li>Gute Englischkenntnisse</li>
@@ -53,7 +53,7 @@
                 <li>Du arbeitest in einem kleinen, flexiblen Team</li>
                 <li>Du arbeitest im Büro (in der Nähe der S-Bahn Babelsberg) oder von zu Hause, mit regelmäßigen Besuchen im Büro</li>
                 <li>Du arbeitest an einer Software, die jeden Tag von hunderttausenden Menschen benutzt wird</li>
-                <li>Deine Ideen kannst Du direkt umsetzen und sie sind am nächsten Tag schon online</li>
+                <li>Deine Ideen kannst Du direkt umsetzen</li>
             </ul>
 
             <p>Interesse? Sende Deine Fragen oder direkt Deine Bewerbung per
