@@ -4,8 +4,8 @@
     <div style="margin: 0 auto; text-align:center; font-size: 16px">
         <div style="width: 300px; background-color: white; margin: 0 auto; text-align:center; border-radius: 4px; padding: 5px">
             Jobs:&nbsp;&nbsp;
-            <a style="text-align:center;color:black" class="ff-chrome jump_menu" href="/job/devops">
-                DevOps Engineer (m/w/d)
+            <a style="text-align:center;color:black" class="ff-chrome jump_menu" href="/job/java-dev">
+                Java-Entwickler (m/w/d)
             </a>
             <!--
             &nbsp;&nbsp;
