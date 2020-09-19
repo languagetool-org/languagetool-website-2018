@@ -73,7 +73,7 @@ return [
     'pricing' => 'Precios',
     'billed_annually' => 'menos de :amount:currency al mes',
     'free_headline' => 'Gratuito',
-    'free_limit' => 'Hasta :characters caracteres por revisión',
+    'free_limit' => 'Hasta 20.000 caracteres por revisión',
     'many_rules' => 'Miles de patrones para encontrar errores en inglés, alemán, español, francés...',
     'improved_error_detection1' => 'Detección sumas de comprobación incorrectas de ISBN e IBAN',
     'improved_error_detection1_example' => 'Por ejemplo, identifica un error en "ISBN 978-1784713936"',

@@ -215,7 +215,7 @@ return [
      ],
     'reviews' => [
         'label' => 'Recensies',
-        'items' => ["This application has helped me a lot. Thank you for this fine tool! (Cosmonaut Rico)", "I love LanguageTool! I have been using it in LibreOffice for years. It's the best. (Scott Harpster)", "Finally, it is a good grammar checker, catching a decent range of agreement errors and style weaknesses. I've been a paid user for two months now and I'm very pleased with it. (Tim Richardson)"],
+        'items' => ["Deze applicatie heeft me vaak geholpen. Bedankt voor deze fijne tool! (Cosmonaut Rico)", "Ik ben gek op LanguageTool! Ik gebruik het al jaren in LibreOffice. Het is de beste. (Scott Harper)", "Het is een goede grammaticacontrole, die een redelijke variatie aan overeenstemmingsfouten en stijlkwesties vindt. Ik ben nu twee maanden betalend gebruiker, en ik ben er erg blij mee. (Tim Richardson)"],
      ],
     'header_title' => 'Grammatica-, stijl- en spellingcontrole',
     'header_subtitle' => 'LanguageTool controleert uw schrijfwerk in meer dan 20 talen.',
