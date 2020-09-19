@@ -42,7 +42,7 @@
                 <li>Begeisterung für Software</li>
                 <li>Mindestens zwei Jahre Berufserfahrung</li>
                 <li>Programmierkenntnisse in Java</li>
-                <li>Gute Englischkenntnisse</li>
+                <li>Gute Deutsch- und Englischkenntnisse</li>
                 <li>Kenntnisse in Linux, Python, PHP und MySQL sind gerne gesehen</li>
             </ul>
 
