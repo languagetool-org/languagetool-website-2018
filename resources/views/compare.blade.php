@@ -47,7 +47,7 @@
                         <td class="cell" colspan="2"><img src='../images/cancel.png' alt='no'><span class="light"><br>only when <a href="http://wiki.languagetool.org/finding-errors-using-n-gram-data">installed manually</a></span></td>
                     </tr>
                     <tr>
-                        <th>Even more error detection rules for English and German</th>
+                        <th>Even more error detection rules for English, German, French, Dutch, and Spanish</th>
                         <td class="cell" colspan="4"><b>Only when using the Premium version, see <a href="https://languagetoolplus.com/">languagetoolplus.com</a></b></td>
                         <td class="cell" colspan="2"><img src='../images/cancel.png' alt='no'></td>
                     </tr>
