@@ -20,10 +20,10 @@
             <h2>API</h2>
 
             <ul>
-                <li><a href="http://wiki.languagetool.org/http-server">How to run your own LanguageTool server</a></li>
+                <li><a href="http://dev.languagetool.org/http-server">How to run your own LanguageTool server</a></li>
                 <li><a href="https://languagetool.org/http-api/swagger-ui/#!/default/post_check">HTTP API documentation</a>
-                <li><a href="http://wiki.languagetool.org/public-http-api">How to use our public server via HTTP</a>
-                <li><a href="http://wiki.languagetool.org/java-api">How to use LanguageTool from Java</a> (<a href="https://languagetool.org/development/api/index.html?org/languagetool/JLanguageTool.html">Javadoc</a>)
+                <li><a href="http://dev.languagetool.org/public-http-api">How to use our public server via HTTP</a>
+                <li><a href="http://dev.languagetool.org/java-api">How to use LanguageTool from Java</a> (<a href="https://languagetool.org/development/api/index.html?org/languagetool/JLanguageTool.html">Javadoc</a>)
             </ul>
 
 
@@ -72,9 +72,9 @@
 
             <ul>
                 <li><a href="https://github.com/languagetool-org/languagetool">Source code at github</a></li>
-                <li><a href="http://wiki.languagetool.org">wiki.languagetool.org</a> contains the complete development documentation, including:
+                <li><a href="http://dev.languagetool.org">dev.languagetool.org</a> contains the complete development documentation, including:
                     <ul>
-                        <li><a href="http://wiki.languagetool.org/development-overview">Development Overview</a>, for users who want to extend LanguageTool with their own rules
+                        <li><a href="http://dev.languagetool.org/development-overview">Development Overview</a>, for users who want to extend LanguageTool with their own rules
                     </ul>
                 </li>
                 <li><a href="http://community.languagetool.org">community.languagetool.org</a>,
@@ -92,8 +92,7 @@
                         <li><a href="https://github.com/languagetool-org/languagetool/issues?labels=easy+fix&amp;state=open">Easy fixes</a>, easy issues for new contributors</li>
                     </ul>
                 </li>
-                <li><a href="https://github.com/languagetool-org">Source code of related projects (like this website) at github</a></li>
-                <li><a href="http://wiki.languagetool.org/development-links">See all development-related links</a></li>
+                <li><a href="https://github.com/languagetool-org">Source code of related projects at github</a></li>
             </ul>
 
 
