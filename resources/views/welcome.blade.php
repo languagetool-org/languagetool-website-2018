@@ -428,7 +428,7 @@ $additionalErrorsCount = 4500;
                     <p>
                         <ul class="inline-btn">
                             <li class="btn_standalone">
-                                <a class="main-button" href="/download/LanguageTool-5.0.1.oxt">{{__('messages.libreoffice_download')}} (v5.0.1, 135MB)</a>
+                                <a class="main-button" href="/download/LanguageTool-5.1.oxt">{{__('messages.libreoffice_download')}} (v5.1, 137MB)</a>
                             </li>
                         </ul>
                     </p>
@@ -484,7 +484,7 @@ $additionalErrorsCount = 4500;
                 <div class="col-xs-12 buttons-row">
                     <ul class="inline-btn">
                         <li class="btn_standalone">
-                            <a class="main-button" href="/download/LanguageTool-5.0.zip">{{__('messages.standalone_download')}} (v5.0, 181MB)</a>
+                            <a class="main-button" href="/download/LanguageTool-5.1.zip">{{__('messages.standalone_download')}} (v5.1, 181MB)</a>
                         </li>
                     </ul>
                 </div>
