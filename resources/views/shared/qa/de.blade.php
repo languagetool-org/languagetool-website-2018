@@ -89,7 +89,7 @@
                     einfach und schnell Texte prüfen, die Sie im Browser tippen, z.&nbsp;B. in Ihrem Webmailer:</p>
 
                 <ul>
-                    <li><a href="https://addons.mozilla.org/firefox/addon/languagetool?src=external-lt-homepage">LanguageTool im Verzeichnis der Firefox-Add-ons</a></li>
+                    <li><a href="https://addons.mozilla.org/firefox/addon/languagetool?utm_source=external-lt-homepage">LanguageTool im Verzeichnis der Firefox-Add-ons</a></li>
                     <li><a href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji">LanguageTool im Chrome Web Store</a></li>
                 </ul>
             </div>

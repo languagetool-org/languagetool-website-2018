@@ -57,7 +57,7 @@
                                     <?=__('messages.googleDocsAddon')?>
                                 </a>
                             <?php } else if (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], "Firefox/") !== false && strpos($_SERVER['HTTP_USER_AGENT'], "Android") === false) { ?>
-                                <a class="ff-chrome firefox jump_menu" type="button" href="https://addons.mozilla.org/firefox/addon/languagetool/?src=external-lt-homepage" target="_blank">
+                                <a class="ff-chrome firefox jump_menu" type="button" href="https://addons.mozilla.org/firefox/addon/languagetool/?utm_source=external-lt-homepage" target="_blank">
                                     <?=__('messages.ffAddon')?>
                                 </a>
                                 <a class="ff-chrome googleDocs jump_menu googleDocs--hidden" type="button" href="https://gsuite.google.com/marketplace/app/languagetool/805250893316" target="_blank">

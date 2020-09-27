@@ -290,7 +290,7 @@ $additionalErrorsCount = 4500;
     
             <div class="row">
                 <div class="col-xs-12 buttons-row">
-                    <a class="main-button" href="https://addons.mozilla.org/firefox/addon/languagetool?src=external-ltp-homepage">
+                    <a class="main-button" href="https://addons.mozilla.org/firefox/addon/languagetool?utm_source=external-ltp-homepage">
                         {{__('messages.browser_firefox_download')}}
                     </a>
                     <a class="main-button" href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji">

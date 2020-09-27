@@ -195,7 +195,7 @@
                         добавляет проверку грамматики в систему автоматизированных переводов OmegaT с открытыми исходными кодами;</li>
                     <li><a href="http://www.opentag.com/okapi/wiki/index.php?title=CheckMate">LanguageTool и CheckMate</a> проверка грамматики в системе контроля качества переводов;</li>
                     <li><a href="https://addons.mozilla.org/en-US/thunderbird/addon/14781">LanguageTool для Thunderbird;</a></li>
-                    <li><a href="https://addons.mozilla.org/ru/firefox/addon/languagetool?src=external-lt-homepage-ru">LanguageTool для Firefox</a>;</li>
+                    <li><a href="https://addons.mozilla.org/ru/firefox/addon/languagetool?utm_source=external-lt-homepage-ru">LanguageTool для Firefox</a>;</li>
                     <li><a href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji">LanguageTool для Google Chrome</a>;</li>
                     <li><a href="https://play.google.com/store/apps/details?id=org.softcatala.corrector">LanguageTool proofreader для Android</a>.</li>
                 </ul>

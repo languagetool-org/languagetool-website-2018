@@ -3,7 +3,7 @@ $(document).ready(function() {
         if (navigator.userAgent.indexOf("Chrome/") !== -1) {
             $('#nav').append('<a href="https://chrome.google.com/webstore/detail/languagetool/oldceeleldhonbafppcapldpdifcinji">Add to Chrome</a>');
         } else if (navigator.userAgent.indexOf("Firefox/") !== -1) {
-            $('#nav').append('<a href="https://addons.mozilla.org/firefox/addon/languagetool?src=external-lt-homepage">Add to Firefox</a>');
+            $('#nav').append('<a href="https://addons.mozilla.org/firefox/addon/languagetool?utm_source=external-lt-homepage">Add to Firefox</a>');
         }
     }
 
