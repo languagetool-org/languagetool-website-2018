@@ -8,7 +8,7 @@
         <div class="container">
 
             <p><a href="/job">Alle Stellenanzeigen</a></p>
-            <p style="text-align: right">Datum: 28.09.2020</p>
+            <p style="text-align: right">Datum: 02.10.2020</p>
             
             <h1>Stellenanzeige: DevOps Engineer (m/w/d)</h1>
 
