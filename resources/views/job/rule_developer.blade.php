@@ -7,56 +7,59 @@
 
         <div class="container">
 
-            <p style="text-align: right">Date: 2020-02-24</p>
+            <p style="text-align: right">Date: 2020-10-09</p>
             
-            <h1>Rule Editor for English</h1>
+            <h1>Rule Developer for American English</h1>
 
+            <!--
             <p style="background-color: rgba(255,227,57,0.6); padding: 5px">
                 This position has been staffed.
                 <a href="/job">Click here to see our latest job ads</a>
             </p>
+            -->
 
             <p>LanguageTooler is the company behind <a href="https://languagetool.org">languagetool.org</a> and <a href="https://languagetoolplus.com">languagetoolplus.com</a>,
-                popular style and grammar checkers.
-                We proofread more than 500,000 texts a day.
-                We're looking for a</p>
+                popular spelling, grammar, and style checkers. We proofread more than 1,000,000 texts a day. We’re looking for a</p>
 
-            <h2 style="text-align: center">Rule Editor for English,<br>25 to 40 hours/week</h2>
+            <h2 style="text-align: center">Rule Editor for American English,<br>20 to 40 hours/week</h2>
 
             <p><b>Your tasks</b></p>
 
             <ul>
-                <li>write new  error detection rules for mistakes people make when writing English</li>
-                <li>test your new rules and existing ones and improve them</li>
+                <li>write new error detection rules for mistakes people make when writing English</li>
+                <li>write new style suggestion rules to help people improve their writing</li>
+                <li>test your new rules and existing ones, and improve them</li>
+                <li>give your input to the English rule developer team from a North American linguistic and cultural perspective</li>
             </ul>
 
             <p><b>Requirements</b></p>
 
             <ul>
-                <li>excellent command of English (native speaker)</li>
+                <li>excellent command of American English (native speaker: US or Canada)</li>
                 <li>willingness to learn the syntax and technology needed to write error detection rules</li>
+                <li>excellent feeling for the finer points of language</li>
             </ul>
 
             <p><b>Why should you apply?</b></p>
 
             <ul>
-                <li>work whenever you want</li>
+                <li>set your own working hours</li>
                 <li>work from home</li>
-                <li>help improve software that's used by hundreds of thousands of people each day</li>
+                <li>help improve software that is used by hundreds of thousands of people each day</li>
             </ul>
 
-            <p>Interested? Please send your questions or your application to
-                <script type="text/javascript">
-                    <!--
-                    var firstPart = "daniel.naber";
-                    var lastPart = "languagetool.org";
-                    document.write("<a href='mail" + "to:" + firstPart + "@" + lastPart + "?subject=rule editor application'>Daniel Naber<" + "/a>");
-                    // -->
-                </script>.<noscript>(bitte Javascript aktivieren, um die E-Mail-Adresse zu sehen)</noscript>
+            <p>Interested? Please send your questions or your application to Udo Mai.
 
-            <p>LanguageTooler GmbH<br>
-                Karl-Liebknecht-Str. 21/22<br>
-                14482 Potsdam, Germany
+            <p><script type="text/javascript">
+                <!--
+                var firstPart = "udo.mai";
+                var lastPart = "languagetoolplus.com";
+                document.write("<a href='mail" + "to:" + firstPart + "@" + lastPart + "?subject=rule editor application'>" + firstPart +"@"+ lastPart + "<" + "/a>");
+                // -->
+            </script><noscript>(please turn on Javascript to see the email address)</noscript><br>
+            LanguageTooler GmbH<br>
+            Karl-Liebknecht-Str. 21/22<br>
+            14482 Potsdam, Germany
             
         </div>
 
