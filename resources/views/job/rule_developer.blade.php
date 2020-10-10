@@ -7,6 +7,7 @@
 
         <div class="container">
 
+            <p><a href="/job">All Open Jobs</a></p>
             <p style="text-align: right">Date: 2020-10-09</p>
             
             <h1>Rule Developer for American English</h1>
