@@ -8,7 +8,7 @@
         <div class="container">
 
             <p><a href="/job">Alle Stellenanzeigen</a></p>
-            <p style="text-align: right">Datum: 02.10.2020</p>
+            <p style="text-align: right">Datum: 15.10.2020</p>
             
             <h1>Stellenanzeige: DevOps Engineer (m/w/d)</h1>
 
@@ -40,7 +40,7 @@
 
             <ul>
                 <li>Begeisterung für Entwicklung und Betrieb von Software</li>
-                <li>Mindestens zwei Jahre Berufserfahrung</li>
+                <!--<li>Mindestens zwei Jahre Berufserfahrung</li>-->
                 <li>Kenntnisse im Betrieb virtueller Server und/oder Cloud-Umgebungen unter Linux</li>
                 <li>Programmierkenntnisse in Java</li>
                 <li>Gute Englischkenntnisse</li>
