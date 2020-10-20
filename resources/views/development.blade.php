@@ -38,8 +38,8 @@
                 </p>
                 <img src="/images/Emblem-WEB-1.16189762.jpg" style="width:620px">
     
-                <p style="margin-top:30px">Gefördert durch das Ministerium für Arbeit, Soziales, Gesundheit, Frauen und Familie aus Mitteln
-                    des Europäischen Sozialfonds und des Landes Brandenburg. Gefördert wird die Entwicklung der Stilprüfung.
+                <p style="margin-top:30px">Ein Arbeitsverhältnis wird durch das Ministerium für Wirtschaft, Arbeit und Energie aus
+                    Mitteln des Europäischen Sozialfonds gefördert. Gefördert wird die Entwicklung der Stilprüfung.
                     Informationen zum ESF finden Sie unter <a href="https://esf.brandenburg.de">esf.brandenburg.de</a>.
                 </p>
                 <img src="/images/eu-esf-de.png" style="width:180px">
