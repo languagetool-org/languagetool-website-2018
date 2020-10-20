@@ -55,8 +55,8 @@
                     our browser add-ons and website.</p>
                 <img src="/images/Emblem-WEB-1.16189762.jpg" style="width:620px">
     
-                <p style="margin-top:30px">Supported by the Ministry of Labour, Social Affairs, Health, Women and Family
-                    from funds of the European Social Fund and the Land of Brandenburg, who support the development of
+                <p style="margin-top:30px">Supported by the Ministry for Economic Affairs, Labour, and Energy
+                    from funds of the European Social Fund, who support the development of
                     our style checker. You can find information about the ESF at <a href="https://esf.brandenburg.de">esf.brandenburg.de</a>.
                 </p>
                 <img src="/images/eu-esf-en.png" style="width:180px">
