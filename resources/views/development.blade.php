@@ -38,7 +38,7 @@
                 </p>
                 <img src="/images/Emblem-WEB-1.16189762.jpg" style="width:620px">
     
-                <p style="margin-top:30px">Ein Arbeitsverhältnis wird durch das Ministerium für Wirtschaft, Arbeit und Energie aus
+                <p style="margin-top:30px">Ein Arbeitsverhältnis wird durch das Ministerium für Arbeit, Soziales, Gesundheit, Frauen und Familie aus
                     Mitteln des Europäischen Sozialfonds gefördert. Gefördert wird die Entwicklung der Stilprüfung.
                     Informationen zum ESF finden Sie unter <a href="https://esf.brandenburg.de">esf.brandenburg.de</a>.
                 </p>
@@ -55,7 +55,7 @@
                     our browser add-ons and website.</p>
                 <img src="/images/Emblem-WEB-1.16189762.jpg" style="width:620px">
     
-                <p style="margin-top:30px">Supported by the Ministry for Economic Affairs, Labour, and Energy
+                <p style="margin-top:30px">Supported by the Ministry of Labour, Social Affairs, Health, Women and Family
                     from funds of the European Social Fund, who support the development of
                     our style checker. You can find information about the ESF at <a href="https://esf.brandenburg.de">esf.brandenburg.de</a>.
                 </p>
