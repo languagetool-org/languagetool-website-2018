@@ -43,7 +43,7 @@ Route::name('language.')->group(function() {
 	Route::get('/privacy', 'LegacyController@privacy_old');
 	Route::get('/legal/privacy', 'LegacyController@privacy');
 	Route::get('/legal/terms', 'LegacyController@terms');
-	Route::get('/languages', 'LegacyController@languages');
+    Route::get('/languages', function() { return redirect('https://dev.languagetool.org/languages'); });
 	Route::get('/issues', 'LegacyController@issues');
 	Route::get('/compare', 'LegacyController@compare');
 	Route::get('/support', 'LegacyController@support');

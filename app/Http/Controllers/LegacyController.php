@@ -12,7 +12,6 @@ class LegacyController extends Controller
     public function privacy() { return view('privacy'); }
     public function legal() { return view('legal'); }
     public function terms() { return view('terms'); }
-    public function languages() { return view('languages'); }
     public function issues() { return view('issues'); }
     public function compare() { return view('compare'); }
     public function support() { return view('support'); }
