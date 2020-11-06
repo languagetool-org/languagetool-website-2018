@@ -7,15 +7,15 @@
     <div style="margin: 0 auto; text-align:center; font-size: 16px">
         <div style="width: 550px; background-color: white; margin: 0 auto; text-align:center; border-radius: 4px; padding: 5px">
             Jobs:&nbsp;&nbsp;
+            <?php if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "de") !== false) { ?>
+                <a style="text-align:center;color:black" class="ff-chrome jump_menu" href="/job/devops">
+                    DevOps Engineer (m/w/d)
+                </a>
+                &middot;
+            <?php } ?>
             <a style="text-align:center;color:black" class="ff-chrome jump_menu" href="/job/rule-developer">
                 Rule Developer for American English
             </a>
-            <?php if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "de-DE") !== false) { ?>
-                &middot;
-                <a style="text-align:center;color:black" class="ff-chrome jump_menu" href="/job/java-dev">
-                    Java-Entwickler (m/w/d)
-                </a>
-            <?php } ?>
             <!--
             &nbsp;&nbsp;
             <a style="text-align:middle;color:black" class="ff-chrome jump_menu" href="/job/java-dev">
