@@ -13,6 +13,7 @@
                 <li><a href="/job/devops">DevOps Engineer (m/w/d)</a></li>
                 <li><a href="/job/java-dev">Java-Entwickler (m/w/d)</a></li>
                 <li><a href="/job/rule-developer">Rule Developer for American English</a></li>
+                <li><a href="/job/rule-developer-french">Développeur·euse de règles (français)</a></li>
             </ul>
 
         </div>

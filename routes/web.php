@@ -55,6 +55,7 @@ Route::name('language.')->group(function() {
 	Route::get('/job/vertrieb', 'LegacyController@job_vertrieb');
 	Route::get('/job/sea', 'LegacyController@job_sea');
 	Route::get('/job/rule-developer', 'LegacyController@job_rule_dev');
+	Route::get('/job/rule-developer-french', 'LegacyController@job_rule_dev_fr');
 	Route::get('/job/regel-entwickler', 'LegacyController@job_rule_dev_de');
 	Route::get('/job/computerlinguistik', 'LegacyController@job_computerlinguistik');
 	Route::view('/job/leiter-linguistik', 'job/leiter_linguistik');
