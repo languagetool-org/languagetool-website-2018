@@ -7,6 +7,7 @@
 
         <div class="container">
 
+            <p><a href="/job">All Open Jobs</a></p>
             <p style="text-align: right">2020-11-12</p>
             
             <h1>Développeur·euse de règles (français)</h1>
