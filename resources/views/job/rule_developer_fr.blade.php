@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Job: Regel-Entwickler / Redakteur (m/w/d)')
+@section('title', 'Développeur·euse de règles (français)')
 
 @section('content')
     <div id="textContent" class="content-section" style="text-align: left">
