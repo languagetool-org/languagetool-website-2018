@@ -12,6 +12,11 @@
                     DevOps Engineer (m/w/d)
                 </a>
                 &middot;
+            <?php } else if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], "fr") !== false) { ?>
+                <a style="text-align:center;color:black" class="ff-chrome jump_menu" href="/job/rule-developer-french">
+                    Développeur·euse de règles (français)
+                </a>
+                &middot;
             <?php } ?>
             <a style="text-align:center;color:black" class="ff-chrome jump_menu" href="/job/rule-developer">
                 Rule Developer for American English
